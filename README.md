@@ -16,6 +16,7 @@ A reading list for Machine Learning tutorials, books and tools
 - [Deep Learning Simplified - Youtube series](https://www.youtube.com/playlist?list=PLjJh1vlSEYgvGod9wWiydumYl8hOXixNu)
 - [Machine Learning for designers](http://www.oreilly.com/design/free/machine-learning-for-designers.csp)
 - [Deep learning book](http://www.deeplearningbook.org)
+- [Researching use of ML in creative applications](http://blog.otoro.net)
 
 ### Advanced
 

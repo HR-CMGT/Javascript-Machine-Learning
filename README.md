@@ -10,6 +10,7 @@ A reading list for Machine Learning tutorials, books and tools
 
 ### Books, video, reading
 
+- [The teachable machine](https://teachablemachine.withgoogle.com)
 - [A visual introduction to Machine Learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
 - [Machine Learning for Humans](https://medium.com/machine-learning-for-humans/why-machine-learning-matters-6164faf1df12)
 - [A short video introduction about Neural Networks](https://dev.to/thepracticaldev/introduction-to-neural-networks)

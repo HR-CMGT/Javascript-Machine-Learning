@@ -29,6 +29,7 @@ A reading list for Machine Learning tutorials, books and tools
 ### Tools
 
 - [Deeplearning in Javascript](https://deeplearnjs.org)
+- [Tools for Machine Learning in Javascript](https://github.com/laoqiren/mlhelper)
 - [SKLearn](http://scikit-learn.org/stable/)
 - [TensorFlow](https://www.tensorflow.org)
 - [Clarifai image and video recognition tool](https://clarifai.com/developer/)

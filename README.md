@@ -20,6 +20,7 @@ A reading list for Machine Learning tutorials, books and tools
 - [Machine Learning for designers](http://www.oreilly.com/design/free/machine-learning-for-designers.csp)
 - [Deep learning book](http://www.deeplearningbook.org)
 - [Researching use of ML in creative applications](http://blog.otoro.net)
+- [Machine Learning for Artists](https://www.kadenze.com/courses/machine-learning-for-musicians-and-artists-v) audit course is free
 
 ### Advanced
 

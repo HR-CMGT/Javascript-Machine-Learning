@@ -29,6 +29,9 @@ A reading list for Machine Learning tutorials, books and tools
 - [Machine Learning for designers](http://www.oreilly.com/design/free/machine-learning-for-designers.csp)
 - [Deep learning book](http://www.deeplearningbook.org)
 - [Researching use of ML in creative applications](http://blog.otoro.net)
+- [The nature of code - neural networks](http://natureofcode.com/book/chapter-10-neural-networks/)
+- [Building a perceptron in Processing](https://www.youtube.com/watch?v=XJ7HLz9VYz0) - youtube
+- [Training race cars in Unity using a neural network](https://github.com/ArztSamuel/Applying_EANNs)
 
 ### Advanced
 

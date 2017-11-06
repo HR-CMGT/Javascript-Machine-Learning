@@ -2,12 +2,20 @@
 
 A reading list for Machine Learning tutorials, books and tools
 
-### Hands-on tutorials
+### Getting started
+
+#### Wekinator
+
+- [Learn basic ML concepts by recognising sounds and gestures](https://www.kadenze.com/courses/machine-learning-for-musicians-and-artists-v)Audit course is free
+
+#### Science Kit
 
 - [Introduction to machine learning with scikit-learn](http://scikit-learn.org/stable/tutorial/basic/tutorial.html#machine-learning-the-problem-setting)
+
+#### TensorFLow
+
 - [Getting Started with TensorFlow](https://www.tensorflow.org/get_started/get_started)
 - [Introduction to Deep Learning and Tensorflow](https://pythonprogramming.net/tensorflow-introduction-machine-learning-tutorial/)
-- [Build a perceptron from scratch](https://medium.com/@ismailghallou/build-your-perceptron-neural-net-from-scratch-e12b7be9d1ef)
 
 ### Books, video, reading
 
@@ -20,8 +28,8 @@ A reading list for Machine Learning tutorials, books and tools
 - [Deep Learning Simplified - Youtube series](https://www.youtube.com/playlist?list=PLjJh1vlSEYgvGod9wWiydumYl8hOXixNu)
 - [Machine Learning for designers](http://www.oreilly.com/design/free/machine-learning-for-designers.csp)
 - [Deep learning book](http://www.deeplearningbook.org)
+- [Build your own perceptron - learn the math behind a neural net](https://medium.com/@ismailghallou/build-your-perceptron-neural-net-from-scratch-e12b7be9d1ef)
 - [Researching use of ML in creative applications](http://blog.otoro.net)
-- [Machine Learning for Artists](https://www.kadenze.com/courses/machine-learning-for-musicians-and-artists-v) audit course is free
 
 ### Advanced
 

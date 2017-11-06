@@ -28,11 +28,11 @@ A reading list for Machine Learning tutorials, books and tools
 - [Deep Learning Simplified - Youtube series](https://www.youtube.com/playlist?list=PLjJh1vlSEYgvGod9wWiydumYl8hOXixNu)
 - [Machine Learning for designers](http://www.oreilly.com/design/free/machine-learning-for-designers.csp)
 - [Deep learning book](http://www.deeplearningbook.org)
-- [Build your own perceptron - learn the math behind a neural net](https://medium.com/@ismailghallou/build-your-perceptron-neural-net-from-scratch-e12b7be9d1ef)
 - [Researching use of ML in creative applications](http://blog.otoro.net)
 
 ### Advanced
 
+- [Build your own perceptron - learn the math behind a neural net](https://medium.com/@ismailghallou/build-your-perceptron-neural-net-from-scratch-e12b7be9d1ef)
 - [A neural network in 11 lines of code](http://iamtrask.github.io/2015/07/12/basic-python-network/)
 - [Udacity Free Deep Learning video course](https://www.udacity.com/course/deep-learning--ud730)
 - [Fast.ai advanced course](http://www.fast.ai)

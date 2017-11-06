@@ -13,6 +13,7 @@ A reading list for Machine Learning tutorials, books and tools
 
 - [But what *is* a neural network? - youtube](http://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
 - [The teachable machine](https://teachablemachine.withgoogle.com)
+- [Build more intelligent apps with machine learning](https://developer.apple.com/machine-learning/)(Apple)
 - [A visual introduction to Machine Learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
 - [Machine Learning for Humans](https://medium.com/machine-learning-for-humans/why-machine-learning-matters-6164faf1df12)
 - [A short video introduction about Neural Networks](https://dev.to/thepracticaldev/introduction-to-neural-networks)
@@ -33,6 +34,7 @@ A reading list for Machine Learning tutorials, books and tools
 
 - [Deeplearning in Javascript](https://deeplearnjs.org)
 - [Tools for Machine Learning in Javascript](https://github.com/laoqiren/mlhelper)
+- [Apple CoreML framework](https://developer.apple.com/documentation/coreml)
 - [SKLearn](http://scikit-learn.org/stable/)
 - [TensorFlow](https://www.tensorflow.org)
 - [Clarifai image and video recognition tool](https://clarifai.com/developer/)

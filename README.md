@@ -43,6 +43,7 @@ A reading list for Machine Learning tutorials, books and tools
 
 ### Tools
 
+- [Pyro - Uber's AI programming language](http://pyro.ai)
 - [Deeplearning in Javascript](https://deeplearnjs.org)
 - [Tools for Machine Learning in Javascript](https://github.com/laoqiren/mlhelper)
 - [Apple CoreML framework](https://developer.apple.com/documentation/coreml)

@@ -4,10 +4,11 @@ A reading list for Machine Learning tutorials, books and tools
 
 ### Getting started
 
-#### Wekinator 
+#### Machine Larning for musicians and artists 
 
-Wekinator is a creative tool that allows you to train a model based on any incoming data. By manipulating sound and images, you will learn the basics of classification and regression algorithms.
-- [Wekinator course](https://www.kadenze.com/courses/machine-learning-for-musicians-and-artists-v) - The audit course is free
+This short course explains the basics of classification and regression algorithms by using an audiovisual tool
+- [Course](https://www.kadenze.com/courses/machine-learning-for-musicians-and-artists-v) - The audit course is free
+- [Tool](http://www.wekinator.org/downloads/)
 
 #### Udacity
 
@@ -17,11 +18,6 @@ Wekinator is a creative tool that allows you to train a model based on any incom
 
 Science Kit provides python libraries, readymade datasets and algorithms for testing, and a visualisation tool. Get started running python with this tutorial:
 - [Introduction to machine learning with scikit-learn](http://scikit-learn.org/stable/tutorial/basic/tutorial.html#machine-learning-the-problem-setting)
-
-#### TensorFLow
-
-- [Getting Started with TensorFlow](https://www.tensorflow.org/get_started/get_started)
-- [Introduction to Deep Learning and Tensorflow](https://pythonprogramming.net/tensorflow-introduction-machine-learning-tutorial/)
 
 ### Video
 
@@ -34,7 +30,6 @@ Science Kit provides python libraries, readymade datasets and algorithms for tes
 
 - [Design in the era of the algorithm](https://bigmedium.com/speaking/design-in-the-era-of-the-algorithm.html)
 - [Google AI experiments](https://experiments.withgoogle.com/ai)
-- [The teachable machine](https://teachablemachine.withgoogle.com)
 - [Build more intelligent apps with machine learning](https://developer.apple.com/machine-learning/)(Apple)
 - [A visual introduction to Machine Learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
 - [Machine Learning for Humans](https://medium.com/machine-learning-for-humans/why-machine-learning-matters-6164faf1df12)
@@ -43,6 +38,8 @@ Science Kit provides python libraries, readymade datasets and algorithms for tes
 - [Researching the use of ML in creative applications](http://blog.otoro.net)
 - [The nature of code - neural networks](http://natureofcode.com/book/chapter-10-neural-networks/)
 - [Training race cars in Unity using a neural network](https://github.com/ArztSamuel/Applying_EANNs)
+- [Getting Started with TensorFlow](https://www.tensorflow.org/get_started/get_started)
+- [Introduction to Deep Learning and Tensorflow](https://pythonprogramming.net/tensorflow-introduction-machine-learning-tutorial/)
 
 ### Advanced
 
@@ -65,4 +62,3 @@ Science Kit provides python libraries, readymade datasets and algorithms for tes
 - [Clarifai image and video recognition tool](https://clarifai.com/developer/)
 - [Kaggle ML challenges](https://www.kaggle.com)
 - [Matplotlib - visualise complex data](https://matplotlib.org)
-- [Wekinator](http://www.wekinator.org/downloads/)

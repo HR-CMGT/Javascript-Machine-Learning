@@ -39,6 +39,7 @@ Science Kit provides python libraries, readymade datasets and algorithms for tes
 - [Training race cars in Unity using a neural network](https://github.com/ArztSamuel/Applying_EANNs)
 - [Getting Started with TensorFlow](https://www.tensorflow.org/get_started/get_started)
 - [Introduction to Deep Learning and Tensorflow](https://pythonprogramming.net/tensorflow-introduction-machine-learning-tutorial/)
+- [Creating a self-learning Flappy Bird in Javascript](https://github.com/ssusnic/Machine-Learning-Flappy-Bird)
 
 ### Advanced
 
@@ -50,6 +51,7 @@ Science Kit provides python libraries, readymade datasets and algorithms for tes
 
 ### Tools
 
+- [Synaptic - Neural Network javascript library](http://caza.la/synaptic/)
 - [Deeplearning in Javascript](https://deeplearnjs.org)
 - [Tools for Machine Learning in Javascript](https://github.com/laoqiren/mlhelper)
 - [Apple CoreML framework](https://developer.apple.com/documentation/coreml)

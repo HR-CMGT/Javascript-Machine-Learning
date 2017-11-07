@@ -13,8 +13,9 @@ Wekinator is a creative tool that allows you to train a model based on any incom
 
 - [Intro to Machine Learning](https://www.udacity.com/course/intro-to-machine-learning--ud120)
 
-#### Science Kit
+#### Science Kit Learn
 
+Science Kit provides python libraries, readymade datasets and algorithms for testing, and a visualisation tool. Get started running python with this tutorial:
 - [Introduction to machine learning with scikit-learn](http://scikit-learn.org/stable/tutorial/basic/tutorial.html#machine-learning-the-problem-setting)
 
 #### TensorFLow
@@ -57,8 +58,9 @@ Wekinator is a creative tool that allows you to train a model based on any incom
 - [Deeplearning in Javascript](https://deeplearnjs.org)
 - [Tools for Machine Learning in Javascript](https://github.com/laoqiren/mlhelper)
 - [Apple CoreML framework](https://developer.apple.com/documentation/coreml)
+- [Python 3 and IDLE](https://www.python.org)
 - [SKLearn](http://scikit-learn.org/stable/)
 - [TensorFlow](https://www.tensorflow.org)
 - [Clarifai image and video recognition tool](https://clarifai.com/developer/)
 - [Kaggle ML challenges](https://www.kaggle.com)
-- [Wekinator ML music generator](http://www.wekinator.org)
+- [Matplotlib - visualise complex data](https://matplotlib.org)

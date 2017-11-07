@@ -46,21 +46,23 @@ Science Kit provides python libraries, readymade datasets and algorithms for tes
 
 ### Advanced
 
+- [Practical Deep Learning for Coders](http://www.fast.ai)
 - [Build your own perceptron - learn the math behind a neural net](https://medium.com/@ismailghallou/build-your-perceptron-neural-net-from-scratch-e12b7be9d1ef)
 - [A neural network in 11 lines of code](http://iamtrask.github.io/2015/07/12/basic-python-network/)
 - [Udacity Free Deep Learning video course](https://www.udacity.com/course/deep-learning--ud730)
-- [Fast.ai advanced course](http://www.fast.ai)
 - [Linear algebra - the math behind ML algorithms](http://www.mathscoop.com/calculus/derivatives/derivative-by-definition.php)
 
 ### Tools
 
-- [Pyro - Uber's AI programming language](http://pyro.ai)
 - [Deeplearning in Javascript](https://deeplearnjs.org)
 - [Tools for Machine Learning in Javascript](https://github.com/laoqiren/mlhelper)
 - [Apple CoreML framework](https://developer.apple.com/documentation/coreml)
 - [Python 3 and IDLE](https://www.python.org)
+- [Natural Language Processing with Spacy.io](https://spacy.io)
 - [SKLearn](http://scikit-learn.org/stable/)
 - [TensorFlow](https://www.tensorflow.org)
+- [Pyro - Uber's AI programming language](http://pyro.ai)
 - [Clarifai image and video recognition tool](https://clarifai.com/developer/)
 - [Kaggle ML challenges](https://www.kaggle.com)
 - [Matplotlib - visualise complex data](https://matplotlib.org)
+- [Wekinator](http://www.wekinator.org/downloads/)

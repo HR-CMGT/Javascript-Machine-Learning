@@ -7,8 +7,7 @@ A reading list for Machine Learning tutorials, books and tools
 #### Machine Larning for musicians and artists 
 
 This short course explains the basics of classification and regression algorithms by using an audiovisual tool
-- [Course](https://www.kadenze.com/courses/machine-learning-for-musicians-and-artists-v) - The audit course is free
-- [Tool](http://www.wekinator.org/downloads/)
+- [Course](https://www.kadenze.com/courses/machine-learning-for-musicians-and-artists-v) (The audit course is free) and the [Tool](http://www.wekinator.org/downloads/)
 
 #### Udacity
 
@@ -24,7 +23,7 @@ Science Kit provides python libraries, readymade datasets and algorithms for tes
 - [But what *is* a neural network? - youtube](http://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
 - [A short video introduction about Neural Networks](https://dev.to/thepracticaldev/introduction-to-neural-networks)
 - [Deep Learning Simplified - Youtube series](https://www.youtube.com/playlist?list=PLjJh1vlSEYgvGod9wWiydumYl8hOXixNu)
-- [Building a perceptron in Processing](https://www.youtube.com/watch?v=XJ7HLz9VYz0) - youtube
+- [Introduction to Neural Networks](https://www.youtube.com/watch?v=XJ7HLz9VYz0) - Explanation and code exercise by The Coding Train
 
 ### Reading
 

@@ -32,6 +32,7 @@ Wekinator is a creative tool that allows you to train a model based on any incom
 ### Reading
 
 - [Design in the era of the algorithm](https://bigmedium.com/speaking/design-in-the-era-of-the-algorithm.html)
+- [Google AI experiments](https://experiments.withgoogle.com/ai)
 - [The teachable machine](https://teachablemachine.withgoogle.com)
 - [Build more intelligent apps with machine learning](https://developer.apple.com/machine-learning/)(Apple)
 - [A visual introduction to Machine Learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)

@@ -57,6 +57,7 @@ Science Kit provides python libraries, readymade datasets and algorithms for tes
 - [Tools for Machine Learning in Javascript](https://github.com/laoqiren/mlhelper)
 - [Apple CoreML framework](https://developer.apple.com/documentation/coreml)
 - [Python 3 and IDLE](https://www.python.org)
+- [YOLO - you only look once](https://pjreddie.com/darknet/yolo/) Image recognition network
 - [Natural Language Processing with Spacy.io](https://spacy.io)
 - [SKLearn](http://scikit-learn.org/stable/)
 - [TensorFlow](https://www.tensorflow.org)

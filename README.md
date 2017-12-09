@@ -2,6 +2,12 @@
 
 A reading list for Machine Learning tutorials, books and tools
 
+## But what is Machine Learning?
+
+- [But what *is* a neural network? - youtube](http://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
+- [A short video introduction about Neural Networks](https://dev.to/thepracticaldev/introduction-to-neural-networks)
+- [Deep Learning Simplified - Youtube series](https://www.youtube.com/playlist?list=PLjJh1vlSEYgvGod9wWiydumYl8hOXixNu)
+
 ## Getting started
 
 Some tools and tutorials to quickly set up a Machine Learning demo
@@ -22,13 +28,6 @@ Wekinator is a GUI that allows you to apply classification and regression algori
 Science Kit provides python libraries, readymade datasets and algorithms for testing, and a visualisation tool. Get started running python with this tutorial:
 - [Introduction to machine learning with scikit-learn](http://scikit-learn.org/stable/tutorial/basic/tutorial.html#machine-learning-the-problem-setting)
 
-#### The coding train
-
-Example code and video tutorials for Processing by Daniel Shiffman
-
-- [Neural networks](http://natureofcode.com/book/chapter-10-neural-networks/)
-- [Building a Neural Network in Processing](https://www.youtube.com/watch?v=XJ7HLz9VYz0)
-
 #### Tensorflow
 
 Tensorflow is Google's Machine Learning API
@@ -37,11 +36,12 @@ Tensorflow is Google's Machine Learning API
 - [Introduction to Deep Learning and Tensorflow](https://pythonprogramming.net/tensorflow-introduction-machine-learning-tutorial/)
 - [Google announces TensorFlow Lite](https://developers.googleblog.com/2017/11/announcing-tensorflow-lite.html)
 
-## Video
+#### The coding train
 
-- [But what *is* a neural network? - youtube](http://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
-- [A short video introduction about Neural Networks](https://dev.to/thepracticaldev/introduction-to-neural-networks)
-- [Deep Learning Simplified - Youtube series](https://www.youtube.com/playlist?list=PLjJh1vlSEYgvGod9wWiydumYl8hOXixNu)
+Get started with example code and video tutorials for Processing by Daniel Shiffman
+
+- [Neural networks](http://natureofcode.com/book/chapter-10-neural-networks/)
+- [Building a Neural Network in Processing](https://www.youtube.com/watch?v=XJ7HLz9VYz0)
 
 ## Reading list
 
@@ -54,14 +54,6 @@ Tensorflow is Google's Machine Learning API
 - [Deep learning book](http://www.deeplearningbook.org)
 - [Researching the use of ML in creative applications](http://blog.otoro.net)
 
-## Advanced reading
-
-- [Practical Deep Learning for Coders](http://www.fast.ai)
-- [Build your own perceptron - learn the math behind a neural net](https://medium.com/@ismailghallou/build-your-perceptron-neural-net-from-scratch-e12b7be9d1ef)
-- [A neural network in 11 lines of code](http://iamtrask.github.io/2015/07/12/basic-python-network/)
-- [Udacity Free Deep Learning video course](https://www.udacity.com/course/deep-learning--ud730)
-- [Linear algebra - the math behind ML algorithms](http://www.mathscoop.com/calculus/derivatives/derivative-by-definition.php)
-
 ## Javascript
 
 - [kNear - using k-nearest neighbour to train a model](https://github.com/NathanEpstein/KNear)
@@ -73,6 +65,7 @@ Tensorflow is Google's Machine Learning API
 ## Tools
 
 - [Apple CoreML framework](https://developer.apple.com/documentation/coreml)
+- [Pyro - Uber's AI programming language](http://pyro.ai)
 - [Python 3 and IDLE](https://www.python.org)
 - [SKLearn](http://scikit-learn.org/stable/)
 - [Kaggle - Machine Learning challenges](https://www.kaggle.com)
@@ -89,4 +82,12 @@ Tensorflow is Google's Machine Learning API
 
 - [Mozilla Deep Speech - blog post](https://blog.mozilla.org/blog/2017/11/29/announcing-the-initial-release-of-mozillas-open-source-speech-recognition-model-and-voice-dataset/) and [code](https://github.com/mozilla/DeepSpeech)
 - [Natural Language Processing with Spacy.io](https://spacy.io)
-- [Pyro - Uber's AI programming language](http://pyro.ai)
+
+## Advanced reading
+
+- [Practical Deep Learning for Coders](http://www.fast.ai)
+- [Build your own perceptron - learn the math behind a neural net](https://medium.com/@ismailghallou/build-your-perceptron-neural-net-from-scratch-e12b7be9d1ef)
+- [A neural network in 11 lines of code](http://iamtrask.github.io/2015/07/12/basic-python-network/)
+- [Udacity Free Deep Learning video course](https://www.udacity.com/course/deep-learning--ud730)
+- [Linear algebra - the math behind ML algorithms](http://www.mathscoop.com/calculus/derivatives/derivative-by-definition.php)
+

@@ -21,6 +21,7 @@ Wekinator is a GUI that allows you to apply classification and regression algori
 
 #### Udacity
 
+Get started with the most important machine learning algorithms,
 - [Intro to Machine Learning](https://www.udacity.com/course/intro-to-machine-learning--ud120)
 
 #### Science Kit Learn

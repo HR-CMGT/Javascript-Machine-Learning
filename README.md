@@ -92,3 +92,4 @@ Get started with example code and video tutorials for Processing by Daniel Shiff
 - [Udacity Free Deep Learning video course](https://www.udacity.com/course/deep-learning--ud730)
 - [Linear algebra - the math behind ML algorithms](http://www.mathscoop.com/calculus/derivatives/derivative-by-definition.php)
 
+![SelfDrivingCar](https://imgs.xkcd.com/comics/self_driving_car_milestones.png)

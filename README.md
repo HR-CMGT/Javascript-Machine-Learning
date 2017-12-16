@@ -72,6 +72,7 @@ Get started with example code and video tutorials for Processing by Daniel Shiff
 - [Kaggle - Machine Learning challenges](https://www.kaggle.com)
 - [Matplotlib - visualise complex data](https://matplotlib.org)
 - [Training a model in Unity using a neural network](https://github.com/ArztSamuel/Applying_EANNs)
+- [AI Stackoverflow](https://ai.stackexchange.com)
 
 ### Image recognition
 

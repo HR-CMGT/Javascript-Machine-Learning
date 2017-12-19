@@ -8,34 +8,27 @@ A reading list for Machine Learning tutorials, books and tools
 - [A short video introduction about Neural Networks](https://dev.to/thepracticaldev/introduction-to-neural-networks)
 - [Deep Learning Simplified - Youtube series](https://www.youtube.com/playlist?list=PLjJh1vlSEYgvGod9wWiydumYl8hOXixNu)
 
-## Getting started
+## Online courses
+
+- [Udacity Intro to Machine Learning](https://www.udacity.com/course/intro-to-machine-learning--ud120)
+- [Stanford University intro to Machine Learning](https://www.coursera.org/learn/machine-learning?action=enroll)
+
+## Building something
 
 Some tools and tutorials to quickly set up a Machine Learning demo
 
 #### Wekinator
 
-Wekinator is a GUI that allows you to apply classification and regression algorithms to any input, for example from a webcam or a IoT device. 
+Wekinator is a GUI for applying classification and regression algorithms to any input. You can use Processing, a webcam, an Arduino, or any other kind of input that you want to analyze.
+
 - [Download Wekinator](http://www.wekinator.org/downloads/)
 - [Wekinator Course on Kadenze](https://www.kadenze.com/courses/machine-learning-for-musicians-and-artists-v) (Audit course is free)
 - [Machine learning for artists guides](http://ml4a.github.io) and [code](https://github.com/ml4a/)
-
-#### Online courses
-
-- [Udacity Intro to Machine Learning](https://www.udacity.com/course/intro-to-machine-learning--ud120)
-- [Stanford University intro to Machine Learning](https://www.coursera.org/learn/machine-learning?action=enroll)
 
 #### Science Kit Learn
 
 Science Kit provides python libraries, readymade datasets and algorithms for testing, and a visualisation tool. Get started running python with this tutorial:
 - [Introduction to machine learning with scikit-learn](http://scikit-learn.org/stable/tutorial/basic/tutorial.html#machine-learning-the-problem-setting)
-
-#### Tensorflow
-
-Tensorflow is Google's Machine Learning API
-
-- [Getting Started with TensorFlow](https://www.tensorflow.org/get_started/get_started)
-- [Introduction to Deep Learning and Tensorflow](https://pythonprogramming.net/tensorflow-introduction-machine-learning-tutorial/)
-- [Google announces TensorFlow Lite](https://developers.googleblog.com/2017/11/announcing-tensorflow-lite.html)
 
 #### The coding train
 
@@ -44,18 +37,7 @@ Get started with example code and video tutorials for Processing by Daniel Shiff
 - [Neural networks](http://natureofcode.com/book/chapter-10-neural-networks/)
 - [Building a Neural Network in Processing](https://www.youtube.com/watch?v=XJ7HLz9VYz0)
 
-## Reading list
-
-- [Design in the era of the algorithm](https://bigmedium.com/speaking/design-in-the-era-of-the-algorithm.html)
-- [Google AI experiments](https://experiments.withgoogle.com/ai)
-- [Build more intelligent apps with machine learning](https://developer.apple.com/machine-learning/)(Apple)
-- [A visual introduction to Machine Learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
-- [Machine Learning for Humans](https://medium.com/machine-learning-for-humans/why-machine-learning-matters-6164faf1df12)
-- [Machine Learning for designers](http://www.oreilly.com/design/free/machine-learning-for-designers.csp)
-- [Deep learning book](http://www.deeplearningbook.org)
-- [Researching the use of ML in creative applications](http://blog.otoro.net)
-
-## Javascript
+### Javascript
 
 - [kNear - using k-nearest neighbour to train a model](https://github.com/NathanEpstein/KNear)
 - [Deeplearning in Javascript](https://deeplearnjs.org)
@@ -63,16 +45,13 @@ Get started with example code and video tutorials for Processing by Daniel Shiff
 - [Synaptic - Neural Network javascript library](http://caza.la/synaptic/)
 - [Creating a self-learning Flappy Bird in Javascript](https://github.com/ssusnic/Machine-Learning-Flappy-Bird)
 
-## Tools
+### Tensorflow
 
-- [Apple CoreML framework](https://developer.apple.com/documentation/coreml)
-- [Pyro - Uber's AI programming language](http://pyro.ai)
-- [Python 3 and IDLE](https://www.python.org)
-- [SKLearn](http://scikit-learn.org/stable/)
-- [Kaggle - Machine Learning challenges](https://www.kaggle.com)
-- [Matplotlib - visualise complex data](https://matplotlib.org)
-- [Training a model in Unity using a neural network](https://github.com/ArztSamuel/Applying_EANNs)
-- [AI Stackoverflow](https://ai.stackexchange.com)
+Tensorflow is Google's Machine Learning API
+
+- [Getting Started with TensorFlow](https://www.tensorflow.org/get_started/get_started)
+- [Introduction to Deep Learning and Tensorflow](https://pythonprogramming.net/tensorflow-introduction-machine-learning-tutorial/)
+- [Google announces TensorFlow Lite](https://developers.googleblog.com/2017/11/announcing-tensorflow-lite.html)
 
 ### Image recognition
 
@@ -85,6 +64,28 @@ Get started with example code and video tutorials for Processing by Daniel Shiff
 
 - [Mozilla Deep Speech - blog post](https://blog.mozilla.org/blog/2017/11/29/announcing-the-initial-release-of-mozillas-open-source-speech-recognition-model-and-voice-dataset/) and [code](https://github.com/mozilla/DeepSpeech)
 - [Natural Language Processing with Spacy.io](https://spacy.io)
+
+## Tools and APIs
+
+- [Apple Core ML framework](https://developer.apple.com/documentation/coreml)
+- [Pyro - Uber's AI programming language](http://pyro.ai)
+- [Python 3 and IDLE](https://www.python.org)
+- [SKLearn](http://scikit-learn.org/stable/)
+- [Matplotlib - visualise complex data](https://matplotlib.org)
+- [Training a model in Unity using a neural network](https://github.com/ArztSamuel/Applying_EANNs)
+- [AI Stackoverflow](https://ai.stackexchange.com)
+- [Kaggle - Machine Learning challenges](https://www.kaggle.com)
+
+## Reading list
+
+- [Design in the era of the algorithm](https://bigmedium.com/speaking/design-in-the-era-of-the-algorithm.html)
+- [Google AI experiments](https://experiments.withgoogle.com/ai)
+- [Build more intelligent apps with machine learning](https://developer.apple.com/machine-learning/)(Apple)
+- [A visual introduction to Machine Learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
+- [Machine Learning for Humans](https://medium.com/machine-learning-for-humans/why-machine-learning-matters-6164faf1df12)
+- [Machine Learning for designers](http://www.oreilly.com/design/free/machine-learning-for-designers.csp)
+- [Deep learning book](http://www.deeplearningbook.org)
+- [Researching the use of ML in creative applications](http://blog.otoro.net)
 
 ## Advanced reading
 

@@ -19,10 +19,10 @@ Wekinator is a GUI that allows you to apply classification and regression algori
 - [Wekinator Course on Kadenze](https://www.kadenze.com/courses/machine-learning-for-musicians-and-artists-v) (Audit course is free)
 - [Machine learning for artists guides](http://ml4a.github.io) and [code](https://github.com/ml4a/)
 
-#### Udacity
+#### Online courses
 
-Get started with the most important machine learning algorithms,
-- [Intro to Machine Learning](https://www.udacity.com/course/intro-to-machine-learning--ud120)
+- [Udacity Intro to Machine Learning](https://www.udacity.com/course/intro-to-machine-learning--ud120)
+- [Stanford University intro to Machine Learning](https://www.coursera.org/learn/machine-learning?action=enroll)
 
 #### Science Kit Learn
 
@@ -94,7 +94,7 @@ Get started with example code and video tutorials for Processing by Daniel Shiff
 - [Udacity Free Deep Learning video course](https://www.udacity.com/course/deep-learning--ud730)
 - [Linear algebra - the math behind ML algorithms](http://www.mathscoop.com/calculus/derivatives/derivative-by-definition.php)
 
-### The future
+## The future
 
 ![SelfDrivingCar](https://imgs.xkcd.com/comics/self_driving_car_milestones.png)
 

@@ -55,6 +55,8 @@ Tensorflow is Google's Machine Learning API
 
 ### Image recognition
 
+![YOLO](https://pjreddie.com/media/image/Screen_Shot_2016-11-17_at_11.14.54_AM.png)
+
 - [YOLO - you only look once](https://pjreddie.com/darknet/yolo/) Image recognition network
 - [Vize.ai Recognize and automate your images](https://vize.ai)
 - [Clarifai image and video recognition tool](https://clarifai.com/developer/)

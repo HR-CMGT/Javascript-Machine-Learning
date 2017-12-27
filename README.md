@@ -68,6 +68,7 @@ Tensorflow is Google's Machine Learning API
 
 - [Mozilla Deep Speech - blog post](https://blog.mozilla.org/blog/2017/11/29/announcing-the-initial-release-of-mozillas-open-source-speech-recognition-model-and-voice-dataset/) and [code](https://github.com/mozilla/DeepSpeech)
 - [Natural Language Processing with Spacy.io](https://spacy.io)
+- [Google TacoTron Self-learning Speech Synthesizer](https://github.com/keithito/tacotron)
 
 ## Tools and APIs
 

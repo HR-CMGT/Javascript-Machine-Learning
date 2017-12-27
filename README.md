@@ -55,7 +55,7 @@ Tensorflow is Google's Machine Learning API
 
 ### Image recognition
 
-<img src="https://pjreddie.com/media/image/Screen_Shot_2016-11-17_at_11.14.54_AM.png" width="450">
+<img src="https://pjreddie.com/media/image/model2.png" width="450">
 
 - [ImageNet - training data for image recognition](http://www.image-net.org)
 - [YOLO - you only look once](https://pjreddie.com/darknet/yolo/) Image recognition network

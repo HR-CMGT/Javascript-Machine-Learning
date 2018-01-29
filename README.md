@@ -91,6 +91,7 @@ Tensorflow is Google's Machine Learning API
 - [Machine Learning for designers](http://www.oreilly.com/design/free/machine-learning-for-designers.csp)
 - [Deep learning book](http://www.deeplearningbook.org)
 - [Researching the use of ML in creative applications](http://blog.otoro.net)
+- [Algorithm notes](http://books.goalkicker.com/AlgorithmsBook/)
 
 ## Advanced reading
 

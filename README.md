@@ -17,9 +17,13 @@ A reading list for Machine Learning tutorials, books and tools
 
 Some tools and tutorials to quickly set up a Machine Learning demo
 
-#### Wekinator
+#### Practicing with Javascript
 
-Wekinator is a GUI for applying classification and regression algorithms to any input. You can use Processing, a webcam, an Arduino, or any other kind of input that you want to analyze.
+The [webcam detectotron](https://kokodoko.github.io/webcam-detectotron/) is a small javascript demo, that demonstrates the use of the 'k-nearest-neighbour' algorithm. This works entirely in the browser. You can [clone the source code](https://github.com/KokoDoko/webcam-detectotron) and get it running in 5 minutes. The readme file explains how you can build your own detectotron!
+
+#### Machine Learning for Artists
+
+Wekinator is a GUI for applying classification and regression algorithms to any input. Wekinator can connect to output from Processing, a webcam, an Arduino, by listening to OSC signals.
 
 - [Download Wekinator](http://www.wekinator.org/downloads/)
 - [Wekinator Course on Kadenze](https://www.kadenze.com/courses/machine-learning-for-musicians-and-artists-v) (Audit course is free)

@@ -25,6 +25,7 @@ The [webcam detectotron](https://kokodoko.github.io/webcam-detectotron/) is a sm
 
 Wekinator is a GUI for applying classification and regression algorithms to any input. Wekinator can connect to output from Processing, a webcam, an Arduino, by listening to OSC signals.
 
+- [Building a Useless Butler - workshop by Kars Alfrink](https://github.com/karsalfrink/useless-butler/tree/hogeschool-rotterdam)
 - [Download Wekinator](http://www.wekinator.org/downloads/)
 - [Wekinator Course on Kadenze](https://www.kadenze.com/courses/machine-learning-for-musicians-and-artists-v) (Audit course is free)
 - [Machine learning for artists guides](http://ml4a.github.io) and [code](https://github.com/ml4a/)

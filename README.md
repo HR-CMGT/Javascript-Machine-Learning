@@ -88,7 +88,6 @@ Tensorflow is Google's Machine Learning API
 
 ## Reading list
 
-- [Design in the era of the algorithm](https://bigmedium.com/speaking/design-in-the-era-of-the-algorithm.html)
 - [Google AI experiments](https://experiments.withgoogle.com/ai)
 - [Build more intelligent apps with machine learning](https://developer.apple.com/machine-learning/)(Apple)
 - [A visual introduction to Machine Learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
@@ -98,7 +97,12 @@ Tensorflow is Google's Machine Learning API
 - [Researching the use of ML in creative applications](http://blog.otoro.net)
 - [Algorithm notes](http://books.goalkicker.com/AlgorithmsBook/)
 
-## Advanced reading
+### UX for AI
+- [Design in the era of the algorithm](https://bigmedium.com/speaking/design-in-the-era-of-the-algorithm.html)
+- [Human-Centered Machine Learning](https://medium.com/google-design/human-centered-machine-learning-a770d10562cd)
+- [The UX of AI (Google Design)](https://design.google/library/ux-ai/)
+
+### Advanced reading
 
 - [Practical Deep Learning for Coders](http://www.fast.ai)
 - [Build your own perceptron - learn the math behind a neural net](https://medium.com/@ismailghallou/build-your-perceptron-neural-net-from-scratch-e12b7be9d1ef)

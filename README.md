@@ -109,6 +109,8 @@ Tensorflow is Google's Machine Learning API
 - [A neural network in 11 lines of code](http://iamtrask.github.io/2015/07/12/basic-python-network/)
 - [Udacity Free Deep Learning video course](https://www.udacity.com/course/deep-learning--ud730)
 - [Linear algebra - the math behind ML algorithms](http://www.mathscoop.com/calculus/derivatives/derivative-by-definition.php)
+- [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/)
+- [Neural Networks playlist by 3Blue1Brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
 
 ## The future
 

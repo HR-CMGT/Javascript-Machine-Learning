@@ -58,6 +58,8 @@ Tensorflow is Google's Machine Learning API
 - [Introduction to Deep Learning and Tensorflow](https://pythonprogramming.net/tensorflow-introduction-machine-learning-tutorial/)
 - [Google announces TensorFlow Lite](https://developers.googleblog.com/2017/11/announcing-tensorflow-lite.html)
 
+Google bundled their ML insights for education on a new website: [Learn with Google AI](https://ai.google/education).
+
 ### Image recognition
 
 <img src="https://pjreddie.com/media/image/model2.png" width="450">

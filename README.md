@@ -7,6 +7,7 @@ A reading list for Machine Learning tutorials, books and tools
 - [But what *is* a neural network? - youtube](http://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
 - [A short video introduction about Neural Networks](https://dev.to/thepracticaldev/introduction-to-neural-networks)
 - [Deep Learning Simplified - Youtube series](https://www.youtube.com/playlist?list=PLjJh1vlSEYgvGod9wWiydumYl8hOXixNu)
+- [Neural networks demystified](http://lumiverse.io/series/neural-networks-demystified)
 
 ## Online courses
 

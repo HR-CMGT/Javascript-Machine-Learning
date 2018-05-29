@@ -56,6 +56,7 @@ Get started with example code and video tutorials for Processing by Daniel Shiff
 Tensorflow is Google's Machine Learning API
 
 - [Tensorflow.js for Javascript](https://js.tensorflow.org)
+- [Hello World in Tensorflow.JS](https://dev.to/notwaldorf/hello-tensorflow-2lc5)
 - [Getting Started with TensorFlow](https://www.tensorflow.org/get_started/get_started)
 - [Introduction to Deep Learning and Tensorflow](https://pythonprogramming.net/tensorflow-introduction-machine-learning-tutorial/)
 - [Google announces TensorFlow Lite](https://developers.googleblog.com/2017/11/announcing-tensorflow-lite.html)

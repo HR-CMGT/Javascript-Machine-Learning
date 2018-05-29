@@ -46,7 +46,6 @@ Get started with example code and video tutorials for Processing by Daniel Shiff
 ### Javascript
 
 - [kNear - using k-nearest neighbour to train a model](https://github.com/NathanEpstein/KNear)
-- [Deeplearning in Javascript](https://deeplearnjs.org)
 - [Tools for Machine Learning in Javascript](https://github.com/laoqiren/mlhelper)
 - [Synaptic - Neural Network javascript library](http://caza.la/synaptic/)
 - [Creating a self-learning Flappy Bird in Javascript](https://github.com/ssusnic/Machine-Learning-Flappy-Bird)

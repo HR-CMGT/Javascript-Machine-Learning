@@ -81,6 +81,10 @@ Wekinator can apply classification and regression algorithms to any input, such 
 
 # Other languages and tools
 
+### Microsoft
+
+- [Microsoft has a whole set of online Machine Learning APIs to handle the hard work for you](https://gallery.azure.ai/machineLearningAPIs)
+
 ### Image recognition
 
 <img src="https://pjreddie.com/media/image/Screen_Shot_2018-03-24_at_10.48.42_PM.png" width="450">

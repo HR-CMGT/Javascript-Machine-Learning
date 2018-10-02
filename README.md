@@ -9,62 +9,79 @@ A reading list for Machine Learning tutorials, books and tools
 - [Deep Learning Simplified - Youtube series](https://www.youtube.com/playlist?list=PLjJh1vlSEYgvGod9wWiydumYl8hOXixNu)
 - [Neural networks demystified](http://lumiverse.io/series/neural-networks-demystified)
 
-## Online courses
+# Javascript
 
-- [Udacity Intro to Machine Learning](https://www.udacity.com/course/intro-to-machine-learning--ud120)
-- [Stanford University intro to Machine Learning](https://www.coursera.org/learn/machine-learning?action=enroll)
+Javascript is the language of the web, allowing easy deployment to an app or a website.
 
-## Building something
+### K-Nearest-Neighbour
 
-Some tools and tutorials to quickly set up a Machine Learning demo
+This is a very basic algorithm (similar to Pythagoras Theorem) where you use the distance between points to classify a new point. These two demos might help you understand the basics of training a model and classifying data, without needing a Neural Network or a complex library:
 
-#### Practicing with Javascript
+- [Using the 'k-nearest neighbour' algorithm to train a model](https://github.com/NathanEpstein/KNear)
+- [Demo project using 'K-Nearest-Neighbour'](https://github.com/KokoDoko/webcam-detectotron)
 
-The [webcam detectotron](https://kokodoko.github.io/webcam-detectotron/) is a small javascript demo, that demonstrates the use of the 'k-nearest-neighbour' algorithm. This works entirely in the browser. You can [clone the source code](https://github.com/KokoDoko/webcam-detectotron) and get it running in 5 minutes. The readme file explains how you can build your own detectotron!
+### Perceptron
 
-#### Machine Learning for Artists
+A perceptron is a Neural Network that has only one cell. You can code it entirely by hand without needing any framework or library, in only about 20 lines of code. This tutorial is very useful for understanding what a Neural Network is actually doing!
 
-Wekinator is a GUI for applying classification and regression algorithms to any input. Wekinator can connect to output from Processing, a webcam, an Arduino, by listening to OSC signals.
+- [Machine Learning with Javascript from scratch, by Mathias P Johansson](https://youtu.be/o98qlvrcqiU)
+- [Result of the tutorial, built in ObservableHQ](https://beta.observablehq.com/@mpj/neural-network-from-scratch-part-1)
+
+### Neural Networks
+
+- [Using a Neural Network in Javascript with BrainJS](https://github.com/BrainJS/brain.js)
+- [Using Tensorflow for Javascript](https://js.tensorflow.org) and [Try it in your browser](https://codepen.io/pen?&editors=1011)
+- [Hello World in Tensorflow.JS](https://dev.to/notwaldorf/hello-tensorflow-2lc5)
+- [Simplify working with Tensorflow using the ML5 Javascript library](https://ml5js.org)
+- [Demo for creating a self-learning Flappy Bird in Javascript](https://github.com/ssusnic/Machine-Learning-Flappy-Bird)
+
+# Python
+
+[Python](https://www.python.org) is used by data scientists and in most Machine Learning courses online.
+
+- [Udacity Intro to Machine Learning with Python](https://www.udacity.com/course/intro-to-machine-learning--ud120)
+- [Building a perceptron from scratch](https://medium.com/@ismailghallou/build-your-perceptron-neural-net-from-scratch-e12b7be9d1ef) and [source code](https://github.com/smakosh/Perceptron-neural-net-from-scratch)
+
+### Science Kit Learn
+
+Science Kit Learn provides Python libraries, readymade datasets and algorithms for testing, and a visualisation tool. Get started running python with this tutorial:
+
+- [SKLearn](http://scikit-learn.org/stable/)
+- [Introduction to machine learning with scikit-learn](http://scikit-learn.org/stable/tutorial/basic/tutorial.html#machine-learning-the-problem-setting)
+
+### Tensorflow
+
+Tensorflow is Google's Machine Learning API for Python
+
+- [Google Tensorflow tutorials](https://www.tensorflow.org/tutorials/)
+- [Getting Started with TensorFlow](https://www.tensorflow.org/get_started/get_started)
+- [Introduction to Deep Learning and Tensorflow](https://pythonprogramming.net/tensorflow-introduction-machine-learning-tutorial/)
+
+# Processing
+
+Processing is used in the creative field for creating music and visuals. 
+
+### Perceptron
+
+Daniel Shiffman wrote a tutorial on [building a simple neural network from scratch in Processing](https://www.youtube.com/watch?v=ntKn5TPHHAk).
+
+### Wekinator GUI
+
+Rebecca Fiebrink wrote a tool called Wekinator for Processing, which will get you started with machine learning through a  graphical user interface, without any programming.
+
+Wekinator can apply classification and regression algorithms to any input, such as the webcam or input from a sensor or Arduino. 
 
 - [Building a Useless Butler - workshop by Kars Alfrink](https://github.com/karsalfrink/useless-butler/tree/hogeschool-rotterdam)
 - [Download Wekinator](http://www.wekinator.org/downloads/)
 - [Wekinator Course on Kadenze](https://www.kadenze.com/courses/machine-learning-for-musicians-and-artists-v) (Audit course is free)
 - [Machine learning for artists guides](http://ml4a.github.io) and [code](https://github.com/ml4a/)
 
-#### Science Kit Learn
 
-Science Kit provides python libraries, readymade datasets and algorithms for testing, and a visualisation tool. Get started running python with this tutorial:
-- [Introduction to machine learning with scikit-learn](http://scikit-learn.org/stable/tutorial/basic/tutorial.html#machine-learning-the-problem-setting)
-
-#### The coding train
-
-Get started with example code and video tutorials for Processing by Daniel Shiffman
-
-- [Neural networks](http://natureofcode.com/book/chapter-10-neural-networks/)
-- [Building a Neural Network in Processing](https://www.youtube.com/watch?v=XJ7HLz9VYz0)
-
-### Javascript
-
-- [kNear - using k-nearest neighbour to train a model](https://github.com/NathanEpstein/KNear)
-- [Tools for Machine Learning in Javascript](https://github.com/laoqiren/mlhelper)
-- [Synaptic - Neural Network javascript library](http://caza.la/synaptic/)
-- [Creating a self-learning Flappy Bird in Javascript](https://github.com/ssusnic/Machine-Learning-Flappy-Bird)
-
-### Tensorflow
-
-Tensorflow is Google's Machine Learning API
-
-- [Tensorflow.js for Javascript](https://js.tensorflow.org)
-- [Hello World in Tensorflow.JS](https://dev.to/notwaldorf/hello-tensorflow-2lc5)
-- [Getting Started with TensorFlow](https://www.tensorflow.org/get_started/get_started)
-- [Introduction to Deep Learning and Tensorflow](https://pythonprogramming.net/tensorflow-introduction-machine-learning-tutorial/)
-- [Google announces TensorFlow Lite](https://developers.googleblog.com/2017/11/announcing-tensorflow-lite.html)
-
-Google bundled their ML insights for education on a new website: [Learn with Google AI](https://ai.google/education).
+# Other languages and tools
 
 ### Image recognition
 
-<img src="https://pjreddie.com/media/image/model2.png" width="450">
+<img src="https://pjreddie.com/media/image/Screen_Shot_2018-03-24_at_10.48.42_PM.png" width="450">
 
 - [ImageNet - training data for image recognition](http://www.image-net.org)
 - [YOLO - you only look once](https://pjreddie.com/darknet/yolo/) Image recognition network
@@ -79,18 +96,7 @@ Google bundled their ML insights for education on a new website: [Learn with Goo
 - [Natural Language Processing with Spacy.io](https://spacy.io)
 - [Google TacoTron Self-learning Speech Synthesizer](https://github.com/keithito/tacotron)
 
-## Tools and APIs
-
-- [Apple Core ML framework](https://developer.apple.com/documentation/coreml)
-- [Pyro - Uber's AI programming language](http://pyro.ai)
-- [Python 3 and IDLE](https://www.python.org)
-- [SKLearn](http://scikit-learn.org/stable/)
-- [Matplotlib - visualise complex data](https://matplotlib.org)
-- [Training a model in Unity using a neural network](https://github.com/ArztSamuel/Applying_EANNs)
-- [AI Stackoverflow](https://ai.stackexchange.com)
-- [Kaggle - Machine Learning challenges](https://www.kaggle.com)
-
-## Reading list
+# Reading list
 
 - [Google AI experiments](https://experiments.withgoogle.com/ai)
 - [Build more intelligent apps with machine learning](https://developer.apple.com/machine-learning/)(Apple)
@@ -100,18 +106,14 @@ Google bundled their ML insights for education on a new website: [Learn with Goo
 - [Deep learning book](http://www.deeplearningbook.org)
 - [Researching the use of ML in creative applications](http://blog.otoro.net)
 - [Algorithm notes](http://books.goalkicker.com/AlgorithmsBook/)
-
-### UX for AI
+- [Apple Core ML framework](https://developer.apple.com/documentation/coreml)
+- [Pyro - Uber's AI programming language](http://pyro.ai)
+- [Training a model in Unity using a neural network](https://github.com/ArztSamuel/Applying_EANNs)
+- [AI Stackoverflow](https://ai.stackexchange.com)
+- [Kaggle - Machine Learning challenges](https://www.kaggle.com)
 - [Design in the era of the algorithm](https://bigmedium.com/speaking/design-in-the-era-of-the-algorithm.html)
 - [Human-Centered Machine Learning](https://medium.com/google-design/human-centered-machine-learning-a770d10562cd)
 - [The UX of AI (Google Design)](https://design.google/library/ux-ai/)
-
-### Advanced reading
-
-- [Practical Deep Learning for Coders](http://www.fast.ai)
-- [Build your own perceptron - learn the math behind a neural net](https://medium.com/@ismailghallou/build-your-perceptron-neural-net-from-scratch-e12b7be9d1ef)
-- [A neural network in 11 lines of code](http://iamtrask.github.io/2015/07/12/basic-python-network/)
-- [Udacity Free Deep Learning video course](https://www.udacity.com/course/deep-learning--ud730)
 - [Linear algebra - the math behind ML algorithms](http://www.mathscoop.com/calculus/derivatives/derivative-by-definition.php)
 
 ## The future

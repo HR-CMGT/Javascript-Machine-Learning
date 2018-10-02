@@ -31,6 +31,9 @@ A perceptron is a Neural Network that has only one cell. You can code it entirel
 [BrainJS](https://github.com/BrainJS/brain.js) is a library that allows you to instantiate a Neural Network, train it and run a classification in just a few lines of code.
 
 - [Using a Neural Network in Javascript with BrainJS](https://github.com/BrainJS/brain.js)
+
+[TensorFlowJS](https://js.tensorflow.org) is the Javascript version of Google TensorFlow, and [ML5](https://ml5js.org) is a wrapper that makes TensorFlowJS a bit more accessible to beginners.
+
 - [Using Tensorflow for Javascript](https://js.tensorflow.org) and [Try it in your browser](https://codepen.io/pen?&editors=1011)
 - [Hello World in Tensorflow.JS](https://dev.to/notwaldorf/hello-tensorflow-2lc5)
 - [Simplify working with Tensorflow using the ML5 Javascript library](https://ml5js.org)

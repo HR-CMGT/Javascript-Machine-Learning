@@ -67,13 +67,12 @@ Daniel Shiffman wrote a tutorial on [building a simple neural network from scrat
 
 ### Wekinator GUI
 
-Rebecca Fiebrink wrote a tool called Wekinator for Processing, which will get you started with machine learning through a  graphical user interface, without any programming.
+Rebecca Fiebrink wrote a tool called [Wekinator](http://www.wekinator.org/downloads/) for Processing, which will get you started with machine learning through a graphical user interface, without any programming.
 
-Wekinator can apply classification and regression algorithms to any input, such as the webcam or input from a sensor or Arduino. 
+Wekinator can apply classification and regression algorithms to any input, such as the webcam or input from a sensor or Arduino. You can then build your own processing app that will work with the output of Wekinator.
 
-- [Building a Useless Butler - workshop by Kars Alfrink](https://github.com/karsalfrink/useless-butler/tree/hogeschool-rotterdam)
-- [Download Wekinator](http://www.wekinator.org/downloads/)
-- [Wekinator Course on Kadenze](https://www.kadenze.com/courses/machine-learning-for-musicians-and-artists-v) (Audit course is free)
+- [Building a Useless Butler - wekinator workshop by Kars Alfrink](https://github.com/karsalfrink/useless-butler/tree/hogeschool-rotterdam)
+- [Wekinator Course](https://www.kadenze.com/courses/machine-learning-for-musicians-and-artists-v) (Audit course is free)
 - [Machine learning for artists guides](http://ml4a.github.io) and [code](https://github.com/ml4a/)
 
 

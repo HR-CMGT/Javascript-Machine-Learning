@@ -2,10 +2,9 @@
 
 A reading list for Machine Learning tutorials, books and tools
 
-## But what is Machine Learning?
+## But what is a Neural Network?
 
 - [But what *is* a neural network? - youtube](http://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
-- [A short video introduction about Neural Networks](https://dev.to/thepracticaldev/introduction-to-neural-networks)
 - [Deep Learning Simplified - Youtube series](https://www.youtube.com/playlist?list=PLjJh1vlSEYgvGod9wWiydumYl8hOXixNu)
 - [Neural networks demystified](http://lumiverse.io/series/neural-networks-demystified)
 
@@ -117,6 +116,7 @@ Wekinator can apply classification and regression algorithms to any input, such 
 - [Human-Centered Machine Learning](https://medium.com/google-design/human-centered-machine-learning-a770d10562cd)
 - [The UX of AI (Google Design)](https://design.google/library/ux-ai/)
 - [Linear algebra - the math behind ML algorithms](http://www.mathscoop.com/calculus/derivatives/derivative-by-definition.php)
+- [Paul G Allen Course on Machine Learning algorithms](https://www.youtube.com/user/UWCSE/playlists?shelf_id=16&sort=dd&view=50)
 
 ## The future
 

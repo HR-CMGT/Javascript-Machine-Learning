@@ -34,7 +34,6 @@ A perceptron is a Neural Network that has only one cell. You can code it entirel
 - [Using Tensorflow for Javascript](https://js.tensorflow.org) and [Try it in your browser](https://codepen.io/pen?&editors=1011)
 - [Hello World in Tensorflow.JS](https://dev.to/notwaldorf/hello-tensorflow-2lc5)
 - [Simplify working with Tensorflow using the ML5 Javascript library](https://ml5js.org)
-- [Demo for creating a self-learning Flappy Bird in Javascript](https://github.com/ssusnic/Machine-Learning-Flappy-Bird)
 
 # Python
 
@@ -110,6 +109,7 @@ Wekinator can apply classification and regression algorithms to any input, such 
 - [Apple Core ML framework](https://developer.apple.com/documentation/coreml)
 - [Pyro - Uber's AI programming language](http://pyro.ai)
 - [Training a model in Unity using a neural network](https://github.com/ArztSamuel/Applying_EANNs)
+- [Demo for creating a self-learning Flappy Bird in Javascript](https://github.com/ssusnic/Machine-Learning-Flappy-Bird)
 - [AI Stackoverflow](https://ai.stackexchange.com)
 - [Kaggle - Machine Learning challenges](https://www.kaggle.com)
 - [Design in the era of the algorithm](https://bigmedium.com/speaking/design-in-the-era-of-the-algorithm.html)

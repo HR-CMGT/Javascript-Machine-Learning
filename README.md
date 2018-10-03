@@ -85,6 +85,11 @@ Wekinator can apply classification and regression algorithms to any input, such 
 
 - [Microsoft has a whole set of online Machine Learning APIs to handle the hard work for you](https://gallery.azure.ai/machineLearningAPIs)
 
+### Apple
+
+- [Apple Core ML framework](https://developer.apple.com/documentation/coreml)
+- [Build more intelligent apps with machine learning](https://developer.apple.com/machine-learning/)(Apple)
+
 ### Image recognition
 
 <img src="https://pjreddie.com/media/image/Screen_Shot_2018-03-24_at_10.48.42_PM.png" width="450">
@@ -104,25 +109,30 @@ Wekinator can apply classification and regression algorithms to any input, such 
 
 # Reading list
 
-- [Google AI experiments](https://experiments.withgoogle.com/ai)
-- [Build more intelligent apps with machine learning](https://developer.apple.com/machine-learning/)(Apple)
-- [A visual introduction to Machine Learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
 - [Machine Learning for Humans](https://medium.com/machine-learning-for-humans/why-machine-learning-matters-6164faf1df12)
 - [Machine Learning for designers](http://www.oreilly.com/design/free/machine-learning-for-designers.csp)
+- [A visual introduction to Machine Learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
 - [Deep learning book](http://www.deeplearningbook.org)
 - [Researching the use of ML in creative applications](http://blog.otoro.net)
-- [Algorithm notes](http://books.goalkicker.com/AlgorithmsBook/)
-- [Apple Core ML framework](https://developer.apple.com/documentation/coreml)
-- [Pyro - Uber's AI programming language](http://pyro.ai)
-- [Training a model in Unity using a neural network](https://github.com/ArztSamuel/Applying_EANNs)
-- [Demo for creating a self-learning Flappy Bird in Javascript](https://github.com/ssusnic/Machine-Learning-Flappy-Bird)
-- [AI Stackoverflow](https://ai.stackexchange.com)
-- [Kaggle - Machine Learning challenges](https://www.kaggle.com)
 - [Design in the era of the algorithm](https://bigmedium.com/speaking/design-in-the-era-of-the-algorithm.html)
 - [Human-Centered Machine Learning](https://medium.com/google-design/human-centered-machine-learning-a770d10562cd)
 - [The UX of AI (Google Design)](https://design.google/library/ux-ai/)
 - [Linear algebra - the math behind ML algorithms](http://www.mathscoop.com/calculus/derivatives/derivative-by-definition.php)
 - [Paul G Allen Course on Machine Learning algorithms](https://www.youtube.com/user/UWCSE/playlists?shelf_id=16&sort=dd&view=50)
+
+# Community
+
+- [AI Stackoverflow](https://ai.stackexchange.com)
+- [Kaggle - Machine Learning challenges](https://www.kaggle.com)
+
+# Demos and projects
+
+- [UI Generator scans sketches and generates HTML code](https://github.com/teleporthq/teleport-vision-api)
+- [Training a model in Unity using a neural network](https://github.com/ArztSamuel/Applying_EANNs)
+- [Demo for creating a self-learning Flappy Bird in Javascript](https://github.com/ssusnic/Machine-Learning-Flappy-Bird)
+- [Algorithm notes](http://books.goalkicker.com/AlgorithmsBook/)
+- [Google AI experiments](https://experiments.withgoogle.com/ai)
+- [Pyro - Uber's AI programming language](http://pyro.ai)
 
 ## The future
 

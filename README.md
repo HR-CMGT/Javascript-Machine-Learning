@@ -106,6 +106,7 @@ Wekinator can apply classification and regression algorithms to any input, such 
 - [Mozilla Deep Speech - blog post](https://blog.mozilla.org/blog/2017/11/29/announcing-the-initial-release-of-mozillas-open-source-speech-recognition-model-and-voice-dataset/) and [code](https://github.com/mozilla/DeepSpeech)
 - [Natural Language Processing with Spacy.io](https://spacy.io)
 - [Google TacoTron Self-learning Speech Synthesizer](https://github.com/keithito/tacotron)
+- [Pocket Sphynx Speech Recognition](https://github.com/cmusphinx/pocketsphinx)
 
 # Reading list
 

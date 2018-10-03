@@ -68,7 +68,7 @@ Processing is used in the creative field for creating music and visuals.
 
 Daniel Shiffman wrote a tutorial on [building a simple neural network from scratch in Processing](https://www.youtube.com/watch?v=ntKn5TPHHAk).
 
-### Wekinator GUI
+### Wekinator
 
 Rebecca Fiebrink wrote a tool called [Wekinator](http://www.wekinator.org/downloads/) for Processing, which will get you started with machine learning through a graphical user interface, without any programming.
 
@@ -94,12 +94,11 @@ Wekinator can apply classification and regression algorithms to any input, such 
 
 <img src="https://pjreddie.com/media/image/Screen_Shot_2018-03-24_at_10.48.42_PM.png" width="450">
 
-- [ImageNet - training data for image recognition](http://www.image-net.org)
-- [YOLO - you only look once](https://pjreddie.com/darknet/yolo/) Image recognition network
+- [YOLO - you only look once](https://pjreddie.com/darknet/yolo/) Image recognition network, watch the cool [intro movie!](https://www.youtube.com/watch?v=MPU2HistivI)
 - [Vize.ai Recognize and automate your images](https://vize.ai)
 - [Clarifai image and video recognition tool](https://clarifai.com/developer/)
 - [TensorFlow image recognition](https://www.tensorflow.org/tutorials/image_recognition)
-- [Building a self-driving Mario Kart using TensorFlow](https://www.youtube.com/watch?v=Ipi40cb_RsI) and [documentation](https://www.youtube.com/redirect?q=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F1p4ZOtziLmhf0jPbZTTaFxSKdYqE91dYcTNqTVdd6es4%2Fedit%3Fusp%3Dsharing&event=video_description&v=Ipi40cb_RsI&redir_token=Ybzxsbpmjb-vKOmpvcRlyEses5V8MTUxMzMzODkwNUAxNTEzMjUyNTA1)
+- [ImageNet - training data for image recognition](http://www.image-net.org)
 
 ### Speech and text regognition
 
@@ -134,6 +133,7 @@ Wekinator can apply classification and regression algorithms to any input, such 
 - [Algorithm notes](http://books.goalkicker.com/AlgorithmsBook/)
 - [Google AI experiments](https://experiments.withgoogle.com/ai)
 - [Pyro - Uber's AI programming language](http://pyro.ai)
+- [Building a self-driving Mario Kart using TensorFlow](https://www.youtube.com/watch?v=Ipi40cb_RsI) and [documentation](https://www.youtube.com/redirect?q=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F1p4ZOtziLmhf0jPbZTTaFxSKdYqE91dYcTNqTVdd6es4%2Fedit%3Fusp%3Dsharing&event=video_description&v=Ipi40cb_RsI&redir_token=Ybzxsbpmjb-vKOmpvcRlyEses5V8MTUxMzMzODkwNUAxNTEzMjUyNTA1)
 
 ## The future
 

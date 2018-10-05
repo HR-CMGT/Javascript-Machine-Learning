@@ -71,7 +71,7 @@ Daniel Shiffman wrote a tutorial on [building a simple neural network from scrat
 
 ### Wekinator
 
-Rebecca Fiebrink wrote a tool called [Wekinator](http://www.wekinator.org/downloads/) will get you started with machine learning through a graphical user interface, without any programming. Wekinator can learn from input such as the webcam or an arduino sensor.
+Rebecca Fiebrink created a graphical interface that uses machine learning to detect patterns in output from the webcam, microphone, arduino sensor or any other input.
 
 - [Building a Useless Butler - wekinator workshop by Kars Alfrink](https://github.com/karsalfrink/useless-butler/tree/hogeschool-rotterdam)
 - [Wekinator Course](https://www.kadenze.com/courses/machine-learning-for-musicians-and-artists-v) (Audit course is free)

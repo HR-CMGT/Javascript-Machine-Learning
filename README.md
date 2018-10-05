@@ -30,7 +30,8 @@ A perceptron is a Neural Network that has only one cell. You can code it entirel
 
 [BrainJS](https://github.com/BrainJS/brain.js) is a library that allows you to instantiate a Neural Network, train it and run a classification in just a few lines of code.
 
-- [Using a Neural Network in Javascript with BrainJS](https://github.com/BrainJS/brain.js)
+- [How to create a Neural Net in the browser with BrainJS](https://scrimba.com/c/c36zkcb)
+- [Source code and examples for BrainJS](https://github.com/BrainJS/brain.js)
 
 [TensorFlowJS](https://js.tensorflow.org) is the Javascript version of Google TensorFlow, and [ML5](https://ml5js.org) is a wrapper that makes TensorFlowJS a bit more accessible to beginners.
 
@@ -70,7 +71,7 @@ Daniel Shiffman wrote a tutorial on [building a simple neural network from scrat
 
 ### Wekinator
 
-Rebecca Fiebrink wrote a tool called [Wekinator](http://www.wekinator.org/downloads/) for Processing, which will get you started with machine learning through a graphical user interface, without any programming. Wekinator can apply classification and regression algorithms to any input, such as the webcam or an arduino sensor.
+Rebecca Fiebrink wrote a tool called [Wekinator](http://www.wekinator.org/downloads/) will get you started with machine learning through a graphical user interface, without any programming. Wekinator can learn from input such as the webcam or an arduino sensor.
 
 - [Building a Useless Butler - wekinator workshop by Kars Alfrink](https://github.com/karsalfrink/useless-butler/tree/hogeschool-rotterdam)
 - [Wekinator Course](https://www.kadenze.com/courses/machine-learning-for-musicians-and-artists-v) (Audit course is free)
@@ -106,7 +107,7 @@ Rebecca Fiebrink wrote a tool called [Wekinator](http://www.wekinator.org/downlo
 
 # Reading list
 
-![NNpng](https://cdn-images-1.medium.com/max/1200/1*Vyz8w8ZGiZCl17birZqIyw.png)
+<img src="https://cdn-images-1.medium.com/max/1200/1*Vyz8w8ZGiZCl17birZqIyw.png" width="400">
 
 - [The Mostly Complete Chart of Neural Networks](https://towardsdatascience.com/the-mostly-complete-chart-of-neural-networks-explained-3fb6f2367464)
 - [Machine Learning for Humans](https://medium.com/machine-learning-for-humans/why-machine-learning-matters-6164faf1df12)
@@ -118,7 +119,9 @@ Rebecca Fiebrink wrote a tool called [Wekinator](http://www.wekinator.org/downlo
 - [Human-Centered Machine Learning](https://medium.com/google-design/human-centered-machine-learning-a770d10562cd)
 - [The UX of AI (Google Design)](https://design.google/library/ux-ai/)
 - [Linear algebra - the math behind ML algorithms](http://www.mathscoop.com/calculus/derivatives/derivative-by-definition.php)
+- [Maths for Programmers](https://www.freecodecamp.org/news/beaucarnes/maths-for-programmers--09iy8H6lC)
 - [Paul G Allen Course on Machine Learning algorithms](https://www.youtube.com/user/UWCSE/playlists?shelf_id=16&sort=dd&view=50)
+- [Mastering Machine Learning with MatLab for Python](https://nl.mathworks.com/campaigns/offers/mastering-machine-learning-with-matlab.html?s_eid=PSB_17921)
 
 # Community
 
@@ -132,6 +135,7 @@ Rebecca Fiebrink wrote a tool called [Wekinator](http://www.wekinator.org/downlo
 - [Demo for creating a self-learning Flappy Bird in Javascript](https://github.com/ssusnic/Machine-Learning-Flappy-Bird)
 - [Algorithm notes](http://books.goalkicker.com/AlgorithmsBook/)
 - [Google AI experiments](https://experiments.withgoogle.com/ai)
+- [Quick Draw! - Can a Neural Network detect a doodle?](https://quickdraw.withgoogle.com)
 - [Pyro - Uber's AI programming language](http://pyro.ai)
 - [Building a self-driving Mario Kart using TensorFlow](https://www.youtube.com/watch?v=Ipi40cb_RsI) and [documentation](https://www.youtube.com/redirect?q=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F1p4ZOtziLmhf0jPbZTTaFxSKdYqE91dYcTNqTVdd6es4%2Fedit%3Fusp%3Dsharing&event=video_description&v=Ipi40cb_RsI&redir_token=Ybzxsbpmjb-vKOmpvcRlyEses5V8MTUxMzMzODkwNUAxNTEzMjUyNTA1)
 

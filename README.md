@@ -70,14 +70,11 @@ Daniel Shiffman wrote a tutorial on [building a simple neural network from scrat
 
 ### Wekinator
 
-Rebecca Fiebrink wrote a tool called [Wekinator](http://www.wekinator.org/downloads/) for Processing, which will get you started with machine learning through a graphical user interface, without any programming.
-
-Wekinator can apply classification and regression algorithms to any input, such as the webcam or input from a sensor or Arduino. You can then build your own processing app that will work with the output of Wekinator.
+Rebecca Fiebrink wrote a tool called [Wekinator](http://www.wekinator.org/downloads/) for Processing, which will get you started with machine learning through a graphical user interface, without any programming. Wekinator can apply classification and regression algorithms to any input, such as the webcam or an arduino sensor.
 
 - [Building a Useless Butler - wekinator workshop by Kars Alfrink](https://github.com/karsalfrink/useless-butler/tree/hogeschool-rotterdam)
 - [Wekinator Course](https://www.kadenze.com/courses/machine-learning-for-musicians-and-artists-v) (Audit course is free)
 - [Machine learning for artists guides](http://ml4a.github.io) and [code](https://github.com/ml4a/)
-
 
 # Other languages and tools
 
@@ -109,6 +106,9 @@ Wekinator can apply classification and regression algorithms to any input, such 
 
 # Reading list
 
+![NNpng](https://cdn-images-1.medium.com/max/1200/1*Vyz8w8ZGiZCl17birZqIyw.png)
+
+- [The Mostly Complete Chart of Neural Networks](https://towardsdatascience.com/the-mostly-complete-chart-of-neural-networks-explained-3fb6f2367464)
 - [Machine Learning for Humans](https://medium.com/machine-learning-for-humans/why-machine-learning-matters-6164faf1df12)
 - [Machine Learning for designers](http://www.oreilly.com/design/free/machine-learning-for-designers.csp)
 - [A visual introduction to Machine Learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
@@ -127,7 +127,7 @@ Wekinator can apply classification and regression algorithms to any input, such 
 
 # Demos and projects
 
-- [UI Generator scans sketches and generates HTML code](https://github.com/teleporthq/teleport-vision-api)
+- [Teleport Vision scans UI sketches and creates HTML](https://github.com/teleporthq/teleport-vision-api)
 - [Training a model in Unity using a neural network](https://github.com/ArztSamuel/Applying_EANNs)
 - [Demo for creating a self-learning Flappy Bird in Javascript](https://github.com/ssusnic/Machine-Learning-Flappy-Bird)
 - [Algorithm notes](http://books.goalkicker.com/AlgorithmsBook/)

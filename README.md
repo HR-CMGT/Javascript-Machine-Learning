@@ -35,6 +35,7 @@ A perceptron is a Neural Network that has only one cell. You can code it entirel
 
 [TensorFlowJS](https://js.tensorflow.org) is the Javascript version of Google TensorFlow, and [ML5](https://ml5js.org) is a wrapper that makes TensorFlowJS a bit more accessible to beginners.
 
+- [Classify an image in 5 lines of code](https://codepen.io/eerk/pen/JmKQLw)
 - [Using Tensorflow for Javascript](https://js.tensorflow.org) and [Try it in your browser](https://codepen.io/pen?&editors=1011)
 - [Hello World in Tensorflow.JS](https://dev.to/notwaldorf/hello-tensorflow-2lc5)
 - [Simplify working with Tensorflow using the ML5 Javascript library](https://ml5js.org)

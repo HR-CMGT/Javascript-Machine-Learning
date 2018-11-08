@@ -131,8 +131,9 @@ Rebecca Fiebrink created a graphical interface that uses machine learning to det
 
 # Demos and projects
 
-- [Teleport Vision scans UI sketches and creates HTML](https://github.com/teleporthq/teleport-vision-api)
+- [Teleport Vision - generates HTML from pen and paper sketches](https://github.com/teleporthq/teleport-vision-api)
 - [Training a model in Unity using a neural network](https://github.com/ArztSamuel/Applying_EANNs)
+- [Neural Drum Machine](https://codepen.io/teropa/pen/JLjXGK) and [Voice-based beatbox](https://codepen.io/naotokui/pen/NBzJMW) created with [MagentaJS](https://magenta.tensorflow.org)
 - [Demo for creating a self-learning Flappy Bird in Javascript](https://github.com/ssusnic/Machine-Learning-Flappy-Bird)
 - [Algorithm notes](http://books.goalkicker.com/AlgorithmsBook/)
 - [Google AI experiments](https://experiments.withgoogle.com/ai)

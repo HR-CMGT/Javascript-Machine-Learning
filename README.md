@@ -80,14 +80,11 @@ Rebecca Fiebrink created a graphical interface that uses machine learning to det
 
 # Other languages and tools
 
-### Microsoft
+### Paid services
 
-- [Microsoft has a whole set of online Machine Learning APIs to handle the hard work for you](https://gallery.azure.ai/machineLearningAPIs)
-
-### Apple
-
+- [Microsoft Machine Learning APIs](https://gallery.azure.ai/machineLearningAPIs)
 - [Apple Core ML framework](https://developer.apple.com/documentation/coreml)
-- [Build more intelligent apps with machine learning](https://developer.apple.com/machine-learning/)(Apple)
+- [Machine Learning on Amazon Web Services](https://aws.amazon.com/machine-learning/)
 
 ### Image recognition
 
@@ -115,6 +112,7 @@ Rebecca Fiebrink created a graphical interface that uses machine learning to det
 - [Machine Learning for designers](http://www.oreilly.com/design/free/machine-learning-for-designers.csp)
 - [A visual introduction to Machine Learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
 - [Deep learning book](http://www.deeplearningbook.org)
+- [Build more intelligent apps with machine learning](https://developer.apple.com/machine-learning/)(Apple)
 - [Researching the use of ML in creative applications](http://blog.otoro.net)
 - [Design in the era of the algorithm](https://bigmedium.com/speaking/design-in-the-era-of-the-algorithm.html)
 - [Human-Centered Machine Learning](https://medium.com/google-design/human-centered-machine-learning-a770d10562cd)

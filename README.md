@@ -8,6 +8,11 @@ Put simply, a Machine Learning project can learn from itself or from data that y
 
 These models can often find patterns in complex data that even the smartest programmer could not have discovered. At the same time, training a model can have its own biases and preconceptions that you have to be aware of.
 
+![AIML](aiml.png)
+
+- Artificial Intelligence: you program a character to drink a potion once his health gets too low.
+- Machine Learning: you train a model with previous combat data, and then let it decide what is the best moment to drink a health potion.
+
 ### Algorithms
 
 A model is built using an *algorithm*. When starting a Machine Learning project, you have to look carefully at the data you have available, and the kind of result you need, so you can determine which algorithm fits that need.

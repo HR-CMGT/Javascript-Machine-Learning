@@ -1,32 +1,46 @@
 # Machine Learning
 
-A reading list for Machine Learning tutorials, books and tools
+A reading list for Machine Learning tutorials, books and tools.
 
-## But what is a Neural Network?
+### What is Machine Learning?
 
+Put simply, a Machine Learning project can learn from itself or from data that you provide. Instead of programming logic yourself, you will train a *model* and then let that model make decisions.
+
+These models can often find patterns in complex data that even the smartest programmer could not have discovered. At the same time, training a model can have its own biases and preconceptions that you have to be aware of.
+
+### Algorithms
+
+A model is built using an *algorithm*. When starting a Machine Learning project, you have to look carefully at the data you have available, and the kind of result you need, so you can determine which algorithm fits that need.
+
+This list will focus on **Neural Networks** and the **K-Nearest-Neighbour** algorithm to start working with ML.
+
+- [Algorithms for Machine Learning](https://towardsdatascience.com/a-tour-of-the-top-10-algorithms-for-machine-learning-newbies-dde4edffae11)
 - [But what *is* a neural network? - youtube](http://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
-- [Deep Learning Simplified - Youtube series](https://www.youtube.com/playlist?list=PLjJh1vlSEYgvGod9wWiydumYl8hOXixNu)
 - [Neural networks demystified](http://lumiverse.io/series/neural-networks-demystified)
 
 # Javascript
 
-Javascript is the language of the web, allowing easy deployment to an app or a website.
+Javascript allows us to use ML in web projects and quickly publish results.
 
 ### K-Nearest-Neighbour
 
-This is a very basic algorithm (similar to Pythagoras Theorem) where you use the distance between points to classify a new point. These two demos might help you understand the basics of training a model and classifying data, without needing a Neural Network or a complex library:
+This algorithm uses the distance between points to classify a new point. The KNN algorithm is useful to understand the basics of training a model and classifying data, without a complex algorithm:
 
 - [Using the 'k-nearest neighbour' algorithm to train a model](https://github.com/NathanEpstein/KNear)
 - [Demo project using 'K-Nearest-Neighbour'](https://github.com/KokoDoko/webcam-detectotron)
 
-### Neural Networks with BRAIN JS
+### Neural Networks in Javascript
+
+A Neural Network is an algorithm that is inspired by the human brain. Data will flow through neurons in the network and is able to keep improving itself with each pass through the network.
+
+#### Brain JS
 
 [BrainJS](https://github.com/BrainJS/brain.js) is a library that allows you to instantiate a Neural Network, train it and run a classification in just a few lines of code.
 
 - [How to create a Neural Net in the browser with BrainJS](https://scrimba.com/c/c36zkcb)
 - [Source code and examples for BrainJS](https://github.com/BrainJS/brain.js)
 
-### Neural Networks with TENSORFLOW JS
+#### Tensorflow JS
 
 [TensorFlowJS](https://js.tensorflow.org) is the Javascript version of Google TensorFlow, and [ML5](https://ml5js.org) is a wrapper that makes TensorFlowJS a bit more accessible to beginners.
 
@@ -72,23 +86,10 @@ Tensorflow is Google's Machine Learning API for Python
 Processing is used in the creative field for creating music and visuals. 
 
 - [Build a perceptron in Processing](https://www.youtube.com/watch?v=ntKn5TPHHAk).
-
-### Wekinator
-
-Wekinator uses machine learning to detect patterns in output from the webcam, microphone, arduino sensor or any other input.
-
-- [Building a Useless Butler - wekinator workshop by Kars Alfrink](https://github.com/karsalfrink/useless-butler/tree/hogeschool-rotterdam)
-- [Wekinator Course](https://www.kadenze.com/courses/machine-learning-for-musicians-and-artists-v) (Audit course is free)
-- [Machine learning for artists guides](http://ml4a.github.io) and [code](https://github.com/ml4a/)
+- [Wekinator is a GUI for applying Machine Learning to webcam, audio and other sensor data](http://www.wekinator.org)
+- [Wekinator workshop by Kars Alfrink](https://github.com/karsalfrink/useless-butler)
 
 # Other languages and tools
-
-### Paid services
-
-- [Microsoft Machine Learning APIs](https://gallery.azure.ai/machineLearningAPIs)
-- [Apple Core ML framework](https://developer.apple.com/documentation/coreml)
-- [Machine Learning on Amazon Web Services](https://aws.amazon.com/machine-learning/)
-- [Amazon Machine Learning Free Course](https://aws.amazon.com/training/learning-paths/machine-learning/)
 
 ### Image recognition
 
@@ -116,6 +117,13 @@ Converting spoken audio into text
 - [Google TacoTron Self-learning Speech Synthesizer](https://github.com/keithito/tacotron)
 - [Pocket Sphynx Speech Recognition](https://github.com/cmusphinx/pocketsphinx)
 
+### Paid services
+
+- [Microsoft Machine Learning APIs](https://gallery.azure.ai/machineLearningAPIs)
+- [Apple Core ML framework](https://developer.apple.com/documentation/coreml)
+- [Machine Learning on Amazon Web Services](https://aws.amazon.com/machine-learning/)
+- [Amazon Machine Learning Free Course](https://aws.amazon.com/training/learning-paths/machine-learning/)
+
 # Reading list
 
 <img src="https://cdn-images-1.medium.com/max/1200/1*Vyz8w8ZGiZCl17birZqIyw.png" width="400">
@@ -134,6 +142,7 @@ Converting spoken audio into text
 - [Maths for Programmers](https://www.freecodecamp.org/news/beaucarnes/maths-for-programmers--09iy8H6lC)
 - [Paul G Allen Course on Machine Learning algorithms](https://www.youtube.com/user/UWCSE/playlists?shelf_id=16&sort=dd&view=50)
 - [Mastering Machine Learning with MatLab for Python](https://nl.mathworks.com/campaigns/offers/mastering-machine-learning-with-matlab.html?s_eid=PSB_17921)
+- [Deep Learning Simplified - Youtube series](https://www.youtube.com/playlist?list=PLjJh1vlSEYgvGod9wWiydumYl8hOXixNu)
 
 # Community
 

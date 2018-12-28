@@ -23,6 +23,14 @@ This list will focus on **Neural Networks** and the **K-Nearest-Neighbour** algo
 - [But what *is* a neural network? - youtube](http://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
 - [Neural networks demystified](http://lumiverse.io/series/neural-networks-demystified)
 
+### Using Existing tools
+
+You don't always need to understand all the math and logic behind Machine Learning to use it. The Tensorflow library allows you to load a model and an algorithm, and use it right away to recognise an image:
+
+- [Classify an image with Tensorflow in 5 lines of code](https://codepen.io/eerk/pen/JmKQLw)
+
+![retriever](retriever.png)
+
 # Javascript
 
 Javascript allows us to use ML in web projects and quickly publish results.

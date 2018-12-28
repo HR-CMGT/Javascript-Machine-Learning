@@ -19,26 +19,31 @@ This is a very basic algorithm (similar to Pythagoras Theorem) where you use the
 - [Using the 'k-nearest neighbour' algorithm to train a model](https://github.com/NathanEpstein/KNear)
 - [Demo project using 'K-Nearest-Neighbour'](https://github.com/KokoDoko/webcam-detectotron)
 
-### Perceptron
-
-A perceptron is a Neural Network that has only one cell. You can code it entirely by hand without needing any framework or library, in only about 20 lines of code. This tutorial is very useful for understanding what a Neural Network is actually doing!
-
-- [Machine Learning with Javascript from scratch, by Mathias P Johansson](https://youtu.be/o98qlvrcqiU)
-- [Result of the tutorial, built in ObservableHQ](https://beta.observablehq.com/@mpj/neural-network-from-scratch-part-1)
-
-### Neural Networks
+### Neural Networks with BRAIN JS
 
 [BrainJS](https://github.com/BrainJS/brain.js) is a library that allows you to instantiate a Neural Network, train it and run a classification in just a few lines of code.
 
 - [How to create a Neural Net in the browser with BrainJS](https://scrimba.com/c/c36zkcb)
 - [Source code and examples for BrainJS](https://github.com/BrainJS/brain.js)
 
+### Neural Networks with TENSORFLOW JS
+
 [TensorFlowJS](https://js.tensorflow.org) is the Javascript version of Google TensorFlow, and [ML5](https://ml5js.org) is a wrapper that makes TensorFlowJS a bit more accessible to beginners.
 
 - [Classify an image in 5 lines of code](https://codepen.io/eerk/pen/JmKQLw)
 - [Using Tensorflow for Javascript](https://js.tensorflow.org) and [Try it in your browser](https://codepen.io/pen?&editors=1011)
 - [Hello World in Tensorflow.JS](https://dev.to/notwaldorf/hello-tensorflow-2lc5)
-- [Simplify working with Tensorflow using the ML5 Javascript library](https://ml5js.org)
+
+### Perceptron
+
+A perceptron is a Neural Network that has only one cell. You can code it by hand in only about 20 lines of code. This will help you to understand what a Neural Network is actually doing:
+
+- [Coding a perceptron in Javascript, by Mathias P Johansson](https://youtu.be/o98qlvrcqiU), [result](https://beta.observablehq.com/@mpj/neural-network-from-scratch-part-1)
+
+### More Javascript Machine Learning
+
+- [Simplify working with TensorflowJS using the ML5 library](https://ml5js.org)
+- [Synaptic JS Neural Networks](http://caza.la/synaptic/)
 
 # Python
 
@@ -66,13 +71,11 @@ Tensorflow is Google's Machine Learning API for Python
 
 Processing is used in the creative field for creating music and visuals. 
 
-### Perceptron
-
-Daniel Shiffman wrote a tutorial on [building a simple neural network from scratch in Processing](https://www.youtube.com/watch?v=ntKn5TPHHAk).
+- [Build a perceptron in Processing](https://www.youtube.com/watch?v=ntKn5TPHHAk).
 
 ### Wekinator
 
-Rebecca Fiebrink created a graphical interface that uses machine learning to detect patterns in output from the webcam, microphone, arduino sensor or any other input.
+Wekinator uses machine learning to detect patterns in output from the webcam, microphone, arduino sensor or any other input.
 
 - [Building a Useless Butler - wekinator workshop by Kars Alfrink](https://github.com/karsalfrink/useless-butler/tree/hogeschool-rotterdam)
 - [Wekinator Course](https://www.kadenze.com/courses/machine-learning-for-musicians-and-artists-v) (Audit course is free)
@@ -85,6 +88,7 @@ Rebecca Fiebrink created a graphical interface that uses machine learning to det
 - [Microsoft Machine Learning APIs](https://gallery.azure.ai/machineLearningAPIs)
 - [Apple Core ML framework](https://developer.apple.com/documentation/coreml)
 - [Machine Learning on Amazon Web Services](https://aws.amazon.com/machine-learning/)
+- [Amazon Machine Learning Free Course](https://aws.amazon.com/training/learning-paths/machine-learning/)
 
 ### Image recognition
 
@@ -96,10 +100,19 @@ Rebecca Fiebrink created a graphical interface that uses machine learning to det
 - [TensorFlow image recognition](https://www.tensorflow.org/tutorials/image_recognition)
 - [ImageNet - training data for image recognition](http://www.image-net.org)
 
-### Speech and text regognition
+### Natural Language Processing
+
+Understanding the meaning of written text
+
+- [What are word vectors?](https://gist.github.com/aparrish/2f562e3737544cf29aaf1af30362f469)
+- [Understanding Word2Vec Video by Daniel Shiffman](https://youtu.be/MOo9iJ8RYWM)
+- [Natural Language Processing with Spacy.io](https://spacy.io)
+
+### Speech Recognition
+
+Converting spoken audio into text
 
 - [Mozilla Deep Speech - blog post](https://blog.mozilla.org/blog/2017/11/29/announcing-the-initial-release-of-mozillas-open-source-speech-recognition-model-and-voice-dataset/) and [code](https://github.com/mozilla/DeepSpeech)
-- [Natural Language Processing with Spacy.io](https://spacy.io)
 - [Google TacoTron Self-learning Speech Synthesizer](https://github.com/keithito/tacotron)
 - [Pocket Sphynx Speech Recognition](https://github.com/cmusphinx/pocketsphinx)
 
@@ -137,6 +150,8 @@ Rebecca Fiebrink created a graphical interface that uses machine learning to det
 - [Google AI experiments](https://experiments.withgoogle.com/ai)
 - [Quick Draw! - Can a Neural Network detect a doodle?](https://quickdraw.withgoogle.com)
 - [Pyro - Uber's AI programming language](http://pyro.ai)
+- [Runway - An app that adds ML to creative projects](https://runwayapp.ai)
+- [Pixling - Building a life simulation app with Neural Networks](http://wiki.pixling.world/index.php/Main_Page)
 - [Building a self-driving Mario Kart using TensorFlow](https://www.youtube.com/watch?v=Ipi40cb_RsI) and [documentation](https://www.youtube.com/redirect?q=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F1p4ZOtziLmhf0jPbZTTaFxSKdYqE91dYcTNqTVdd6es4%2Fedit%3Fusp%3Dsharing&event=video_description&v=Ipi40cb_RsI&redir_token=Ybzxsbpmjb-vKOmpvcRlyEses5V8MTUxMzMzODkwNUAxNTEzMjUyNTA1)
 
 ## The future

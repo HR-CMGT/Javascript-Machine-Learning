@@ -102,7 +102,7 @@ Processing is used in the creative field for creating music and visuals.
 - [Wekinator is a GUI for applying Machine Learning to webcam, audio and other sensor data](http://www.wekinator.org)
 - [Wekinator workshop by Kars Alfrink](https://github.com/karsalfrink/useless-butler)
 
-# Other languages and tools
+# Machine Learning Disciplines
 
 ### Image recognition
 
@@ -156,6 +156,7 @@ Converting spoken audio into text
 - [Paul G Allen Course on Machine Learning algorithms](https://www.youtube.com/user/UWCSE/playlists?shelf_id=16&sort=dd&view=50)
 - [Mastering Machine Learning with MatLab for Python](https://nl.mathworks.com/campaigns/offers/mastering-machine-learning-with-matlab.html?s_eid=PSB_17921)
 - [Deep Learning Simplified - Youtube series](https://www.youtube.com/playlist?list=PLjJh1vlSEYgvGod9wWiydumYl8hOXixNu)
+- [Neural Networks and Deep Learning is a free online book by Michael Nielsen that has been recommended by the guys from Tensorflow](http://neuralnetworksanddeeplearning.com)
 
 # Community
 

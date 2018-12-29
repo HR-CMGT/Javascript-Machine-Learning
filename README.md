@@ -31,7 +31,7 @@ Imagine the cats being replaced by credit card transactions. You can train the m
 
 ### Using Existing tools
 
-You don't always need to understand all the math and logic behind Machine Learning to use it. This codepen loads the tensorflow library and a pre-trained image model. Then you can classify images right away:
+You don't always need to understand all the math and logic behind Machine Learning to use it. This codepen tutorial will show you how to load tensorflow and a model to classify an image:
 
 - [Classify an image with Tensorflow in 5 lines of code](https://codepen.io/eerk/pen/JmKQLw)
 

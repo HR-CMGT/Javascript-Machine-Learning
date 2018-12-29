@@ -95,6 +95,10 @@ ML5 makes TensorFlowJS a bit more accessible by supplying readymade examples wit
 
 - [Simplify working with TensorflowJS using the ML5 library](https://ml5js.org)
 
+![pose](pose.png)
+
+*Pose Estimation using the Webcam with ML5 and TensorflowJS*
+
 ### Magenta JS
 
 - [Magenta](https://magenta.tensorflow.org/get-started/#magenta-js) is a google library that uses tensorflow to generate [images](https://tensorflow.github.io/magenta-js/image/index.html), [music](https://tensorflow.github.io/magenta-js/music/index.html) and [sketches](https://tensorflow.github.io/magenta-js/sketch/). 
@@ -131,6 +135,11 @@ Wekinator is a Graphical User Interface that can apply Machine Learning algorith
 
 # Machine Learning Disciplines
 
+- Image Recognition
+- Natural Language Processing
+- Speech Recognition
+- Pose Estimation
+
 ### Image recognition
 
 <img src="https://pjreddie.com/media/image/Screen_Shot_2018-03-24_at_10.48.42_PM.png" width="450">
@@ -156,6 +165,10 @@ Converting spoken audio into text
 - [Mozilla Deep Speech - blog post](https://blog.mozilla.org/blog/2017/11/29/announcing-the-initial-release-of-mozillas-open-source-speech-recognition-model-and-voice-dataset/) and [code](https://github.com/mozilla/DeepSpeech)
 - [Google TacoTron Self-learning Speech Synthesizer](https://github.com/keithito/tacotron)
 - [Pocket Sphynx Speech Recognition](https://github.com/cmusphinx/pocketsphinx)
+
+### Pose Estimation
+
+- [Pose Estimation with TensorflowJS](https://medium.com/tensorflow/real-time-human-pose-estimation-in-the-browser-with-tensorflow-js-7dd0bc881cd5)
 
 ### Paid services
 

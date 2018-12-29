@@ -188,7 +188,7 @@ Converting spoken audio into text
 
 # Reading list
 
-<img src="https://cdn-images-1.medium.com/max/1200/1*Vyz8w8ZGiZCl17birZqIyw.png" width="400">
+![nnchart](nnchart.png)
 
 - [The Mostly Complete Chart of Neural Networks](https://towardsdatascience.com/the-mostly-complete-chart-of-neural-networks-explained-3fb6f2367464)
 - [Machine Learning for Humans](https://medium.com/machine-learning-for-humans/why-machine-learning-matters-6164faf1df12)

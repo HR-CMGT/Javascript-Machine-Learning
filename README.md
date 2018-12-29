@@ -214,8 +214,9 @@ Converting spoken audio into text
 
 # Demos and projects
 
-- [Build a perceptron in Processing](https://www.youtube.com/watch?v=ntKn5TPHHAk)
+- [Amazon Deep Racer - order the self-driving amazon toy car, and compete with driving algorithms](https://aws.amazon.com/deepracer/)
 - [Teleport Vision - generates HTML from pen and paper sketches](https://github.com/teleporthq/teleport-vision-api)
+- [Build a perceptron in Processing](https://www.youtube.com/watch?v=ntKn5TPHHAk)
 - [Training a model in Unity using a neural network](https://github.com/ArztSamuel/Applying_EANNs)
 - [Neural Drum Machine](https://codepen.io/teropa/pen/JLjXGK) and [Voice-based beatbox](https://codepen.io/naotokui/pen/NBzJMW) created with [MagentaJS](https://magenta.tensorflow.org)
 - [Demo for creating a self-learning Flappy Bird in Javascript](https://github.com/ssusnic/Machine-Learning-Flappy-Bird)

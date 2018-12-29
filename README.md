@@ -69,7 +69,7 @@ ML5 makes TensorFlowJS a bit more accessible by supplying readymade examples wit
 
 ### Perceptron
 
-A perceptron is a Neural Network that has only one cell. You can code it by hand in only about 20 lines of code. This will help you to understand what a Neural Network is actually doing:
+A perceptron is a Neural Network that has only one cell. You can code it by hand in just a few lines of code. This will help you to understand how a Neural Network cell calculates weights.
 
 - [Coding a perceptron in Javascript, by Mathias P Johansson](https://youtu.be/o98qlvrcqiU), [result](https://beta.observablehq.com/@mpj/neural-network-from-scratch-part-1)
 
@@ -79,6 +79,11 @@ Synaptic is another Neural Network Library for Javascript
 
 - [Synaptic JS Neural Networks](http://caza.la/synaptic/)
 - [Tutorial for Synaptic JS](https://medium.freecodecamp.org/how-to-create-a-neural-network-in-javascript-in-only-30-lines-of-code-343dafc50d49)
+
+### Magenta JS
+
+- [Magenta](https://magenta.tensorflow.org/get-started/#magenta-js) is a google library that uses tensorflow to generate [images](https://tensorflow.github.io/magenta-js/image/index.html), [music](https://tensorflow.github.io/magenta-js/music/index.html) and [sketches](https://tensorflow.github.io/magenta-js/sketch/). 
+- [Tutorial on drawing snowflakes with a Neural Network and Magenta](https://youtu.be/pdaNttb7Mr8)
 
 # Python
 

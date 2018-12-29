@@ -46,6 +46,12 @@ This algorithm uses the distance between points to classify a new point. The KNN
 
 A Neural Network is an algorithm that is inspired by the human brain. Data will flow through neurons in the network and is able to keep improving itself with each pass through the network.
 
+#### Perceptron
+
+A perceptron is a Neural Network that has only one cell. You can code it by hand in just a few lines of code. This will help you to understand how one Neural Network cell calculates weights.
+
+- [Coding a perceptron in Javascript, by Mathias P Johansson](https://youtu.be/o98qlvrcqiU), and the [result](https://beta.observablehq.com/@mpj/neural-network-from-scratch-part-1)
+
 #### Brain JS
 
 [BrainJS](https://github.com/BrainJS/brain.js) is a library that allows you to instantiate a Neural Network, train it and run a classification in just a few lines of code.
@@ -61,24 +67,18 @@ A Neural Network is an algorithm that is inspired by the human brain. Data will 
 - [Using Tensorflow for Javascript](https://js.tensorflow.org) and [Try it in your browser](https://codepen.io/pen?&editors=1011)
 - [Hello World in Tensorflow.JS](https://dev.to/notwaldorf/hello-tensorflow-2lc5)
 
-### ML5
-
-ML5 makes TensorFlowJS a bit more accessible by supplying readymade examples with clear documentation for the most common Machine Learning projects, such as image classification, pose recogition, and text generation.
-
-- [Simplify working with TensorflowJS using the ML5 library](https://ml5js.org)
-
-### Perceptron
-
-A perceptron is a Neural Network that has only one cell. You can code it by hand in just a few lines of code. This will help you to understand how a Neural Network cell calculates weights.
-
-- [Coding a perceptron in Javascript, by Mathias P Johansson](https://youtu.be/o98qlvrcqiU), [result](https://beta.observablehq.com/@mpj/neural-network-from-scratch-part-1)
-
-### Synaptic JS
+#### Synaptic JS
 
 Synaptic is another Neural Network Library for Javascript
 
 - [Synaptic JS Neural Networks](http://caza.la/synaptic/)
 - [Tutorial for Synaptic JS](https://medium.freecodecamp.org/how-to-create-a-neural-network-in-javascript-in-only-30-lines-of-code-343dafc50d49)
+
+### ML5
+
+ML5 makes TensorFlowJS a bit more accessible by supplying readymade examples with clear documentation for the most common Machine Learning projects, such as image classification, pose recogition, and text generation.
+
+- [Simplify working with TensorflowJS using the ML5 library](https://ml5js.org)
 
 ### Magenta JS
 

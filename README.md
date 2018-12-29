@@ -74,6 +74,7 @@ A perceptron is a Neural Network that has only one cell. You can code it by hand
 
 - [How to create a Neural Net in the browser with BrainJS](https://scrimba.com/c/c36zkcb)
 - [Source code and examples for BrainJS](https://github.com/BrainJS/brain.js)
+- [BrainJS tutorial for beginners on Youtube](https://www.youtube.com/watch?v=RVMHhtTqUxc)
 
 #### Tensorflow JS
 
@@ -126,6 +127,13 @@ Tensorflow is Google's Machine Learning API for Python
 - [Getting Started with TensorFlow](https://www.tensorflow.org/get_started/get_started)
 - [Introduction to Deep Learning and Tensorflow](https://pythonprogramming.net/tensorflow-introduction-machine-learning-tutorial/)
 
+### Keras
+
+Keras is a high-level neural networks API, written in Python and capable of running on top of TensorFlow
+
+- [Why use Keras?](https://keras.io/why-use-keras/)
+- [Keras](https://keras.io)
+
 # Wekinator
 
 Wekinator is a Graphical User Interface that can apply Machine Learning algorithms to Processing and Arduino sensor data. 
@@ -148,7 +156,8 @@ Wekinator is a Graphical User Interface that can apply Machine Learning algorith
 - [Vize.ai Recognize and automate your images](https://vize.ai)
 - [Clarifai image and video recognition tool](https://clarifai.com/developer/)
 - [TensorFlow image recognition](https://www.tensorflow.org/tutorials/image_recognition)
-- [ImageNet - training data for image recognition](http://www.image-net.org)
+- [ImageNet - readymade training data for image recognition](http://www.image-net.org)
+- [GoCV - Use the GO programming language for Computer Vision](https://gocv.io)
 
 ### Natural Language Processing
 

@@ -25,7 +25,17 @@ A model is built using an *algorithm*. When starting a Machine Learning project,
 
 *Once you have the model, you can ask if a new drawing resembles a cat. Or you could even let it imagine new cat drawings!*
 
+**Real world example**
+
 Imagine the cats being replaced by credit card transactions. You can train the model to recognise fraudulent transactions. Then, when a new transaction is happening, you can immediately test if this transaction is valid.
+
+### Using Existing tools
+
+You don't always need to understand all the math and logic behind Machine Learning to use it. This codepen loads the tensorflow library and a pre-trained image model. Then you can classify images right away:
+
+- [Classify an image with Tensorflow in 5 lines of code](https://codepen.io/eerk/pen/JmKQLw)
+
+![retriever](retriever.png)
 
 #### About this page
 
@@ -33,13 +43,6 @@ This page will focus on Javascript, and start with a tutorial using the **K-Near
 
 - [More algorithms for Machine Learning](https://towardsdatascience.com/a-tour-of-the-top-10-algorithms-for-machine-learning-newbies-dde4edffae11)
 
-### Using Existing tools
-
-You don't always need to understand all the math and logic behind Machine Learning to use it. The Tensorflow library allows you to load a model and an algorithm, and use it right away to recognise an image:
-
-- [Classify an image with Tensorflow in 5 lines of code](https://codepen.io/eerk/pen/JmKQLw)
-
-![retriever](retriever.png)
 
 # Javascript
 

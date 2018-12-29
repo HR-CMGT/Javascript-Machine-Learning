@@ -77,10 +77,9 @@ A perceptron is a Neural Network that has only one cell. You can code it by hand
 
 #### Tensorflow JS
 
-[TensorFlowJS](https://js.tensorflow.org) is the Javascript version of Google TensorFlow.
+The Javascript version of Google TensorFlow.
 
-- [Classify an image in 5 lines of code](https://codepen.io/eerk/pen/JmKQLw)
-- [Using Tensorflow for Javascript](https://js.tensorflow.org) and [Try it in your browser](https://codepen.io/pen?&editors=1011)
+- [Tensorflow for Javascript](https://js.tensorflow.org)
 - [Hello World in Tensorflow.JS](https://dev.to/notwaldorf/hello-tensorflow-2lc5)
 
 #### Synaptic JS

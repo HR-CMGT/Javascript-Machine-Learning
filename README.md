@@ -17,7 +17,21 @@ These models can often find patterns in complex data that even the smartest prog
 
 A model is built using an *algorithm*. When starting a Machine Learning project, you have to look carefully at the data you have available, and the kind of result you need, so you can determine which algorithm fits that need.
 
-This list will focus on **Neural Networks** and the **K-Nearest-Neighbour** algorithm to start working with ML.
+![model1](model1.png)
+
+Using an algorithm to train a model to recognise cat drawings. This step is needed only once.
+
+![model2](model2.png)
+
+Once you have the model, you can ask if a new drawing resembles a cat. Or you could even let it imagine new cat drawings!
+
+*But I don't want to generate cat drawings*
+
+Imagine the cats being replaced by credit card transactions. You can train the model to recognise fraudulent transactions. Then, when a new transaction is happening, you can immediately test if this transaction is valid.
+
+The following list will focus on **Neural Networks** and start with the **K-Nearest-Neighbour** algorithm. The KNN algorithm will help you understand the basics of training and using a model.
+
+#### More algorithms
 
 - [Algorithms for Machine Learning](https://towardsdatascience.com/a-tour-of-the-top-10-algorithms-for-machine-learning-newbies-dde4edffae11)
 - [But what *is* a neural network? - youtube](http://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)

@@ -19,23 +19,19 @@ A model is built using an *algorithm*. When starting a Machine Learning project,
 
 ![model1](model1.png)
 
-Using an algorithm to train a model to recognise cat drawings. This step is needed only once.
+*Using an algorithm to train a model to recognise cat drawings. This step is needed only once.*
 
 ![model2](model2.png)
 
-Once you have the model, you can ask if a new drawing resembles a cat. Or you could even let it imagine new cat drawings!
-
-*But I don't want to generate cat drawings*
+*Once you have the model, you can ask if a new drawing resembles a cat. Or you could even let it imagine new cat drawings!*
 
 Imagine the cats being replaced by credit card transactions. You can train the model to recognise fraudulent transactions. Then, when a new transaction is happening, you can immediately test if this transaction is valid.
 
-The following list will focus on **Neural Networks** and start with the **K-Nearest-Neighbour** algorithm. The KNN algorithm will help you understand the basics of training and using a model.
+#### About this page
 
-#### More algorithms
+This page will focus on Javascript, and start with a tutorial using the **K-Nearest-Neighbour** algorithm. This tutorial will help you understand the basics of training and using a model. Then we will look at **Neural Networks** and start with building a Perceptron, to gain insight in the basic building block of a Neural Network.
 
-- [Algorithms for Machine Learning](https://towardsdatascience.com/a-tour-of-the-top-10-algorithms-for-machine-learning-newbies-dde4edffae11)
-- [But what *is* a neural network? - youtube](http://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
-- [Neural networks demystified](http://lumiverse.io/series/neural-networks-demystified)
+- [More algorithms for Machine Learning](https://towardsdatascience.com/a-tour-of-the-top-10-algorithms-for-machine-learning-newbies-dde4edffae11)
 
 ### Using Existing tools
 
@@ -59,6 +55,9 @@ This algorithm uses the distance between points to classify a new point. The KNN
 ### Neural Networks in Javascript
 
 A Neural Network is an algorithm that is inspired by the human brain. Data will flow through neurons in the network and is able to keep improving itself with each pass through the network.
+
+- [But what *is* a neural network? - youtube](http://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
+- [Neural networks demystified](http://lumiverse.io/series/neural-networks-demystified)
 
 #### Perceptron
 

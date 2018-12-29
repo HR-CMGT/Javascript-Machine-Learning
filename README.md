@@ -46,7 +46,7 @@ This page will focus on Javascript, and start with a tutorial using the **K-Near
 
 # Javascript
 
-Javascript allows us to use ML in web projects and quickly publish results.
+Javascript allows us to publish our projects online, and provides easy ways to visualise our results using html and css.
 
 ### K-Nearest-Neighbour
 
@@ -102,7 +102,7 @@ ML5 makes TensorFlowJS a bit more accessible by supplying readymade examples wit
 
 # Python
 
-[Python](https://www.python.org) is used by data scientists and in most Machine Learning courses online.
+[Python](https://www.python.org) is used by data scientists and in many Machine Learning courses online. Python requires a bit more setup. It also requires a bit more work to visualise results graphically or to distribute your application.
 
 - [Udacity Intro to Machine Learning with Python](https://www.udacity.com/course/intro-to-machine-learning--ud120)
 - [Building a perceptron from scratch](https://medium.com/@ismailghallou/build-your-perceptron-neural-net-from-scratch-e12b7be9d1ef) and [source code](https://github.com/smakosh/Perceptron-neural-net-from-scratch)
@@ -122,12 +122,11 @@ Tensorflow is Google's Machine Learning API for Python
 - [Getting Started with TensorFlow](https://www.tensorflow.org/get_started/get_started)
 - [Introduction to Deep Learning and Tensorflow](https://pythonprogramming.net/tensorflow-introduction-machine-learning-tutorial/)
 
-# Processing
+# Wekinator
 
-Processing is used in the creative field for creating music and visuals. 
+Wekinator is a Graphical User Interface that can apply Machine Learning algorithms to Processing and Arduino sensor data. 
 
-- [Build a perceptron in Processing](https://www.youtube.com/watch?v=ntKn5TPHHAk).
-- [Wekinator is a GUI for applying Machine Learning to webcam, audio and other sensor data](http://www.wekinator.org)
+- [Wekinator](http://www.wekinator.org)
 - [Wekinator workshop by Kars Alfrink](https://github.com/karsalfrink/useless-butler)
 
 # Machine Learning Disciplines
@@ -193,6 +192,7 @@ Converting spoken audio into text
 
 # Demos and projects
 
+- [Build a perceptron in Processing](https://www.youtube.com/watch?v=ntKn5TPHHAk)
 - [Teleport Vision - generates HTML from pen and paper sketches](https://github.com/teleporthq/teleport-vision-api)
 - [Training a model in Unity using a neural network](https://github.com/ArztSamuel/Applying_EANNs)
 - [Neural Drum Machine](https://codepen.io/teropa/pen/JLjXGK) and [Voice-based beatbox](https://codepen.io/naotokui/pen/NBzJMW) created with [MagentaJS](https://magenta.tensorflow.org)

@@ -44,11 +44,11 @@ Instead of writing algorithms yourself, you will often choose an existing librar
 
 The workshop will use Javascript to learn the following concepts:
 
-- Loading TensorflowJS and a Model to classify an image
-- Loading BrainJS to predict a football match outcome
-- Understanding the K-Nearest-Neighbour algorithm
+- Part 1 - Loading TensorflowJS and a Model to classify an image
+- Part 2 - Loading BrainJS to predict a football match outcome
+- Part 3 - Understanding the K-Nearest-Neighbour algorithm
 
-## Part 1 - Using a pre-trained model
+## Workshop Part 1 - Using a pre-trained model
 
 In this tutorial we will load an image recognition library, and a pre-trained model to classify an image:
 
@@ -56,11 +56,34 @@ In this tutorial we will load an image recognition library, and a pre-trained mo
 
 ![retriever](retriever.png)
 
-## Part 2 - Predicting a football match
+## Workshop Part 2 - Predicting a football match
 
+We will first load the Neural Network library BrainJS. By telling our Neural Network the results of previous matches, we can predict the outcome of upcoming matches.
 
+Let's say the result of the previous football matches has been:
 
-## Part 3 - Understanding an algorithm
+Team 1 versus team 2: Team 1 won
+Team 2 versus team 3: Team 3 won
+Team 4 versus team 1: Team 1 won
+
+We can train our model as follows. The output is 0 or 1, where a 0 means the first team won, and a 1 means that the second team won.
+
+```
+let trainingdata = [
+   {input: [1, 2], output: [0]},
+   {input: [2, 3], output: [1]},
+   {input: [4, 1], output: [1]}
+]
+
+network.train(trainingdata)       
+```
+Now, we can predict the outcome of the upcoming match between team 4 and team 2:
+
+```
+var predictioon = network.run([4, 2])
+```
+
+## Workshop Part 3 - Understanding an algorithm
 
 This algorithm uses the distance between points to classify a new point. The KNN algorithm is useful to understand the basics of training a model and classifying data, without a complex algorithm:
 
@@ -119,10 +142,11 @@ Synaptic is another Neural Network Library for Javascript
 
 # Python
 
-[Python](https://www.python.org) is used by data scientists and in many Machine Learning courses online. Python requires a bit more setup. It also requires a bit more work to visualise results graphically or to distribute your application.
+[Python](https://www.python.org) is used by data scientists and in many Machine Learning courses online. Python requires a bit more setup, especially when you want to visualise results graphically. Python can run on a Raspberry Pi!
 
 - [Udacity Intro to Machine Learning with Python](https://www.udacity.com/course/intro-to-machine-learning--ud120)
 - [Building a perceptron from scratch](https://medium.com/@ismailghallou/build-your-perceptron-neural-net-from-scratch-e12b7be9d1ef) and [source code](https://github.com/smakosh/Perceptron-neural-net-from-scratch)
+- [Building camera detection on a raspberry pi](https://www.youtube.com/watch?v=2kO8ScrqikM)
 
 ### Science Kit Learn
 
@@ -204,6 +228,7 @@ Converting spoken audio into text
 
 - [The Mostly Complete Chart of Neural Networks](https://towardsdatascience.com/the-mostly-complete-chart-of-neural-networks-explained-3fb6f2367464)
 - [More algorithms for Machine Learning](https://towardsdatascience.com/a-tour-of-the-top-10-algorithms-for-machine-learning-newbies-dde4edffae11)
+- [Neural Networks Wiki page](https://en.wikipedia.org/wiki/Artificial_neural_network)
 - [Machine Learning for Humans](https://medium.com/machine-learning-for-humans/why-machine-learning-matters-6164faf1df12)
 - [Machine Learning for designers](http://www.oreilly.com/design/free/machine-learning-for-designers.csp)
 - [A visual introduction to Machine Learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
@@ -236,6 +261,7 @@ Converting spoken audio into text
 - [Demo for creating a self-learning Flappy Bird in Javascript](https://github.com/ssusnic/Machine-Learning-Flappy-Bird)
 - [Algorithm notes](http://books.goalkicker.com/AlgorithmsBook/)
 - [Google AI experiments](https://experiments.withgoogle.com/ai)
+- [Building a cat detector on a Raspberry Pi](https://planb.nicecupoftea.org/2018/12/01/cat-detector-with-tensorflow-on-a-raspberry-pi-3b/)
 - [Quick Draw! - Can a Neural Network detect a doodle?](https://quickdraw.withgoogle.com)
 - [Pyro - Uber's AI programming language](http://pyro.ai)
 - [Runway - An app that adds ML to creative projects](https://runwayapp.ai)

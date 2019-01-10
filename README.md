@@ -23,52 +23,55 @@ A model is built using an *algorithm*. When starting a Machine Learning project,
 
 ![model2](model2.png)
 
-*Once you have the model, you can ask if a new drawing resembles a cat. Or you could even let it imagine new cat drawings!*
+*Once you have the model, you can ask to what degree a new drawing resembles a cat. Or you could even let it imagine new cat drawings!*
 
-**Real world example**
+**Real world application**
 
-Imagine the cats being replaced by credit card transactions. You can train the model to recognise fraudulent transactions. Then, when a new transaction is happening, you can immediately test if this transaction is valid.
+Replace the cat images with credit card transactions, including data that mentions if the transaction was fraudulent. After training a model with this data, you can test new transactions for being fraudulent.
 
-### Using Existing tools
+### Neural Networks
 
-You don't always need to understand all the math and logic behind Machine Learning to use it. This codepen tutorial will show you how to load tensorflow and a model to classify an image:
+A Neural Network is inspired by the human brain. Data will flow through *neurons* in the network. Each neuron has *weights* that decide to which neuron the data should flow. These weights are calculated by an algorithm, during training. After training, the weights will be able to classify new data.
+
+- [But what *is* a neural network? - youtube](http://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
+- [Neural networks demystified](http://lumiverse.io/series/neural-networks-demystified)
+
+#### Using existing tools
+
+Instead of writing algorithms yourself, you will often choose an existing library, based on your data and your expected output. 
+
+# Workshop
+
+The workshop will use Javascript to learn the following concepts:
+
+- Loading TensorflowJS and a Model to classify an image
+- Loading BrainJS to predict a football match outcome
+- Understanding the K-Nearest-Neighbour algorithm
+
+## Part 1 - Using a pre-trained model
+
+In this tutorial we will load an image recognition library, and a pre-trained model to classify an image:
 
 - [Classify an image with Tensorflow in 5 lines of code](https://codepen.io/eerk/pen/JmKQLw)
 
 ![retriever](retriever.png)
 
-#### About this page
+## Part 2 - Predicting a football match
 
-This page will focus on Javascript, and start with a tutorial using the **K-Nearest-Neighbour** algorithm. This tutorial will help you understand the basics of training and using a model. Then we will look at **Neural Networks** and start with building a Perceptron, to gain insight in the basic building block of a Neural Network.
 
-- [More algorithms for Machine Learning](https://towardsdatascience.com/a-tour-of-the-top-10-algorithms-for-machine-learning-newbies-dde4edffae11)
 
+## Part 3 - Understanding an algorithm
+
+This algorithm uses the distance between points to classify a new point. The KNN algorithm is useful to understand the basics of training a model and classifying data, without a complex algorithm:
+
+- [Using the 'k-nearest neighbour' algorithm to train a model](https://github.com/NathanEpstein/KNear)
+- [Tutorial for 'K-Nearest-Neighbour'](https://github.com/KokoDoko/webcam-detectotron)
 
 # Javascript
 
 Javascript allows us to publish our projects online, and provides easy ways to visualise our results using html and css.
 
-### K-Nearest-Neighbour
-
-This algorithm uses the distance between points to classify a new point. The KNN algorithm is useful to understand the basics of training a model and classifying data, without a complex algorithm:
-
-- [Using the 'k-nearest neighbour' algorithm to train a model](https://github.com/NathanEpstein/KNear)
-- [Demo project using 'K-Nearest-Neighbour'](https://github.com/KokoDoko/webcam-detectotron)
-
-### Neural Networks in Javascript
-
-A Neural Network is an algorithm that is inspired by the human brain. Data will flow through neurons in the network and is able to keep improving itself with each pass through the network.
-
-- [But what *is* a neural network? - youtube](http://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
-- [Neural networks demystified](http://lumiverse.io/series/neural-networks-demystified)
-
-#### Perceptron
-
-A perceptron is a Neural Network that has only one cell. You can code it by hand in just a few lines of code. This will help you to understand how one Neural Network cell calculates weights.
-
-- [Coding a perceptron in Javascript, by Mathias P Johansson](https://youtu.be/o98qlvrcqiU), and the [result](https://beta.observablehq.com/@mpj/neural-network-from-scratch-part-1)
-
-#### Brain JS
+## Brain JS
 
 [BrainJS](https://github.com/BrainJS/brain.js) is a library that allows you to instantiate a Neural Network, train it and run a classification in just a few lines of code.
 
@@ -76,23 +79,19 @@ A perceptron is a Neural Network that has only one cell. You can code it by hand
 - [Source code and examples for BrainJS](https://github.com/BrainJS/brain.js)
 - [BrainJS tutorial for beginners on Youtube](https://www.youtube.com/watch?v=RVMHhtTqUxc)
 
-#### Tensorflow JS
+## Tensorflow JS
 
-The Javascript version of Google TensorFlow.
+The Javascript version of Google TensorFlow. TensorflowJS has lots of tutorials, and add-on libraries that make working with it even easier.
 
 - [Tensorflow for Javascript](https://js.tensorflow.org)
 - [Hello World in Tensorflow.JS](https://dev.to/notwaldorf/hello-tensorflow-2lc5)
-
-#### Synaptic JS
-
-Synaptic is another Neural Network Library for Javascript
-
-- [Synaptic JS Neural Networks](http://caza.la/synaptic/)
-- [Tutorial for Synaptic JS](https://medium.freecodecamp.org/how-to-create-a-neural-network-in-javascript-in-only-30-lines-of-code-343dafc50d49)
+- [Basic tutorial for setting up Tensorflow Neural Network](https://codelabs.developers.google.com/codelabs/neural-tensorflow-js/index.html)
+- [Tutorial course for Audio recognition](https://codelabs.developers.google.com/codelabs/tensorflowjs-audio-codelab/)
+- [Tutorial course for Webcam recognition](https://codelabs.developers.google.com/codelabs/tensorflowjs-teachablemachine-codelab/index.html)
 
 ### ML5
 
-ML5 makes TensorFlowJS a bit more accessible by supplying readymade examples with clear documentation for the most common Machine Learning projects, such as image classification, pose recogition, and text generation.
+ML5 makes TensorFlowJS more accessible by supplying readymade examples with clear documentation for the most common Machine Learning projects, such as image classification, pose recogition, and text generation.
 
 - [Simplify working with TensorflowJS using the ML5 library](https://ml5js.org)
 
@@ -104,6 +103,19 @@ ML5 makes TensorFlowJS a bit more accessible by supplying readymade examples wit
 
 - [Magenta](https://magenta.tensorflow.org/get-started/#magenta-js) is a google library that uses tensorflow to generate [images](https://tensorflow.github.io/magenta-js/image/index.html), [music](https://tensorflow.github.io/magenta-js/music/index.html) and [sketches](https://tensorflow.github.io/magenta-js/sketch/). 
 - [Tutorial on drawing snowflakes with a Neural Network and Magenta](https://youtu.be/pdaNttb7Mr8)
+
+## Perceptron
+
+A perceptron is a Neural Network that has only one cell. You can code it by hand in just a few lines of code. This will help you to understand how one Neural Network cell calculates weights.
+
+- [Coding a perceptron in Javascript, by Mathias P Johansson](https://youtu.be/o98qlvrcqiU), and the [result](https://beta.observablehq.com/@mpj/neural-network-from-scratch-part-1)
+
+## Synaptic JS
+
+Synaptic is another Neural Network Library for Javascript
+
+- [Synaptic JS Neural Networks](http://caza.la/synaptic/)
+- [Tutorial for Synaptic JS](https://medium.freecodecamp.org/how-to-create-a-neural-network-in-javascript-in-only-30-lines-of-code-343dafc50d49)
 
 # Python
 
@@ -191,6 +203,7 @@ Converting spoken audio into text
 ![nnchart](nnchart.png)
 
 - [The Mostly Complete Chart of Neural Networks](https://towardsdatascience.com/the-mostly-complete-chart-of-neural-networks-explained-3fb6f2367464)
+- [More algorithms for Machine Learning](https://towardsdatascience.com/a-tour-of-the-top-10-algorithms-for-machine-learning-newbies-dde4edffae11)
 - [Machine Learning for Humans](https://medium.com/machine-learning-for-humans/why-machine-learning-matters-6164faf1df12)
 - [Machine Learning for designers](http://www.oreilly.com/design/free/machine-learning-for-designers.csp)
 - [A visual introduction to Machine Learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)

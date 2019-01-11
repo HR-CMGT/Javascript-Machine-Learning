@@ -1,10 +1,12 @@
 # Machine Learning
 
-- Introduction
-- Workshop
-- Reading list
+- [Introduction](#introduction)
+- [Workshop](#workshop)
+- [Reading list](#readinglist)
 
-### What is Machine Learning?
+# <a name="introduction"></a>Introduction
+
+#### What is Machine Learning?
 
 Put simply, a Machine Learning project can learn from itself or from data that you provide. Instead of programming logic yourself, you will train a *model* and then let that model make decisions.
 
@@ -31,7 +33,7 @@ A model is built using an *algorithm*. When starting a Machine Learning project,
 
 Replace the cat images with credit card transactions, including data that mentions if the transaction was fraudulent. After training a model with this data, you can test new transactions for being fraudulent.
 
-**model
+**model**
 
 Train a model with **date, amount, user, location, shop** as numbers in an array. The data is labeled as **valid** or **invalid**.
 ```
@@ -63,7 +65,7 @@ Instead of writing algorithms yourself, you will often choose an existing librar
 - Body Pose Recognition
 - And many more
 
-# Workshop
+# <a name="workshop"></a>Workshop
 
 The workshop will use Javascript to learn the following concepts:
 
@@ -163,6 +165,17 @@ This algorithm uses the distance between points to classify a new point. The KNN
 
 - [Using the 'k-nearest neighbour' algorithm to train a model](https://github.com/NathanEpstein/KNear)
 - [Tutorial for 'K-Nearest-Neighbour'](https://github.com/KokoDoko/webcam-detectotron)
+
+# <a name="readinglist"></a>Reading List
+
+- Javascript
+- Python
+- Wekinator
+- Machine Learning Disciplines
+- Paid services
+- Books and tutorials
+- Community
+- Demos and example projects
 
 # Javascript
 

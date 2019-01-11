@@ -1,6 +1,8 @@
 # Machine Learning
 
-A reading list for Machine Learning tutorials, books and tools.
+- Introduction
+- Workshop
+- Reading list
 
 ### What is Machine Learning?
 
@@ -25,28 +27,49 @@ A model is built using an *algorithm*. When starting a Machine Learning project,
 
 *Once you have the model, you can ask to what degree a new drawing resembles a cat. Or you could even let it imagine new cat drawings!*
 
-**Real world application**
+#### Real world application
 
 Replace the cat images with credit card transactions, including data that mentions if the transaction was fraudulent. After training a model with this data, you can test new transactions for being fraudulent.
 
+**model
+
+Train a model with **date, amount, user, location, shop** as numbers in an array. The data is labeled as **valid** or **invalid**.
+```
+network.train(
+  [12122018, 33, 2282, 3, 55], valid
+  [10212017, 24, 4343, 6, 45], valid
+  [12122018, 112, 1231, 6, 12], invalid
+)
+```
+**test a new transaction**
+```
+var valid = network.test([10212017, 24, 4343, 6, 45])
+```
+
 ### Neural Networks
 
-A Neural Network is inspired by the human brain. Data will flow through *neurons* in the network. Each neuron has *weights* that decide to which neuron the data should flow. These weights are calculated by an algorithm, during training. After training, the weights will be able to classify new data.
+A Neural Network is inspired by the human brain. Data will flow through *neurons* in the network. Each neuron has *weights* that decide to which next neuron the data should flow. By training the network, the weights are calculated to show the desired result. 
 
 - [But what *is* a neural network? - youtube](http://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
 - [Neural networks demystified](http://lumiverse.io/series/neural-networks-demystified)
 
 #### Using existing tools
 
-Instead of writing algorithms yourself, you will often choose an existing library, based on your data and your expected output. 
+Instead of writing algorithms yourself, you will often choose an existing library, based on your data and your expected output. Tools exist for:
+
+- Image Recognition
+- Speech Recognition
+- Language Generation
+- Body Pose Recognition
+- And many more
 
 # Workshop
 
 The workshop will use Javascript to learn the following concepts:
 
-- Part 1 - Loading TensorflowJS and a Model to classify an image
-- Part 2 - Loading BrainJS to predict a football match outcome
-- Part 3 - Understanding the K-Nearest-Neighbour algorithm
+- Part 1 - Using a pre-trained Model
+- Part 2 - Training our own model
+- Part 3 - Understanding an algorithm
 
 ## Workshop Part 1 - Using a pre-trained model
 
@@ -56,31 +79,69 @@ In this tutorial we will load an image recognition library, and a pre-trained mo
 
 ![retriever](retriever.png)
 
-## Workshop Part 2 - Predicting a football match
+## Workshop Part 2 - Training our own model
 
-We will first load the Neural Network library BrainJS. By telling our Neural Network the results of previous matches, we can predict the outcome of upcoming matches.
+#### Predicting a soccer match
 
-Let's say the result of the previous football matches has been:
+In this example we will train a neural network with the results of previous football matches. Based on these results the network will predict the result of a future match. Let's say the result of the previous football matches has been:
 
-Team 1 versus team 2: Team 1 won
-Team 2 versus team 3: Team 3 won
-Team 4 versus team 1: Team 1 won
+- Team 1 versus team 2: Team 2 won
+- Team 1 versus team 3: Team 3 won
+- Team 2 versus team 3: Team 2 won
+- Team 2 versus team 4: Team 4 won
 
-We can train our model as follows. The output is 0 or 1, where a 0 means the first team won, and a 1 means that the second team won.
+We will first load the Neural Network library BrainJS:
+
+`<script src="brain.js"></script>`
+
+Then, we can instantiate the type of Neural Network that fits the problem we are trying to solve:
+
+`const network = new brain.NeuralNetwork()`
+
+Now, we can train our model with the results of previous matches:
+```
+network.train([
+    { input: [1,2], output: [1] },  // team 2 wins
+    { input: [1,3], output: [1] },  // team 3 wins
+    { input: [2,3], output: [0] },  // team 2 wins
+    { input: [2,4], output: [1] }   // team 4 wins
+])
+```
+Finally, we can run a new match and get the expected result!
+```
+const prediction = network.run([1,1])
+console.log(`probability is: ${prediction}`)    
+```
+
+#### Understanding spoken commands
+
+The **LSTM** neural net works well for interpreting sequential data, such as sentences, drawings, or musical melodies. 
+
+`const network = new brain.recurrent.LSTM()`
+
+In this example we will use an LSTM to interpret commands for a smart home. We will start by supplying as many variations for our home automation as possible. This is just an example, to make it work well you need lots more training data!
 
 ```
-let trainingdata = [
-   {input: [1, 2], output: [0]},
-   {input: [2, 3], output: [1]},
-   {input: [4, 1], output: [1]}
+var trainingdata = [
+    { input: 'Switch on the lights please', output: 'light' },
+    { input: 'Turn the lights on', output: 'light' },
+    { input: 'Can someone switch the lights on?', output: 'light' },
+    { input: 'I'd like some music', output: 'music' },
+    { input: 'Let's hear some music', output: 'music' }
 ]
-
-network.train(trainingdata)       
 ```
-Now, we can predict the outcome of the upcoming match between team 4 and team 2:
+When training a neural network, you can supply a number of iterations to make the predictions more accurate:
 
 ```
-var predictioon = network.run([4, 2])
+network.train(trainingdata, {
+    iterations:2000
+})
+```
+Now, when we have new user input, we can interpret the meaning:
+
+```
+const meaning = network.run('I'd like a little more light')
+console.log(`Home system command: ${output}`)
 ```
 
 ## Workshop Part 3 - Understanding an algorithm

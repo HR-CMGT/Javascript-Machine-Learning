@@ -144,6 +144,19 @@ const meaning = network.run('I'd like a little more light')
 console.log(`Home system command: ${output}`)
 ```
 
+#### Saving the model
+
+You don't want to train a model every time a user starts an app. In BrainJS, you can view the model data as JSON, so you can save it to a file:
+
+```
+var trainingData = network.toJSON()
+console.log(trainingData)
+```
+If you have data from a JSON file, you can train the network with this data:
+```
+network.fromJSON(trainingData);
+```
+
 ## Workshop Part 3 - Understanding an algorithm
 
 This algorithm uses the distance between points to classify a new point. The KNN algorithm is useful to understand the basics of training a model and classifying data, without a complex algorithm:

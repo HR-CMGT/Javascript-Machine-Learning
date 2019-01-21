@@ -1,7 +1,7 @@
 # Machine Learning
 
 - [Introduction](#introduction)
-- [Workshop](#workshop)
+- [Workshop](./workshop/workshop1.md)
 - [Reading list](#readinglist)
 
 # <a name="introduction"></a>Introduction
@@ -12,7 +12,7 @@ Put simply, a Machine Learning project can learn from itself or from data that y
 
 These models can often find patterns in complex data that even the smartest programmer could not have discovered. At the same time, training a model can have its own biases and preconceptions that you have to be aware of.
 
-![AIML](aiml.png)
+![AIML](./images/aiml.png)
 
 - Artificial Intelligence: you program a character to drink a potion once his health gets too low.
 - Machine Learning: you train a model with previous combat data, and then let it decide what is the best moment to drink a health potion.
@@ -21,11 +21,11 @@ These models can often find patterns in complex data that even the smartest prog
 
 A model is built using an *algorithm*. When starting a Machine Learning project, you have to look carefully at the data you have available, and the kind of result you need, so you can determine which algorithm fits that need.
 
-![model1](model1.png)
+![model1](./images/model1.png)
 
 *Using an algorithm to train a model to recognise cat drawings. This step is needed only once.*
 
-![model2](model2.png)
+![model2](./images/model2.png)
 
 *Once you have the model, you can ask to what degree a new drawing resembles a cat. Or you could even let it imagine new cat drawings!*
 
@@ -73,98 +73,7 @@ The workshop will use Javascript to learn the following concepts:
 - Part 2 - Training our own model
 - Part 3 - Understanding an algorithm
 
-## Workshop Part 1 - Using a pre-trained model
-
-In this tutorial we will load an image recognition library, and a pre-trained model to classify an image:
-
-- [Classify an image with Tensorflow in 5 lines of code](https://codepen.io/eerk/pen/JmKQLw)
-
-![retriever](retriever.png)
-
-## Workshop Part 2 - Training our own model
-
-#### Predicting a soccer match
-
-In this example we will train a neural network with the results of previous football matches. Based on these results the network will predict the result of a future match. Let's say the result of the previous football matches has been:
-
-- Team 1 versus team 2: Team 2 won
-- Team 1 versus team 3: Team 3 won
-- Team 2 versus team 3: Team 2 won
-- Team 2 versus team 4: Team 4 won
-
-We will first load the Neural Network library BrainJS:
-
-`<script src="brain.js"></script>`
-
-Then, we can instantiate the type of Neural Network that fits the problem we are trying to solve:
-
-`const network = new brain.NeuralNetwork()`
-
-Now, we can train our model with the results of previous matches:
-```
-network.train([
-    { input: [1,2], output: [1] },  // team 2 wins
-    { input: [1,3], output: [1] },  // team 3 wins
-    { input: [2,3], output: [0] },  // team 2 wins
-    { input: [2,4], output: [1] }   // team 4 wins
-])
-```
-Finally, we can run a new match and get the expected result!
-```
-const prediction = network.run([1,1])
-console.log(`probability is: ${prediction}`)    
-```
-
-#### Understanding spoken commands
-
-The **LSTM** neural net works well for interpreting sequential data, such as sentences, drawings, or musical melodies. 
-
-`const network = new brain.recurrent.LSTM()`
-
-In this example we will use an LSTM to interpret commands for a smart home. We will start by supplying as many variations for our home automation as possible. This is just an example, to make it work well you need lots more training data!
-
-```
-var trainingdata = [
-    { input: 'Switch on the lights please', output: 'light' },
-    { input: 'Turn the lights on', output: 'light' },
-    { input: 'Can someone switch the lights on?', output: 'light' },
-    { input: 'I'd like some music', output: 'music' },
-    { input: 'Let's hear some music', output: 'music' }
-]
-```
-When training a neural network, you can supply a number of iterations to make the predictions more accurate:
-
-```
-network.train(trainingdata, {
-    iterations:2000
-})
-```
-Now, when we have new user input, we can interpret the meaning:
-
-```
-const meaning = network.run('I'd like a little more light')
-console.log(`Home system command: ${output}`)
-```
-
-#### Saving the model
-
-You don't want to train a model every time a user starts an app. In BrainJS, you can view the model data as JSON, so you can save it to a file:
-
-```
-var trainingData = network.toJSON()
-console.log(trainingData)
-```
-If you have data from a JSON file, you can train the network with this data:
-```
-network.fromJSON(trainingData);
-```
-
-## Workshop Part 3 - Understanding an algorithm
-
-This algorithm uses the distance between points to classify a new point. The KNN algorithm is useful to understand the basics of training a model and classifying data, without a complex algorithm:
-
-- [Using the 'k-nearest neighbour' algorithm to train a model](https://github.com/NathanEpstein/KNear)
-- [Tutorial for 'K-Nearest-Neighbour'](https://github.com/KokoDoko/webcam-detectotron)
+[Go to the workshop](./workshop/workshop1.md)
 
 # <a name="readinglist"></a>Reading List
 
@@ -205,7 +114,7 @@ ML5 makes TensorFlowJS more accessible by supplying readymade examples with clea
 
 - [Simplify working with TensorflowJS using the ML5 library](https://ml5js.org)
 
-![pose](pose.png)
+![pose](./images/pose.png)
 
 *Pose Estimation using the Webcam with ML5 and TensorflowJS*
 
@@ -311,7 +220,7 @@ Converting spoken audio into text
 
 # Reading list
 
-![nnchart](nnchart.png)
+![nnchart](./images/nnchart.png)
 
 - [The Mostly Complete Chart of Neural Networks](https://towardsdatascience.com/the-mostly-complete-chart-of-neural-networks-explained-3fb6f2367464)
 - [More algorithms for Machine Learning](https://towardsdatascience.com/a-tour-of-the-top-10-algorithms-for-machine-learning-newbies-dde4edffae11)

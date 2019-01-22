@@ -77,3 +77,8 @@ The starter project contains examples for browser-native text and speech manipul
 - [MDN browser speech documentation](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API)
 - [LSTM neural net example]()
 
+# Next steps
+
+A great next step would be to look at the [ML5 library](https://ml5js.org), which contains many examples for different types of machine learning. ML5 uses TensorFlowJS.
+
+The [reading list](../README.md) contains tons of links to documentation, libraries and tutorials.

@@ -140,7 +140,11 @@ If you have loaded data from a JSON file, you can train the network with this da
 network.fromJSON(trainingData);
 ```
 
-# Documentation
+## Continue
+
+[Continue with part 3 of the workshop](./workshop3.md)
+
+## Documentation
 
 - [BrainJS documentation and configuration](https://github.com/BrainJS/brain.js)
 - [Example to recognise letters](https://github.com/BrainJS/brain.js/blob/master/examples/which-letter-simple.js)

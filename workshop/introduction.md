@@ -50,7 +50,7 @@ var valid = network.test([10212017, 24, 4343, 6, 45])
 
 # Neural Networks
 
-![ann](../images/anns.png)
+![ann](../images/ann_430.png)
 
 A Neural Network is inspired by the human brain. Input will flow through *neurons* in the network. Each neuron has *weights* that decide to which next neuron the data should flow. 
 

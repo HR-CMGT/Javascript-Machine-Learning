@@ -121,7 +121,7 @@ Now, when we have new user input, we can interpret the meaning:
 
 ```
 const meaning = network.run('I'd like a little more light')
-console.log(`Home system command: ${output}`)
+console.log(`Home system command: ${meaning}`)
 ```
 
 ## Saving the model

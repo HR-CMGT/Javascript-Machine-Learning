@@ -1,79 +1,8 @@
 # Machine Learning
 
-- [Introduction](#introduction)
+- [Introduction](./workshop/introduction.md)
 - [Workshop](./workshop/workshop1.md)
 - [Reading list](#readinglist)
-
-# <a name="introduction"></a>Introduction
-
-#### What is Machine Learning?
-
-Put simply, a Machine Learning project can learn from itself or from data that you provide. Instead of programming logic yourself, you will train a *model* and then let that model make decisions.
-
-These models can often find patterns in complex data that even the smartest programmer could not have discovered. At the same time, training a model can have its own biases and preconceptions that you have to be aware of.
-
-![AIML](./images/aiml.png)
-
-- Artificial Intelligence: you program a character to drink a potion once his health gets too low.
-- Machine Learning: you train a model with previous combat data, and then let it decide what is the best moment to drink a health potion.
-
-### Algorithms
-
-A model is built using an *algorithm*. When starting a Machine Learning project, you have to look carefully at the data you have available, and the kind of result you need, so you can determine which algorithm fits that need.
-
-![model1](./images/model1.png)
-
-*Using an algorithm to train a model to recognise cat drawings. This step is needed only once.*
-
-![model2](./images/model2.png)
-
-*Once you have the model, you can ask to what degree a new drawing resembles a cat. Or you could even let it imagine new cat drawings!*
-
-#### Real world application
-
-Replace the cat images with credit card transactions, including data that mentions if the transaction was fraudulent. After training a model with this data, you can test new transactions for being fraudulent.
-
-**model**
-
-Train a model with **date, amount, user, location, shop** as numbers in an array. The data is labeled as **valid** or **invalid**.
-```
-network.train(
-  [12122018, 33, 2282, 3, 55], valid
-  [10212017, 24, 4343, 6, 45], valid
-  [12122018, 112, 1231, 6, 12], invalid
-)
-```
-**test a new transaction**
-```
-var valid = network.test([10212017, 24, 4343, 6, 45])
-```
-
-### Neural Networks
-
-A Neural Network is inspired by the human brain. Data will flow through *neurons* in the network. Each neuron has *weights* that decide to which next neuron the data should flow. By training the network, the weights are calculated to show the desired result. 
-
-- [But what *is* a neural network? - youtube](http://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
-- [Neural networks demystified](http://lumiverse.io/series/neural-networks-demystified)
-
-#### Using existing tools
-
-Instead of writing algorithms yourself, you will often choose an existing library, based on your data and your expected output. Tools exist for:
-
-- Image Recognition
-- Speech Recognition
-- Language Generation
-- Body Pose Recognition
-- And many more
-
-# <a name="workshop"></a>Workshop
-
-The workshop will use Javascript to learn the following concepts:
-
-- Part 1 - Using a pre-trained Model
-- Part 2 - Training our own model
-- Part 3 - Understanding an algorithm
-
-[Go to the workshop](./workshop/workshop1.md)
 
 # <a name="readinglist"></a>Reading List
 
@@ -94,9 +23,11 @@ Javascript allows us to publish our projects online, and provides easy ways to v
 
 [BrainJS](https://github.com/BrainJS/brain.js) is a library that allows you to instantiate a Neural Network, train it and run a classification in just a few lines of code.
 
-- [How to create a Neural Net in the browser with BrainJS](https://scrimba.com/c/c36zkcb)
 - [Source code and examples for BrainJS](https://github.com/BrainJS/brain.js)
-- [BrainJS tutorial for beginners on Youtube](https://www.youtube.com/watch?v=RVMHhtTqUxc)
+- [Traversy BrainJS introduction](https://www.youtube.com/watch?v=RVMHhtTqUxc)
+- [Recognise letters](https://github.com/BrainJS/brain.js/blob/master/examples/which-letter-simple.js)
+- [Recognise a drawing](https://output.jsbin.com/mofaduk) and [code](https://gist.github.com/mac2000/fc54e6d6bdcbfde28b03dc2a43611270)
+- [Advanced Image feature detection using BrainJS](https://scrimba.com/c/c36zkcb)
 
 ## Tensorflow JS
 

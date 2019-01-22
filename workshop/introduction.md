@@ -6,7 +6,7 @@
 
 # <a name="introduction"></a>Introduction
 
-#### What is Machine Learning?
+## What is Machine Learning?
 
 Put simply, a Machine Learning project can learn from itself or from data that you provide. Instead of programming logic yourself, you will train a *model* and then let that model make decisions.
 
@@ -78,7 +78,7 @@ This algorithm is much faster than a neural network, so it may be a better fit f
 - [K-Nearest-Neighbour in Javascript](https://github.com/NathanEpstein/KNear)
 - [Webcam detector using 'K-Nearest-Neighbour'](https://github.com/KokoDoko/webcam-detectotron)
 
-#### Using existing tools
+# Using existing tools
 
 Instead of writing algorithms yourself, you will often choose an existing library, based on your data and your expected output. Tools exist for:
 
@@ -86,7 +86,7 @@ Instead of writing algorithms yourself, you will often choose an existing librar
 - Speech Recognition
 - Language Generation
 - Body Pose Recognition
-- And many more
+- And many more, see the [reading list](../README.md)
 
 ## Continue
 

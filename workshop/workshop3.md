@@ -56,10 +56,7 @@ Image recognition is a complicated subject. The above example won't really recog
 
 # Alternative projects
 
-- Speech recognition
-- Arduino sensor data recognition
-
-These projects do not have starter code, so you'll have to figure everything out by yourself, using the knowledge you've gained, and the powers of the internet.
+These projects do not have starter code. You'll have to figure everything out by yourself, using the knowledge you've gained, and the powers of the internet.
 
 ## Speech recognition
 
@@ -79,6 +76,6 @@ These projects do not have starter code, so you'll have to figure everything out
 
 # Next steps
 
-A great next step would be to look at the [ML5 library](https://ml5js.org), which contains many examples for different types of machine learning. ML5 uses TensorFlowJS.
+A great next step would be to look at the [ML5 library](https://ml5js.org), which contains many examples for different types of machine learning. Perhaps you can start [teaching the computer how to draw](https://www.youtube.com/watch?v=pdaNttb7Mr8)!
 
 The [reading list](../README.md) contains tons of links to documentation, libraries and tutorials.

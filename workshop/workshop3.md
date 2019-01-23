@@ -9,10 +9,9 @@
 
 So far, we've used simple data to learn how to train a model. In reality, data is often complex. You will spend a lot of time preparing data before you can even start working with your neural net.
 
-For the last part of the workshop, you will work by yourself or in a team, to prepare data and then train a model. Two starter projects are provided:
+For the last part of the workshop, you will work by yourself or in a team, to prepare data and then train a model with webcam data. There is a starter project provided. 
 
-- **Webcam recognition** You will download a project that shows webcam output in the browser. There is a function to read pixeldata from the webcam. It's up to you to come up with a useful application and then train a model to recognise webcam output. 
-- **Spoken command recognition** You will download a project that allows you to talk to the browser. Your words will appear as text. It's up to you to come up with a useful application and then train the model to recognise spoken commands. 
+You can also choose to work on one of the alternative projects, where you have to figure everything out by yourself!
 
 # Webcam recognition
 
@@ -55,27 +54,28 @@ The starter files contain the webcam stream and a resized smaller canvas. It als
 
 Image recognition is a complicated subject. The above example won't really recognise specific features such as eyes, faces or other shapes. It just learns pixel colors. For more advanced image recognition you have to look at *feature detection*.
 
-# Spoken command recognition
+# Alternative projects
 
-The idea is that you let your browser take action upon hearing spoken commands, just like a home automation system. You will first come up with a creative concept, and then create data and train a model. 
+- Speech recognition
+- Arduino sensor data recognition
 
-## Starter files
+These projects do not have starter code, so you'll have to figure everything out by yourself, using the knowledge you've gained, and the powers of the internet.
 
-The starter project contains examples for browser-native text and speech manipulation, and initialising the Neural Network.
+## Speech recognition
 
-## TO DO
+- Read the [MDN browser speech documentation](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API) to learn how to input and output spoken text.
+- Train a LSTM neural net to recognise spoken commands, for example `["computer, turn on the lights", "light"]`
 
-- Read the [MDN browser speech documentation](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API)
-- Create text from speech when the user presses a *record* button, or by using native audio input for a form element. 
-- Train the model with that text to be a certain label, for example `["computer, turn on the lights", "light"]`.
-- Repeat this a number of times, until the model has been trained with enough examples
-- When you press the *run* button, the same thing happens as above, but instead of training, you test the network for a result.
-- You can show an image, play a sound, or use web speech to respond to the microphone input.
+## Arduino sensor data recognition
 
-## Documentation
+- Read the [Johnny Five documentation](http://johnny-five.io) to learn how to read Arduino sensor data from a Node application.
+- Train a network with data from the sensors to respond to certain events!
+
+### Documentation
 
 - [MDN browser speech documentation](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API)
-- [LSTM neural net example]()
+- [Example to train LSTM neural net](https://github.com/bradtraversy/brainjs_examples/blob/master/02_hardware-software.js)
+- [Johnny Five](http://johnny-five.io)
 
 # Next steps
 

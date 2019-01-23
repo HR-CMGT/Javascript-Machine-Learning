@@ -6,6 +6,10 @@
 
 # <a name="introduction"></a>Introduction
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ARJ8cAGm6JE" frameborder="0" allow="autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Open the Pod Bay Doors, Alexa](https://www.youtube.com/watch?v=OpFIW9WoH3E)
+
 ## What is Machine Learning?
 
 Put simply, a Machine Learning project can learn from itself or from data that you provide. Instead of programming logic yourself, you will train a *model* and then let that model make decisions.

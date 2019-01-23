@@ -6,9 +6,9 @@
 
 # <a name="introduction"></a>Introduction
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ARJ8cAGm6JE" frameborder="0" allow="autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![hal](../images/hal.png)
 
-[Open the Pod Bay Doors, Alexa](https://www.youtube.com/watch?v=OpFIW9WoH3E)
+[Open the Pod Bay Doors, HAL](https://www.youtube.com/watch?v=ARJ8cAGm6JE) or [Perhaps Alexa can do it?](https://www.youtube.com/watch?v=OpFIW9WoH3E)
 
 ## What is Machine Learning?
 

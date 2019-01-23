@@ -1,9 +1,10 @@
 # Machine Learning Workshop
 
-- [Introduction and reading list](../README.md)
-- [Workshop part 1 - Using a pre-trained Model](./workshop1.md)
-- [Workshop part 2 - Training a model](./workshop2.md)
-- [Workshop part 3 - Preparing data](./workshop3.md)
+- [Introduction](./introduction.md)
+- [Part 1 - Using a pre-trained Model](./workshop1.md)
+- [Part 2 - Training a model](./workshop2.md)
+- [Part 3 - Preparing data](./workshop3.md)
+- [Reading list](../README.md)
 
 # Workshop Part 3 - Preparing data
 
@@ -15,9 +16,7 @@ You can also choose to work on one of the alternative projects, where you have t
 
 # Webcam recognition
 
-You can download the HTML and JS files to get started. This will show you a webcam feed and an example of how to read canvas data. 
-
-Read the explanations below and see if you can build an image recognition app!
+You can download the HTML and JS files to get started. This will show you a webcam feed and an example of how to read canvas data. Read the explanations below and see if you can build an image recognition app!
 
 ## Preparing image data
 
@@ -33,7 +32,9 @@ The best way to get pixel data out of a large image is to resize the image down 
 
 ## Starter files
 
-The starter files contain the webcam stream and a resized smaller canvas. It also contains example code for creating the neural net, reading the canvas color and using the buttons.
+The starter files contain the webcam stream, code for the buttons, and starter code for reading the canvas pixel data.
+
+<a href="https://github.com/HR-CMGT/TLE3-machine-learning/tree/master/workshop/files" target="_blank">Get the starter files</a>
 
 ## TO DO
 
@@ -52,7 +53,10 @@ The starter files contain the webcam stream and a resized smaller canvas. It als
 
 #### Notes
 
-Image recognition is a complicated subject. The above example won't really recognise specific features such as eyes, faces or other shapes. It just learns pixel colors. For more advanced image recognition you have to look at *feature detection*.
+Image recognition is a complicated subject. The above example won't really recognise specific features such as eyes, faces or other shapes. It just learns pixel colors. For more advanced image recognition you have to look at *feature detection*
+
+- [Feature detection tutorial with BrainJS](https://scrimba.com/c/c36zkcb)
+- [Feature detection with ML5](https://ml5js.org/docs/custom-classifier)
 
 # Alternative projects
 
@@ -65,7 +69,7 @@ These projects do not have starter code. You'll have to figure everything out by
 
 ## Arduino sensor data recognition
 
-- Read the [Johnny Five documentation](http://johnny-five.io) to learn how to read Arduino sensor data from a Node application.
+- Read the [Johnny Five documentation](http://johnny-five.io) to learn how to read Arduino sensor data into a Node application.
 - Train a network with data from the sensors to respond to certain events!
 
 ### Documentation

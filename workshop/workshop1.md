@@ -1,11 +1,14 @@
 # Machine Learning Workshop
 
-- [Introduction and reading list](../README.md)
-- [Workshop part 1 - Using a pre-trained Model](./workshop1.md)
-- [Workshop part 2 - Training a model](./workshop2.md)
-- [Workshop part 3 - Preparing data](./workshop3.md)
+This workshop will be in **Javascript**, since we already know how to program in this language! It will be easy to publish our projects online and to visualise results with HTML and CSS.
 
-# Workshop 1 - Using a pre-trained model
+- [Introduction](./introduction.md)
+- [Part 1 - Using a pre-trained Model](./workshop1.md)
+- [Part 2 - Training a model](./workshop2.md)
+- [Part 3 - Preparing data](./workshop3.md)
+- [Reading list](../README.md)
+
+# Part 1 - Using a pre-trained model
 
 In this tutorial we will load a neural network library and a [pre-trained image model](https://github.com/tensorflow/models/tree/master/research/slim#pre-trained-models) in a regular HTML page.
 
@@ -13,17 +16,11 @@ Then we will ask the model to classify an image from the HTML page.
 
 ![retriever](../images/retriever.png)
 
-### Load tensorflow and model in HTML page
+### Load tensorflow, the model, and your app
 
 ```
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tensorflow/0.12.7/tf.min.js"></script>
-
 <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@0.1.1"></script>
-```
-
-### Create your app script and load it
-
-```
 <script src="app.js"></script>
 ```
 
@@ -32,6 +29,8 @@ Then we will ask the model to classify an image from the HTML page.
 ```
 <img id="image" src="./files/retriever.jpg">
 ```
+
+- [Download the starter HTML page](./files/workshop1.html)
 
 ### In app.js, tell the model to load
 
@@ -59,9 +58,6 @@ async function classifyImage() {
 
 When a function includes the `async` and `await` keywords, the code that follows `await` will only be executed when the loading or classifying process has actually completed.
 
-- [Complete HTML page](./files/workshop1.html)
-- [Live codepen example](https://codepen.io/eerk/pen/JmKQLw)
-
 ## Speak the results out loud
 
 It's more fun when the computer speaks what it's thinking! Can you pass the most probable result from the predictions array to the speak function?
@@ -80,3 +76,7 @@ function speak() {
     window.speechSynthesis.speak(msg)
 }
 ```
+
+## Example
+
+- [View working example on codepen](https://codepen.io/eerk/pen/JmKQLw)

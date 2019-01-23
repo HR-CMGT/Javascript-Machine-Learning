@@ -1,11 +1,12 @@
 # Machine Learning Workshop
 
-- [Introduction and reading list](../README.md)
-- [Workshop part 1 - Using a pre-trained Model](./workshop1.md)
-- [Workshop part 2 - Training a model](./workshop2.md)
-- [Workshop part 3 - Preparing data](./workshop3.md)
+- [Introduction](./introduction.md)
+- [Part 1 - Using a pre-trained Model](./workshop1.md)
+- [Part 2 - Training a model](./workshop2.md)
+- [Part 3 - Preparing data](./workshop3.md)
+- [Reading list](../README.md)
 
-# Workshop Part 2 - Training a model
+# Part 2 - Training a model
 
 ## Working with BrainJS
 
@@ -147,4 +148,5 @@ network.fromJSON(trainingData);
 ## Documentation
 
 - [BrainJS documentation and configuration](https://github.com/BrainJS/brain.js)
-- [Example to recognise letters](https://github.com/BrainJS/brain.js/blob/master/examples/which-letter-simple.js)
+- [Example to recognise letters with Neural Net](https://github.com/BrainJS/brain.js/blob/master/examples/which-letter-simple.js)
+- [Example to recognise computer problems with LSTM](https://github.com/bradtraversy/brainjs_examples/blob/master/02_hardware-software.js)

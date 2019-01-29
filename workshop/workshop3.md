@@ -48,13 +48,11 @@ const result = net.run([1, 0, 0])
 
 As you can see in the [BrainJS documentation](https://github.com/BrainJS/brain.js/blob/master/README.md#training), our training data needs to contain a one-dimensional array (*a tensor*) with numbers ranging from 0-1. Example: `data = [0.11, 0.2, 1, 0.8, 0.55, 0.21]`
 
-An image contains *rows* and *columns* of pixels. An image of 300 x 200 pixels contains 60.000 pixels. Each pixel has an r,g,b value. So we end up with 180.000 numbers for one small image. 
-
-This amount will make training slow and cumbersome, so let's reduce that amount.
+An image contains *rows* and *columns* of pixels. An image of 300 x 200 pixels contains 60.000 pixels. Each pixel has an r,g,b value. These r,g,b values range from 0-255. We end up with 180.000 numbers for this small image. That will make training our network slow!
 
 ## Reducing the amount of pixels
 
-By reading only every 10th pixel, we can reduce our amount of data to 10%! An even better idea is to simply resize the canvas to an image that is 10 by 10 pixels. That way, the pixel colors will be nicely averaged.
+By analysing only every 10th pixel, we can reduce our amount of data to 10%. An even better idea is to simply resize the canvas to an image that is 10 by 10 pixels. That way, the pixel colors will be nicely averaged.
 
 By reducing the image to grayscale, we can reduce the r,g,b values to one value, so now we've gone from 180.000 values to 100 values! 
 
@@ -63,8 +61,8 @@ By reducing the image to grayscale, we can reduce the r,g,b values to one value,
 - Create training data with the correct label after pressing one of the training buttons.
 - Repeat this a number of times, until the model has been trained with enough examples for each pose.
 - When you press the *run* button, start a function that samples the webcam every few seconds, using `setInterval`.
-- Test that data against the network, and take an action when the data matches the training data.
-- Create a fun response to the webcam. You can show an image, play a sound, or use [web speech](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API)
+- Test that data against the network.
+- Create a fun response. You can show an image, play a sound, or use [web speech](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API)
  to respond to the webcam. For example, when the computer recognises you, it could speak a greeting.
 - Is there a way to keep r,g,b color information in one number? This would greatly improve the precision.
 

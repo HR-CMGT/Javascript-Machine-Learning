@@ -7,7 +7,6 @@
 // docs: https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia
 //
 // ******************************************************************************************
-
 function startWebcam() {
     if (navigator.mediaDevices) {
         navigator.mediaDevices.getUserMedia({ video: true })
@@ -25,22 +24,13 @@ function startWebcam() {
 }
 // ******************************************************************************************
 //
-// color helper functions
-// convert three R, G, B values into one single number that still holds R G B information
-// this is not strictly needed, but your array will be three times as small!
+// grayscale helper function
+// convert three R, G, B values with range 0-255 into one single number with range 0-1
 //
 // ******************************************************************************************
-function rgbToDecimal(red, green, blue) {
-    var r = red & 0xFF;
-    var g = green & 0xFF;
-    var b = blue & 0xFF;
-    return (r << 24) + (g << 16) + (b << 8) + (1); // alpha = 1
-}
-
-function decimalToRgb(decNumber) {
-    var red = decNumber >> 24 & 0xFF;
-    var green = decNumber >> 16 & 0xFF;
-    var blue = decNumber >> 8 & 0xFF;
-    var alpha = decNumber & 0xFF;
-    console.log("decimal number contains: " + red + "," + green + "," + blue)
+function rgbToGrayscale(red, green, blue) {
+    // convert red, green, blue values to one number (brightness)
+    let grayscale = 0.30 * red + 0.59 * green + 0.11 * blue
+    // number should range from 0 to 1 
+    return grayscale / 255
 }

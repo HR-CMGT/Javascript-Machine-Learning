@@ -1,19 +1,22 @@
 'use strict';
 
 const video = document.querySelector('video')
-const canvas = document.querySelector('#mosaic')
-const context = canvas.getContext('2d')
-
-// tiny canvas, to read pixel data from
+const large_canvas = document.querySelector('#mosaic')
+const large_context = large_canvas.getContext('2d')
 const tiny_canvas = document.querySelector('#tiny_canvas')
 const tiny_context = tiny_canvas.getContext('2d')
+const display = document.querySelector('#display')
 
-let width;// 340 
-let height;// 255
-let intervalid;
+let width
+let height
+let intervalid
 
-// how many pixels do we want to sample in each row and column?
+// how many pixels do we want to sample in each row and column
 let numpixels = 10
+
+// create the neural network
+const net = new brain.NeuralNetwork()
+let trainingData = []
 
 // ******************************************************************************************
 //
@@ -25,30 +28,33 @@ startWebcam()
 
 // ******************************************************************************************
 //
-// startapp is called when the webcam successfully runs
+// startapp is called by the startWebcam function
 //
 // ******************************************************************************************
 function startApp() {
-    let trainbuttons = document.getElementsByClassName("train")
-    for(let b of trainbuttons){
-        b.addEventListener("click", (e) => trainNetwork(e))
-    }
+    let wavebutton = document.getElementById("wave")
+    let emptybutton = document.getElementById("empty")
+    let personbutton = document.getElementById("person")
 
-    let startbutton = document.getElementsByClassName("start")
-    startbutton.addEventListener("click", (e) => startClassification(e))
+    wavebutton.addEventListener("click", (e) => addWaveData(e))
+    emptybutton.addEventListener("click", (e) => addEmptyData(e))
+    personbutton.addEventListener("click", (e) => addPersonData(e))
+
+    let startbutton = document.getElementById("start")
+    startbutton.addEventListener("click", (e) => startTraining(e))
 
     width = video.offsetWidth
     height = video.offsetHeight
 
-    canvas.width = width
-    canvas.height = height
+    large_canvas.width = width
+    large_canvas.height = height
 
-    tiny_canvas.width = width
-    tiny_canvas.height = height
+    tiny_canvas.width = numpixels
+    tiny_canvas.height = numpixels
 
-    context.mozImageSmoothingEnabled = false
-    context.webkitImageSmoothingEnabled = false
-    context.imageSmoothingEnabled = false
+    large_context.mozImageSmoothingEnabled = tiny_context.mozImageSmoothingEnabled = false
+    large_context.webkitImageSmoothingEnabled = tiny_context.webkitImageSmoothingEnabled = false
+    large_context.imageSmoothingEnabled = tiny_context.imageSmoothingEnabled = false
 
     // start drawing the webcam stream into the canvas so we can sample the colors
     drawWebcam()
@@ -60,54 +66,50 @@ function startApp() {
 //
 // ******************************************************************************************
 function drawWebcam() {
-
-    // Drawing the video very small and then blow it up to see what is happening
-    context.drawImage(video, 0, 0, numpixels, numpixels)
-    context.drawImage(canvas, 0, 0, numpixels, numpixels, 0, 0, width, height)
-
-    // just draw a super tiny canvas
+    // Drawing the video twice
+    large_context.drawImage(video, 0, 0, numpixels, numpixels)
     tiny_context.drawImage(video, 0, 0, numpixels, numpixels)
+
+    // blow up one canvas just to see what our enlarged pixels look like
+    large_context.drawImage(large_canvas, 0, 0, numpixels, numpixels, 0, 0, width, height)
 
     // draw 60 times / second
     requestAnimationFrame(drawWebcam)
 }
 
-
-
 // ******************************************************************************************
 //
-// startapp is called when the webcam successfully runs
+// convert pixels to array. use the tiny canvas and a x,y loop
 //
 // ******************************************************************************************
-function getPixelColors() {
+function analysePixelColors() {
+    // TO DO 
+    // loop through the rows and columns of the tiny canvas image to find the colors
 
-    let dataArray = []
+    // example to find color at position 4,11
+    let pixelcolor = tiny_context.getImageData(4, 11, 1, 1).data
 
-    // read the tiny canvas colors using context.getImageData()
-    /*
-    for (let y = ...) {
-        for (let x = ...) {
-            // read canvas pixel color
-            let pixelcolor = context.getImageData(...,..., 1, 1).data
-
-            // use helper function to convert r,g,b to one value
-            // let decimalColor = 
-
-            // now add the number to the data array
-        }
-    }
-    */
-    
-    return dataArray
+    // TO DO 
+    // return an array with pixel data - example code
+    return [0,0.34,0.4,0.21,0.1,0,0.2,0,87]
 }
 
 // ******************************************************************************************
 //
-// train the neural network when a button has been pressed
+// add data for training
 //
 // ******************************************************************************************
-function trainNetwork(e) {
-    console.log("train the network for button " + e.target.id)
+function addWaveData(e) {
+    // TO DO: create a training data object with the current image, labelled "wave"
+    // TO DO: add this object to the trainingData array
+    // example:
+    // { input: [0, 0, 1], output: { wave: 1 } }
+}
+
+function addPersonData(e) {
+}
+
+function addEmptyData(e) {
 }
 
 // ******************************************************************************************
@@ -115,17 +117,28 @@ function trainNetwork(e) {
 // start continuously classifying the webcam
 //
 // ******************************************************************************************
-function startClassification(){
-    console.log("start checking the webcam")
-    // example to start an interval that classfies the webcam every 2 seconds
-    // intervalid = setInterval(() => classifyWebcam(), 2000)
+function startTraining() {
+    // disable the buttons
+    document.getElementById("wave").classList.add("disabled")
+    document.getElementById("person").classList.add("disabled")
+    document.getElementById("empty").classList.add("disabled")
+    document.getElementById("start").classList.add("disabled")
+
+    console.log(trainingData)
+
+    // now train the neural network
+    // net.train(trainingData)
+
+    // start analysing the webcam feed live
+    // intervalid = setInterval...
 }
 
 function classifyWebcam() {
-    let dataArray = analysePixelData()
-    // to do: test data against the neural network
-    // let result = ...
-    // if (result == ...) {
-    //   console.log("Wave back!")
-    // }
+    // TODO: get the current colors from the webcam
+    // TODO: use net.run() to analyse the colors
+    // TODO: respond to the result!
+
+    // example
+    // display.innerHTML = `CHANCE THAT SOMEONE IS WAVING: ${result.wave}`
 }
+

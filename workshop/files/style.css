@@ -23,3 +23,8 @@ button {
     font-size:16px;
     padding:4px;
 }
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.34;
+}

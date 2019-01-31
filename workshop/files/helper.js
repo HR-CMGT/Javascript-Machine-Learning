@@ -34,3 +34,32 @@ function rgbToGrayscale(red, green, blue) {
     // number should range from 0 to 1 
     return grayscale / 255
 }
+// ******************************************************************************************
+//
+// draw your network as an svg. 
+//
+// ******************************************************************************************
+/* 
+    // example code to draw svg
+    const config = {
+        inputSize: 3,
+        inputRange: 3,
+        hiddenLayers: [4],
+        outputSize: 3
+    };
+    const net = new brain.NeuralNetwork(config)
+    let options = getSvgOptions()
+    document.getElementById('result').innerHTML = brain.utilities.toSVG(net, options)
+*/
+function getSvgOptions() {
+    return {
+        fontSize: "12px",
+        width: 600,
+        height: 400,
+        radius: 6,
+        line: { width: 0.5, color: "rgba(0,0,0,1)" },
+        inputs: { color: "rgba(0,127,0,0.6)", label: [] },
+        hidden: { color: "rgba(255,127,80,0.6)" },
+        outputs: { color: "rgba(100,149,237,0.6)" }
+    }
+}

@@ -66,13 +66,15 @@ By reducing the image to grayscale, we can reduce the r,g,b values to one value,
  to respond to the webcam. For example, when the computer recognises you, it could speak a greeting.
 - Is there a way to keep r,g,b color information in one number? This would greatly improve the precision.
 
-### Notes on image recognition
+### Sidenote: feature detection
 
-Image recognition is a diverse subject. The above example won't really recognise specific features such as eyes, faces or other shapes. It just learns pixel colors. For more advanced image recognition you have to look at *feature detection*
+Our workshop network learns to recognise pixel colors. It won't recognise shapes such as eyes or faces. For more advanced image recognition you have to look at [Feature detection with BrainJS](https://scrimba.com/c/c36zkcb) or [ML5](https://ml5js.org/docs/custom-classifier), or you can take a look at [TrackingJS](https://trackingjs.com)
 
-- [Feature detection tutorial with BrainJS](https://scrimba.com/c/c36zkcb)
-- [Feature detection with ML5](https://ml5js.org/docs/custom-classifier)
-- [TrackingJS, an image recognition library for Javascript](https://trackingjs.com)
+## Draw your network!
+
+![network](../images/network.png)
+
+BrainJS has a nice [draw to SVG](https://github.com/BrainJS/brain.js/blob/master/README.md#toSVG) feature, that draws your neural net as an SVG image. You can find example code in [helper.js](./helper.js)
 
 # Alternative projects
 

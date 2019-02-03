@@ -143,18 +143,22 @@ Converting spoken audio into text
 
 - [Pose Estimation with TensorflowJS](https://medium.com/tensorflow/real-time-human-pose-estimation-in-the-browser-with-tensorflow-js-7dd0bc881cd5)
 
-### Paid services
+# Paid services
+
+![deepracer](./images/deepracer.jpg)
 
 - [Microsoft Machine Learning APIs](https://gallery.azure.ai/machineLearningAPIs)
 - [Apple Core ML framework](https://developer.apple.com/documentation/coreml)
 - [Machine Learning on Amazon Web Services](https://aws.amazon.com/machine-learning/)
 - [Amazon Machine Learning Free Course](https://aws.amazon.com/training/learning-paths/machine-learning/)
+- [Amazon Deep Racer](https://aws.amazon.com/deepracer/)
 
 # Reading list
 
 ![nnchart](./images/nnchart.png)
 
 - [The Mostly Complete Chart of Neural Networks](https://towardsdatascience.com/the-mostly-complete-chart-of-neural-networks-explained-3fb6f2367464)
+- [Introduction to Deep Learning](https://media.ccc.de/v/35c3-9386-introduction_to_deep_learning)
 - [More algorithms for Machine Learning](https://towardsdatascience.com/a-tour-of-the-top-10-algorithms-for-machine-learning-newbies-dde4edffae11)
 - [Neural Networks Wiki page](https://en.wikipedia.org/wiki/Artificial_neural_network)
 - [Machine Learning for Humans](https://medium.com/machine-learning-for-humans/why-machine-learning-matters-6164faf1df12)
@@ -182,7 +186,6 @@ Converting spoken audio into text
 
 # Demos and projects
 
-- [Amazon Deep Racer - order the self-driving amazon toy car, and compete with driving algorithms](https://aws.amazon.com/deepracer/)
 - [Teleport Vision - generates HTML from pen and paper sketches](https://github.com/teleporthq/teleport-vision-api)
 - [Build a perceptron in Processing](https://www.youtube.com/watch?v=ntKn5TPHHAk)
 - [Training a model in Unity using a neural network](https://github.com/ArztSamuel/Applying_EANNs)

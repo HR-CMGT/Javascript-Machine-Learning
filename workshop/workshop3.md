@@ -65,16 +65,34 @@ By reducing the image to grayscale, we can reduce the r,g,b values to one value,
 - Create a fun response. You can show an image, play a sound, or use [web speech](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API)
  to respond to the webcam. For example, when the computer recognises you, it could speak a greeting.
 - Is there a way to keep r,g,b color information in one number? This would greatly improve the precision.
+- Can you save the trained model in a JSON file?
 
-### Sidenote: feature detection
-
-Our workshop network learns to recognise pixel colors. It won't recognise shapes such as eyes or faces. For more advanced image recognition you have to look at [Feature detection with BrainJS](https://scrimba.com/c/c36zkcb) or [ML5](https://ml5js.org/docs/custom-classifier), or you can take a look at [TrackingJS](https://trackingjs.com)
-
-## Draw your network!
+# More fun with BrainJS
 
 ![network](../images/network.png)
 
-BrainJS has a nice [draw to SVG](https://github.com/BrainJS/brain.js/blob/master/README.md#toSVG) feature, that draws your neural net as an SVG image. You can find example code in [helper.js](./helper.js)
+When you go through the [BrainJS documentation](https://github.com/BrainJS/brain.js/blob/master/README.md) you'll find lots of fun examples to try out. For example, you can train a network to understand the sentiment in text (or to recognise celebrity tweets...)
+
+- BrainJS has a nice [draw to SVG](https://github.com/BrainJS/brain.js/blob/master/README.md#toSVG) feature, that draws your neural net as an SVG image. You can find example code in [helper.js](./helper.js)
+- Combine [browser speech](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API) with this [text-recognising example](https://github.com/bradtraversy/brainjs_examples), to create a talking machine!
+- This [code](https://gist.github.com/mac2000/fc54e6d6bdcbfde28b03dc2a43611270) shows how to [recognise a hand-drawn sketch](https://output.jsbin.com/mofaduk) using BrainJS
+- You could use [Johnny Five](http://johnny-five.io) to read Arduino sensor data into a BrainJS application.
+
+## Analysing text
+
+Use the `LSTM` network to analyse intent / sentiment in text messages:
+
+```
+const net = new brain.recurrent.LSTM();
+
+net.train([
+    { input: 'I feel great about the world!', output: 'happy' },
+    { input: 'The world is a terrible place!', output: 'sad' },
+]);
+
+const output = net.run('Wow, everything is so great!')
+console.log(`USER IS ${output}`)
+```
 
 # Alternative projects
 
@@ -83,18 +101,18 @@ Learning the KNN algorithm is a good way to get started with the math behind Mac
 - [K-Nearest-Neighbour in Javascript](https://github.com/NathanEpstein/KNear)
 - [Webcam detector using 'K-Nearest-Neighbour'](https://github.com/KokoDoko/webcam-detectotron)
 
-Building a single neuron is a great way to understand what really happens inside those neural networks:
+Building a single neuron in pure javascript, (without using any ML framework) is a great way to understand how a neural net works:
 
 - [Creating a single neuron in Javascript](https://youtu.be/o98qlvrcqiU)
 
-When you go through the [BrainJS documentation](https://github.com/BrainJS/brain.js/blob/master/README.md) you'll find lots of fun examples to try out!
 
-- Combine [browser speech](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API) with this [text-recognising example](https://github.com/bradtraversy/brainjs_examples), to create a talking machine!
-- This [code](https://gist.github.com/mac2000/fc54e6d6bdcbfde28b03dc2a43611270) shows how to [recognise a hand-drawn sketch](https://output.jsbin.com/mofaduk) using BrainJS
-- You could use [Johnny Five](http://johnny-five.io) to read Arduino sensor data into a BrainJS application.
 
 # Next steps
 
 A great next step would be to look at the [ML5 library](https://ml5js.org), which contains many examples for different types of machine learning. Perhaps you can start [teaching the computer how to draw](https://www.youtube.com/watch?v=pdaNttb7Mr8)!
 
 The [reading list](../README.md) contains tons of links to documentation, libraries and tutorials.
+
+*Sidenote: feature detection*
+
+Our workshop network learns to recognise pixel colors. It won't recognise shapes such as eyes or faces. For more advanced image recognition you have to look at [Feature detection with BrainJS](https://scrimba.com/c/c36zkcb) or [ML5](https://ml5js.org/docs/custom-classifier), or you can take a look at [TrackingJS](https://trackingjs.com)

@@ -78,6 +78,15 @@ BrainJS has a nice [draw to SVG](https://github.com/BrainJS/brain.js/blob/master
 
 # Alternative projects
 
+Learning the KNN algorithm is a good way to get started with the math behind Machine Learning:
+
+- [K-Nearest-Neighbour in Javascript](https://github.com/NathanEpstein/KNear)
+- [Webcam detector using 'K-Nearest-Neighbour'](https://github.com/KokoDoko/webcam-detectotron)
+
+Building a single neuron is a great way to understand what really happens inside those neural networks:
+
+- [Creating a single neuron in Javascript](https://youtu.be/o98qlvrcqiU)
+
 When you go through the [BrainJS documentation](https://github.com/BrainJS/brain.js/blob/master/README.md) you'll find lots of fun examples to try out!
 
 - Combine [browser speech](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API) with this [text-recognising example](https://github.com/bradtraversy/brainjs_examples), to create a talking machine!

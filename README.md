@@ -186,6 +186,7 @@ Converting spoken audio into text
 
 # Demos and projects
 
+- [Classify an image in 5 lines of Javascript](https://codepen.io/eerk/pen/JmKQLw)
 - [Teleport Vision - generates HTML from pen and paper sketches](https://github.com/teleporthq/teleport-vision-api)
 - [Build a perceptron in Processing](https://www.youtube.com/watch?v=ntKn5TPHHAk)
 - [Training a model in Unity using a neural network](https://github.com/ArztSamuel/Applying_EANNs)

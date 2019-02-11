@@ -76,7 +76,3 @@ function speak() {
     window.speechSynthesis.speak(msg)
 }
 ```
-
-## Example
-
-- [View working example on codepen](https://codepen.io/eerk/pen/JmKQLw)

@@ -16,7 +16,7 @@ Traditional computer programs consist of a list of instructions, put together by
 
 ![gambit](../images/logic.png)
 
-*The AI system in Final Fantasy XII shows a traditional set of instructions*
+*The AI system in Final Fantasy XII shows a traditional set of instructions.*
 
 A Machine Learning project can learn from itself or from data that you provide. Instead of programming logic yourself, you will train a *model* and then let that model make decisions. These models can often find patterns in complex data that even the smartest programmer could not have discovered. 
 
@@ -43,9 +43,11 @@ In the age of Big Data, it's becoming harder to find patterns and solutions usin
 - Email spam detection
 - [Anne Frank project](https://www.smithsonianmag.com/smart-news/investigators-are-using-big-data-analysis-find-out-who-betrayed-anne-frank-180965117/)
 
-## Creating a model
+## Supervised learning
 
-A model is built using an *algorithm*. When starting a Machine Learning project, you have to look carefully at the data you have available, and the kind of result you need, so you can determine which algorithm fits that need.
+This workshop is about *supervised learning*. We supply the computer with *labeled data*, and then we build a *model* that allows us to label new *unknown data*.
+
+A model is built using an *algorithm*. When starting a Machine Learning project, you have to look carefully at the data you have available, and the kind of result you need, to determine which algorithm fits that need.
 
 ![model1](../images/model1.png)
 
@@ -87,13 +89,11 @@ There are many different algorithms and methods to create a self-learning model,
 
 This algorithm uses the distance between points to classify a new point. In the above image, the green circle will be classified as red, because there are more red triangles in its vicinity.
 
-This is essentially just the Pythagorean theorem!
-
 The above example will classify the green circle as RED, because there are more red triangles in its vicinity than blue squares. This classification is based on `x,y` coordinates of a point. But surprisingly, this calculation works just as well when those two numbers do not represent a physical coordinate, but for example, the number of legs and eyes of a creature.
 
 You can imagine that this also works in three coordinates: `x,y,z`, so we can use the algorithm for datasets with three numbers. The real beauty of this algorithm is that it also works with even more than 3 coordinates.
 
-In other words, we could build the credit card example using KNN, by supplying our credit card data as an array.
+In other words, we could build the credit card example using Nearest Neighbour, by supplying our credit card data as an array.
 
 This algorithm is much faster than a neural network, so it may be a better fit for simpler projects!
 

@@ -40,6 +40,7 @@ In the age of Big Data, it's becoming harder to find patterns and solutions usin
 - [Live video analysis](https://youtu.be/MPU2HistivI)
 - Pose recognition (kinect)
 - iPhone face ID
+- [Playing GO](https://deepmind.com/research/alphago/)
 - Email spam detection
 - [Anne Frank project](https://www.smithsonianmag.com/smart-news/investigators-are-using-big-data-analysis-find-out-who-betrayed-anne-frank-180965117/)
 
@@ -120,8 +121,6 @@ Links
 - [Neural Network basics explained](https://media.ccc.de/v/35c3-9386-introduction_to_deep_learning)
 - [But what *is* a neural network? - youtube](http://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
 - [Neural networks demystified](http://lumiverse.io/series/neural-networks-demystified)
-
-
 
 # Using existing tools
 

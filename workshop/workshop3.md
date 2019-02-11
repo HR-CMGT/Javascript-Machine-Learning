@@ -8,7 +8,11 @@
 
 # Workshop Part 3 - Preparing data
 
-So far, we've used simple data to learn how to train a model. In reality, data is often complex. You will spend a lot of time preparing data before you can even start working with your neural net. For the last part of the workshop, we will convert a webcam stream into usable data.
+So far, we've used simple data to learn how to train a model. In reality, data is often complex. You will spend a lot of time preparing data before you can even start working with your neural net. 
+
+For the last part of the workshop, we will convert a webcam stream into usable data, by analysing pixel colors:
+
+![facenumbers](../images/facenumbers.png)
 
 ## Application
 

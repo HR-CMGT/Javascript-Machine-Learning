@@ -27,13 +27,18 @@ A Machine Learning project can learn from itself or from data that you provide. 
 
 ### Why do we need Machine Learning?
 
-In the age of Big Data, it's becoming harder to find patterns and solutions using traditional programming. Machine Learning is being used for
+In the age of Big Data, it's becoming harder to find patterns and solutions using traditional programming. Machine Learning can analyse huge amounts of data.
+
+![pose](../images/pose.png)
 
 - Medical diagnosis
 - Financial analysis 
-- Language Translation - Japanese translation was not possible without Machine Learning
+- Chatbots
+- Language Translation - Japanese translation was not possible before Machine Learning
 - Recommendations in shops
-- Self driving cars
+- [Self-driving cars](https://youtu.be/tiwVMrTLUWg?t=538)
+- [Live video analysis](https://youtu.be/MPU2HistivI)
+- Pose recognition (kinect)
 - iPhone face ID
 - Email spam detection
 - [Anne Frank project](https://www.smithsonianmag.com/smart-news/investigators-are-using-big-data-analysis-find-out-who-betrayed-anne-frank-180965117/)

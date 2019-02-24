@@ -1,21 +1,52 @@
-# Machine Learning
+# HR CMGT Machine Learning
 
-- [Introduction](./workshop/introduction.md)
-- [Workshop](./workshop/workshop1.md)
+- [Introduction](#introduction)
+- [Workshop](./workshop/introduction.md)
 - [Reading list](#readinglist)
+
+# <a name="introduction"></a>Introduction
+
+Traditionally, developers write *sets of instructions*, also known as a *computer program*, to solve complex problems. This traditional approach has its limitations, especially when we want the computer to solve human tasks, such as recognising a drawing, or talking on the phone.
+
+By using a Machine Learning algorithm, the computer can learn to recognise patterns in complex data all by itself. A machine learning algorithm can reveal patterns that would otherwise not have been found. The computer can learn to make decisions and to improve itself.
+
+![model1](./images/model1.png)
+
+*Using an algorithm to train a model to recognise cat drawings*
+
+![model2](./images/model2.png)
+
+*A model can compare new drawings to cats, and it can even imagine new cat drawings*
+
+## Algorithms
+
+Algorithms are used to find patterns in complex data. Surprisingly, the algorithm itself does not have to be all that complex. You can start a machine learning project just by using the good old Pythagorean theorem:
+
+![pythagorean](./images/pythagorean.png)
+
+#### Our first Machine Learning algorithm: *a<sup>2</sup>+b<sup>2</sup>=c<sup>2</sup>*
+
+By looking at your data and defining the goal of your project, you will have to decide on an algorithm that suits your purposes the best. 
+
+<a href="./images/mlmap.png" target="_blank"><img src="./images/mlmap.png" alt="mlmap" width="600"/></a>
+
+Simpler algorithms work faster, and allow for more introspection. As a developer you will have a lot of control on its output. 
+
+Neural networks can analyse very complex data, and can learn from itself. A neural net may take a lot of time to train, and will create a sort of "black box", making it less transparent to understand how it makes decisions.
+
+![nn](./images/nn.png)
 
 # <a name="readinglist"></a>Reading List
 
-- Javascript
-- Python
-- Wekinator
-- Machine Learning Disciplines
-- Paid services
-- Books and tutorials
-- Community
-- Demos and example projects
+- [Javascript](#javascript)
+- [Python](#python)
+- [Wekinator](#wekinator)
+- [Paid services](#javascript)
+- [Books and tutorials](#javascript)
+- [Community](#javascript)
+- [Demos and example projects](#javascript)
 
-# Javascript
+# <a name="javascript"></a>Javascript
 
 Javascript allows us to publish our projects online, and provides easy ways to visualise our results using html and css.
 
@@ -67,7 +98,7 @@ Synaptic is another Neural Network Library for Javascript
 - [Synaptic JS Neural Networks](http://caza.la/synaptic/)
 - [Tutorial for Synaptic JS](https://medium.freecodecamp.org/how-to-create-a-neural-network-in-javascript-in-only-30-lines-of-code-343dafc50d49)
 
-# Python
+# <a name="python"></a>Python
 
 [Python](https://www.python.org) is used by data scientists and in many Machine Learning courses online. Python requires a bit more setup, especially when you want to visualise results graphically. Python can run on a Raspberry Pi!
 
@@ -97,21 +128,16 @@ Keras is a high-level neural networks API, written in Python and capable of runn
 - [Why use Keras?](https://keras.io/why-use-keras/)
 - [Keras](https://keras.io)
 
-# Wekinator
+# <a name="wekinator"></a>Wekinator
 
-Wekinator is a Graphical User Interface that can apply Machine Learning algorithms to Processing and Arduino sensor data. 
+Wekinator is a GUI that can apply Machine Learning algorithms to Processing and Arduino sensor data. 
 
 - [Wekinator](http://www.wekinator.org)
 - [Wekinator workshop by Kars Alfrink](https://github.com/karsalfrink/useless-butler)
 
-# Machine Learning Disciplines
+# <a name="disciplines"></a>Disciplines
 
-- Image Recognition
-- Natural Language Processing
-- Speech Recognition
-- Pose Estimation
-
-### Image recognition
+## Image recognition
 
 <img src="https://pjreddie.com/media/image/Screen_Shot_2018-03-24_at_10.48.42_PM.png" width="450">
 
@@ -123,7 +149,7 @@ Wekinator is a Graphical User Interface that can apply Machine Learning algorith
 - [ImageNet - readymade training data for image recognition](http://www.image-net.org)
 - [GoCV - Use the GO programming language for Computer Vision](https://gocv.io)
 
-### Natural Language Processing
+## Natural Language Processing
 
 Understanding the meaning of written text
 
@@ -131,7 +157,7 @@ Understanding the meaning of written text
 - [Understanding Word2Vec Video by Daniel Shiffman](https://youtu.be/MOo9iJ8RYWM)
 - [Natural Language Processing with Spacy.io](https://spacy.io)
 
-### Speech Recognition
+## Speech Recognition
 
 Converting spoken audio into text
 
@@ -139,24 +165,29 @@ Converting spoken audio into text
 - [Google TacoTron Self-learning Speech Synthesizer](https://github.com/keithito/tacotron)
 - [Pocket Sphynx Speech Recognition](https://github.com/cmusphinx/pocketsphinx)
 
-### Pose Estimation
+## Pose Estimation
 
 - [Pose Estimation with TensorflowJS](https://medium.com/tensorflow/real-time-human-pose-estimation-in-the-browser-with-tensorflow-js-7dd0bc881cd5)
 
-# Paid services
+## Tools and services
+
+![google](./images/google.png)
+
+- [Google's Do-it-yourself Raspberry Pi AI Kits](https://aiyprojects.withgoogle.com/vision/)
+- [Microsoft Machine Learning APIs](https://gallery.azure.ai/machineLearningAPIs)
+- [Apple Core ML framework](https://developer.apple.com/documentation/coreml) and [tutorials](https://developer.apple.com/machine-learning/)
 
 ![deepracer](./images/deepracer.jpg)
 
-- [Microsoft Machine Learning APIs](https://gallery.azure.ai/machineLearningAPIs)
-- [Apple Core ML framework](https://developer.apple.com/documentation/coreml)
-- [Machine Learning on Amazon Web Services](https://aws.amazon.com/machine-learning/)
-- [Amazon Machine Learning Free Course](https://aws.amazon.com/training/learning-paths/machine-learning/)
 - [Amazon Deep Racer](https://aws.amazon.com/deepracer/)
+- [Amazon Machine Learning](https://aws.amazon.com/machine-learning/) and [Free Course](https://aws.amazon.com/training/learning-paths/machine-learning/)
+- [Add Machine Learning power to a Raspberry Pi with the Intel ML USB stick](https://www.movidius.com/news/intel-movidius-neural-compute-stick-honored-with-ces-best-of-innovation-award-2018)
 
 # Reading list
 
 ![nnchart](./images/nnchart.png)
 
+- [Machine Learning for Everyone](https://vas3k.com/blog/machine_learning/)
 - [The Mostly Complete Chart of Neural Networks](https://towardsdatascience.com/the-mostly-complete-chart-of-neural-networks-explained-3fb6f2367464)
 - [Introduction to Deep Learning](https://media.ccc.de/v/35c3-9386-introduction_to_deep_learning)
 - [More algorithms for Machine Learning](https://towardsdatascience.com/a-tour-of-the-top-10-algorithms-for-machine-learning-newbies-dde4edffae11)
@@ -165,7 +196,6 @@ Converting spoken audio into text
 - [Machine Learning for designers](http://www.oreilly.com/design/free/machine-learning-for-designers.csp)
 - [A visual introduction to Machine Learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
 - [Deep learning book](http://www.deeplearningbook.org)
-- [Build more intelligent apps with machine learning](https://developer.apple.com/machine-learning/)(Apple)
 - [Researching the use of ML in creative applications](http://blog.otoro.net)
 - [Design in the era of the algorithm](https://bigmedium.com/speaking/design-in-the-era-of-the-algorithm.html)
 - [Human-Centered Machine Learning](https://medium.com/google-design/human-centered-machine-learning-a770d10562cd)
@@ -188,7 +218,7 @@ Converting spoken audio into text
 
 - [Human faces generated by AI](https://thispersondoesnotexist.com)
 - [Classify an image in 5 lines of Javascript](https://codepen.io/eerk/pen/JmKQLw)
-- [Teleport Vision - generates HTML from pen and paper sketches](https://github.com/teleporthq/teleport-vision-api)
+- [Teleport Vision - generate HTML from UI sketches](https://github.com/teleporthq/teleport-vision-api)
 - [Build a perceptron in Processing](https://www.youtube.com/watch?v=ntKn5TPHHAk)
 - [Training a model in Unity using a neural network](https://github.com/ArztSamuel/Applying_EANNs)
 - [Neural Drum Machine](https://codepen.io/teropa/pen/JLjXGK) and [Voice-based beatbox](https://codepen.io/naotokui/pen/NBzJMW) created with [MagentaJS](https://magenta.tensorflow.org)

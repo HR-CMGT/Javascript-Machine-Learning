@@ -1,6 +1,28 @@
 # HR CMGT Machine Learning
 
-## <a name="introduction"></a>Introduction
+## Introduction
+
+- [Introduction](#introduction)
+- [Workshop](./workshop/introduction.md)
+
+## Programming
+
+- [Javascript](#javascript)
+- [Python](#python)
+- [Wekinator](#wekinator)
+- [Paid services](#services)
+
+## Reading
+
+- [Reading list](#readinglist)
+- [Community](#community)
+- [Demos and example projects](#examples)
+
+<br>
+
+---
+
+# <a name="introduction"></a>Introduction
 
 Traditionally, developers write *sets of instructions*, also known as a *computer program*, to solve complex problems. This traditional approach has its limitations, especially when we want the computer to solve human tasks, such as recognising a drawing, or talking on the phone.
 
@@ -32,26 +54,16 @@ Neural networks can analyse very complex data, and can learn from itself. A neur
 
 ![nn](./images/nn.png)
 
-## Programming
-
-- [Javascript](#javascript)
-- [Python](#python)
-- [Wekinator](#wekinator)
-- [Paid services](#services)
-
 ## Workshop
 
-- [Workshop](./workshop/introduction.md)
+In the [Workshop](./workshop/introduction.md) you will learn the basics of using existing libraries and preparing data to train a neural network.  
 
-## Reading
+Below you will find links to popular libraries with tutorials, existing kits, books and demo projects.
 
-- [Reading list](#readinglist)
-- [Community](#community)
-- [Demos and example projects](#examples)
+<br>
 
 ---
 
-<br>
 <br>
 <br>
 
@@ -112,6 +124,7 @@ Synaptic is another Neural Network Library for Javascript
 <br>
 <br>
 <br>
+
 ---
 
 ![python](./images/python.png)

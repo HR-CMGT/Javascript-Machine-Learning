@@ -10,7 +10,8 @@
 - [Javascript](#javascript)
 - [Python](#python)
 - [Wekinator](#wekinator)
-- [Paid services](#services)
+- [ML Disciplines](#disciplines)
+- [Tools and services](#services)
 
 ## Reading
 

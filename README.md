@@ -36,21 +36,26 @@ Neural networks can analyse very complex data, and can learn from itself. A neur
 
 ![nn](./images/nn.png)
 
-# <a name="readinglist"></a>Reading List
+## Programming
 
 - [Javascript](#javascript)
 - [Python](#python)
 - [Wekinator](#wekinator)
-- [Paid services](#javascript)
-- [Books and tutorials](#javascript)
-- [Community](#javascript)
-- [Demos and example projects](#javascript)
+- [Paid services](#services)
+
+## Reading
+
+- [Reading list](#readinglist)
+- [Community](#community)
+- [Demos and example projects](#examples)
+
+
 
 # <a name="javascript"></a>Javascript
 
 Javascript allows us to publish our projects online, and provides easy ways to visualise our results using html and css.
 
-## Brain JS
+### Brain JS
 
 [BrainJS](https://github.com/BrainJS/brain.js) is a library that allows you to instantiate a Neural Network, train it and run a classification in just a few lines of code.
 
@@ -60,7 +65,7 @@ Javascript allows us to publish our projects online, and provides easy ways to v
 - [Recognise a drawing](https://output.jsbin.com/mofaduk) and [code](https://gist.github.com/mac2000/fc54e6d6bdcbfde28b03dc2a43611270)
 - [Advanced Image feature detection using BrainJS](https://scrimba.com/c/c36zkcb)
 
-## Tensorflow JS
+### Tensorflow JS
 
 The Javascript version of Google TensorFlow. TensorflowJS has lots of tutorials, and add-on libraries that make working with it even easier.
 
@@ -85,13 +90,13 @@ ML5 makes TensorFlowJS more accessible by supplying readymade examples with clea
 - [Magenta](https://magenta.tensorflow.org/get-started/#magenta-js) is a google library that uses tensorflow to generate [images](https://tensorflow.github.io/magenta-js/image/index.html), [music](https://tensorflow.github.io/magenta-js/music/index.html) and [sketches](https://tensorflow.github.io/magenta-js/sketch/). 
 - [Tutorial on drawing snowflakes with a Neural Network and Magenta](https://youtu.be/pdaNttb7Mr8)
 
-## Perceptron
+### Perceptron
 
 A perceptron is a Neural Network that has only one cell. You can code it by hand in just a few lines of code. This will help you to understand how one Neural Network cell calculates weights.
 
 - [Coding a perceptron in Javascript, by Mathias P Johansson](https://youtu.be/o98qlvrcqiU), and the [result](https://beta.observablehq.com/@mpj/neural-network-from-scratch-part-1)
 
-## Synaptic JS
+### Synaptic JS
 
 Synaptic is another Neural Network Library for Javascript
 
@@ -102,7 +107,8 @@ Synaptic is another Neural Network Library for Javascript
 
 [Python](https://www.python.org) is used by data scientists and in many Machine Learning courses online. Python requires a bit more setup, especially when you want to visualise results graphically. Python can run on a Raspberry Pi!
 
-- [Udacity Intro to Machine Learning with Python](https://www.udacity.com/course/intro-to-machine-learning--ud120)
+- [Creating your first neural network in Python](https://www.analyticsindiamag.com/how-to-create-your-first-artificial-neural-network-in-python/)
+- [Udacity course: Machine Learning with Python](https://www.udacity.com/course/intro-to-machine-learning--ud120)
 - [Building a perceptron from scratch](https://medium.com/@ismailghallou/build-your-perceptron-neural-net-from-scratch-e12b7be9d1ef) and [source code](https://github.com/smakosh/Perceptron-neural-net-from-scratch)
 - [Building camera detection on a raspberry pi](https://www.youtube.com/watch?v=2kO8ScrqikM)
 
@@ -169,21 +175,18 @@ Converting spoken audio into text
 
 - [Pose Estimation with TensorflowJS](https://medium.com/tensorflow/real-time-human-pose-estimation-in-the-browser-with-tensorflow-js-7dd0bc881cd5)
 
-## Tools and services
+# <a name="services"></a>Tools and services
 
 ![google](./images/google.png)
 
 - [Google's Do-it-yourself Raspberry Pi AI Kits](https://aiyprojects.withgoogle.com/vision/)
 - [Microsoft Machine Learning APIs](https://gallery.azure.ai/machineLearningAPIs)
 - [Apple Core ML framework](https://developer.apple.com/documentation/coreml) and [tutorials](https://developer.apple.com/machine-learning/)
-
-![deepracer](./images/deepracer.jpg)
-
 - [Amazon Deep Racer](https://aws.amazon.com/deepracer/)
 - [Amazon Machine Learning](https://aws.amazon.com/machine-learning/) and [Free Course](https://aws.amazon.com/training/learning-paths/machine-learning/)
 - [Add Machine Learning power to a Raspberry Pi with the Intel ML USB stick](https://www.movidius.com/news/intel-movidius-neural-compute-stick-honored-with-ces-best-of-innovation-award-2018)
 
-# Reading list
+# <a name="readinglist"></a>Reading list
 
 ![nnchart](./images/nnchart.png)
 
@@ -208,13 +211,14 @@ Converting spoken audio into text
 - [Neural Networks and Deep Learning - book recommended by Tensorflow](http://neuralnetworksanddeeplearning.com)
 - [Deep Learning Gone Wrong - How ML expectations don't always match with results](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRPiprOaC3HsCf5Tuum8bRfzYUiKLRqJmbOoC-32JorNdfyTiRRsR7Ea5eWtvsWzuxo8bjOxCG84dAg/pubhtml)
 - [Read Arduino Sensor data from Node](http://johnny-five.io)
+- [Pytorch is an Open Source Deep Learning platform for Python](https://pytorch.org)
 
-# Community
+# <a name="community"></a>Community
 
 - [AI Stackoverflow](https://ai.stackexchange.com)
 - [Kaggle - Machine Learning challenges](https://www.kaggle.com)
 
-# Demos and projects
+# <a name="examples"></a>Demos and projects
 
 - [Human faces generated by AI](https://thispersondoesnotexist.com)
 - [Classify an image in 5 lines of Javascript](https://codepen.io/eerk/pen/JmKQLw)
@@ -231,8 +235,6 @@ Converting spoken audio into text
 - [Runway - An app that adds ML to creative projects](https://runwayapp.ai)
 - [Pixling - Building a life simulation app with Neural Networks](http://wiki.pixling.world/index.php/Main_Page)
 - [Building a self-driving Mario Kart using TensorFlow](https://www.youtube.com/watch?v=Ipi40cb_RsI) and [documentation](https://www.youtube.com/redirect?q=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F1p4ZOtziLmhf0jPbZTTaFxSKdYqE91dYcTNqTVdd6es4%2Fedit%3Fusp%3Dsharing&event=video_description&v=Ipi40cb_RsI&redir_token=Ybzxsbpmjb-vKOmpvcRlyEses5V8MTUxMzMzODkwNUAxNTEzMjUyNTA1)
-
-## The future
 
 ![SelfDrivingCar](https://imgs.xkcd.com/comics/self_driving_car_milestones.png)
 

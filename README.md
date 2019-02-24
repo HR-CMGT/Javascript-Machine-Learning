@@ -1,10 +1,6 @@
 # HR CMGT Machine Learning
 
-- [Introduction](#introduction)
-- [Workshop](./workshop/introduction.md)
-- [Reading list](#readinglist)
-
-# <a name="introduction"></a>Introduction
+## <a name="introduction"></a>Introduction
 
 Traditionally, developers write *sets of instructions*, also known as a *computer program*, to solve complex problems. This traditional approach has its limitations, especially when we want the computer to solve human tasks, such as recognising a drawing, or talking on the phone.
 
@@ -43,13 +39,23 @@ Neural networks can analyse very complex data, and can learn from itself. A neur
 - [Wekinator](#wekinator)
 - [Paid services](#services)
 
+## Workshop
+
+- [Workshop](./workshop/introduction.md)
+
 ## Reading
 
 - [Reading list](#readinglist)
 - [Community](#community)
 - [Demos and example projects](#examples)
 
+---
 
+<br>
+<br>
+<br>
+
+![brain](./images/brain.png)
 
 # <a name="javascript"></a>Javascript
 
@@ -103,11 +109,19 @@ Synaptic is another Neural Network Library for Javascript
 - [Synaptic JS Neural Networks](http://caza.la/synaptic/)
 - [Tutorial for Synaptic JS](https://medium.freecodecamp.org/how-to-create-a-neural-network-in-javascript-in-only-30-lines-of-code-343dafc50d49)
 
+<br>
+<br>
+<br>
+---
+
+![python](./images/python.png)
+
 # <a name="python"></a>Python
 
 [Python](https://www.python.org) is used by data scientists and in many Machine Learning courses online. Python requires a bit more setup, especially when you want to visualise results graphically. Python can run on a Raspberry Pi!
 
 - [Creating your first neural network in Python](https://www.analyticsindiamag.com/how-to-create-your-first-artificial-neural-network-in-python/)
+- [Machine learning for artists: guides and examples](http://ml4a.github.io/guides/)
 - [Udacity course: Machine Learning with Python](https://www.udacity.com/course/intro-to-machine-learning--ud120)
 - [Building a perceptron from scratch](https://medium.com/@ismailghallou/build-your-perceptron-neural-net-from-scratch-e12b7be9d1ef) and [source code](https://github.com/smakosh/Perceptron-neural-net-from-scratch)
 - [Building camera detection on a raspberry pi](https://www.youtube.com/watch?v=2kO8ScrqikM)
@@ -134,12 +148,26 @@ Keras is a high-level neural networks API, written in Python and capable of runn
 - [Why use Keras?](https://keras.io/why-use-keras/)
 - [Keras](https://keras.io)
 
+---
+
+<br>
+<br>
+<br>
+
+![wekinator](./images/wekinator.png)
+
 # <a name="wekinator"></a>Wekinator
 
 Wekinator is a GUI that can apply Machine Learning algorithms to Processing and Arduino sensor data. 
 
 - [Wekinator](http://www.wekinator.org)
 - [Wekinator workshop by Kars Alfrink](https://github.com/karsalfrink/useless-butler)
+
+---
+
+<br>
+<br>
+<br>
 
 # <a name="disciplines"></a>Disciplines
 
@@ -175,6 +203,12 @@ Converting spoken audio into text
 
 - [Pose Estimation with TensorflowJS](https://medium.com/tensorflow/real-time-human-pose-estimation-in-the-browser-with-tensorflow-js-7dd0bc881cd5)
 
+---
+
+<br>
+<br>
+<br>
+
 # <a name="services"></a>Tools and services
 
 ![google](./images/google.png)
@@ -185,6 +219,12 @@ Converting spoken audio into text
 - [Amazon Deep Racer](https://aws.amazon.com/deepracer/)
 - [Amazon Machine Learning](https://aws.amazon.com/machine-learning/) and [Free Course](https://aws.amazon.com/training/learning-paths/machine-learning/)
 - [Add Machine Learning power to a Raspberry Pi with the Intel ML USB stick](https://www.movidius.com/news/intel-movidius-neural-compute-stick-honored-with-ces-best-of-innovation-award-2018)
+
+---
+
+<br>
+<br>
+<br>
 
 # <a name="readinglist"></a>Reading list
 

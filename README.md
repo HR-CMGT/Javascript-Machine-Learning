@@ -20,6 +20,8 @@
 - [Demos and example projects](#examples)
 
 <br>
+<br>
+<br>
 
 ---
 
@@ -62,11 +64,10 @@ In the [Workshop](./workshop/introduction.md) you will learn the basics of using
 Below you will find links to popular libraries with tutorials, existing kits, books and demo projects.
 
 <br>
+<br>
+<br>
 
 ---
-
-<br>
-<br>
 
 ![brain](./images/brain.png)
 
@@ -163,11 +164,11 @@ Keras is a high-level neural networks API, written in Python and capable of runn
 - [Why use Keras?](https://keras.io/why-use-keras/)
 - [Keras](https://keras.io)
 
----
+<br>
+<br>
+<br>
 
-<br>
-<br>
-<br>
+---
 
 ![wekinator](./images/wekinator.png)
 
@@ -178,11 +179,11 @@ Wekinator is a GUI that can apply Machine Learning algorithms to Processing and 
 - [Wekinator](http://www.wekinator.org)
 - [Wekinator workshop by Kars Alfrink](https://github.com/karsalfrink/useless-butler)
 
----
+<br>
+<br>
+<br>
 
-<br>
-<br>
-<br>
+---
 
 # <a name="disciplines"></a>Disciplines
 
@@ -218,11 +219,11 @@ Converting spoken audio into text
 
 - [Pose Estimation with TensorflowJS](https://medium.com/tensorflow/real-time-human-pose-estimation-in-the-browser-with-tensorflow-js-7dd0bc881cd5)
 
----
+<br>
+<br>
+<br>
 
-<br>
-<br>
-<br>
+---
 
 # <a name="services"></a>Tools and services
 
@@ -235,11 +236,12 @@ Converting spoken audio into text
 - [Amazon Machine Learning](https://aws.amazon.com/machine-learning/) and [Free Course](https://aws.amazon.com/training/learning-paths/machine-learning/)
 - [Add Machine Learning power to a Raspberry Pi with the Intel ML USB stick](https://www.movidius.com/news/intel-movidius-neural-compute-stick-honored-with-ces-best-of-innovation-award-2018)
 
----
 
 <br>
 <br>
 <br>
+
+---
 
 # <a name="readinglist"></a>Reading list
 
@@ -289,12 +291,18 @@ Converting spoken audio into text
 - [Algorithm notes](http://books.goalkicker.com/AlgorithmsBook/)
 - [Google AI experiments](https://experiments.withgoogle.com/ai)
 - [Building a cat detector on a Raspberry Pi](https://planb.nicecupoftea.org/2018/12/01/cat-detector-with-tensorflow-on-a-raspberry-pi-3b/)
-- [Quick Draw! - Can a Neural Network detect a doodle?](https://quickdraw.withgoogle.com)
-- [Quick Draw Dataset for children's drawings](https://github.com/googlecreativelab/quickdraw-dataset/)
+- [Quick Draw! - Can a Neural Network detect a doodle?](https://quickdraw.withgoogle.com) and the [open source drawing dataset](https://github.com/googlecreativelab/quickdraw-dataset/)
 - [Pyro - Uber's AI programming language](http://pyro.ai)
 - [Runway - An app that adds ML to creative projects](https://runwayapp.ai)
 - [Pixling - Building a life simulation app with Neural Networks](http://wiki.pixling.world/index.php/Main_Page)
+- [Imagine drawing a cat!](http://projects.eerkmans.nl/cat/)
 - [Building a self-driving Mario Kart using TensorFlow](https://www.youtube.com/watch?v=Ipi40cb_RsI) and [documentation](https://www.youtube.com/redirect?q=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F1p4ZOtziLmhf0jPbZTTaFxSKdYqE91dYcTNqTVdd6es4%2Fedit%3Fusp%3Dsharing&event=video_description&v=Ipi40cb_RsI&redir_token=Ybzxsbpmjb-vKOmpvcRlyEses5V8MTUxMzMzODkwNUAxNTEzMjUyNTA1)
+
+<br>
+<br>
+<br>
+
+---
 
 ![SelfDrivingCar](https://imgs.xkcd.com/comics/self_driving_car_milestones.png)
 

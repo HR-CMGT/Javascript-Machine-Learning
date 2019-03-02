@@ -18,6 +18,7 @@
 - [Reading list](#readinglist)
 - [Community](#community)
 - [Demos and example projects](#examples)
+- [Open Data](#data)
 
 <br>
 <br>
@@ -156,6 +157,7 @@ Tensorflow is Google's Machine Learning API for Python
 - [Google Tensorflow tutorials](https://www.tensorflow.org/tutorials/)
 - [Getting Started with TensorFlow](https://www.tensorflow.org/get_started/get_started)
 - [Introduction to Deep Learning and Tensorflow](https://pythonprogramming.net/tensorflow-introduction-machine-learning-tutorial/)
+- [Build a handwritten-text recognition system with Tensorflow](https://towardsdatascience.com/build-a-handwritten-text-recognition-system-using-tensorflow-2326a3487cd5)
 
 ### Keras
 
@@ -291,12 +293,30 @@ Converting spoken audio into text
 - [Algorithm notes](http://books.goalkicker.com/AlgorithmsBook/)
 - [Google AI experiments](https://experiments.withgoogle.com/ai)
 - [Building a cat detector on a Raspberry Pi](https://planb.nicecupoftea.org/2018/12/01/cat-detector-with-tensorflow-on-a-raspberry-pi-3b/)
-- [Quick Draw! - Can a Neural Network detect a doodle?](https://quickdraw.withgoogle.com) and the [open source drawing dataset](https://github.com/googlecreativelab/quickdraw-dataset/)
+- [Quick Draw! - Can a Neural Network detect a doodle?](https://quickdraw.withgoogle.com/data) and the [open source drawing dataset](https://github.com/googlecreativelab/quickdraw-dataset/)
 - [Pyro - Uber's AI programming language](http://pyro.ai)
 - [Runway - An app that adds ML to creative projects](https://runwayapp.ai)
 - [Pixling - Building a life simulation app with Neural Networks](http://wiki.pixling.world/index.php/Main_Page)
 - [Imagine drawing a cat!](http://projects.eerkmans.nl/cat/)
 - [Building a self-driving Mario Kart using TensorFlow](https://www.youtube.com/watch?v=Ipi40cb_RsI) and [documentation](https://www.youtube.com/redirect?q=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F1p4ZOtziLmhf0jPbZTTaFxSKdYqE91dYcTNqTVdd6es4%2Fedit%3Fusp%3Dsharing&event=video_description&v=Ipi40cb_RsI&redir_token=Ybzxsbpmjb-vKOmpvcRlyEses5V8MTUxMzMzODkwNUAxNTEzMjUyNTA1)
+
+<br>
+<br>
+<br>
+
+---
+
+# <a name="data"></a>Open Source Data Sets
+
+Data to create machine learning models
+
+- [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets.html)
+- [Science Kit Learn Toy Datasets](https://scikit-learn.org/stable/datasets/index.html)
+- [ImageNet labeled images](http://image-net.org/explore_popular.php)
+- [QuickDraw doodle dataset](https://github.com/googlecreativelab/quickdraw-dataset/)
+- [Wikipedia List of Datasets](https://en.wikipedia.org/wiki/List_of_datasets_for_machine-learning_research)
+- [The best 50 public datasets for Machine Learning](https://medium.com/datadriveninvestor/the-50-best-public-datasets-for-machine-learning-d80e9f030279)
+- [Handwriting dataset](http://www.fki.inf.unibe.ch/databases/iam-handwriting-database)
 
 <br>
 <br>

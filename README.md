@@ -195,6 +195,7 @@ Wekinator is a GUI that can apply Machine Learning algorithms to Processing and 
 
 - [TrackingJS, an image recognition library for Javascript](https://trackingjs.com)
 - [YOLO - you only look once](https://pjreddie.com/darknet/yolo/) Image recognition network, watch the cool [intro movie!](https://www.youtube.com/watch?v=MPU2HistivI)
+- [Imagga Image training API](https://imagga.com)
 - [Vize.ai Recognize and automate your images](https://vize.ai)
 - [Clarifai image and video recognition tool](https://clarifai.com/developer/)
 - [TensorFlow image recognition](https://www.tensorflow.org/tutorials/image_recognition)

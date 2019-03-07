@@ -95,7 +95,7 @@ The Javascript version of Google TensorFlow. TensorflowJS has lots of tutorials,
 - [Basic tutorial for setting up Tensorflow Neural Network](https://codelabs.developers.google.com/codelabs/neural-tensorflow-js/index.html)
 - [Tutorial course for Audio recognition](https://codelabs.developers.google.com/codelabs/tensorflowjs-audio-codelab/)
 - [Tutorial course for Webcam recognition](https://codelabs.developers.google.com/codelabs/tensorflowjs-teachablemachine-codelab/index.html)
-- [Tensorflow Playground](https://playground.tensorflow.org) 😱
+- [Tensorflow JS Quick Start](https://www.youtube.com/watch?v=Y_XM3Bu-4yc)
 
 ### ML5
 
@@ -272,6 +272,7 @@ Converting spoken audio into text
 - [Deep Learning Gone Wrong - How ML expectations don't always match with results](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRPiprOaC3HsCf5Tuum8bRfzYUiKLRqJmbOoC-32JorNdfyTiRRsR7Ea5eWtvsWzuxo8bjOxCG84dAg/pubhtml)
 - [Read Arduino Sensor data from Node](http://johnny-five.io)
 - [Pytorch is an Open Source Deep Learning platform for Python](https://pytorch.org)
+- [Google Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/)
 
 # <a name="community"></a>Community
 

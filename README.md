@@ -319,6 +319,7 @@ Data to create machine learning models
 - [Wikipedia List of Datasets](https://en.wikipedia.org/wiki/List_of_datasets_for_machine-learning_research)
 - [The best 50 public datasets for Machine Learning](https://medium.com/datadriveninvestor/the-50-best-public-datasets-for-machine-learning-d80e9f030279)
 - [Handwriting dataset](http://www.fki.inf.unibe.ch/databases/iam-handwriting-database)
+- [MNIST handwritten digits dataset](http://yann.lecun.com/exdb/mnist/)
 - [Kaggle Datasets](https://www.kaggle.com/datasets)
 
 <br>

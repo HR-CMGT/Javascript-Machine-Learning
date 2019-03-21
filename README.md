@@ -298,6 +298,7 @@ Converting spoken audio into text
 - [Quick Draw! - Can a Neural Network detect a doodle?](https://quickdraw.withgoogle.com/data) and the [open source drawing dataset](https://github.com/googlecreativelab/quickdraw-dataset/)
 - [Pyro - Uber's AI programming language](http://pyro.ai)
 - [Runway - An app that adds ML to creative projects](https://runwayapp.ai)
+- [Audio classification](https://medium.com/@etown/great-results-on-audio-classification-with-fastai-library-ccaf906c5f52)
 - [Pixling - Building a life simulation app with Neural Networks](http://wiki.pixling.world/index.php/Main_Page)
 - [Imagine drawing a cat!](http://projects.eerkmans.nl/cat/)
 - [Building a self-driving Mario Kart using TensorFlow](https://www.youtube.com/watch?v=Ipi40cb_RsI) and [documentation](https://www.youtube.com/redirect?q=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F1p4ZOtziLmhf0jPbZTTaFxSKdYqE91dYcTNqTVdd6es4%2Fedit%3Fusp%3Dsharing&event=video_description&v=Ipi40cb_RsI&redir_token=Ybzxsbpmjb-vKOmpvcRlyEses5V8MTUxMzMzODkwNUAxNTEzMjUyNTA1)

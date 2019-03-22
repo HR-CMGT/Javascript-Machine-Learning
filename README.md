@@ -214,6 +214,7 @@ Understanding the meaning of written text
 
 Converting spoken audio into text
 
+- [Tensorflow audio recognition](https://www.tensorflow.org/tutorials/sequences/audio_recognition)
 - [Mozilla Deep Speech - blog post](https://blog.mozilla.org/blog/2017/11/29/announcing-the-initial-release-of-mozillas-open-source-speech-recognition-model-and-voice-dataset/) and [code](https://github.com/mozilla/DeepSpeech)
 - [Google TacoTron Self-learning Speech Synthesizer](https://github.com/keithito/tacotron)
 - [Pocket Sphynx Speech Recognition](https://github.com/cmusphinx/pocketsphinx)
@@ -322,6 +323,7 @@ Data to create machine learning models
 - [Handwriting dataset](http://www.fki.inf.unibe.ch/databases/iam-handwriting-database)
 - [MNIST handwritten digits dataset](http://yann.lecun.com/exdb/mnist/)
 - [Kaggle Datasets](https://www.kaggle.com/datasets) such as [Cats and Dogs](https://www.kaggle.com/c/dogs-vs-cats/data)
+- [Open AI Speech Data Collection](https://aiyprojects.withgoogle.com/open_speech_recording)
 
 <br>
 <br>

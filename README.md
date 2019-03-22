@@ -274,7 +274,7 @@ Converting spoken audio into text
 - [Read Arduino Sensor data from Node](http://johnny-five.io)
 - [Pytorch is an Open Source Deep Learning platform for Python](https://pytorch.org)
 - [Google Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/)
-- [TensorFlow Lite for Microcontrollers](https://www.tensorflow.org/lite)
+- [TensorFlow Lite for Microcontrollers](https://www.tensorflow.org/lite) and the new [Edge Microcontroller to run it](https://www.sparkfun.com/products/15170)
 
 # <a name="community"></a>Community
 

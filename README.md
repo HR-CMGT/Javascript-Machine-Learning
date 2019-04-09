@@ -80,50 +80,51 @@ Javascript allows us to publish our projects online, and provides easy ways to v
 
 [BrainJS](https://github.com/BrainJS/brain.js) is a library that allows you to instantiate a Neural Network, train it and run a classification in just a few lines of code.
 
+#### BrainJS
+
 - [Source code and examples for BrainJS](https://github.com/BrainJS/brain.js)
-- [Traversy BrainJS introduction](https://www.youtube.com/watch?v=RVMHhtTqUxc)
+- [Traversy BrainJS introduction](https://www.youtube.com/watch?v=RVMHhtTqUxc) and [examples](https://github.com/bradtraversy/brainjs_examples)
+- [🤯 NEW! FreeCodeCamp BrainJS examples](https://scrimba.com/g/gneuralnetworks) and [introductory video](https://www.youtube.com/watch?v=6E6XecoTRVo)
 - [Recognise letters](https://github.com/BrainJS/brain.js/blob/master/examples/which-letter-simple.js)
-- [Recognise a drawing](https://output.jsbin.com/mofaduk) and [code](https://gist.github.com/mac2000/fc54e6d6bdcbfde28b03dc2a43611270)
+- [Recognise a drawing on a canvas](https://output.jsbin.com/mofaduk) and [code](https://gist.github.com/mac2000/fc54e6d6bdcbfde28b03dc2a43611270)
 - [Advanced Image feature detection using BrainJS](https://scrimba.com/c/c36zkcb)
-
-### Tensorflow JS
-
-The Javascript version of Google TensorFlow. TensorflowJS has lots of tutorials, and add-on libraries that make working with it even easier.
-
-- [Tensorflow for Javascript](https://js.tensorflow.org)
-- [Hello World in Tensorflow.JS](https://dev.to/notwaldorf/hello-tensorflow-2lc5)
-- [Basic tutorial for setting up Tensorflow Neural Network](https://codelabs.developers.google.com/codelabs/neural-tensorflow-js/index.html)
-- [Tutorial course for Audio recognition](https://codelabs.developers.google.com/codelabs/tensorflowjs-audio-codelab/)
-- [Tutorial course for Webcam recognition](https://codelabs.developers.google.com/codelabs/tensorflowjs-teachablemachine-codelab/index.html)
-- [Tensorflow JS Quick Start](https://www.youtube.com/watch?v=Y_XM3Bu-4yc)
 
 ### ML5
 
-ML5 makes TensorFlowJS more accessible by supplying readymade examples with clear documentation for the most common Machine Learning projects, such as image classification, pose recogition, and text generation.
+ML5 is a very user-friendly library which hides some of the more complex aspects of TensorFlow. ML5 has clear documentation and examples for the most common Machine Learning projects:
 
-- [Simplify working with TensorflowJS using the ML5 library](https://ml5js.org)
+- [ML5 library](https://ml5js.org)
 
 ![pose](./images/pose.png)
 
 *Pose Estimation using the Webcam with ML5 and TensorflowJS*
 
+### Tensorflow JS
+
+TensorFlow is google's Machine Learning library. TensorFlow allows you to build your own custom neural network from scratch, so you can optimize it for your specific purposes.
+
+- [Tensorflow for Javascript](https://js.tensorflow.org)
+- [Hello World in Tensorflow.JS](https://dev.to/notwaldorf/hello-tensorflow-2lc5)
+- [TensorflowJS getting started: predicting a number](https://www.tensorflow.org/js/tutorials/training/linear_regression)
+- [TensorflowJS getting started: recognising handwritten digits](https://www.tensorflow.org/js/tutorials/training/handwritten_digit_cnn)
+- [Tensorflow JS Quick Start](https://www.youtube.com/watch?v=Y_XM3Bu-4yc)
+- [Basic tutorial for setting up Tensorflow Neural Network](https://codelabs.developers.google.com/codelabs/neural-tensorflow-js/index.html)
+- [Tutorial course for Audio recognition](https://codelabs.developers.google.com/codelabs/tensorflowjs-audio-codelab/)
+- [Tutorial course for Webcam recognition](https://codelabs.developers.google.com/codelabs/tensorflowjs-teachablemachine-codelab/index.html)
+
+
 ### Magenta JS
+
+Magenta is a google library that simplifies working with images and music in Tensorflow.
 
 - [Magenta](https://magenta.tensorflow.org/get-started/#magenta-js) is a google library that uses tensorflow to generate [images](https://tensorflow.github.io/magenta-js/image/index.html), [music](https://tensorflow.github.io/magenta-js/music/index.html) and [sketches](https://tensorflow.github.io/magenta-js/sketch/). 
 - [Tutorial on drawing snowflakes with a Neural Network and Magenta](https://youtu.be/pdaNttb7Mr8)
 
 ### Perceptron
 
-A perceptron is a Neural Network that has only one cell. You can code it by hand in just a few lines of code. This will help you to understand how one Neural Network cell calculates weights.
+A perceptron is a Neural Network that has only one cell. You can code it by hand in just a few lines of code. This single cell can't make very precise predictions, but it will help you understand what is actually happening inside a neural network.
 
 - [Coding a perceptron in Javascript, by Mathias P Johansson](https://youtu.be/o98qlvrcqiU), and the [result](https://beta.observablehq.com/@mpj/neural-network-from-scratch-part-1)
-
-### Synaptic JS
-
-Synaptic is another Neural Network Library for Javascript
-
-- [Synaptic JS Neural Networks](http://caza.la/synaptic/)
-- [Tutorial for Synaptic JS](https://medium.freecodecamp.org/how-to-create-a-neural-network-in-javascript-in-only-30-lines-of-code-343dafc50d49)
 
 <br>
 <br>
@@ -152,19 +153,13 @@ Science Kit Learn provides Python libraries, readymade datasets and algorithms f
 
 ### Tensorflow
 
-Tensorflow is Google's Machine Learning API for Python
+Tensorflow is Google's Machine Learning API for Python. Tensorflow can run in the browser inside [google's Colab](https://towardsdatascience.com/getting-started-with-tensorflow-in-google-colaboratory-9a97458e1014), meaning you can use google's GPU to do very fast neural network calculations.
 
 - [Google Tensorflow tutorials](https://www.tensorflow.org/tutorials/)
 - [Getting Started with TensorFlow](https://www.tensorflow.org/get_started/get_started)
 - [Introduction to Deep Learning and Tensorflow](https://pythonprogramming.net/tensorflow-introduction-machine-learning-tutorial/)
 - [Build a handwritten-text recognition system with Tensorflow](https://towardsdatascience.com/build-a-handwritten-text-recognition-system-using-tensorflow-2326a3487cd5)
-
-### Keras
-
-Keras is a high-level neural networks API, written in Python and capable of running on top of TensorFlow
-
-- [Why use Keras?](https://keras.io/why-use-keras/)
-- [Keras](https://keras.io)
+- [Keras helper functions for TensorFlow](https://keras.io/why-use-keras/)
 
 <br>
 <br>
@@ -206,6 +201,7 @@ Wekinator is a GUI that can apply Machine Learning algorithms to Processing and 
 
 Understanding the meaning of written text
 
+- [Using LSTM to understand sentences](https://github.com/bradtraversy/brainjs_examples)
 - [What are word vectors?](https://gist.github.com/aparrish/2f562e3737544cf29aaf1af30362f469)
 - [Understanding Word2Vec Video by Daniel Shiffman](https://youtu.be/MOo9iJ8RYWM)
 - [Natural Language Processing with Spacy.io](https://spacy.io)
@@ -289,6 +285,7 @@ Converting spoken audio into text
 
 - [Human faces generated by AI](https://thispersondoesnotexist.com)
 - [Classify an image in 5 lines of Javascript](https://codepen.io/eerk/pen/JmKQLw)
+- [Synaptic JS Neural Networks](http://caza.la/synaptic/) and [Tutorial](https://medium.freecodecamp.org/how-to-create-a-neural-network-in-javascript-in-only-30-lines-of-code-343dafc50d49)
 - [Teleport Vision - generate HTML from UI sketches](https://github.com/teleporthq/teleport-vision-api)
 - [Build a perceptron in Processing](https://www.youtube.com/watch?v=ntKn5TPHHAk)
 - [Training a model in Unity using a neural network](https://github.com/ArztSamuel/Applying_EANNs)

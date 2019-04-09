@@ -94,6 +94,8 @@ Javascript allows us to publish our projects online, and provides easy ways to v
 ML5 is a very user-friendly library which hides some of the more complex aspects of TensorFlow. ML5 has clear documentation and examples for the most common Machine Learning projects:
 
 - [ML5 library](https://ml5js.org)
+- [A total beginner's guide to Machine Learning with ML5](https://www.youtube.com/watch?v=jmznx0Q1fP0)
+- [ML5 short video about gesture recognition](https://www.youtube.com/watch?v=KTNqXwkLuM4)
 
 ![pose](./images/pose.png)
 

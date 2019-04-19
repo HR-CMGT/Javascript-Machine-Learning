@@ -150,6 +150,7 @@ A perceptron is a Neural Network that has only one cell. You can code it by hand
 
 Science Kit Learn provides Python libraries, readymade datasets and algorithms for testing, and a visualisation tool. Get started running python with this tutorial:
 
+- [Beginner's introduction to Scikit Learn](https://www.datacamp.com/community/tutorials/machine-learning-python)
 - [SKLearn](http://scikit-learn.org/stable/)
 - [Introduction to machine learning with scikit-learn](http://scikit-learn.org/stable/tutorial/basic/tutorial.html#machine-learning-the-problem-setting)
 

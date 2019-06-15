@@ -280,6 +280,7 @@ Converting spoken audio into text
 
 - [AI Stackoverflow](https://ai.stackexchange.com)
 - [Kaggle - Machine Learning challenges](https://www.kaggle.com)
+- [AI Lab community - The Hague](https://www.meetup.com/AI-Lab/)
 
 # <a name="examples"></a>Demos and projects
 

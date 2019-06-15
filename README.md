@@ -265,7 +265,7 @@ Converting spoken audio into text
 - [The UX of AI (Google Design)](https://design.google/library/ux-ai/)
 - [Linear algebra - the math behind ML algorithms](http://www.mathscoop.com/calculus/derivatives/derivative-by-definition.php)
 - [Maths for Programmers](https://www.freecodecamp.org/news/beaucarnes/maths-for-programmers--09iy8H6lC)
-- [Paul G Allen Course on Machine Learning algorithms](https://www.youtube.com/user/UWCSE/playlists?shelf_id=16&sort=dd&view=50)
+- [Visualising how weights are trained in a Neural Network](https://www.youtube.com/watch?v=nrnxZVEHZCo)
 - [Mastering Machine Learning with MatLab for Python](https://nl.mathworks.com/campaigns/offers/mastering-machine-learning-with-matlab.html?s_eid=PSB_17921)
 - [Deep Learning Simplified - Youtube series](https://www.youtube.com/playlist?list=PLjJh1vlSEYgvGod9wWiydumYl8hOXixNu)
 - [Neural Networks and Deep Learning - book recommended by Tensorflow](http://neuralnetworksanddeeplearning.com)

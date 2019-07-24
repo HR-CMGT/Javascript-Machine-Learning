@@ -274,6 +274,7 @@ Converting spoken audio into text
 - [Pytorch is an Open Source Deep Learning platform for Python](https://pytorch.org)
 - [Google Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/)
 - [TensorFlow Lite for Microcontrollers](https://www.tensorflow.org/lite) and the new [Edge Microcontroller to run it](https://www.sparkfun.com/products/15170)
+- [ConvNet JS - a convolutional neural network in Javascript](https://cs.stanford.edu/people/karpathy/convnetjs/)
 - ⚠️ [Siraj Raval's lightning fast ML tutorials](https://www.youtube.com/channel/UCWN3xxRkmTPmbKwht9FuE5A)
 
 # <a name="community"></a>Community
@@ -281,6 +282,7 @@ Converting spoken audio into text
 - [AI Stackoverflow](https://ai.stackexchange.com)
 - [Kaggle - Machine Learning challenges](https://www.kaggle.com)
 - [AI Lab community - The Hague](https://www.meetup.com/AI-Lab/)
+- [Hogeschool Rotterdam Data Lab](https://docent.cmi.hro.nl/willi/HC_DATALAB/artificial-intelligence/)
 
 # <a name="examples"></a>Demos and projects
 

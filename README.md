@@ -279,6 +279,7 @@ Converting spoken audio into text
 
 # <a name="community"></a>Community
 
+- [Brilliant.org](https://brilliant.org/courses/artificial-neural-networks/)
 - [AI Stackoverflow](https://ai.stackexchange.com)
 - [Kaggle - Machine Learning challenges](https://www.kaggle.com)
 - [AI Lab community - The Hague](https://www.meetup.com/AI-Lab/)
@@ -295,6 +296,7 @@ Converting spoken audio into text
 - [Synaptic JS Neural Networks](http://caza.la/synaptic/) and [Tutorial](https://medium.freecodecamp.org/how-to-create-a-neural-network-in-javascript-in-only-30-lines-of-code-343dafc50d49)
 - [Teleport Vision - generate HTML from UI sketches](https://github.com/teleporthq/teleport-vision-api)
 - [Build a perceptron in Processing](https://www.youtube.com/watch?v=ntKn5TPHHAk)
+- [Unity Machine Learning](https://unity3d.com/machine-learning)
 - [Training a model in Unity using a neural network](https://github.com/ArztSamuel/Applying_EANNs)
 - [Neural Drum Machine](https://codepen.io/teropa/pen/JLjXGK) and [Voice-based beatbox](https://codepen.io/naotokui/pen/NBzJMW) created with [MagentaJS](https://magenta.tensorflow.org)
 - [Demo for creating a self-learning Flappy Bird in Javascript](https://github.com/ssusnic/Machine-Learning-Flappy-Bird)

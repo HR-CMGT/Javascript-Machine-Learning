@@ -1,255 +1,134 @@
 # HR CMGT Machine Learning
 
-## Introduction
+## What is Machine Learning?
 
-- [Introduction](#introduction)
-- [Workshop](./workshop/introduction.md)
+- [Introduction](./workshop/introduction.md)
+- [Workshop](./workshop/workshop.md)
 
-## Programming
+## Machine Learning Problems
 
-- [Javascript](#javascript)
+- [Examples of Machine Learning problems](#disciplines)
+- [Coding with Javascript](#javascript)
+
+## Learning
+
 - [Python](#python)
-- [Wekinator](#wekinator)
-- [ML Disciplines](#disciplines)
-- [Tools and services](#services)
-
-## Reading
-
 - [Reading list](#readinglist)
+- [Demos and tutorials](#examples)
 - [Community](#community)
-- [Demos and example projects](#examples)
-- [Open Data](#data)
+- [More tools and services](#services)
 
 <br>
-<br>
-<br>
 
----
-
-# <a name="introduction"></a>Introduction
-
-Traditionally, developers write *sets of instructions*, also known as a *computer program*, to solve complex problems. This traditional approach has its limitations, especially when we want the computer to solve human tasks, such as recognising a drawing, or talking on the phone.
-
-By using a Machine Learning algorithm, the computer can learn to recognise patterns in complex data all by itself. A machine learning algorithm can reveal patterns that would otherwise not have been found. The computer can learn to make decisions and to improve itself.
-
-![model1](./images/model1.png)
-
-*Using an algorithm to train a model to recognise cat drawings*
-
-![model2](./images/model2.png)
-
-*A model can compare new drawings to cats, and it can even imagine new cat drawings*
-
-## Algorithms
-
-Algorithms are used to find patterns in complex data. Surprisingly, the algorithm itself does not have to be all that complex. You can start a machine learning project just by using the good old Pythagorean theorem:
-
-![pythagorean](./images/pythagorean.png)
-
-#### Our first Machine Learning algorithm: *a<sup>2</sup>+b<sup>2</sup>=c<sup>2</sup>*
-
-By looking at your data and defining the goal of your project, you will have to decide on an algorithm that suits your purposes the best. 
-
-<a href="./images/mlmap.png" target="_blank"><img src="./images/mlmap.png" alt="mlmap" width="600"/></a>
-
-Simpler algorithms work faster, and allow for more introspection. As a developer you will have a lot of control on its output. 
-
-Neural networks can analyse very complex data, and can learn from itself. A neural net may take a lot of time to train, and will create a sort of "black box", making it less transparent to understand how it makes decisions.
-
-![nn](./images/nn.png)
-
-## Workshop
-
-In the [Workshop](./workshop/introduction.md) you will learn the basics of using existing libraries and preparing data to train a neural network.  
-
-Below you will find links to popular libraries with tutorials, existing kits, books and demo projects.
-
-<br>
-<br>
-<br>
-
----
-
-![brain](./images/brain.png)
-
-# <a name="javascript"></a>Javascript
-
-Javascript allows us to publish our projects online, and provides easy ways to visualise our results using html and css.
-
-### Brain JS
-
-[BrainJS](https://github.com/BrainJS/brain.js) is a library that allows you to instantiate a Neural Network, train it and run a classification in just a few lines of code.
-
-#### BrainJS
-
-- [Source code and examples for BrainJS](https://github.com/BrainJS/brain.js)
-- [Traversy BrainJS introduction](https://www.youtube.com/watch?v=RVMHhtTqUxc) and [examples](https://github.com/bradtraversy/brainjs_examples)
-- [🤯 NEW! FreeCodeCamp BrainJS examples](https://scrimba.com/g/gneuralnetworks) and [introductory video](https://www.youtube.com/watch?v=6E6XecoTRVo)
-- [Recognise letters](https://github.com/BrainJS/brain.js/blob/master/examples/which-letter-simple.js)
-- [Recognise a drawing on a canvas](https://output.jsbin.com/mofaduk) and [code](https://gist.github.com/mac2000/fc54e6d6bdcbfde28b03dc2a43611270)
-- [Advanced Image feature detection using BrainJS](https://scrimba.com/c/c36zkcb)
-
-### ML5
-
-ML5 is a very user-friendly library which hides some of the more complex aspects of TensorFlow. ML5 has clear documentation and examples for the most common Machine Learning projects:
-
-- [ML5 library](https://ml5js.org)
-- [A total beginner's guide to Machine Learning with ML5](https://www.youtube.com/watch?v=jmznx0Q1fP0)
-- [ML5 short video about gesture recognition](https://www.youtube.com/watch?v=KTNqXwkLuM4)
+# <a name="disciplines"></a>Examples of machine learning problems
 
 ![pose](./images/pose.png)
 
-*Pose Estimation using the Webcam with ML5 and TensorflowJS*
+Depending on your data and your goal, you can use different approaches for your Javascript ML project.
 
-### Tensorflow JS
+| Problem                                | Approach                                                                                              | Javascript example                               |
+|-------------------------------------|-------------------------------------------------------------------------------------------------------|--------------------------------------------------|
+| Find patterns in a simple excel sheet   | Use K-Nearest-Neighbour to find patterns in arrays of numbers                                         | [kNear](https://github.com/NathanEpstein/KNear), [KNNClassifier](https://ml5js.org/reference/api-KNNClassifier/)                             |
+| Find patterns in a complex excel sheet  | Use a basic Neural Network to find patterns in arrays of numbers                                      | [brainJS](https://github.com/BrainJS/brain.js#for-training-with-neuralnetwork), [ML5 Neural Network](https://learn.ml5js.org/docs/#/reference/neural-network), [Tensorflow Basics](https://www.tensorflow.org/js/tutorials/training/linear_regression)             |
+| Understand written text (sentences) | Use LSTM Neural Network or Word2Vec to find meaning in sentences                                      | [BrainJS LSTM](https://github.com/BrainJS/brain.js#for-training-with-rnn-lstm-and-gru), [Word2Vec](https://learn.ml5js.org/docs/#/reference/word2vec)                                |
+| Recognise body poses                | Use an existing pre-trained body pose model                                                           | [Train a Pose Model with Teachable Machine](https://teachablemachine.withgoogle.com) [ML5 PoseNet](https://learn.ml5js.org/docs/#/reference/posenet)                                    |
+| Recognise objects in images         | Use an existing pre-trained image model, or train your own model using a Convolutional Neural Network | [Train a model with Teachable Machine](https://teachablemachine.withgoogle.com), [ML5 YOLO](https://learn.ml5js.org/docs/#/reference/yolo), [Tensorflow Object Detection](https://github.com/tensorflow/tfjs-examples/tree/master/simple-object-detection)            |
+| Recognise hand written text         | Use the MNIST model | [Tensorflow MNIST](https://github.com/tensorflow/tfjs-examples/tree/master/mnist)            |
+| Recognise facial expressions        | Use an existing pre-trained facial expression model                                                   | [Face-API](https://github.com/justadudewhohacks/face-api.js) |
+| Generate text or images             | Use a Recurrent Neural Network                                                                        | [ML5 Sketch RNN](https://learn.ml5js.org/docs/#/reference/sketchrnn), [BrainJS RNN](https://github.com/BrainJS/brain.js#for-training-with-rnn-lstm-and-gru)                              |
 
-TensorFlow is google's Machine Learning library. TensorFlow allows you to build your own custom neural network from scratch, so you can optimize it for your specific purposes.
-
-- [Tensorflow for Javascript](https://js.tensorflow.org)
-- [Hello World in Tensorflow.JS](https://dev.to/notwaldorf/hello-tensorflow-2lc5)
-- [TensorflowJS getting started: predicting a number](https://www.tensorflow.org/js/tutorials/training/linear_regression)
-- [TensorflowJS getting started: recognising handwritten digits](https://www.tensorflow.org/js/tutorials/training/handwritten_digit_cnn)
-- [Tensorflow JS Quick Start](https://www.youtube.com/watch?v=Y_XM3Bu-4yc)
-- [Basic tutorial for setting up Tensorflow Neural Network](https://codelabs.developers.google.com/codelabs/neural-tensorflow-js/index.html)
-- [Tutorial course for Audio recognition](https://codelabs.developers.google.com/codelabs/tensorflowjs-audio-codelab/)
-- [Tutorial course for Webcam recognition](https://codelabs.developers.google.com/codelabs/tensorflowjs-teachablemachine-codelab/index.html)
-
-
-### Magenta JS
-
-Magenta is a google library that simplifies working with images and music in Tensorflow.
-
-- [Magenta](https://magenta.tensorflow.org/get-started/#magenta-js) is a google library that uses tensorflow to generate [images](https://tensorflow.github.io/magenta-js/image/index.html), [music](https://tensorflow.github.io/magenta-js/music/index.html) and [sketches](https://tensorflow.github.io/magenta-js/sketch/). 
-- [Tutorial on drawing snowflakes with a Neural Network and Magenta](https://youtu.be/pdaNttb7Mr8)
-
-### Perceptron
-
-A perceptron is a Neural Network that has only one cell. You can code it by hand in just a few lines of code. This single cell can't make very precise predictions, but it will help you understand what is actually happening inside a neural network.
-
-- [Coding a perceptron in Javascript, by Mathias P Johansson](https://youtu.be/o98qlvrcqiU), and the [result](https://beta.observablehq.com/@mpj/neural-network-from-scratch-part-1)
-
+---
 <br>
+
+![brain](./images/brain.png)
+
+# <a name="javascript"></a>Coding with Javascript
+
+Javascript allows us to publish our projects online, and provides easy ways to visualise our results using html and css.
+
+## Brain.JS
+
+[BrainJS](https://github.com/BrainJS/brain.js) is a library that allows you to instantiate a Neural Network, train it and run a classification in just a few lines of code. This example learns if text on a RGB background should be white or black:
+
+```javascript
+const net = new brain.NeuralNetwork()
+
+net.train([
+  { input: { r: 0.03, g: 0.7, b: 0.5 }, output: { black: 1 } },
+  { input: { r: 0.16, g: 0.09, b: 0.2 }, output: { white: 1 } },
+  { input: { r: 0.5, g: 0.5, b: 1.0 }, output: { white: 1 } },
+])
+
+const output = net.run({ r: 1, g: 0.4, b: 0 }) // { white: 0.99, black: 0.002 }
+```
+
+- [Source code and examples for BrainJS](https://github.com/BrainJS/brain.js)
+- [Youtube BrainJS introduction](https://www.youtube.com/watch?v=RVMHhtTqUxc)
+- [Recognise letters](https://github.com/BrainJS/brain.js/blob/master/examples/which-letter-simple.js)
+- [Recognise a drawing](https://output.jsbin.com/mofaduk) and [code](https://gist.github.com/mac2000/fc54e6d6bdcbfde28b03dc2a43611270)
+- [Live code example using table data](https://scrimba.com/c/c36zkcb)
+
+## ML5.JS
+
+ML5 supplies a simplified wrapper with clear documentation and examples for many existing Machine Learning libraries, such as TensorFlow and YOLO. In this example, we teach the machine what is left and what is right:
+
+```javascript
+let nn = ml5.neuralNetwork({
+  inputs: 1,
+  outputs: 2,
+  task: 'classification',
+  debug: true
+})
+
+nn.addData( 100,  ['left'])
+nn.addData( 600,  ['right'])
+nn.addData( 150,  ['left'])
+nn.addData( 800,  ['right'])
+
+nn.normalizeData()
+nn.train(finishedTraining)
+
+function finishedTraining(){
+  nn.classify([160], (err, result) => console.log(result)) // LEFT
+}
+```
+
+- [Introduction to the ML5 library](https://ml5js.org)
+- [ML5 Neural Network](https://learn.ml5js.org/docs/#/reference/neural-network)
+- [ML5 Image Recogition](https://learn.ml5js.org/docs/#/reference/yolo)
+- [ML5 Pose Recogition](https://learn.ml5js.org/docs/#/reference/posenet)
+
+
+
+## Tensorflow JS
+
+TensorFlow is Google's Neural Network library. TensorFlow is available for Javascript, Python and IoT devices. In TensorFlow you can build your own custom Neural Network to serve many different purposes.
+
+- [Tensorflow for Javascript](https://www.tensorflow.org/js/)
+- [Load an existing model and classify an image in 3 lines of code](./workshop/workshop3.md)
+- [Tensorflow JS Tutorials](https://www.tensorflow.org/js/tutorials)
+- [Tensorflow Neural Network](https://codelabs.developers.google.com/codelabs/tfjs-training-regression/index.html#0)
+- [Hello World in Tensorflow.JS](https://meowni.ca/posts/hello-tensorflow/)
+- [Audio example](https://codelabs.developers.google.com/codelabs/tensorflowjs-audio-codelab/), [Webcam example](https://codelabs.developers.google.com/codelabs/tensorflowjs-teachablemachine-codelab/index.html)
+- [Apply Anime Style on your images](https://leemeng.tw/generate-anime-using-cartoongan-and-tensorflow2-en.html)
+
 <br>
 <br>
 
 ---
-
-![python](./images/python.png)
-
 # <a name="python"></a>Python
 
-[Python](https://www.python.org) is used by data scientists and in many Machine Learning courses online. Python requires a bit more setup, especially when you want to visualise results graphically. Python can run on a Raspberry Pi!
+![adafruit](./images/adafruit.png)
 
-- [Creating your first neural network in Python](https://www.analyticsindiamag.com/how-to-create-your-first-artificial-neural-network-in-python/)
-- [Machine learning for artists: guides and examples](http://ml4a.github.io/guides/)
-- [Udacity course: Machine Learning with Python](https://www.udacity.com/course/intro-to-machine-learning--ud120)
-- [Building a perceptron from scratch](https://medium.com/@ismailghallou/build-your-perceptron-neural-net-from-scratch-e12b7be9d1ef) and [source code](https://github.com/smakosh/Perceptron-neural-net-from-scratch)
-- [Building camera detection on a raspberry pi](https://www.youtube.com/watch?v=2kO8ScrqikM)
-
-### Science Kit Learn
-
-Science Kit Learn provides Python libraries, readymade datasets and algorithms for testing, and a visualisation tool. Get started running python with this tutorial:
-
-- [Beginner's introduction to Scikit Learn](https://www.datacamp.com/community/tutorials/machine-learning-python)
-- [SKLearn](http://scikit-learn.org/stable/)
-- [Introduction to machine learning with scikit-learn](http://scikit-learn.org/stable/tutorial/basic/tutorial.html#machine-learning-the-problem-setting)
-
-### Tensorflow
-
-Tensorflow is Google's Machine Learning API for Python. Tensorflow can run in the browser inside [google's Colab](https://towardsdatascience.com/getting-started-with-tensorflow-in-google-colaboratory-9a97458e1014), meaning you can use google's GPU to do very fast neural network calculations.
-
-- [Google Tensorflow tutorials](https://www.tensorflow.org/tutorials/)
-- [Getting Started with TensorFlow](https://www.tensorflow.org/get_started/get_started)
-- [Introduction to Deep Learning and Tensorflow](https://pythonprogramming.net/tensorflow-introduction-machine-learning-tutorial/)
-- [Build a handwritten-text recognition system with Tensorflow](https://towardsdatascience.com/build-a-handwritten-text-recognition-system-using-tensorflow-2326a3487cd5)
-- [Keras helper functions for TensorFlow](https://keras.io/why-use-keras/)
-
-<br>
-<br>
-<br>
-
----
-
-![wekinator](./images/wekinator.png)
-
-# <a name="wekinator"></a>Wekinator
-
-Wekinator is a GUI that can apply Machine Learning algorithms to Processing and Arduino sensor data. 
-
-- [Wekinator](http://www.wekinator.org)
-- [Wekinator workshop by Kars Alfrink](https://github.com/karsalfrink/useless-butler)
-
-<br>
-<br>
-<br>
-
----
-
-# <a name="disciplines"></a>Disciplines
-
-## Image recognition
-
-<img src="https://pjreddie.com/media/image/Screen_Shot_2018-03-24_at_10.48.42_PM.png" width="450">
-
-- [TrackingJS, an image recognition library for Javascript](https://trackingjs.com)
-- [YOLO - you only look once](https://pjreddie.com/darknet/yolo/) Image recognition network, watch the cool [intro movie!](https://www.youtube.com/watch?v=MPU2HistivI)
-- [Imagga Image training API](https://imagga.com)
-- [Vize.ai Recognize and automate your images](https://vize.ai)
-- [Clarifai image and video recognition tool](https://clarifai.com/developer/)
-- [TensorFlow image recognition](https://www.tensorflow.org/tutorials/image_recognition)
-- [ImageNet - readymade training data for image recognition](http://www.image-net.org)
-- [GoCV - Use the GO programming language for Computer Vision](https://gocv.io)
-
-## Natural Language Processing
-
-Understanding the meaning of written text
-
-- [Using LSTM to understand sentences](https://github.com/bradtraversy/brainjs_examples)
-- [What are word vectors?](https://gist.github.com/aparrish/2f562e3737544cf29aaf1af30362f469)
-- [Understanding Word2Vec Video by Daniel Shiffman](https://youtu.be/MOo9iJ8RYWM)
-- [Natural Language Processing with Spacy.io](https://spacy.io)
-
-## Speech Recognition
-
-Converting spoken audio into text
-
-- [Tensorflow audio recognition](https://www.tensorflow.org/tutorials/sequences/audio_recognition)
-- [Mozilla Deep Speech - blog post](https://blog.mozilla.org/blog/2017/11/29/announcing-the-initial-release-of-mozillas-open-source-speech-recognition-model-and-voice-dataset/) and [code](https://github.com/mozilla/DeepSpeech)
-- [Google TacoTron Self-learning Speech Synthesizer](https://github.com/keithito/tacotron)
-- [Pocket Sphynx Speech Recognition](https://github.com/cmusphinx/pocketsphinx)
-
-## Pose Estimation
-
-- [Pose Estimation with TensorflowJS](https://medium.com/tensorflow/real-time-human-pose-estimation-in-the-browser-with-tensorflow-js-7dd0bc881cd5)
-
-<br>
-<br>
-<br>
-
----
-
-# <a name="services"></a>Tools and services
-
-![google](./images/google.png)
-
-- [Google's Do-it-yourself Raspberry Pi AI Kits](https://aiyprojects.withgoogle.com/vision/)
-- [Microsoft Machine Learning APIs](https://gallery.azure.ai/machineLearningAPIs)
-- [Apple Core ML framework](https://developer.apple.com/documentation/coreml) and [tutorials](https://developer.apple.com/machine-learning/)
-- [Amazon Deep Racer](https://aws.amazon.com/deepracer/)
-- [Amazon Machine Learning](https://aws.amazon.com/machine-learning/) and [Free Course](https://aws.amazon.com/training/learning-paths/machine-learning/)
-- [Add Machine Learning power to a Raspberry Pi with the Intel ML USB stick](https://www.movidius.com/news/intel-movidius-neural-compute-stick-honored-with-ces-best-of-innovation-award-2018)
-
-
-<br>
-<br>
-<br>
-
----
+- [Read more about programming with Python, TensorFlow, Raspberry Pi and microcontrollers](./python.md)
 
 # <a name="readinglist"></a>Reading list
 
-![nnchart](./images/nnchart.png)
+![brilliant](./images/brilliant.png)
 
+- [🔥 Brilliant.org interactive quiz about Neural Networks](https://brilliant.org/courses/artificial-neural-networks/)
+- [📺 The Coding Train](https://thecodingtrain.com)
+- [📺 Crash Course - what is AI?](https://www.youtube.com/watch?v=a0_lo_GDcFw)
 - [Machine Learning for Everyone](https://vas3k.com/blog/machine_learning/)
 - [The Mostly Complete Chart of Neural Networks](https://towardsdatascience.com/the-mostly-complete-chart-of-neural-networks-explained-3fb6f2367464)
 - [Introduction to Deep Learning](https://media.ccc.de/v/35c3-9386-introduction_to_deep_learning)
@@ -263,78 +142,87 @@ Converting spoken audio into text
 - [Design in the era of the algorithm](https://bigmedium.com/speaking/design-in-the-era-of-the-algorithm.html)
 - [Human-Centered Machine Learning](https://medium.com/google-design/human-centered-machine-learning-a770d10562cd)
 - [The UX of AI (Google Design)](https://design.google/library/ux-ai/)
-- [Linear algebra - the math behind ML algorithms](http://www.mathscoop.com/calculus/derivatives/derivative-by-definition.php)
 - [Maths for Programmers](https://www.freecodecamp.org/news/beaucarnes/maths-for-programmers--09iy8H6lC)
-- [Visualising how weights are trained in a Neural Network](https://www.youtube.com/watch?v=nrnxZVEHZCo)
 - [Mastering Machine Learning with MatLab for Python](https://nl.mathworks.com/campaigns/offers/mastering-machine-learning-with-matlab.html?s_eid=PSB_17921)
 - [Deep Learning Simplified - Youtube series](https://www.youtube.com/playlist?list=PLjJh1vlSEYgvGod9wWiydumYl8hOXixNu)
-- [Neural Networks and Deep Learning - book recommended by Tensorflow](http://neuralnetworksanddeeplearning.com)
+- [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com)
 - [Deep Learning Gone Wrong - How ML expectations don't always match with results](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRPiprOaC3HsCf5Tuum8bRfzYUiKLRqJmbOoC-32JorNdfyTiRRsR7Ea5eWtvsWzuxo8bjOxCG84dAg/pubhtml)
-- [Read Arduino Sensor data from Node](http://johnny-five.io)
-- [Pytorch is an Open Source Deep Learning platform for Python](https://pytorch.org)
-- [Google Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/)
-- [TensorFlow Lite for Microcontrollers](https://www.tensorflow.org/lite) and the new [Edge Microcontroller to run it](https://www.sparkfun.com/products/15170)
-- [ConvNet JS - a convolutional neural network in Javascript](https://cs.stanford.edu/people/karpathy/convnetjs/)
-- ⚠️ [Siraj Raval's lightning fast ML tutorials](https://www.youtube.com/channel/UCWN3xxRkmTPmbKwht9FuE5A)
 
+![nnchart](./images/nnchart.png)
 # <a name="community"></a>Community
 
-- [Brilliant.org](https://brilliant.org/courses/artificial-neural-networks/)
 - [AI Stackoverflow](https://ai.stackexchange.com)
 - [Kaggle - Machine Learning challenges](https://www.kaggle.com)
-- [AI Lab community - The Hague](https://www.meetup.com/AI-Lab/)
-- [Hogeschool Rotterdam Data Lab](https://docent.cmi.hro.nl/willi/HC_DATALAB/artificial-intelligence/)
 
-# <a name="examples"></a>Demos and projects
+# <a name="demos"></a>Demos and tutorials
 
 <a href="https://playground.tensorflow.org" target="_blank">![playground](./images/playground.png)</a>
 
-*Tensorflow Playground*
-
-- [Human faces generated by AI](https://thispersondoesnotexist.com)
+- [Tensorflow Playground](https://playground.tensorflow.org) 😱
+- [Coding a perceptron in Javascript, by Mathias P Johansson](https://youtu.be/o98qlvrcqiU), and the [result](https://beta.observablehq.com/@mpj/neural-network-from-scratch-part-1)
+- [Using a Javascript Perceptron to classify dangerous snakes](https://github.com/elyx0/rosenblattperceptronjs)
 - [Classify an image in 5 lines of Javascript](https://codepen.io/eerk/pen/JmKQLw)
-- [Synaptic JS Neural Networks](http://caza.la/synaptic/) and [Tutorial](https://medium.freecodecamp.org/how-to-create-a-neural-network-in-javascript-in-only-30-lines-of-code-343dafc50d49)
 - [Teleport Vision - generate HTML from UI sketches](https://github.com/teleporthq/teleport-vision-api)
-- [Build a perceptron in Processing](https://www.youtube.com/watch?v=ntKn5TPHHAk)
-- [Unity Machine Learning](https://unity3d.com/machine-learning)
 - [Training a model in Unity using a neural network](https://github.com/ArztSamuel/Applying_EANNs)
 - [Neural Drum Machine](https://codepen.io/teropa/pen/JLjXGK) and [Voice-based beatbox](https://codepen.io/naotokui/pen/NBzJMW) created with [MagentaJS](https://magenta.tensorflow.org)
 - [Demo for creating a self-learning Flappy Bird in Javascript](https://github.com/ssusnic/Machine-Learning-Flappy-Bird)
 - [Algorithm notes](http://books.goalkicker.com/AlgorithmsBook/)
 - [Google AI experiments](https://experiments.withgoogle.com/ai)
 - [Building a cat detector on a Raspberry Pi](https://planb.nicecupoftea.org/2018/12/01/cat-detector-with-tensorflow-on-a-raspberry-pi-3b/)
-- [Quick Draw! - Can a Neural Network detect a doodle?](https://quickdraw.withgoogle.com/data) and the [open source drawing dataset](https://github.com/googlecreativelab/quickdraw-dataset/)
-- [Pyro - Uber's AI programming language](http://pyro.ai)
+- [Quick Draw! - Can a Neural Network detect a doodle?](https://quickdraw.withgoogle.com) and the [open source drawing dataset](https://github.com/googlecreativelab/quickdraw-dataset/)
 - [Runway - An app that adds ML to creative projects](https://runwayapp.ai)
-- [Audio classification](https://medium.com/@etown/great-results-on-audio-classification-with-fastai-library-ccaf906c5f52)
 - [Pixling - Building a life simulation app with Neural Networks](http://wiki.pixling.world/index.php/Main_Page)
 - [Imagine drawing a cat!](http://projects.eerkmans.nl/cat/)
 - [Building a self-driving Mario Kart using TensorFlow](https://www.youtube.com/watch?v=Ipi40cb_RsI) and [documentation](https://www.youtube.com/redirect?q=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F1p4ZOtziLmhf0jPbZTTaFxSKdYqE91dYcTNqTVdd6es4%2Fedit%3Fusp%3Dsharing&event=video_description&v=Ipi40cb_RsI&redir_token=Ybzxsbpmjb-vKOmpvcRlyEses5V8MTUxMzMzODkwNUAxNTEzMjUyNTA1)
+- [Learning Neural Networks with Processing](https://natureofcode.com/book/chapter-10-neural-networks/)
 
 <br>
 <br>
-<br>
 
----
+# <a name="services"></a>More tools and services
 
-# <a name="data"></a>Open Source Data Sets
+## Runway ML
 
-Data to create machine learning models
+![runway](./images/runwayml.png)
 
-- [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets.html)
-- [Science Kit Learn Toy Datasets](https://scikit-learn.org/stable/datasets/index.html)
-- [ImageNet labeled images](http://image-net.org/explore_popular.php)
-- [QuickDraw doodle dataset](https://github.com/googlecreativelab/quickdraw-dataset/)
-- [Wikipedia List of Datasets](https://en.wikipedia.org/wiki/List_of_datasets_for_machine-learning_research)
-- [The best 50 public datasets for Machine Learning](https://medium.com/datadriveninvestor/the-50-best-public-datasets-for-machine-learning-d80e9f030279)
-- [Handwriting dataset](http://www.fki.inf.unibe.ch/databases/iam-handwriting-database)
-- [MNIST handwritten digits dataset](http://yann.lecun.com/exdb/mnist/)
-- [Kaggle Datasets](https://www.kaggle.com/datasets) such as [Cats and Dogs](https://www.kaggle.com/c/dogs-vs-cats/data)
-- [Open AI Speech Data Collection](https://aiyprojects.withgoogle.com/open_speech_recording)
+[Machine learning for creators](https://runwayml.com) - bring the power of artificial intelligence to your creative projects with an intuitive and simple visual interface.
 
-<br>
-<br>
-<br>
+## Games
+
+- [OpenAI GYM - a game environment to train AI](http://gym.openai.com)
+- [Unity Machine Learning Platform](https://unity3d.com/machine-learning)
+- [Dr. Derk's mutant battlegrounds](https://store.steampowered.com/app/1102370/Dr_Derks_Mutant_Battlegrounds/)
+
+## Image recognition
+
+- [TrackingJS, an image recognition library for Javascript](https://trackingjs.com)
+- [YOLO - you only look once](https://pjreddie.com/darknet/yolo/) Image recognition network, watch the cool [intro movie!](https://www.youtube.com/watch?v=MPU2HistivI)
+- [Vize.ai Recognize and automate your images](https://vize.ai)
+- [ImageNet - readymade training data for image recognition](http://www.image-net.org)
+- [OpenCV Computer Vision](https://opencv.org)
+
+## Language and speech
+
+- [What are word vectors?](https://gist.github.com/aparrish/2f562e3737544cf29aaf1af30362f469)
+- [Understanding Word2Vec Video by Daniel Shiffman](https://youtu.be/MOo9iJ8RYWM)
+- [Natural Language Processing with Spacy.io](https://spacy.io)
+- [Google TacoTron Self-learning Speech Synthesizer](https://github.com/keithito/tacotron)
+- [Pocket Sphynx Speech Recognition](https://github.com/cmusphinx/pocketsphinx)
+
+![google](./images/google.png)
+
+- [Google's Do-it-yourself Raspberry Pi AI Kits](https://aiyprojects.withgoogle.com/vision/)
+- [Microsoft Machine Learning APIs](https://gallery.azure.ai/machineLearningAPIs)
+- [Apple Core ML framework](https://developer.apple.com/documentation/coreml) and [tutorials](https://developer.apple.com/machine-learning/)
+- [Amazon Deep Racer](https://aws.amazon.com/deepracer/), [Machine Learning API's](https://aws.amazon.com/machine-learning/) and [Free Course](https://aws.amazon.com/training/learning-paths/machine-learning/)
+- [Add Machine Learning power to a Raspberry Pi with the Intel ML USB stick](https://www.movidius.com/news/intel-movidius-neural-compute-stick-honored-with-ces-best-of-innovation-award-2018)
+- [Wekinator](http://www.wekinator.org) is a GUI that can apply Machine Learning algorithms to Processing and Arduino sensor data. 
+- [Wekinator workshop by Kars Alfrink](https://github.com/karsalfrink/useless-butler)
+- [Magenta](https://magenta.tensorflow.org/get-started/#magenta-js) is a google library that uses tensorflow to generate [images](https://tensorflow.github.io/magenta-js/image/index.html), [music](https://tensorflow.github.io/magenta-js/music/index.html) and [sketches](https://tensorflow.github.io/magenta-js/sketch/). 
+- [Tutorial on drawing snowflakes with a Neural Network and Magenta](https://youtu.be/pdaNttb7Mr8)
+- [Synaptic JS Neural Networks](http://caza.la/synaptic/) and [Tutorial](https://medium.freecodecamp.org/how-to-create-a-neural-network-in-javascript-in-only-30-lines-of-code-343dafc50d49)
+
+
 
 ---
 

@@ -1,0 +1,45 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    margin: 0px;
+    padding: 20px;
+    background-color: #ccc;
+}
+
+h1, h2, h3, h4 {
+    margin-top: 0;
+}
+
+video, img {
+    width: 340px;
+}
+
+div {
+    background-color: rgb(235, 235, 235);
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+canvas {
+    image-rendering: optimizeSpeed;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -o-crisp-edges;
+    image-rendering: pixelated;
+    -ms-interpolation-mode: nearest-neighbor;
+    border: 1px solid black;
+}
+
+data {
+    display: block;
+    font-size: 10px;
+    font-family: monospace;
+    background-color: white;
+    word-wrap: break-word;
+}
+
+button {
+    font-size: 16px;
+    padding: 4px;
+}

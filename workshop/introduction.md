@@ -1,16 +1,23 @@
 # Machine Learning
 
-- [Introduction](#introduction)
-- [Workshop](./workshop1.md)
-- [Reading list](../README.md)
-
-# <a name="introduction"></a>Introduction
-
 ![hal](../images/hal.png)
 
 [Open the Pod Bay Doors, HAL](https://www.youtube.com/watch?v=ARJ8cAGm6JE) or [Perhaps Alexa can do it?](https://www.youtube.com/watch?v=OpFIW9WoH3E)
 
-## What is Machine Learning?
+
+# <a name="introduction"></a>What is Machine Learning?
+
+Traditionally, developers write *sets of instructions*, also known as a *computer program*, to solve complex problems. This traditional approach has its limitations, especially when we want the computer to solve human tasks, such as recognising a drawing, or talking on the phone.
+
+By using a Machine Learning algorithm, the computer can learn to recognise patterns in complex data all by itself. A machine learning algorithm can reveal patterns that would otherwise not have been found. The computer can learn to make decisions and to improve itself.
+
+![model1](../images/model1.png)
+
+*Using an algorithm to train a model to recognise cat drawings*
+
+![model2](../images/model2.png)
+
+*A model can compare new drawings to cats, and it can even imagine new cat drawings*
 
 Traditional computer programs consist of a list of instructions, put together by a programmer. It is the programmer's job to find the most concise, logical set of instructions to perform a task. 
 
@@ -115,24 +122,6 @@ By repeating the training (iterations), the weights are adjusted until input res
 - **Output** The combined inputs and weights result in one of the two outputs
 - **Iteration** Adjust the weights until the output matches the desired output
 
-Links
+## Workshop
 
-- [Creating a single neuron in Javascript](https://youtu.be/o98qlvrcqiU)
-- [Neural Network basics explained](https://media.ccc.de/v/35c3-9386-introduction_to_deep_learning)
-- [But what *is* a neural network? - youtube](http://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
-- [Neural networks demystified](http://lumiverse.io/series/neural-networks-demystified)
-
-# Using existing tools
-
-Instead of writing algorithms yourself, you will often choose an existing library, based on your data and your expected output. Tools exist for:
-
-- Image Recognition
-- Speech Recognition
-- Language Generation
-- Body Pose Recognition
-- And many more, see the [reading list](../README.md)
-
-## Continue
-
-- [Workshop](./workshop1.md)
-- [Reading list](../README.md)
+- [Workshop](./workshop.md)

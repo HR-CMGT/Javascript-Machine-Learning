@@ -12,10 +12,10 @@ Machine Learning with Javascript
 - [Classifying images with a pre-trained model](./lesson-image/readme.md)
 - [Training the Webcam with Teachable Machine](./lesson-teachable-machine/readme.md)
 
-## Optional - extra assignments
+## PART 3 - Optional coding assignments
 
-- [Train the webcam with BrainJS]()
-- [Create voice commands for your smart home with BrainJS]()
+- [Learn BrainJS to create a prediction and a smart home](./lesson-smarthome/readme.md)
+- [Train the webcam with BrainJS](./lesson-brain-webcam/readme.md)
 - [Create your own Neural Network with ML5](./lesson-ml5/readme.md)
 
 # Links
@@ -23,5 +23,4 @@ Machine Learning with Javascript
 - [kNear](https://github.com/NathanEpstein/KNear)
 - [ML5JS](https://ml5js.org)
 - [BrainJS](https://brain.js.org/#/)
-- [TensorFlowJS](https://www.tensorflow.org/js)
-- [Teachable Machine](https://teachablemachine.withgoogle.com)
+- [Teachable Machine](https://teachablemachine.withgoogle.com/train)

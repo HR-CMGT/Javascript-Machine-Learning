@@ -20,13 +20,37 @@ Every second, the webcam image is pixelated and the color values are shown in th
 
 ## Assignment
 
-Use the pixel color values and the label input to train the KNN algorithm in the same way as in the Cat/Dog example.
+Look at these two functions:
 
-- Connect the `train` button to the KNN `train()` function with Javascript.
+```javascript
+function trainMachine() {
+    console.log("use dataArray values and label to train the machine")
+    console.log(dataArray)
+    console.log(label.value)
+}
+
+function classifyData() {
+    console.log("use dataArray values to classify the image")
+    result.innerHTML = "This is a capybara!"
+}
+```
+
+Add the same machine learning code as you did in the [previous example](../lesson-knn/readme.md).
+
+```javascript
+// previous practice example
+machine.learn([10, 10, 10], 'cat')
+let catOrDog = machine.classify([7,7,7])
+```
+
+Replace the cat and dog data with the color values from the webcam, and the label value from the form field.
+
+Then connect the UI to your training code:
+
+- Connect the `train` button to the KNN `trainMachine()` function with `addEventListener`.
 - For training, use the pixel data in `dataArray` and the label from the text input field.
-- Change the label to what you want the algoritmh to recognise. For example "person" or "nobody".
-- For each label, train ~10 images.
-- Connect the `classify` button to code that calls the KNN `classify()` function on the current `dataArray` from the webcam. 
+- Connect the `classify` button to code that calls the KNN `classifyData()` function. Pass the current `dataArray` from the webcam to the classify function.
+- Now you can start training. Type a label in the field and for each label, train ~10 images. Then check if your classify button works!
 
 ## Github documentation
 

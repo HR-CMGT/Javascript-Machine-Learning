@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Brains!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+
+    <script src="https://cdn.rawgit.com/BrainJS/brain.js/master/browser.js"></script>
+</head>
+
+<body>
+    <video autoplay></video>
+    <canvas id="mosaic"></canvas>
+    <canvas id="tiny_canvas"></canvas>
+
+    <div>
+        <h4>Pose for the camera and press the train button</h4>
+        <button id="wave" class="train">Train with label : WAVE</button>
+        <button id="empty" class="train">Train with label : EMPTY</button>
+        <button id="person" class="train">Train with label : PERSON</button>
+    </div>
+    <div>
+        <h4>Start analysing the webcam with trained data</h4>
+        <button id="start">TRAIN</button>
+    </div>
+
+    <div id="display"></div>
+    <div id="result"></div>
+
+    <script src='./helper.js'></script>
+    <script src='./app.js'></script>
+</body>
+
+</html>

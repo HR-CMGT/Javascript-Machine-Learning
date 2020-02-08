@@ -30,14 +30,17 @@ Depending on your data and your goal, you can use different approaches for your 
 |-------------------------------------|-------------------------------------------------------------------------------------------------------|--------------------------------------------------|
 | Find patterns in a simple excel sheet   | Use K-Nearest-Neighbour to find patterns in arrays of numbers                                         | [kNear](https://github.com/NathanEpstein/KNear), [KNNClassifier](https://ml5js.org/reference/api-KNNClassifier/)                             |
 | Find patterns in a complex excel sheet  | Use a basic Neural Network to find patterns in arrays of numbers                                      | [brainJS](https://github.com/BrainJS/brain.js#for-training-with-neuralnetwork), [ML5 Neural Network](https://learn.ml5js.org/docs/#/reference/neural-network), [Tensorflow Basics](https://www.tensorflow.org/js/tutorials/training/linear_regression)             |
-| Understand written text (sentences) | Use LSTM Neural Network or Word2Vec to find meaning in sentences                                      | [BrainJS LSTM](https://github.com/BrainJS/brain.js#for-training-with-rnn-lstm-and-gru), [Word2Vec](https://learn.ml5js.org/docs/#/reference/word2vec)                                |
+| Understand meaning of text | Use LSTM Neural Network or Word2Vec to find meaning in sentences                                      | [BrainJS LSTM](https://github.com/BrainJS/brain.js#for-training-with-rnn-lstm-and-gru), [Word2Vec](https://learn.ml5js.org/docs/#/reference/word2vec)                                |
+| Understand sentiment in text | Use existing sentiment model                                      | [ML5 sentiment](https://ml5js.org/reference/api-Sentiment/), [TensorFlow sentiment](https://github.com/tensorflow/tfjs-examples/tree/master/sentiment)                                |
 | Recognise body poses                | Use an existing pre-trained body pose model                                                           | [Train a Pose Model with Teachable Machine](https://teachablemachine.withgoogle.com) [ML5 PoseNet](https://learn.ml5js.org/docs/#/reference/posenet)                                    |
 | Recognise objects in images         | Use an existing pre-trained image model, or train your own model using a Convolutional Neural Network | [Train a model with Teachable Machine](https://teachablemachine.withgoogle.com), [ML5 YOLO](https://learn.ml5js.org/docs/#/reference/yolo), [Tensorflow Object Detection](https://github.com/tensorflow/tfjs-examples/tree/master/simple-object-detection)            |
 | Recognise hand written text         | Use the MNIST model | [Tensorflow MNIST](https://github.com/tensorflow/tfjs-examples/tree/master/mnist)            |
-| Recognise facial expressions        | Use an existing pre-trained facial expression model                                                   | [Face-API](https://github.com/justadudewhohacks/face-api.js) |
+| Recognise facial expressions        | Use an existing facial expression model                                                   | [Face-API](https://github.com/justadudewhohacks/face-api.js) |
 | Generate text or images             | Use a Recurrent Neural Network                                                                        | [ML5 Sketch RNN](https://learn.ml5js.org/docs/#/reference/sketchrnn), [BrainJS RNN](https://github.com/BrainJS/brain.js#for-training-with-rnn-lstm-and-gru)                              |
 
+
 ---
+<br>
 <br>
 
 ![brain](./images/brain.png)
@@ -160,10 +163,10 @@ TensorFlow is Google's Neural Network library. TensorFlow is available for Javas
 
 - [Tensorflow Playground](https://playground.tensorflow.org) 😱
 - [Coding a perceptron in Javascript, by Mathias P Johansson](https://youtu.be/o98qlvrcqiU), and the [result](https://beta.observablehq.com/@mpj/neural-network-from-scratch-part-1)
+- [Creating a Recommender System in Javascript](https://github.com/javascript-machine-learning/movielens-recommender-system-javascript) and in [Python](https://towardsdatascience.com/how-to-build-a-simple-recommender-system-in-python-375093c3fb7d)
 - [Using a Javascript Perceptron to classify dangerous snakes](https://github.com/elyx0/rosenblattperceptronjs)
 - [Classify an image in 5 lines of Javascript](https://codepen.io/eerk/pen/JmKQLw)
-- [Teleport Vision - generate HTML from UI sketches](https://github.com/teleporthq/teleport-vision-api)
-- [Training a model in Unity using a neural network](https://github.com/ArztSamuel/Applying_EANNs)
+- [Teleport Vision - analyse UI sketches to generate HTML](https://github.com/teleporthq/teleport-vision-api)
 - [Neural Drum Machine](https://codepen.io/teropa/pen/JLjXGK) and [Voice-based beatbox](https://codepen.io/naotokui/pen/NBzJMW) created with [MagentaJS](https://magenta.tensorflow.org)
 - [Demo for creating a self-learning Flappy Bird in Javascript](https://github.com/ssusnic/Machine-Learning-Flappy-Bird)
 - [Algorithm notes](http://books.goalkicker.com/AlgorithmsBook/)
@@ -192,6 +195,7 @@ TensorFlow is Google's Neural Network library. TensorFlow is available for Javas
 - [OpenAI GYM - a game environment to train AI](http://gym.openai.com)
 - [Unity Machine Learning Platform](https://unity3d.com/machine-learning)
 - [Dr. Derk's mutant battlegrounds](https://store.steampowered.com/app/1102370/Dr_Derks_Mutant_Battlegrounds/)
+- [AI Dungeon](https://play.aidungeon.io)
 
 ## Image recognition
 
@@ -203,6 +207,9 @@ TensorFlow is Google's Neural Network library. TensorFlow is available for Javas
 
 ## Language and speech
 
+- [Listen to speech with Javascript](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API)
+- [Understand sentiment in text](https://ml5js.org/reference/api-Sentiment/)
+- [Understand meaning of text](./workshop/lesson-smarthome/readme.md)
 - [What are word vectors?](https://gist.github.com/aparrish/2f562e3737544cf29aaf1af30362f469)
 - [Understanding Word2Vec Video by Daniel Shiffman](https://youtu.be/MOo9iJ8RYWM)
 - [Natural Language Processing with Spacy.io](https://spacy.io)

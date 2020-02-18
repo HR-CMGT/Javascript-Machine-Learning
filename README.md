@@ -16,6 +16,7 @@
 - [Reading list](#readinglist)
 - [Demos and tutorials](#examples)
 - [Community](#community)
+- [Datasets](#datasets)
 - [More tools and services](#services)
 
 <br>
@@ -113,7 +114,8 @@ TensorFlow is Google's Neural Network library. TensorFlow is available for Javas
 - [Tensorflow Neural Network](https://codelabs.developers.google.com/codelabs/tfjs-training-regression/index.html#0)
 - [Hello World in Tensorflow.JS](https://meowni.ca/posts/hello-tensorflow/)
 - [Audio example](https://codelabs.developers.google.com/codelabs/tensorflowjs-audio-codelab/), [Webcam example](https://codelabs.developers.google.com/codelabs/tensorflowjs-teachablemachine-codelab/index.html)
-- [Apply Anime Style on your images](https://leemeng.tw/generate-anime-using-cartoongan-and-tensorflow2-en.html)
+- [Apply Anime Drawing Style on your images](https://leemeng.tw/generate-anime-using-cartoongan-and-tensorflow2-en.html)
+- [Detect toxicity in online comments](https://storage.googleapis.com/tfjs-models/demos/toxicity/index.html)
 
 <br>
 <br>
@@ -156,6 +158,12 @@ TensorFlow is Google's Neural Network library. TensorFlow is available for Javas
 
 - [AI Stackoverflow](https://ai.stackexchange.com)
 - [Kaggle - Machine Learning challenges](https://www.kaggle.com)
+
+# <a name="datasets"></a>Datasets
+
+- [Google Dataset Search](https://datasetsearch.research.google.com)
+- [Kaggle Datasets](https://www.kaggle.com/datasets/)
+- [TensorflowJS Dataset examples](https://github.com/tensorflow/tfjs-models)
 
 # <a name="demos"></a>Demos and tutorials
 

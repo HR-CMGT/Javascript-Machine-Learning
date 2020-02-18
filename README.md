@@ -204,6 +204,7 @@ TensorFlow is Google's Neural Network library. TensorFlow is available for Javas
 - [Unity Machine Learning Platform](https://unity3d.com/machine-learning)
 - [Dr. Derk's mutant battlegrounds](https://store.steampowered.com/app/1102370/Dr_Derks_Mutant_Battlegrounds/)
 - [AI Dungeon](https://play.aidungeon.io)
+- [Control a ThreeJS game with Teachable Machine](https://github.com/charliegerard/whoosh)
 
 ## Image recognition
 

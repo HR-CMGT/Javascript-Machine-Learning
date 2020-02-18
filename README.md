@@ -161,7 +161,8 @@ TensorFlow is Google's Neural Network library. TensorFlow is available for Javas
 
 # <a name="datasets"></a>Datasets
 
-- [Google Dataset Search](https://datasetsearch.research.google.com)
+- [Google Dataset Search](https://datasetsearch.research.google.com) 
+- [🐱 Cats per square kilometer](https://data.gov.uk/dataset/9d475e06-3885-4a90-b8c0-77fea13f92e6/cats-per-square-kilometre)
 - [Kaggle Datasets](https://www.kaggle.com/datasets/)
 - [TensorflowJS Dataset examples](https://github.com/tensorflow/tfjs-models)
 

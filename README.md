@@ -176,6 +176,7 @@ TensorFlow is Google's Neural Network library. TensorFlow is available for Javas
 - [Creating a Recommender System in Javascript](https://github.com/javascript-machine-learning/movielens-recommender-system-javascript) and in [Python](https://towardsdatascience.com/how-to-build-a-simple-recommender-system-in-python-375093c3fb7d)
 - [Using a Javascript Perceptron to classify dangerous snakes](https://github.com/elyx0/rosenblattperceptronjs)
 - [Classify an image in 5 lines of Javascript](https://codepen.io/eerk/pen/JmKQLw)
+- [Train a Train - small game where a vehicle learns to drive](https://github.com/lkoppenol/train-a-train)
 - [Teleport Vision - analyse UI sketches to generate HTML](https://github.com/teleporthq/teleport-vision-api)
 - [Neural Drum Machine](https://codepen.io/teropa/pen/JLjXGK) and [Voice-based beatbox](https://codepen.io/naotokui/pen/NBzJMW) created with [MagentaJS](https://magenta.tensorflow.org)
 - [Demo for creating a self-learning Flappy Bird in Javascript](https://github.com/ssusnic/Machine-Learning-Flappy-Bird)

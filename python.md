@@ -9,7 +9,7 @@
 
 [🤯 You can locally install Python and run Jupyter notebooks inside Visual Studio Code](https://code.visualstudio.com/docs/python/data-science-tutorial)
 
-Python can run on a Raspberry Pi and on several Adafruit Microcontrollers.
+Python can run on a Raspberry Pi and on several Adafruit Microcontrollers. You can use TensorFlow LITE on microcontrollers.
 
 ![edge](./images/edge.jpg)
 

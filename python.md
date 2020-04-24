@@ -7,7 +7,7 @@
 
 [You can program without installing in Google's Colab](https://colab.research.google.com/notebooks/intro.ipynb#recent=true), and then you can even use Google's GPU for heavy neural network calculations.
 
-[You can locally install Python and train ML models with Visual Studio Code](https://code.visualstudio.com/docs/python/data-science-tutorial)
+[🤯 You can locally install Python and run Jupyter notebooks inside Visual Studio Code](https://code.visualstudio.com/docs/python/data-science-tutorial)
 
 Python can run on a Raspberry Pi and on several Adafruit Microcontrollers.
 

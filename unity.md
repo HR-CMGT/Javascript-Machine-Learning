@@ -53,6 +53,7 @@ public class Ball3DAgent : Agent
         var actionZ = 2f * Mathf.Clamp(vectorAction[0], -1f, 1f);
         var actionX = 2f * Mathf.Clamp(vectorAction[1], -1f, 1f);
 
+        // REWARD FOR BEHAVIOUR
         if (ball.transform.position.y - gameObject.transform.position.y || ...)
         {
             // PENALTY - if ball has fallen       
@@ -67,6 +68,9 @@ public class Ball3DAgent : Agent
     }
 }
 ```
+This project works, because the example project contains pre-trained models for all the examples. In our own project, we will need to create these models ourselves, using the ML Agents Python tool.
+
+<br>
 
 # Training with Python
 

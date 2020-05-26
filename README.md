@@ -5,14 +5,18 @@
 - [Introduction](./workshop/introduction.md)
 - [Workshop](./workshop/workshop.md)
 
-## Machine Learning Problems
+## Machine Learning with Javascript
 
 - [Examples of Machine Learning problems](#disciplines)
 - [Coding with Javascript](#javascript)
 
+## Other platforms
+
+- [Unity](#python)
+- [Python](#python)
+
 ## Learning
 
-- [Python](#python)
 - [Reading list](#readinglist)
 - [Demos and tutorials](#examples)
 - [Community](#community)
@@ -120,12 +124,23 @@ TensorFlow is Google's Neural Network library. TensorFlow is available for Javas
 <br>
 <br>
 
----
+# <a name="unity"></a>Unity
+
+![unity](./images/unity.png)
+
+- [Getting started with ML in Unity](./unity.md)
+
+<br>
+<br>
+
 # <a name="python"></a>Python
 
 ![adafruit](./images/adafruit.png)
 
 - [Read more about programming with Python, TensorFlow, Raspberry Pi and microcontrollers](./python.md)
+
+<br>
+<br>
 
 # <a name="readinglist"></a>Reading list
 
@@ -203,8 +218,8 @@ TensorFlow is Google's Neural Network library. TensorFlow is available for Javas
 
 ## Games
 
+- [Getting started with ML in Unity](./unity.md)
 - [OpenAI GYM - a game environment to train AI](http://gym.openai.com)
-- [Unity Machine Learning Platform](https://unity3d.com/machine-learning)
 - [Dr. Derk's mutant battlegrounds](https://store.steampowered.com/app/1102370/Dr_Derks_Mutant_Battlegrounds/)
 - [AI Dungeon](https://play.aidungeon.io)
 - [Control a ThreeJS game with Teachable Machine](https://github.com/charliegerard/whoosh)

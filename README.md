@@ -12,7 +12,7 @@
 
 ## Other platforms
 
-- [Unity](#python)
+- [Unity](#unity)
 - [Python](#python)
 
 ## Learning

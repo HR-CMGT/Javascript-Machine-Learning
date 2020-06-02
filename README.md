@@ -219,6 +219,7 @@ TensorFlow is Google's Neural Network library. TensorFlow is available for Javas
 ## Games
 
 - [Getting started with ML in Unity](./unity.md)
+- [TensorFlow plugin for Godot](https://github.com/godot-extended-libraries/godot-tensorflow-workspace)
 - [OpenAI GYM - a game environment to train AI](http://gym.openai.com)
 - [Dr. Derk's mutant battlegrounds](https://store.steampowered.com/app/1102370/Dr_Derks_Mutant_Battlegrounds/)
 - [AI Dungeon](https://play.aidungeon.io)

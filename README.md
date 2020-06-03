@@ -146,6 +146,7 @@ TensorFlow is Google's Neural Network library. TensorFlow is available for Javas
 
 ![brilliant](./images/brilliant.png)
 
+- [Documentary - the Age of AI](https://www.youtube.com/playlist?list=PLjq6DwYksrzz_fsWIpPcf6V7p2RNAneKc)
 - [🔥 Brilliant.org interactive quiz about Neural Networks](https://brilliant.org/courses/artificial-neural-networks/)
 - [📺 The Coding Train](https://thecodingtrain.com)
 - [📺 Crash Course - what is AI?](https://www.youtube.com/watch?v=a0_lo_GDcFw)

@@ -67,3 +67,8 @@ function speak() {
 ## Improving the code
 
 To test different images, we are constantly reloading the whole model. Add a `<button>` that can update the image with a new image and then classify it again.
+
+# Links
+
+- [TensorFlowJS image classification](https://github.com/tensorflow/tfjs-models/tree/master/mobilenet)
+- [MobileNet models](https://github.com/tensorflow/models/blob/master/research/slim/nets/mobilenet_v1.md)

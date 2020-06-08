@@ -14,7 +14,8 @@ Machine Learning with Javascript
 
 ## PART 3 - Optional coding assignments
 
-- [Learn BrainJS to create a prediction and a smart home](./lesson-smarthome/readme.md)
+- [Re-training the imageNet model with your own images](./lesson-extractfeatures/readme.md)
+- [Use BrainJS to create a prediction and a smart home](./lesson-smarthome/readme.md)
 - [Train the webcam with BrainJS](./lesson-brain-webcam/readme.md)
 - [Create your own Neural Network with ML5](./lesson-ml5/readme.md)
 

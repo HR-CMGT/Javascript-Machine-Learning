@@ -68,13 +68,15 @@ public class Ball3DAgent : Agent
     }
 }
 ```
+Note that the penalties and rewards are only needed for training.
+
 This project works, because the example project contains pre-trained models for all the examples. In our own project, we will need to create these models ourselves, using the ML Agents Python tool.
 
 <br>
 
 # Training with Python
 
-The demo project contains pre-trained models. To train models yourself, you need to install Python, and the python **mlagents** tool. You also need to create a virtual environment. 
+To train models yourself, you need to install Python, and the python **mlagents** tool. You also need to create a virtual environment. 
 
 - [Install python 3](https://www.python.org/downloads/)
 - [⚠️ Make a virtual environment for using Unity with Python](https://github.com/Unity-Technologies/ml-agents/blob/release_1/docs/Using-Virtual-Environment.md)

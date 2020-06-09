@@ -43,25 +43,28 @@ function modelLoaded() {
 ```
 Create buttons for all your labels in your HTML page, and when you click a button, you can add the current webcam image with that label as a training image:
 ```javascript
-classifier.addImage(video, 'wearing a mask', addedImage)
+classifier.addImage(video, 'wearing a mask', ()=>{
+    console.log("added image to model!")
+}))
 ```
-The `addedImage` callback is just to check if the image was succesfully added to the model.
+The callback is just to check if the image was succesfully added to the model.
 
 ### Training and classifying
 
-After adding about 10-20 images for each label, you can call the training function. 
+After adding about 10-20 images for each label, you can call the training function. The loss value should be getting smaller while your network is learning.
 ```javascript
 classifier.train((lossValue) => {
     console.log('Loss is', lossValue)
     if(lossValue == null) console.log("Finished training")
 })
 ```
-And when training is finished, you can start an interval that checks the webcam every second!
+When the lossvalue becomes `null`, you can start an interval that checks the webcam every second!
 ```javascript
 setInterval(()=>{
     classifier.classify(video, (err, result) => {
         if (err) console.log(err)
-        console.log(result[0].label)
+        console.log(result)
+        label.innerHTML = result[0].label
     })
 }, 1000)
 ```

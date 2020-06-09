@@ -40,12 +40,24 @@ function modelLoaded() {
     console.log('Model Loaded!')
     classifier = featureExtractor.classification(video, videoReady)
 }
+function videoReady(){
+    console.log("the webcam is ready")
+}
 ```
-Create buttons for all your labels in your HTML page, and when you click a button, you can add the current webcam image with that label as a training image:
+Create buttons for all your labels in your HTML page.
+```html
+<button id="mask">Wearing a mask</button>
+```
+When you click a button, you can add the current webcam image with that label as a training image:
 ```javascript
-classifier.addImage(video, 'wearing a mask', ()=>{
-    console.log("added image to model!")
-}))
+const maskbtn = document.getElementById("mask")
+maskbtn.addEventListener("click", () => addMaskImage())
+
+function addMaskImage() {
+    classifier.addImage(video, 'wearing a mask', ()=>{
+        console.log("added image to model!")
+    }))
+}
 ```
 The callback is just to check if the image was succesfully added to the model.
 

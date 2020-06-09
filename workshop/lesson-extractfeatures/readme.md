@@ -29,7 +29,7 @@ if (navigator.mediaDevices.getUserMedia) {
 }
 ```
 
-## Training
+## Add training data
 
 Create the featureExtractor, and in the callback you can create the classifier. 
 
@@ -61,7 +61,7 @@ function addMaskImage() {
 ```
 The callback is just to check if the image was succesfully added to the model.
 
-### Training and classifying
+### Training
 
 After adding about 10-20 images for each label, you can call the training function. The loss value should be getting smaller while your network is learning.
 ```javascript
@@ -70,8 +70,13 @@ classifier.train((lossValue) => {
     if(lossValue == null) console.log("Finished training")
 })
 ```
+
+### Classifying
+
 When the lossvalue becomes `null`, you can start an interval that checks the webcam every second!
 ```javascript
+label = document.getElementById("label")
+
 setInterval(()=>{
     classifier.classify(video, (err, result) => {
         if (err) console.log(err)

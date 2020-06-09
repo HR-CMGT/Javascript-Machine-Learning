@@ -1,4 +1,4 @@
-# Train the mobileNet image recognition model with your own images
+# Face mask detection with Transfer Learning
 
 In [this previous lesson](./lesson-image/readme.md) we used the trained mobileNet model to classify our images. This works for objects that the model has learned to recognise.
 

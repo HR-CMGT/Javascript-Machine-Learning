@@ -236,6 +236,7 @@ TensorFlow is Google's Neural Network library. TensorFlow is available for Javas
 - [Vize.ai Recognize and automate your images](https://vize.ai)
 - [ImageNet - readymade training data for image recognition](http://www.image-net.org)
 - [OpenCV Computer Vision](https://opencv.org)
+- [ArtBreeder - generate children from image parents!](https://www.artbreeder.com)
 
 ## Language and speech
 

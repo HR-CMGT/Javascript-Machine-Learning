@@ -207,7 +207,7 @@ TensorFlow is Google's Neural Network library. TensorFlow is available for Javas
 - [Imagine drawing a cat!](http://projects.eerkmans.nl/cat/)
 - [Building a self-driving Mario Kart using TensorFlow](https://www.youtube.com/watch?v=Ipi40cb_RsI) and [documentation](https://www.youtube.com/redirect?q=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F1p4ZOtziLmhf0jPbZTTaFxSKdYqE91dYcTNqTVdd6es4%2Fedit%3Fusp%3Dsharing&event=video_description&v=Ipi40cb_RsI&redir_token=Ybzxsbpmjb-vKOmpvcRlyEses5V8MTUxMzMzODkwNUAxNTEzMjUyNTA1)
 - [Learning Neural Networks with Processing](https://natureofcode.com/book/chapter-10-neural-networks/)
-
+- [While True : Learn() - a game that teaches you all about Machine Learning](https://luden.io/wtl/)
 <br>
 <br>
 

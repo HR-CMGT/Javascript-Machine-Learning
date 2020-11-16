@@ -135,7 +135,7 @@ TensorFlow is Google's Neural Network library. TensorFlow is available for Javas
 
 # <a name="python"></a>Python
 
-[![adafruit](./images/braincraft_play.png)](./images/braincraft_movie.mp4)
+![adafruit](./images/braincraft_movie.gif)]
 
 - [Order the Braincraft for Raspberry Pi]()
 - [Read more about programming with Python, TensorFlow, Raspberry Pi and microcontrollers](./python.md)

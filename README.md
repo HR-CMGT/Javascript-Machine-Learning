@@ -152,7 +152,9 @@ TensorFlow is Google's Neural Network library. TensorFlow is available for Javas
 - [📺 The Coding Train](https://thecodingtrain.com)
 - [📺 Crash Course - what is AI?](https://www.youtube.com/watch?v=a0_lo_GDcFw)
 - [Machine Learning for Everyone](https://vas3k.com/blog/machine_learning/)
+- [A tour of machine learning algorithms](https://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/)
 - [The Mostly Complete Chart of Neural Networks](https://towardsdatascience.com/the-mostly-complete-chart-of-neural-networks-explained-3fb6f2367464)
+- [An intuitive explanation of convolutional neural networks](https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/)
 - [Introduction to Deep Learning](https://media.ccc.de/v/35c3-9386-introduction_to_deep_learning)
 - [More algorithms for Machine Learning](https://towardsdatascience.com/a-tour-of-the-top-10-algorithms-for-machine-learning-newbies-dde4edffae11)
 - [Neural Networks Wiki page](https://en.wikipedia.org/wiki/Artificial_neural_network)
@@ -206,7 +208,7 @@ TensorFlow is Google's Neural Network library. TensorFlow is available for Javas
 - [Imagine drawing a cat!](http://projects.eerkmans.nl/cat/)
 - [Building a self-driving Mario Kart using TensorFlow](https://www.youtube.com/watch?v=Ipi40cb_RsI) and [documentation](https://www.youtube.com/redirect?q=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F1p4ZOtziLmhf0jPbZTTaFxSKdYqE91dYcTNqTVdd6es4%2Fedit%3Fusp%3Dsharing&event=video_description&v=Ipi40cb_RsI&redir_token=Ybzxsbpmjb-vKOmpvcRlyEses5V8MTUxMzMzODkwNUAxNTEzMjUyNTA1)
 - [Learning Neural Networks with Processing](https://natureofcode.com/book/chapter-10-neural-networks/)
-
+- [While True : Learn() - a game that teaches you all about Machine Learning](https://luden.io/wtl/)
 <br>
 <br>
 
@@ -235,6 +237,7 @@ TensorFlow is Google's Neural Network library. TensorFlow is available for Javas
 - [Vize.ai Recognize and automate your images](https://vize.ai)
 - [ImageNet - readymade training data for image recognition](http://www.image-net.org)
 - [OpenCV Computer Vision](https://opencv.org)
+- [ArtBreeder - generate children from image parents!](https://www.artbreeder.com)
 
 ## Language and speech
 

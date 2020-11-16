@@ -10,6 +10,8 @@ Using **Feature Extraction** we can re-train the model to recognise our own imag
 
 This term means we use a model that has learned **HOW** to look at images. It finds the most important defining features. With this knowledge, it can find the distinguishing features in our own images as well.
 
+[Watch this super cool visualisation of feature extraction](https://www.youtube.com/watch?v=f0t-OCG79-U)
+
 First include ML5, and include a video tag in your html
 
 ```html

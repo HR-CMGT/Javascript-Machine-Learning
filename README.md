@@ -176,9 +176,10 @@ TensorFlow is Google's Neural Network library. TensorFlow is available for Javas
 
 ## Images 
 
+- [Face-JS, a library to track facial expressions](https://justadudewhohacks.github.io/face-api.js/docs/index.html)
 - [TrackingJS, an image recognition library for Javascript](https://trackingjs.com)
 - [YOLO - you only look once](https://pjreddie.com/darknet/yolo/) Image recognition network, watch the cool [intro movie!](https://www.youtube.com/watch?v=MPU2HistivI)
-- [Vize.ai Recognize and automate your images](https://vize.ai)
+- [YOLO in Javascript](https://learn.ml5js.org/#/reference/object-detector)
 - [ImageNet - readymade training data for image recognition](http://www.image-net.org)
 - [OpenCV Computer Vision](https://opencv.org)
 

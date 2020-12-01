@@ -127,6 +127,7 @@ Start a new Unity project and add the Machine Learning game components via **win
 - [Unity Example Projects Repository](https://github.com/Unity-Technologies/ml-agents)
 - [Getting started with training](https://github.com/Unity-Technologies/ml-agents/blob/release_1/docs/Getting-Started.md)
 - [Explanation of all the examples](https://github.com/Unity-Technologies/ml-agents/blob/release_1/docs/Learning-Environment-Examples.md)
+- [Tutorial Unity ML Agents: Hummingbirds](https://learn.unity.com/course/ml-agents-hummingbirds)
 
 ## Your own projects
 

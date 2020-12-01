@@ -30,6 +30,10 @@ Python can run on a Raspberry Pi and on several Adafruit Microcontrollers. You c
 - [SKLearn](http://scikit-learn.org/stable/)
 - [Introduction to machine learning with scikit-learn](http://scikit-learn.org/stable/tutorial/basic/tutorial.html#machine-learning-the-problem-setting)
 
+### Matlab
+
+- [Mastering Machine Learning with MatLab for Python](https://nl.mathworks.com/campaigns/offers/mastering-machine-learning-with-matlab.html?s_eid=PSB_17921)
+
 ### Tensorflow
 
 - [Google Tensorflow tutorials](https://www.tensorflow.org/tutorials/)

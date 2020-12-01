@@ -1,31 +1,43 @@
-# HR CMGT Machine Learning
+# Machine Learning with Javascript
 
-## What is Machine Learning?
+This repository maintains a list of Machine Learning technologies and algorithms, for use with the Machine Learning course at Creative Media and Game Technologies Rotterdam. The focus is on Javascript. 
 
-- [Introduction](./workshop/introduction.md)
-- [Workshop](./workshop/workshop.md)
+## Introduction
 
-## Machine Learning with Javascript
-
+- [What is machine learning?](#intro)
 - [Examples of Machine Learning problems](#disciplines)
-- [Coding with Javascript](#javascript)
-
-## Other platforms
-
-- [Unity](#unity)
-- [Python](#python)
+- [Coding with javascript](#javascript)
 
 ## Learning
 
 - [Reading list](#readinglist)
-- [Demos and tutorials](#examples)
-- [Community](#community)
+  - Understanding Machine Learning
+  - Designing for AI
+  - Maths and code
+  - Images
+  - Text and speech
+  - Games
+  - API'S
+  - Creative Coding
+- [No Code Machine Learning](#nocode)
+- [Hardware](#hardware)
 - [Datasets](#datasets)
-- [More tools and services](#services)
+- [Community](#community)
+- [Demos and tutorials](#examples)
 
 <br>
 
-# <a name="disciplines"></a>Examples of machine learning problems
+# <a name="intro"></a>What is Machine Learning?
+
+Follow the [introduction](./workshop/introduction.md) and the [workshops](./workshop/workshop.md) to get started with the basics of machine learning! Then, use this reading list to find the right tools and algorithms for your machine learning project.
+
+- [Introduction](./workshop/introduction.md) 
+- [Workshops](./workshop/workshop.md)
+
+<br>
+<br>
+
+# <a name="disciplines"></a>Machine Learning problems
 
 ![pose](./images/pose.png)
 
@@ -124,120 +136,51 @@ TensorFlow is Google's Neural Network library. TensorFlow is available for Javas
 <br>
 <br>
 
-# <a name="unity"></a>Unity
-
-![unity](./images/unity.png)
-
-- [Getting started with ML in Unity](./unity.md)
-
-<br>
-<br>
-
-# <a name="python"></a>Python
-
-![adafruit](./images/braincraft_movie.gif)]
-
-- [Order the Braincraft for Raspberry Pi]()
-- [Read more about programming with Python, TensorFlow, Raspberry Pi and microcontrollers](./python.md)
-
-<br>
-<br>
-
 # <a name="readinglist"></a>Reading list
 
 ![brilliant](./images/brilliant.png)
 
+## Understanding Machine Learning
+
 - [Documentary - the Age of AI](https://www.youtube.com/playlist?list=PLjq6DwYksrzz_fsWIpPcf6V7p2RNAneKc)
-- [🔥 Brilliant.org interactive quiz about Neural Networks](https://brilliant.org/courses/artificial-neural-networks/)
-- [📺 The Coding Train](https://thecodingtrain.com)
-- [📺 Crash Course - what is AI?](https://www.youtube.com/watch?v=a0_lo_GDcFw)
+- [🔥 Brilliant.org - tutorial app with daily questions](https://brilliant.org/courses/artificial-neural-networks/)
+- [📺  Crash Course - what is AI?](https://www.youtube.com/watch?v=a0_lo_GDcFw)
 - [Machine Learning for Everyone](https://vas3k.com/blog/machine_learning/)
 - [A tour of machine learning algorithms](https://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/)
 - [The Mostly Complete Chart of Neural Networks](https://towardsdatascience.com/the-mostly-complete-chart-of-neural-networks-explained-3fb6f2367464)
 - [An intuitive explanation of convolutional neural networks](https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/)
 - [Introduction to Deep Learning](https://media.ccc.de/v/35c3-9386-introduction_to_deep_learning)
-- [More algorithms for Machine Learning](https://towardsdatascience.com/a-tour-of-the-top-10-algorithms-for-machine-learning-newbies-dde4edffae11)
+- [Algorithms for Machine Learning](https://towardsdatascience.com/a-tour-of-the-top-10-algorithms-for-machine-learning-newbies-dde4edffae11)
 - [Neural Networks Wiki page](https://en.wikipedia.org/wiki/Artificial_neural_network)
 - [Machine Learning for Humans](https://medium.com/machine-learning-for-humans/why-machine-learning-matters-6164faf1df12)
-- [Machine Learning for designers](http://www.oreilly.com/design/free/machine-learning-for-designers.csp)
 - [A visual introduction to Machine Learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
 - [Deep learning book](http://www.deeplearningbook.org)
-- [Researching the use of ML in creative applications](http://blog.otoro.net)
-- [Design in the era of the algorithm](https://bigmedium.com/speaking/design-in-the-era-of-the-algorithm.html)
-- [Human-Centered Machine Learning](https://medium.com/google-design/human-centered-machine-learning-a770d10562cd)
-- [The UX of AI (Google Design)](https://design.google/library/ux-ai/)
-- [Maths for Programmers](https://www.freecodecamp.org/news/beaucarnes/maths-for-programmers--09iy8H6lC)
-- [Mastering Machine Learning with MatLab for Python](https://nl.mathworks.com/campaigns/offers/mastering-machine-learning-with-matlab.html?s_eid=PSB_17921)
-- [Deep Learning Simplified - Youtube series](https://www.youtube.com/playlist?list=PLjJh1vlSEYgvGod9wWiydumYl8hOXixNu)
-- [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com)
+- [📺  Deep Learning Simplified - Youtube series](https://www.youtube.com/playlist?list=PLjJh1vlSEYgvGod9wWiydumYl8hOXixNu)
 - [Machine Learning for Kids](https://machinelearningforkids.co.uk/)
 - [Deep Learning Gone Wrong - How ML expectations don't always match with results](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRPiprOaC3HsCf5Tuum8bRfzYUiKLRqJmbOoC-32JorNdfyTiRRsR7Ea5eWtvsWzuxo8bjOxCG84dAg/pubhtml)
+- [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com)
 
-![nnchart](./images/nnchart.png)
-# <a name="community"></a>Community
+## Designing for AI
 
-- [AI Stackoverflow](https://ai.stackexchange.com)
-- [Kaggle - Machine Learning challenges](https://www.kaggle.com)
+- [ML+ Design - a reading list about designing for ML applications](https://machinelearning.design)
+- [Design in the era of the algorithm](https://bigmedium.com/speaking/design-in-the-era-of-the-algorithm.html)
+- [Human-Centered Machine Learning](https://medium.com/google-design/human-centered-machine-learning-a770d10562cd)
+- [The UX of AI](https://design.google/library/ux-ai/)
+- [The human side of AI](https://pair.withgoogle.com)
+- [Machine Learning for designers](http://www.oreilly.com/design/free/machine-learning-for-designers.csp)
 
-# <a name="datasets"></a>Datasets
+## Maths and coding
 
-- [Google Dataset Search](https://datasetsearch.research.google.com) 
-- [🐱 Cats per square kilometer](https://data.gov.uk/dataset/9d475e06-3885-4a90-b8c0-77fea13f92e6/cats-per-square-kilometre)
-- [Kaggle Datasets](https://www.kaggle.com/datasets/)
-- [TensorflowJS Dataset examples](https://github.com/tensorflow/tfjs-models)
+- [📺  The Coding Train](https://thecodingtrain.com)
+- [📺  Math concepts for Programmers](https://www.youtube.com/watch?v=2SpuBqvNjHI)
 
-# <a name="demos"></a>Demos and tutorials
-
-<a href="https://playground.tensorflow.org" target="_blank">![playground](./images/playground.png)</a>
-
-- [Tensorflow Playground](https://playground.tensorflow.org) 😱
-- [Coding a perceptron in Javascript, by Mathias P Johansson](https://youtu.be/o98qlvrcqiU), and the [result](https://beta.observablehq.com/@mpj/neural-network-from-scratch-part-1)
-- [Creating a Recommender System in Javascript](https://github.com/javascript-machine-learning/movielens-recommender-system-javascript) and in [Python](https://towardsdatascience.com/how-to-build-a-simple-recommender-system-in-python-375093c3fb7d)
-- [Using a Javascript Perceptron to classify dangerous snakes](https://github.com/elyx0/rosenblattperceptronjs)
-- [Classify an image in 5 lines of Javascript](https://codepen.io/eerk/pen/JmKQLw)
-- [Train a Train - small game where a vehicle learns to drive](https://github.com/lkoppenol/train-a-train)
-- [Teleport Vision - analyse UI sketches to generate HTML](https://github.com/teleporthq/teleport-vision-api)
-- [Neural Drum Machine](https://codepen.io/teropa/pen/JLjXGK) and [Voice-based beatbox](https://codepen.io/naotokui/pen/NBzJMW) created with [MagentaJS](https://magenta.tensorflow.org)
-- [Demo for creating a self-learning Flappy Bird in Javascript](https://github.com/ssusnic/Machine-Learning-Flappy-Bird)
-- [Algorithm notes](http://books.goalkicker.com/AlgorithmsBook/)
-- [Google AI experiments](https://experiments.withgoogle.com/ai)
-- [Building a cat detector on a Raspberry Pi](https://planb.nicecupoftea.org/2018/12/01/cat-detector-with-tensorflow-on-a-raspberry-pi-3b/)
-- [Quick Draw! - Can a Neural Network detect a doodle?](https://quickdraw.withgoogle.com) and the [open source drawing dataset](https://github.com/googlecreativelab/quickdraw-dataset/)
-- [Runway - An app that adds ML to creative projects](https://runwayapp.ai)
-- [Pixling - Building a life simulation app with Neural Networks](http://wiki.pixling.world/index.php/Main_Page)
-- [Imagine drawing a cat!](http://projects.eerkmans.nl/cat/)
-- [Building a self-driving Mario Kart using TensorFlow](https://www.youtube.com/watch?v=Ipi40cb_RsI) and [documentation](https://www.youtube.com/redirect?q=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F1p4ZOtziLmhf0jPbZTTaFxSKdYqE91dYcTNqTVdd6es4%2Fedit%3Fusp%3Dsharing&event=video_description&v=Ipi40cb_RsI&redir_token=Ybzxsbpmjb-vKOmpvcRlyEses5V8MTUxMzMzODkwNUAxNTEzMjUyNTA1)
-- [Learning Neural Networks with Processing](https://natureofcode.com/book/chapter-10-neural-networks/)
-- [While True : Learn() - a game that teaches you all about Machine Learning](https://luden.io/wtl/)
-<br>
-<br>
-
-# <a name="services"></a>More tools and services
-
-## Runway ML
-
-![runway](./images/runwayml.png)
-
-[Machine learning for creators](https://runwayml.com) - bring the power of artificial intelligence to your creative projects with an intuitive and simple visual interface.
-
-## Games
-
-- [Getting started with ML in Unity](./unity.md)
-- [Computer Vision in Unity with Vuforia](https://library.vuforia.com/articles/Training/getting-started-with-vuforia-in-unity.html)
-- [TensorFlow plugin for Godot](https://github.com/godot-extended-libraries/godot-tensorflow-workspace)
-- [OpenAI GYM - a game environment to train AI](http://gym.openai.com)
-- [Dr. Derk's mutant battlegrounds](https://store.steampowered.com/app/1102370/Dr_Derks_Mutant_Battlegrounds/)
-- [AI Dungeon](https://play.aidungeon.io)
-- [Control a ThreeJS game with Teachable Machine](https://github.com/charliegerard/whoosh)
-
-## Image recognition
+## Images 
 
 - [TrackingJS, an image recognition library for Javascript](https://trackingjs.com)
 - [YOLO - you only look once](https://pjreddie.com/darknet/yolo/) Image recognition network, watch the cool [intro movie!](https://www.youtube.com/watch?v=MPU2HistivI)
 - [Vize.ai Recognize and automate your images](https://vize.ai)
 - [ImageNet - readymade training data for image recognition](http://www.image-net.org)
 - [OpenCV Computer Vision](https://opencv.org)
-- [ArtBreeder - generate children from image parents!](https://www.artbreeder.com)
 
 ## Language and speech
 
@@ -250,22 +193,131 @@ TensorFlow is Google's Neural Network library. TensorFlow is available for Javas
 - [Google TacoTron Self-learning Speech Synthesizer](https://github.com/keithito/tacotron)
 - [Pocket Sphynx Speech Recognition](https://github.com/cmusphinx/pocketsphinx)
 
-![google](./images/google.png)
+## Games
 
-- [Google's Do-it-yourself Raspberry Pi AI Kits](https://aiyprojects.withgoogle.com/vision/)
-- [Microsoft Machine Learning APIs](https://gallery.azure.ai/machineLearningAPIs)
+- [Getting started with ML in Unity](./unity.md)
+- [Unity Learn: ML Agents Course](https://learn.unity.com/course/ml-agents-hummingbirds)
+- [Computer Vision in Unity with Vuforia](https://library.vuforia.com/articles/Training/getting-started-with-vuforia-in-unity.html)
+- [TensorFlow plugin for Godot](https://github.com/godot-extended-libraries/godot-tensorflow-workspace)
+- [OpenAI GYM - a game environment to train AI with Python](http://gym.openai.com)
+
+## API's
+
+- [Google ML Kit for iOS and Android](https://developers.google.com/ml-kit)
+- [Microsoft Azure Machine Learning APIs](https://gallery.azure.ai/machineLearningAPIs)
 - [Apple Core ML framework](https://developer.apple.com/documentation/coreml) and [tutorials](https://developer.apple.com/machine-learning/)
 - [Amazon Deep Racer](https://aws.amazon.com/deepracer/), [Machine Learning API's](https://aws.amazon.com/machine-learning/) and [Free Course](https://aws.amazon.com/training/learning-paths/machine-learning/)
-- [Add Machine Learning power to a Raspberry Pi with the Intel ML USB stick](https://www.movidius.com/news/intel-movidius-neural-compute-stick-honored-with-ces-best-of-innovation-award-2018)
-- [Wekinator](http://www.wekinator.org) is a GUI that can apply Machine Learning algorithms to Processing and Arduino sensor data. 
-- [Wekinator workshop by Kars Alfrink](https://github.com/karsalfrink/useless-butler)
-- [Magenta](https://magenta.tensorflow.org/get-started/#magenta-js) is a google library that uses tensorflow to generate [images](https://tensorflow.github.io/magenta-js/image/index.html), [music](https://tensorflow.github.io/magenta-js/music/index.html) and [sketches](https://tensorflow.github.io/magenta-js/sketch/). 
-- [Tutorial on drawing snowflakes with a Neural Network and Magenta](https://youtu.be/pdaNttb7Mr8)
-- [Synaptic JS Neural Networks](http://caza.la/synaptic/) and [Tutorial](https://medium.freecodecamp.org/how-to-create-a-neural-network-in-javascript-in-only-30-lines-of-code-343dafc50d49)
 
+## Creative Coding
+
+- [Magenta](https://magenta.tensorflow.org/get-started/#magenta-js) is a google library that uses tensorflow to generate [images](https://tensorflow.github.io/magenta-js/image/index.html), [music](https://tensorflow.github.io/magenta-js/music/index.html) and [sketches](https://tensorflow.github.io/magenta-js/sketch/). 
+- [Researching the use of ML in creative applications](http://blog.otoro.net)
+- [Wekinator](http://www.wekinator.org) is a GUI that can apply Machine Learning algorithms to Processing and Arduino sensor data - [check the tutorial.](http://www.wekinator.org/kadenze/)
+- [ArtBreeder - generate children from image parents!](https://www.artbreeder.com)
+
+<br>
+<br>
+<br>
+<br>
+
+# <a name="nocode"></a>No Code Machine Learning
+
+Train a model without programming
+
+## Runway ML
+
+![runway](./images/runwayml.png)
+
+- [Machine learning for creators with Runway ML](https://runwayml.com) - bring the power of artificial intelligence to your creative projects with an intuitive visual interface.
+
+## Lobe AI
+
+![lobe](./images/lobe.png)
+
+- [Microsoft Lobe](https://lobe.ai) is a tool for training and exporting a machine learning model without coding. Can export to TensorFlow. 
+
+## Teachable Machine
+
+![teachable](./images/teachablemachine.png)
+
+- Google's [Teachable Machine](https://teachablemachine.withgoogle.com) can export a machine learning model for use with Javascript in TensorFlowJS or ML5.js.
+
+- [Obviously.ai : train a model with excel data](https://www.obviously.ai) 
+
+<br>
+<br>
+
+
+# <a name="hardware"></a>Hardware
+
+![adafruit](./images/hardware.png)
+
+- [Braincraft AI kit for Raspberry Pi](https://learn.adafruit.com/adafruit-braincraft-hat-easy-machine-learning-for-raspberry-pi)
+- [Google's Do-it-yourself Raspberry Pi AI Kits](https://aiyprojects.withgoogle.com/vision/)
+- [External ML processor on a USB stick](https://coral.ai/products/accelerator/)
+- [Edge microcontroller can run TensorFlow Lite](https://www.sparkfun.com/products/15170) from SparkFun
+- [Read more in the Python reading list](./python.md)
+
+<br>
+<br>
+
+
+# <a name="datasets"></a>Datasets
+
+- [Kaggle Datasets](https://www.kaggle.com/datasets/)
+- [Google Dataset Search](https://datasetsearch.research.google.com) 
+- [🐱 Cats per square kilometer](https://data.gov.uk/dataset/9d475e06-3885-4a90-b8c0-77fea13f92e6/cats-per-square-kilometre)
+
+## Pre-trained models
+
+- [Use pre-trained models for image, audio and object recognition in Javascript](https://github.com/tensorflow/tfjs-models)
+
+<br>
+<br>
+
+# <a name="community"></a>Community
+
+- [AI Stackoverflow](https://ai.stackexchange.com)
+- [Kaggle - Machine Learning challenges](https://www.kaggle.com)
+
+<br>
+<br>
+
+# <a name="demos"></a>Demos and tutorials
+
+<a href="https://playground.tensorflow.org" target="_blank">![playground](./images/playground.png)</a>
+
+- [Tensorflow Playground](https://playground.tensorflow.org) 😱
+- [Tone Transfer example](https://twitter.com/HanoiHantrakul/status/1258803013948342272?s=20)
+- [Coding a perceptron in Javascript, by Mathias P Johansson](https://youtu.be/o98qlvrcqiU), and the [result](https://beta.observablehq.com/@mpj/neural-network-from-scratch-part-1)
+- [Creating a Recommender System in Javascript](https://github.com/javascript-machine-learning/movielens-recommender-system-javascript) and in [Python](https://towardsdatascience.com/how-to-build-a-simple-recommender-system-in-python-375093c3fb7d)
+- [Sketch2Code Live - Generate HTML from hand-drawn UI sketches](https://sketch2code.azurewebsites.net)
+- [Teleport Vision Github - Generate HTML from hand-drawn UI sketches](https://github.com/teleporthq/teleport-vision-api)
+- [Using a Javascript Perceptron to classify dangerous snakes](https://github.com/elyx0/rosenblattperceptronjs)
+- [Classify an image in 5 lines of Javascript](https://codepen.io/eerk/pen/JmKQLw)
+- [Train a Train - small game where a vehicle learns to drive](https://github.com/lkoppenol/train-a-train)
+- [Neural Drum Machine](https://codepen.io/teropa/pen/JLjXGK) and [Voice-based beatbox](https://codepen.io/naotokui/pen/NBzJMW) created with [MagentaJS](https://magenta.tensorflow.org)
+- [Demo for creating a self-learning Flappy Bird in Javascript](https://github.com/ssusnic/Machine-Learning-Flappy-Bird)
+- [Algorithm notes](http://books.goalkicker.com/AlgorithmsBook/)
+- [Google AI experiments](https://experiments.withgoogle.com/ai)
+- [Building a cat detector on a Raspberry Pi](https://planb.nicecupoftea.org/2018/12/01/cat-detector-with-tensorflow-on-a-raspberry-pi-3b/)
+- [Quick Draw! - Can a Neural Network detect a doodle?](https://quickdraw.withgoogle.com) and the [open source drawing dataset](https://github.com/googlecreativelab/quickdraw-dataset/)
+- [Imagine drawing a cat!](http://projects.eerkmans.nl/cat/)
+- [Building a self-driving Mario Kart using TensorFlow](https://www.youtube.com/watch?v=Ipi40cb_RsI) and [documentation](https://www.youtube.com/redirect?q=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F1p4ZOtziLmhf0jPbZTTaFxSKdYqE91dYcTNqTVdd6es4%2Fedit%3Fusp%3Dsharing&event=video_description&v=Ipi40cb_RsI&redir_token=Ybzxsbpmjb-vKOmpvcRlyEses5V8MTUxMzMzODkwNUAxNTEzMjUyNTA1)
+- [Learning Neural Networks with Processing](https://natureofcode.com/book/chapter-10-neural-networks/)
+- [While True : Learn() - a game that teaches you all about Machine Learning](https://luden.io/wtl/)
+- [Synaptic JS Neural Networks](http://caza.la/synaptic/) and [Tutorial](https://medium.freecodecamp.org/how-to-create-a-neural-network-in-javascript-in-only-30-lines-of-code-343dafc50d49)
+- [Dr. Derk's mutant battlegrounds](https://store.steampowered.com/app/1102370/Dr_Derks_Mutant_Battlegrounds/)
+- [AI Dungeon](https://play.aidungeon.io)
+- [Control a ThreeJS game with Teachable Machine](https://github.com/charliegerard/whoosh)
 
 
 ---
+
+<br>
+<br>
+
+
 
 ![SelfDrivingCar](https://imgs.xkcd.com/comics/self_driving_car_milestones.png)
 

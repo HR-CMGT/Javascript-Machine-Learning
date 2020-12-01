@@ -1,4 +1,4 @@
-# International Week Workshop
+# Machine Learning Workshops
 
 Machine Learning with Javascript
 

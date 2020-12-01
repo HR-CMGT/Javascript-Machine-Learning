@@ -144,6 +144,8 @@ TensorFlow is Google's Neural Network library. TensorFlow is available for Javas
 
 - [Documentary - the Age of AI](https://www.youtube.com/playlist?list=PLjq6DwYksrzz_fsWIpPcf6V7p2RNAneKc)
 - [🔥 Brilliant.org - tutorial app with daily questions](https://brilliant.org/courses/artificial-neural-networks/)
+- [Elements of AI - introduction to basic concepts](https://course.elementsofai.com)
+- [Building AI - getting started with algorithms](https://buildingai.elementsofai.com)
 - [📺  Crash Course - what is AI?](https://www.youtube.com/watch?v=a0_lo_GDcFw)
 - [Machine Learning for Everyone](https://vas3k.com/blog/machine_learning/)
 - [A tour of machine learning algorithms](https://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/)
@@ -169,15 +171,20 @@ TensorFlow is Google's Neural Network library. TensorFlow is available for Javas
 - [The human side of AI](https://pair.withgoogle.com)
 - [Machine Learning for designers](http://www.oreilly.com/design/free/machine-learning-for-designers.csp)
 
-## Maths and coding
+## Algorithms in Javascript
 
 - [📺  The Coding Train](https://thecodingtrain.com)
 - [📺  Math concepts for Programmers](https://www.youtube.com/watch?v=2SpuBqvNjHI)
+- [K-Nearest Neighbour](https://github.com/NathanEpstein/KNear)
+- [K-Means](https://miguelmota.com/blog/k-means-clustering-in-javascript/)
+- [Decision Tree](https://github.com/lagodiuk/decision-tree-js)
+- [Code a Perceptron in pure JS](https://www.youtube.com/watch?v=o98qlvrcqiU) or use this [code snippet](https://gist.github.com/primaryobjects/dfb8927f9f0ca21b6a24647168cead41)
 
 ## Images 
 
 - [Face-JS, a library to track facial expressions](https://justadudewhohacks.github.io/face-api.js/docs/index.html)
 - [TrackingJS, an image recognition library for Javascript](https://trackingjs.com)
+- [Hand Tracking JS](https://victordibia.github.io/handtrack.js/)
 - [YOLO - you only look once](https://pjreddie.com/darknet/yolo/) Image recognition network, watch the cool [intro movie!](https://www.youtube.com/watch?v=MPU2HistivI)
 - [YOLO in Javascript](https://learn.ml5js.org/#/reference/object-detector)
 - [ImageNet - readymade training data for image recognition](http://www.image-net.org)
@@ -289,6 +296,7 @@ Train a model without programming
 <a href="https://playground.tensorflow.org" target="_blank">![playground](./images/playground.png)</a>
 
 - [Tensorflow Playground](https://playground.tensorflow.org) 😱
+- [Build a security camera with TensorflowJS and React](https://www.youtube.com/watch?v=7QBYX65t7Mw)
 - [Tone Transfer example](https://twitter.com/HanoiHantrakul/status/1258803013948342272?s=20)
 - [Coding a perceptron in Javascript, by Mathias P Johansson](https://youtu.be/o98qlvrcqiU), and the [result](https://beta.observablehq.com/@mpj/neural-network-from-scratch-part-1)
 - [Creating a Recommender System in Javascript](https://github.com/javascript-machine-learning/movielens-recommender-system-javascript) and in [Python](https://towardsdatascience.com/how-to-build-a-simple-recommender-system-in-python-375093c3fb7d)

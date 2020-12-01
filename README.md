@@ -13,7 +13,7 @@ This repository maintains a list of Machine Learning technologies and algorithms
 - [Reading list](#readinglist)
   - Understanding Machine Learning
   - Designing for AI
-  - Maths and code
+  - Algorithms in Javascript
   - Images
   - Text and speech
   - Games
@@ -166,6 +166,7 @@ TensorFlow is Google's Neural Network library. TensorFlow is available for Javas
 
 - [ML+ Design - a reading list about designing for ML applications](https://machinelearning.design)
 - [Design in the era of the algorithm](https://bigmedium.com/speaking/design-in-the-era-of-the-algorithm.html)
+- [📺  AI is your new design material](https://www.youtube.com/watch?v=Tgzu351uDIc)
 - [Human-Centered Machine Learning](https://medium.com/google-design/human-centered-machine-learning-a770d10562cd)
 - [The UX of AI](https://design.google/library/ux-ai/)
 - [The human side of AI](https://pair.withgoogle.com)
@@ -178,7 +179,7 @@ TensorFlow is Google's Neural Network library. TensorFlow is available for Javas
 - [K-Nearest Neighbour](https://github.com/NathanEpstein/KNear)
 - [K-Means](https://miguelmota.com/blog/k-means-clustering-in-javascript/)
 - [Decision Tree](https://github.com/lagodiuk/decision-tree-js)
-- [Code a Perceptron in pure JS](https://www.youtube.com/watch?v=o98qlvrcqiU) or use this [code snippet](https://gist.github.com/primaryobjects/dfb8927f9f0ca21b6a24647168cead41)
+- [📺  Perceptron in pure JS](https://www.youtube.com/watch?v=o98qlvrcqiU) or use this [code snippet](https://gist.github.com/primaryobjects/dfb8927f9f0ca21b6a24647168cead41)
 
 ## Images 
 
@@ -319,6 +320,7 @@ Train a model without programming
 - [Dr. Derk's mutant battlegrounds](https://store.steampowered.com/app/1102370/Dr_Derks_Mutant_Battlegrounds/)
 - [AI Dungeon](https://play.aidungeon.io)
 - [Control a ThreeJS game with Teachable Machine](https://github.com/charliegerard/whoosh)
+
 
 
 ---

@@ -220,6 +220,7 @@ TensorFlow is Google's Neural Network library. TensorFlow is available for Javas
 ## Creative Coding
 
 - [Magenta](https://magenta.tensorflow.org/get-started/#magenta-js) is a google library that uses tensorflow to generate [images](https://tensorflow.github.io/magenta-js/image/index.html), [music](https://tensorflow.github.io/magenta-js/music/index.html) and [sketches](https://tensorflow.github.io/magenta-js/sketch/). 
+- [Six different tools for music generation with ML](https://www.asimovinstitute.org/analyzing-deep-learning-tools-music/)
 - [Researching the use of ML in creative applications](http://blog.otoro.net)
 - [Wekinator](http://www.wekinator.org) is a GUI that can apply Machine Learning algorithms to Processing and Arduino sensor data - [check the tutorial.](http://www.wekinator.org/kadenze/)
 - [ArtBreeder - generate children from image parents!](https://www.artbreeder.com)

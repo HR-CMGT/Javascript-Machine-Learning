@@ -144,7 +144,7 @@ TensorFlow is Google's Neural Network library. TensorFlow is available for Javas
 
 - [Documentary - the Age of AI](https://www.youtube.com/playlist?list=PLjq6DwYksrzz_fsWIpPcf6V7p2RNAneKc)
 - [🔥 Brilliant.org - tutorial app with daily questions](https://brilliant.org/courses/artificial-neural-networks/)
-- [Elements of AI - introduction to basic concepts](https://course.elementsofai.com)
+- [🔥 Elements of AI - introduction to basic concepts](https://course.elementsofai.com)
 - [Building AI - getting started with algorithms](https://buildingai.elementsofai.com)
 - [📺  Crash Course - what is AI?](https://www.youtube.com/watch?v=a0_lo_GDcFw)
 - [Machine Learning for Everyone](https://vas3k.com/blog/machine_learning/)
@@ -193,14 +193,14 @@ TensorFlow is Google's Neural Network library. TensorFlow is available for Javas
 
 ## Language and speech
 
+- [What is Natural Language Processing?](https://towardsdatascience.com/natural-language-processing-from-basics-to-using-rnn-and-lstm-ef6779e4ae66)
 - [Listen to speech with Javascript](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API)
 - [Understand sentiment in text](https://ml5js.org/reference/api-Sentiment/)
 - [Understand meaning of text](./workshop/lesson-smarthome/readme.md)
 - [What are word vectors?](https://gist.github.com/aparrish/2f562e3737544cf29aaf1af30362f469)
-- [Understanding Word2Vec Video by Daniel Shiffman](https://youtu.be/MOo9iJ8RYWM)
-- [Natural Language Processing with Spacy.io](https://spacy.io)
-- [Google TacoTron Self-learning Speech Synthesizer](https://github.com/keithito/tacotron)
-- [Pocket Sphynx Speech Recognition](https://github.com/cmusphinx/pocketsphinx)
+- [📺  Understanding Word2Vec](https://youtu.be/MOo9iJ8RYWM)
+- [Spacy.io Language Processing with Python](https://spacy.io)
+- [TacoTron Self-learning Speech Synthesizer for Python](https://github.com/keithito/tacotron)
 
 ## Games
 
@@ -231,27 +231,25 @@ TensorFlow is Google's Neural Network library. TensorFlow is available for Javas
 
 # <a name="nocode"></a>No Code Machine Learning
 
-Train a model without programming
-
-## Runway ML
+Tools for training a model without programming
 
 ![runway](./images/runwayml.png)
 
-- [Machine learning for creators with Runway ML](https://runwayml.com) - bring the power of artificial intelligence to your creative projects with an intuitive visual interface.
-
-## Lobe AI
+- [Runway ML](https://runwayml.com) - use ML in your creative projects with an intuitive visual interface. See the demo: [greenscreen any video](https://youtu.be/aeywFO2dOwA)
 
 ![lobe](./images/lobe.png)
 
-- [Microsoft Lobe](https://lobe.ai) is a tool for training and exporting a machine learning model without coding. Can export to TensorFlow. 
-
-## Teachable Machine
+- [Lobe.AI](https://lobe.ai) is microsoft's tool for training and exporting a machine learning model without coding. Can export to TensorFlow. 
 
 ![teachable](./images/teachablemachine.png)
 
 - Google's [Teachable Machine](https://teachablemachine.withgoogle.com) can export a machine learning model for use with Javascript in TensorFlowJS or ML5.js.
 
-- [Obviously.ai : train a model with excel data](https://www.obviously.ai) 
+![teleport](./images/teleport.png)
+
+- [TeleportHQ](https://teleporthq.io) offers a tool that can create React Templates from hand-drawn UI sketches.
+
+- [Obviously.ai](https://www.obviously.ai) can train a model with CSV data right in the browser.
 
 <br>
 <br>
@@ -276,6 +274,7 @@ Train a model without programming
 - [Kaggle Datasets](https://www.kaggle.com/datasets/)
 - [Google Dataset Search](https://datasetsearch.research.google.com) 
 - [🐱 Cats per square kilometer](https://data.gov.uk/dataset/9d475e06-3885-4a90-b8c0-77fea13f92e6/cats-per-square-kilometre)
+- [Speech Audio dataset](https://keithito.com/LJ-Speech-Dataset/)
 
 ## Pre-trained models
 
@@ -288,6 +287,8 @@ Train a model without programming
 
 - [AI Stackoverflow](https://ai.stackexchange.com)
 - [Kaggle - Machine Learning challenges](https://www.kaggle.com)
+- [Welcome.ai Instagram](https://www.instagram.com/welcome.ai/)
+- [AI x Design Community](https://www.aixdesign.co) and [Instagram](https://www.instagram.com/aixdesign.community/)
 
 <br>
 <br>
@@ -297,14 +298,15 @@ Train a model without programming
 <a href="https://playground.tensorflow.org" target="_blank">![playground](./images/playground.png)</a>
 
 - [Tensorflow Playground](https://playground.tensorflow.org) 😱
-- [Build a security camera with TensorflowJS and React](https://www.youtube.com/watch?v=7QBYX65t7Mw)
+- [📺 Build a security camera with TensorflowJS and React](https://www.youtube.com/watch?v=7QBYX65t7Mw)
 - [Tone Transfer example](https://twitter.com/HanoiHantrakul/status/1258803013948342272?s=20)
-- [Coding a perceptron in Javascript, by Mathias P Johansson](https://youtu.be/o98qlvrcqiU), and the [result](https://beta.observablehq.com/@mpj/neural-network-from-scratch-part-1)
+- [NVidia AI playground](https://www.nvidia.com/en-us/research/ai-playground/)
+- [📺 Coding a perceptron in Javascript, by Mathias P Johansson](https://youtu.be/o98qlvrcqiU), and the [result](https://beta.observablehq.com/@mpj/neural-network-from-scratch-part-1)
 - [Creating a Recommender System in Javascript](https://github.com/javascript-machine-learning/movielens-recommender-system-javascript) and in [Python](https://towardsdatascience.com/how-to-build-a-simple-recommender-system-in-python-375093c3fb7d)
 - [Sketch2Code Live - Generate HTML from hand-drawn UI sketches](https://sketch2code.azurewebsites.net)
 - [Teleport Vision Github - Generate HTML from hand-drawn UI sketches](https://github.com/teleporthq/teleport-vision-api)
 - [Using a Javascript Perceptron to classify dangerous snakes](https://github.com/elyx0/rosenblattperceptronjs)
-- [Classify an image in 5 lines of Javascript](https://codepen.io/eerk/pen/JmKQLw)
+- [Classify an image on Codepen in 5 lines of Javascript](https://codepen.io/eerk/pen/JmKQLw)
 - [Train a Train - small game where a vehicle learns to drive](https://github.com/lkoppenol/train-a-train)
 - [Neural Drum Machine](https://codepen.io/teropa/pen/JLjXGK) and [Voice-based beatbox](https://codepen.io/naotokui/pen/NBzJMW) created with [MagentaJS](https://magenta.tensorflow.org)
 - [Demo for creating a self-learning Flappy Bird in Javascript](https://github.com/ssusnic/Machine-Learning-Flappy-Bird)

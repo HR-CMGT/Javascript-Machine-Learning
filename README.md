@@ -136,6 +136,12 @@ TensorFlow is Google's Neural Network library. TensorFlow is available for Javas
 <br>
 <br>
 
+## MLJS
+
+MLJS is a collection of ML algorithms written in Javascript
+
+- [MLJS](https://github.com/mljs/ml)
+
 # <a name="readinglist"></a>Reading list
 
 ![brilliant](./images/brilliant.png)

@@ -11,6 +11,7 @@ This repository maintains a reading list of Machine Learning technologies, algor
 # Contents
 
 - [Quick Introduction](./introduction.md)
+  - Training, algorithms, and models
   - Solving ML problems with Javascript
   - Javascript code examples
 - [Reading list](#readinglist)

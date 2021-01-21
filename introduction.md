@@ -1,4 +1,4 @@
-# Introduction
+# Quick Introduction
 
 - [Training, algorithms, and models](#basics)
 - [Machine Learning problems](#disciplines)

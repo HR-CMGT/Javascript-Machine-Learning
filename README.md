@@ -1,6 +1,9 @@
-# Machine Learning with Javascript
+# Machine Learning Reading List
 
-This repository maintains a list of Machine Learning technologies and algorithms, for use with the Machine Learning course at Creative Media and Game Technologies Rotterdam. The focus is on Javascript. 
+This repository maintains a reading list of Machine Learning technologies and algorithms. 
+It's also used as reference material for students of *PRG08 - Machine Learning in Javascript*
+
+for use with the Machine Learning course at Creative Media and Game Technologies Rotterdam. The focus is on Javascript. 
 
 ## Introduction
 

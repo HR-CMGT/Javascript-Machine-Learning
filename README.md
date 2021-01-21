@@ -91,10 +91,11 @@ Books and videos that help you learn the main concepts. Find a book or video tha
 
 - [📺  The Coding Train](https://thecodingtrain.com)
 - [📺  Math concepts for Programmers](https://www.youtube.com/watch?v=2SpuBqvNjHI)
-- [K-Nearest Neighbour](https://github.com/NathanEpstein/KNear)
+- [K-Nearest Neighbour](https://github.com/NathanEpstein/KNear) and an [explanation of writing your own KNN in Javascript](https://burakkanber.com/blog/machine-learning-in-js-k-nearest-neighbor-part-1/)
 - [K-Means](https://miguelmota.com/blog/k-means-clustering-in-javascript/)
 - [Decision Tree](https://github.com/lagodiuk/decision-tree-js)
 - [📺  Perceptron in pure JS](https://www.youtube.com/watch?v=o98qlvrcqiU) or use this [code snippet](https://gist.github.com/primaryobjects/dfb8927f9f0ca21b6a24647168cead41)
+- [Movie Recommender System in Javascript](https://github.com/javascript-machine-learning/movielens-recommender-system-javascript) and a [quick and dirty tutorial on building your own recommender system](https://dev.to/jimatjibba/build-a-content-based-recommendation-engine-in-js-2lpi)
 
 ## Images 
 
@@ -111,10 +112,11 @@ Books and videos that help you learn the main concepts. Find a book or video tha
 - [What is Natural Language Processing?](https://towardsdatascience.com/natural-language-processing-from-basics-to-using-rnn-and-lstm-ef6779e4ae66)
 - [Listen to speech with Javascript](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API)
 - [Understand sentiment in text](https://ml5js.org/reference/api-Sentiment/)
+- [Another sentiment analysis tool in Javascript](https://github.com/thisandagain/sentiment)
 - [Understand meaning of text](./workshop/lesson-smarthome/readme.md)
 - [What are word vectors?](https://gist.github.com/aparrish/2f562e3737544cf29aaf1af30362f469)
 - [📺  Understanding Word2Vec](https://youtu.be/MOo9iJ8RYWM)
-- [Spacy.io Language Processing with Python](https://spacy.io)
+- [Natural Language Processing in Javascript](http://naturalnode.github.io/natural/)
 - [TacoTron Self-learning Speech Synthesizer for Python](https://github.com/keithito/tacotron)
 
 ## Games
@@ -127,6 +129,8 @@ Books and videos that help you learn the main concepts. Find a book or video tha
 
 ## API's
 
+- Google API's for [Translate](http://cloud.google.com/translate/), [Vision](http://cloud.google.com/vision/), [Speech](http://cloud.google.com/speech/) and [Language Processing](http://cloud.google.com/natural-language/)
+- [Build AI Bots with DialogFlow](https://cloud.google.com/dialogflow)
 - [Google ML Kit for iOS and Android](https://developers.google.com/ml-kit)
 - [Microsoft Azure Machine Learning APIs](https://gallery.azure.ai/machineLearningAPIs)
 - [Apple Core ML framework](https://developer.apple.com/documentation/coreml) and [tutorials](https://developer.apple.com/machine-learning/)
@@ -188,6 +192,7 @@ Tools for training a model without programming
 # <a name="datasets"></a>Datasets
 
 - [Kaggle Datasets](https://www.kaggle.com/datasets/)
+- [MovieLens - data on 45.000 movies by 270.000 users](https://www.kaggle.com/rounakbanik/the-movies-dataset/data)
 - [Google Dataset Search](https://datasetsearch.research.google.com) 
 - [🐱 Cats per square kilometer](https://data.gov.uk/dataset/9d475e06-3885-4a90-b8c0-77fea13f92e6/cats-per-square-kilometre)
 - [Speech Audio dataset](https://keithito.com/LJ-Speech-Dataset/)
@@ -205,6 +210,7 @@ Tools for training a model without programming
 - [Kaggle - Machine Learning challenges](https://www.kaggle.com)
 - [Welcome.ai Instagram](https://www.instagram.com/welcome.ai/)
 - [AI x Design Community](https://www.aixdesign.co) and [Instagram](https://www.instagram.com/aixdesign.community/)
+- [Rotterdam AI Meetup](https://www.meetup.com/Explore-Artificial-Intelligence-Rotterdam/)
 
 <br>
 <br>
@@ -237,6 +243,7 @@ Tools for training a model without programming
 - [Synaptic JS Neural Networks](http://caza.la/synaptic/) and [Tutorial](https://medium.freecodecamp.org/how-to-create-a-neural-network-in-javascript-in-only-30-lines-of-code-343dafc50d49)
 - [Dr. Derk's mutant battlegrounds](https://store.steampowered.com/app/1102370/Dr_Derks_Mutant_Battlegrounds/)
 - [AI Dungeon](https://play.aidungeon.io)
+- [List of Javascript Maschine Learning algorithms and presentations](https://bri.im/)
 - [Control a ThreeJS game with Teachable Machine](https://github.com/charliegerard/whoosh)
 
 

@@ -197,6 +197,7 @@ Tools for training a model without programming
 - [🐱 Cats per square kilometer](https://data.gov.uk/dataset/9d475e06-3885-4a90-b8c0-77fea13f92e6/cats-per-square-kilometre)
 - [Speech Audio dataset](https://keithito.com/LJ-Speech-Dataset/)
 - [COCO - Common Objects in Context](https://cocodataset.org/#home)
+- [Socrata Open Data search](https://dev.socrata.com/data/)
 
 ## Pre-trained models
 
@@ -246,7 +247,7 @@ Tools for training a model without programming
 - [AI Dungeon](https://play.aidungeon.io)
 - [List of Javascript Maschine Learning algorithms and presentations](https://bri.im/)
 - [Control a ThreeJS game with Teachable Machine](https://github.com/charliegerard/whoosh)
-
+- [Silence of the Fans - running TensorflowJS on Google Colab](https://dev.to/obenjiro/silence-of-the-fans-part-1-javascript-quickstart-5f3m) - and [code example](bit.ly/colabjs)
 
 
 ---

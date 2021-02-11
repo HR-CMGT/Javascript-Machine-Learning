@@ -198,6 +198,7 @@ Tools for training a model without programming
 - [Speech Audio dataset](https://keithito.com/LJ-Speech-Dataset/)
 - [COCO - Common Objects in Context](https://cocodataset.org/#home)
 - [Socrata Open Data search](https://dev.socrata.com/data/)
+- [Rotterdam Open Data](http://rotterdamopendata.nl/dataset)
 
 ## Pre-trained models
 

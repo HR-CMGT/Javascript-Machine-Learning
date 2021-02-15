@@ -185,6 +185,7 @@ Tools for training a model without programming
 - [External ML processor on a USB stick](https://coral.ai/products/accelerator/)
 - [Edge microcontroller can run TensorFlow Lite](https://www.sparkfun.com/products/15170) from SparkFun
 - [Read more in the Python reading list](./python.md)
+- [Corel.AI Tensorflow Hardware](https://coral.ai/products/) en [📺 Marshmallow detector demo](https://coral.ai/projects/teachable-sorter/)
 
 <br>
 <br>

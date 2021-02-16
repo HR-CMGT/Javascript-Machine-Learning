@@ -75,6 +75,7 @@ Books and videos that help you learn the main concepts. Find a book or video tha
 - [Machine Learning for Kids](https://machinelearningforkids.co.uk/)
 - [Deep Learning Gone Wrong - How ML expectations don't always match with results](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRPiprOaC3HsCf5Tuum8bRfzYUiKLRqJmbOoC-32JorNdfyTiRRsR7Ea5eWtvsWzuxo8bjOxCG84dAg/pubhtml)
 - [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com)
+- [HR Datalab: Rob vd Willigen's Blog about AI](https://robfvdw.medium.com)
 
 ## Designing for AI
 

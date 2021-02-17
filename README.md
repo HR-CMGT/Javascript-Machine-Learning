@@ -226,6 +226,7 @@ Tools for training a model without programming
 <a href="https://playground.tensorflow.org" target="_blank">![playground](./images/playground.png)</a>
 
 - [Tensorflow Playground](https://playground.tensorflow.org) 😱
+- [Visualise how a Neural Network recognises numbers](https://www.cs.cmu.edu/~aharley/vis/conv/flat.html)
 - [📺 Build a security camera with TensorflowJS and React](https://www.youtube.com/watch?v=7QBYX65t7Mw)
 - [Tone Transfer example](https://twitter.com/HanoiHantrakul/status/1258803013948342272?s=20)
 - [NVidia AI playground](https://www.nvidia.com/en-us/research/ai-playground/)

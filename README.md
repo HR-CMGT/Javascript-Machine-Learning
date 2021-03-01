@@ -92,6 +92,7 @@ Books and videos that help you learn the main concepts. Find a book or video tha
 
 - [📺  The Coding Train](https://thecodingtrain.com)
 - [📺  Math concepts for Programmers](https://www.youtube.com/watch?v=2SpuBqvNjHI)
+- [🔥 Super clear Neural Networks Tutorial in TensorflowJS](https://codelabs.developers.google.com/codelabs/tfjs-training-regression/index.html)
 - [K-Nearest Neighbour](https://github.com/NathanEpstein/KNear) and an [explanation of writing your own KNN in Javascript](https://burakkanber.com/blog/machine-learning-in-js-k-nearest-neighbor-part-1/)
 - [K-Means](https://miguelmota.com/blog/k-means-clustering-in-javascript/)
 - [Decision Tree](https://github.com/lagodiuk/decision-tree-js)

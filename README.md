@@ -93,6 +93,7 @@ Books and videos that help you learn the main concepts. Find a book or video tha
 - [📺  The Coding Train](https://thecodingtrain.com)
 - [📺  Math concepts for Programmers](https://www.youtube.com/watch?v=2SpuBqvNjHI)
 - [🔥 Super clear Neural Networks Tutorial in TensorflowJS](https://codelabs.developers.google.com/codelabs/tfjs-training-regression/index.html)
+- [Building a TensorflowJS UI with Parcel Bundler](https://medium.com/codingthesmartway-com-blog/tensorflow-js-crash-course-machine-learning-for-the-web-getting-started-50694a575238)
 - [K-Nearest Neighbour](https://github.com/NathanEpstein/KNear) and an [explanation of writing your own KNN in Javascript](https://burakkanber.com/blog/machine-learning-in-js-k-nearest-neighbor-part-1/)
 - [K-Means](https://miguelmota.com/blog/k-means-clustering-in-javascript/)
 - [Decision Tree](https://github.com/lagodiuk/decision-tree-js)
@@ -106,8 +107,7 @@ Books and videos that help you learn the main concepts. Find a book or video tha
 - [Face-JS, a library to track facial expressions](https://justadudewhohacks.github.io/face-api.js/docs/index.html)
 - [TrackingJS, an image recognition library for Javascript](https://trackingjs.com)
 - [Hand Tracking JS](https://victordibia.github.io/handtrack.js/)
-- [YOLO - you only look once](https://pjreddie.com/darknet/yolo/) Image recognition network, watch the cool [intro movie!](https://www.youtube.com/watch?v=MPU2HistivI)
-- [YOLO in Javascript](https://learn.ml5js.org/#/reference/object-detector)
+- [YOLO Object Detection in Javascript](https://learn.ml5js.org/#/reference/object-detector) - what is [YOLO?](https://www.youtube.com/watch?v=MPU2HistivI)
 - [ImageNet - readymade training data for image recognition](http://www.image-net.org)
 - [OpenCV Computer Vision](https://opencv.org)
 

@@ -105,11 +105,11 @@ Books and videos that help you learn the main concepts. Find a book or video tha
 ## Images 
 
 - [Object Detection in ML5](https://learn.ml5js.org/#/reference/object-detector) - what is [YOLO?](https://www.youtube.com/watch?v=MPU2HistivI)
-- [Image detection with help of a pre-trained model in ML5](https://ml5js.org/reference/api-FeatureExtractor/) and [tutorial](https://www.youtube.com/watch?v=eeO-rWYFuG0)
-- [Use a Convolutional Neural Network in ML5 to train with images](https://learn.ml5js.org/#/reference/neural-network?id=a-convolutional-neural-network-for-image-classification-tasks)
+- [Improving a pre-trained model in ML5](https://ml5js.org/reference/api-FeatureExtractor/), with a [workshop](./extractfeatures/readme.md) and [youtube tutorial](https://www.youtube.com/watch?v=eeO-rWYFuG0)
+- [Use a Convolutional Neural Network in ML5 to train with images from scratch](https://learn.ml5js.org/#/reference/neural-network?id=a-convolutional-neural-network-for-image-classification-tasks)
 - [Face-JS, a library to track facial expressions](https://justadudewhohacks.github.io/face-api.js/docs/index.html)
 - [TrackingJS, an image recognition library for Javascript](https://trackingjs.com)
-- [Hand Tracking JS](https://victordibia.github.io/handtrack.js/)
+- [Hand Tracking JS](https://victordibia.github.io/handtrack.js/) en [HandPose API](https://github.com/tensorflow/tfjs-models/tree/master/handpose)
 
 
 

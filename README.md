@@ -75,6 +75,7 @@ Books and videos that help you learn the main concepts. Find a book or video tha
 - [Machine Learning for Kids](https://machinelearningforkids.co.uk/)
 - [Deep Learning Gone Wrong - How ML expectations don't always match with results](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRPiprOaC3HsCf5Tuum8bRfzYUiKLRqJmbOoC-32JorNdfyTiRRsR7Ea5eWtvsWzuxo8bjOxCG84dAg/pubhtml)
 - [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com)
+- [HR Datalab: Rob vd Willigen's Blog about AI](https://robfvdw.medium.com)
 
 ## Designing for AI
 
@@ -91,33 +92,39 @@ Books and videos that help you learn the main concepts. Find a book or video tha
 
 - [📺  The Coding Train](https://thecodingtrain.com)
 - [📺  Math concepts for Programmers](https://www.youtube.com/watch?v=2SpuBqvNjHI)
+- [🔥 Super clear Neural Networks Tutorial in TensorflowJS](https://codelabs.developers.google.com/codelabs/tfjs-training-regression/index.html)
+- [Building a TensorflowJS UI with Parcel Bundler](https://medium.com/codingthesmartway-com-blog/tensorflow-js-crash-course-machine-learning-for-the-web-getting-started-50694a575238)
 - [K-Nearest Neighbour](https://github.com/NathanEpstein/KNear) and an [explanation of writing your own KNN in Javascript](https://burakkanber.com/blog/machine-learning-in-js-k-nearest-neighbor-part-1/)
 - [K-Means](https://miguelmota.com/blog/k-means-clustering-in-javascript/)
 - [Decision Tree](https://github.com/lagodiuk/decision-tree-js)
 - [📺  Perceptron in pure JS](https://www.youtube.com/watch?v=o98qlvrcqiU) or use this [code snippet](https://gist.github.com/primaryobjects/dfb8927f9f0ca21b6a24647168cead41)
 - [Movie Recommender System in Javascript](https://github.com/javascript-machine-learning/movielens-recommender-system-javascript) and a [quick and dirty tutorial on building your own recommender system](https://dev.to/jimatjibba/build-a-content-based-recommendation-engine-in-js-2lpi)
+- [Visualise data with TFVis](https://js.tensorflow.org/api_vis/1.4.3/), [VEGA](https://vega.github.io/vega/) or [PlotlyJS](https://plotly.com/javascript/)
+- [Manipulate large amounts of data with Danfo.js](https://danfo.jsdata.org)
 
 ## Images 
 
+- [Object Detection in ML5](https://learn.ml5js.org/#/reference/object-detector) - what is [YOLO?](https://www.youtube.com/watch?v=MPU2HistivI)
+- [Image detection with help of a pre-trained model in ML5](https://ml5js.org/reference/api-FeatureExtractor/) and [tutorial](https://www.youtube.com/watch?v=eeO-rWYFuG0)
+- [Use a Convolutional Neural Network in ML5 to train with images](https://learn.ml5js.org/#/reference/neural-network?id=a-convolutional-neural-network-for-image-classification-tasks)
 - [Face-JS, a library to track facial expressions](https://justadudewhohacks.github.io/face-api.js/docs/index.html)
 - [TrackingJS, an image recognition library for Javascript](https://trackingjs.com)
 - [Hand Tracking JS](https://victordibia.github.io/handtrack.js/)
-- [YOLO - you only look once](https://pjreddie.com/darknet/yolo/) Image recognition network, watch the cool [intro movie!](https://www.youtube.com/watch?v=MPU2HistivI)
-- [YOLO in Javascript](https://learn.ml5js.org/#/reference/object-detector)
-- [ImageNet - readymade training data for image recognition](http://www.image-net.org)
-- [OpenCV Computer Vision](https://opencv.org)
+
+
+
 
 ## Language and speech
 
 - [What is Natural Language Processing?](https://towardsdatascience.com/natural-language-processing-from-basics-to-using-rnn-and-lstm-ef6779e4ae66)
 - [Listen to speech with Javascript](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API)
+- [Simple demo of speech recognition and speaking phrases in javascript!](https://github.com/mdn/web-speech-api)
 - [Understand sentiment in text](https://ml5js.org/reference/api-Sentiment/)
 - [Another sentiment analysis tool in Javascript](https://github.com/thisandagain/sentiment)
 - [Understand meaning of text](./workshop/lesson-smarthome/readme.md)
 - [What are word vectors?](https://gist.github.com/aparrish/2f562e3737544cf29aaf1af30362f469)
 - [📺  Understanding Word2Vec](https://youtu.be/MOo9iJ8RYWM)
 - [Natural Language Processing in Javascript](http://naturalnode.github.io/natural/)
-- [TacoTron Self-learning Speech Synthesizer for Python](https://github.com/keithito/tacotron)
 
 ## Games
 
@@ -184,6 +191,7 @@ Tools for training a model without programming
 - [External ML processor on a USB stick](https://coral.ai/products/accelerator/)
 - [Edge microcontroller can run TensorFlow Lite](https://www.sparkfun.com/products/15170) from SparkFun
 - [Read more in the Python reading list](./python.md)
+- [Corel.AI Tensorflow Hardware](https://coral.ai/products/) en [📺 Marshmallow detector demo](https://coral.ai/projects/teachable-sorter/)
 
 <br>
 <br>
@@ -197,10 +205,15 @@ Tools for training a model without programming
 - [🐱 Cats per square kilometer](https://data.gov.uk/dataset/9d475e06-3885-4a90-b8c0-77fea13f92e6/cats-per-square-kilometre)
 - [Speech Audio dataset](https://keithito.com/LJ-Speech-Dataset/)
 - [QuickDraw - Doodles dataset](https://github.com/googlecreativelab/quickdraw-dataset/)
+- [COCO - Common Objects in Context](https://cocodataset.org/#home)
+- [Socrata Open Data search](https://dev.socrata.com/data/)
+- [Rotterdam Open Data](http://rotterdamopendata.nl/dataset)
 
 ## Pre-trained models
 
 - [Use pre-trained models for image, audio and object recognition in Javascript](https://github.com/tensorflow/tfjs-models)
+- [ImageNet - pretrained models](http://www.image-net.org)
+- [MobileNet - pretrained models](https://github.com/tensorflow/models/blob/master/research/slim/nets/mobilenet_v1.md)
 
 <br>
 <br>
@@ -221,6 +234,7 @@ Tools for training a model without programming
 <a href="https://playground.tensorflow.org" target="_blank">![playground](./images/playground.png)</a>
 
 - [Tensorflow Playground](https://playground.tensorflow.org) 😱
+- [Visualise how a Neural Network recognises numbers](https://www.cs.cmu.edu/~aharley/vis/conv/flat.html)
 - [📺 Build a security camera with TensorflowJS and React](https://www.youtube.com/watch?v=7QBYX65t7Mw)
 - [Tone Transfer example](https://twitter.com/HanoiHantrakul/status/1258803013948342272?s=20)
 - [NVidia AI playground](https://www.nvidia.com/en-us/research/ai-playground/)
@@ -246,7 +260,7 @@ Tools for training a model without programming
 - [AI Dungeon](https://play.aidungeon.io)
 - [List of Javascript Maschine Learning algorithms and presentations](https://bri.im/)
 - [Control a ThreeJS game with Teachable Machine](https://github.com/charliegerard/whoosh)
-
+- [Silence of the Fans - running TensorflowJS on Google Colab](https://dev.to/obenjiro/silence-of-the-fans-part-1-javascript-quickstart-5f3m) - and [code example](bit.ly/colabjs)
 
 
 ---

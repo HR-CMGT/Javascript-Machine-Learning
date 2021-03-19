@@ -211,7 +211,8 @@ Tools for training a model without programming
 ## Pre-trained models
 
 - [Use pre-trained models for image, audio and object recognition in Javascript](https://github.com/tensorflow/tfjs-models)
-- [ImageNet - readymade training data for image recognition](http://www.image-net.org)
+- [ImageNet - pretrained models](http://www.image-net.org)
+- [MobileNet - pretrained models](https://github.com/tensorflow/models/blob/master/research/slim/nets/mobilenet_v1.md)
 
 <br>
 <br>

@@ -196,6 +196,7 @@ Tools for training a model without programming
 - [Google Dataset Search](https://datasetsearch.research.google.com) 
 - [🐱 Cats per square kilometer](https://data.gov.uk/dataset/9d475e06-3885-4a90-b8c0-77fea13f92e6/cats-per-square-kilometre)
 - [Speech Audio dataset](https://keithito.com/LJ-Speech-Dataset/)
+- [QuickDraw - Doodles dataset](https://github.com/googlecreativelab/quickdraw-dataset/)
 
 ## Pre-trained models
 

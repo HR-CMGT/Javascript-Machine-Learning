@@ -111,20 +111,13 @@ Books and videos that help you learn the main concepts. Find a book or video tha
 - [TrackingJS, an image recognition library for Javascript](https://trackingjs.com)
 - [Hand Tracking JS](https://victordibia.github.io/handtrack.js/) en [HandPose API](https://github.com/tensorflow/tfjs-models/tree/master/handpose)
 
-
-
-
 ## Language and speech
 
-- [What is Natural Language Processing?](https://towardsdatascience.com/natural-language-processing-from-basics-to-using-rnn-and-lstm-ef6779e4ae66)
-- [Listen to speech with Javascript](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API)
-- [Simple demo of speech recognition and speaking phrases in javascript!](https://github.com/mdn/web-speech-api)
-- [Understand sentiment in text](https://ml5js.org/reference/api-Sentiment/)
-- [Another sentiment analysis tool in Javascript](https://github.com/thisandagain/sentiment)
-- [Understand meaning of text](./workshop/lesson-smarthome/readme.md)
-- [What are word vectors?](https://gist.github.com/aparrish/2f562e3737544cf29aaf1af30362f469)
-- [📺  Understanding Word2Vec](https://youtu.be/MOo9iJ8RYWM)
-- [Natural Language Processing in Javascript](http://naturalnode.github.io/natural/)
+- [What is Natural Language Processing?](https://towardsdatascience.com/natural-language-processing-from-basics-to-using-rnn-and-lstm-ef6779e4ae66) and [Natural Language Processing in Javascript](http://naturalnode.github.io/natural/)
+- [Listen to human speech in the browser](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API), and a [Simple demo of listening and speaking with javascript](https://github.com/mdn/web-speech-api)
+- [Understand sentiment in ML5](https://ml5js.org/reference/api-Sentiment/) and [javascript](https://github.com/thisandagain/sentiment)
+- [What are word vectors?](https://gist.github.com/aparrish/2f562e3737544cf29aaf1af30362f469) and [📺  Understanding Word2Vec](https://youtu.be/MOo9iJ8RYWM)
+- [Using the new GPT-3 advanced language tool in Javascript](https://www.twilio.com/blog/getting-started-with-openai-s-gpt-3-in-node-js)
 
 ## Games
 
@@ -146,6 +139,7 @@ Books and videos that help you learn the main concepts. Find a book or video tha
 ## Creative Coding
 
 - [Magenta](https://magenta.tensorflow.org/get-started/#magenta-js) is a google library that uses tensorflow to generate [images](https://tensorflow.github.io/magenta-js/image/index.html), [music](https://tensorflow.github.io/magenta-js/music/index.html) and [sketches](https://tensorflow.github.io/magenta-js/sketch/). 
+- [A list of Creative AI Tools](https://creative-ai.org)
 - [Six different tools for music generation with ML](https://www.asimovinstitute.org/analyzing-deep-learning-tools-music/)
 - [Researching the use of ML in creative applications](http://blog.otoro.net)
 - [Wekinator](http://www.wekinator.org) is a GUI that can apply Machine Learning algorithms to Processing and Arduino sensor data - [check the tutorial.](http://www.wekinator.org/kadenze/)

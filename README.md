@@ -166,10 +166,6 @@ Tools for training a model without programming
 
 - Google's [Teachable Machine](https://teachablemachine.withgoogle.com) can export a machine learning model for use with Javascript in TensorFlowJS or ML5.js.
 
-![teleport](./images/teleport.png)
-
-- [TeleportHQ](https://teleporthq.io) offers a tool that can create React Templates from hand-drawn UI sketches.
-
 - [Obviously.ai](https://www.obviously.ai) can train a model with CSV data right in the browser.
 
 <br>
@@ -181,7 +177,7 @@ Tools for training a model without programming
 ![adafruit](./images/hardware.png)
 
 - [Braincraft AI kit for Raspberry Pi](https://learn.adafruit.com/adafruit-braincraft-hat-easy-machine-learning-for-raspberry-pi)
-- [🔥 Mycroft is a private smart home assistant](https://mycroft.ai)
+- [🔥 Mycroft is a private smart home assistant](https://mycroft.ai) - no need to send your voice data to google, apple or amazon!
 - [Google's Do-it-yourself Raspberry Pi AI Kits](https://aiyprojects.withgoogle.com/vision/)
 - [External ML processor on a USB stick](https://coral.ai/products/accelerator/)
 - [Edge microcontroller can run TensorFlow Lite](https://www.sparkfun.com/products/15170) from SparkFun

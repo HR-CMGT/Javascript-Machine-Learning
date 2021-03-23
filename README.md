@@ -181,6 +181,7 @@ Tools for training a model without programming
 ![adafruit](./images/hardware.png)
 
 - [Braincraft AI kit for Raspberry Pi](https://learn.adafruit.com/adafruit-braincraft-hat-easy-machine-learning-for-raspberry-pi)
+- [🔥 Mycroft is a private smart home assistant](https://mycroft.ai)
 - [Google's Do-it-yourself Raspberry Pi AI Kits](https://aiyprojects.withgoogle.com/vision/)
 - [External ML processor on a USB stick](https://coral.ai/products/accelerator/)
 - [Edge microcontroller can run TensorFlow Lite](https://www.sparkfun.com/products/15170) from SparkFun

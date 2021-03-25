@@ -132,8 +132,9 @@ Books and videos that help you learn the main concepts. Find a book or video tha
 - Google API's for [Translate](http://cloud.google.com/translate/), [Vision](http://cloud.google.com/vision/), [Speech](http://cloud.google.com/speech/) and [Language Processing](http://cloud.google.com/natural-language/)
 - [Build AI Bots with DialogFlow](https://cloud.google.com/dialogflow)
 - [Google ML Kit for iOS and Android](https://developers.google.com/ml-kit)
-- [Microsoft Azure Machine Learning APIs](https://gallery.azure.ai/machineLearningAPIs)
+- [🔥 iOS Swift CreateML](https://developer.apple.com/machine-learning/create-ml/) and [Tutorial](https://www.youtube.com/watch?v=Ab1yp8reT8g)
 - [Apple Core ML framework](https://developer.apple.com/documentation/coreml) and [tutorials](https://developer.apple.com/machine-learning/)
+- [Microsoft Azure Machine Learning APIs](https://gallery.azure.ai/machineLearningAPIs)
 - [Amazon Deep Racer](https://aws.amazon.com/deepracer/), [Machine Learning API's](https://aws.amazon.com/machine-learning/) and [Free Course](https://aws.amazon.com/training/learning-paths/machine-learning/)
 
 ## Creative Coding

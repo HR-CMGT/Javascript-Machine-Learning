@@ -130,6 +130,7 @@ Books and videos that help you learn the main concepts. Find a book or video tha
 
 ## API's
 
+- [OpenAI Text Generation API](https://deepai.org/machine-learning-model/text-generator)
 - Google API's for [Translate](http://cloud.google.com/translate/), [Vision](http://cloud.google.com/vision/), [Speech](http://cloud.google.com/speech/) and [Language Processing](http://cloud.google.com/natural-language/)
 - [Build AI Bots with DialogFlow](https://cloud.google.com/dialogflow)
 - [Google ML Kit for iOS and Android](https://developers.google.com/ml-kit)

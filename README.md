@@ -111,9 +111,10 @@ Books and videos that help you learn the main concepts. Find a book or video tha
 - [TrackingJS, an image recognition library for Javascript](https://trackingjs.com)
 - [Hand Tracking JS](https://victordibia.github.io/handtrack.js/) en [HandPose API](https://github.com/tensorflow/tfjs-models/tree/master/handpose)
 
-## Language and speech
+## Text and speech
 
 - [What is Natural Language Processing?](https://towardsdatascience.com/natural-language-processing-from-basics-to-using-rnn-and-lstm-ef6779e4ae66) and [Natural Language Processing in Javascript](http://naturalnode.github.io/natural/)
+- [Recognise hand-written numbers in Javascript](https://github.com/cazala/mnist)
 - [Listen to human speech in the browser](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API), and a [Simple demo of listening and speaking with javascript](https://github.com/mdn/web-speech-api)
 - [Understand sentiment in ML5](https://ml5js.org/reference/api-Sentiment/) and [javascript](https://github.com/thisandagain/sentiment)
 - [What are word vectors?](https://gist.github.com/aparrish/2f562e3737544cf29aaf1af30362f469) and [📺  Understanding Word2Vec](https://youtu.be/MOo9iJ8RYWM)

@@ -250,6 +250,7 @@ Tools for training a model without programming
 - [Learning Neural Networks with Processing](https://natureofcode.com/book/chapter-10-neural-networks/)
 - [While True : Learn() - a game that teaches you all about Machine Learning](https://luden.io/wtl/)
 - [Synaptic JS Neural Networks](http://caza.la/synaptic/) and [Tutorial](https://medium.freecodecamp.org/how-to-create-a-neural-network-in-javascript-in-only-30-lines-of-code-343dafc50d49)
+- [📺 How a Tesla car sees 👀](https://www.youtube.com/watch?v=oBklltKXtDE&t=1s)
 - [Dr. Derk's mutant battlegrounds](https://store.steampowered.com/app/1102370/Dr_Derks_Mutant_Battlegrounds/)
 - [AI Dungeon](https://play.aidungeon.io)
 - [List of Javascript Maschine Learning algorithms and presentations](https://bri.im/)

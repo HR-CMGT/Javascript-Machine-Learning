@@ -164,6 +164,7 @@ Tools for training a model without programming
 ![lobe](./images/lobe.png)
 
 - [Lobe.AI](https://lobe.ai) is microsoft's tool for training and exporting a machine learning model without coding. Can export to TensorFlow.js for the web. 
+- [🔥 Lobe Raspberry Pi kit with camera from Adafruit!](https://www.adafruit.com/product/4963)
 
 ![teachable](./images/teachablemachine.png)
 

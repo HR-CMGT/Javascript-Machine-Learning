@@ -146,7 +146,6 @@ Books and videos that help you learn the main concepts. Find a book or video tha
 - [A list of Creative AI Tools](https://creative-ai.org)
 - [Six different tools for music generation with ML](https://www.asimovinstitute.org/analyzing-deep-learning-tools-music/)
 - [Researching the use of ML in creative applications](http://blog.otoro.net)
-- [Wekinator](http://www.wekinator.org) is a GUI that can apply Machine Learning algorithms to Processing and Arduino sensor data - [check the tutorial.](http://www.wekinator.org/kadenze/)
 - [ArtBreeder - generate children from image parents!](https://www.artbreeder.com)
 
 <br>
@@ -183,6 +182,7 @@ Tools for training a model without programming
 
 - [Braincraft AI kit for Raspberry Pi](https://learn.adafruit.com/adafruit-braincraft-hat-easy-machine-learning-for-raspberry-pi)
 - [🔥 Mycroft is a private smart home assistant](https://mycroft.ai) - no need to send your voice data to google, apple or amazon!
+- [Wekinator](http://www.wekinator.org) is a GUI that can apply Machine Learning to Arduino sensor data - [check the tutorial.](http://www.wekinator.org/kadenze/)
 - [Google's Do-it-yourself Raspberry Pi AI Kits](https://aiyprojects.withgoogle.com/vision/)
 - [Edge microcontroller can run TensorFlow Lite](https://www.sparkfun.com/products/15170) from SparkFun
 - [Corel.AI Tensorflow Hardware](https://coral.ai/products/) en [📺 Marshmallow detector demo](https://coral.ai/projects/teachable-sorter/)

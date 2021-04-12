@@ -141,6 +141,7 @@ Books and videos that help you learn the main concepts. Find a book or video tha
 
 ## Creative Coding
 
+- [🔥 Apply Creative Machine Learning in this free course](https://www.futurelearn.com/courses/apply-creative-machine-learning)
 - [Magenta](https://magenta.tensorflow.org/get-started/#magenta-js) is a google library that uses tensorflow to generate [images](https://tensorflow.github.io/magenta-js/image/index.html), [music](https://tensorflow.github.io/magenta-js/music/index.html) and [sketches](https://tensorflow.github.io/magenta-js/sketch/). 
 - [A list of Creative AI Tools](https://creative-ai.org)
 - [Six different tools for music generation with ML](https://www.asimovinstitute.org/analyzing-deep-learning-tools-music/)

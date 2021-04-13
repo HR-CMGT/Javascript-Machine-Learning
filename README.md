@@ -76,6 +76,7 @@ Books and videos that help you learn the main concepts. Find a book or video tha
 - [Deep Learning Gone Wrong - How ML expectations don't always match with results](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRPiprOaC3HsCf5Tuum8bRfzYUiKLRqJmbOoC-32JorNdfyTiRRsR7Ea5eWtvsWzuxo8bjOxCG84dAg/pubhtml)
 - [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com)
 - [Hogeschool Rotterdam Datalab: Rob van der Willigen's Blog about AI](https://robfvdw.medium.com)
+- [🤔 Ehm, but what is a Tensor?](https://hackernoon.com/learning-ai-if-you-suck-at-math-p4-tensors-illustrated-with-cats-27f0002c9b32)
 
 ## Designing for AI
 

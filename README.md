@@ -237,6 +237,7 @@ Tools for training a model without programming
 - [NVidia AI playground](https://www.nvidia.com/en-us/research/ai-playground/)
 - [📺 Coding a perceptron in Javascript, by Mathias P Johansson](https://youtu.be/o98qlvrcqiU), and the [result](https://beta.observablehq.com/@mpj/neural-network-from-scratch-part-1)
 - [Creating a Recommender System in Javascript](https://github.com/javascript-machine-learning/movielens-recommender-system-javascript) and in [Python](https://towardsdatascience.com/how-to-build-a-simple-recommender-system-in-python-375093c3fb7d)
+- [😱 hacking a model to make a wrong prediction with Adversarial.js](https://kennysong.github.io/adversarial.js/)
 - [Sketch2Code Live - Generate HTML from hand-drawn UI sketches](https://sketch2code.azurewebsites.net)
 - [Teleport Vision Github - Generate HTML from hand-drawn UI sketches](https://github.com/teleporthq/teleport-vision-api)
 - [Using a Javascript Perceptron to classify dangerous snakes](https://github.com/elyx0/rosenblattperceptronjs)

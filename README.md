@@ -148,6 +148,7 @@ Books and videos that help you learn the main concepts. Find a book or video tha
 - [Six different tools for music generation with ML](https://www.asimovinstitute.org/analyzing-deep-learning-tools-music/)
 - [Researching the use of ML in creative applications](http://blog.otoro.net)
 - [ArtBreeder - generate children from image parents!](https://www.artbreeder.com)
+- [MIMIC - Make music and art with artificial intelligence](https://mimicproject.com/about)
 
 <br>
 <br>

@@ -185,6 +185,8 @@ Tools for training a model without programming
 - [Braincraft AI kit for Raspberry Pi](https://learn.adafruit.com/adafruit-braincraft-hat-easy-machine-learning-for-raspberry-pi)
 - [🔥 Mycroft is a private smart home assistant](https://mycroft.ai) - no need to send your voice data to google, apple or amazon!
 - [Wekinator](http://www.wekinator.org) is a GUI that can apply Machine Learning to Arduino sensor data - [check the tutorial.](http://www.wekinator.org/kadenze/)
+- [Using Node.JS for tensorflow](https://www.tensorflow.org/js/guide/nodejs)
+- [Use Node.JS and tensorflow on the Raspberry Pi with draggable blocks](https://www.youtube.com/watch?v=cZj1d25eeWY)
 - [Google's Do-it-yourself Raspberry Pi AI Kits](https://aiyprojects.withgoogle.com/vision/)
 - [Edge microcontroller can run TensorFlow Lite](https://www.sparkfun.com/products/15170) from SparkFun
 - [Corel.AI Tensorflow Hardware](https://coral.ai/products/) en [📺 Marshmallow detector demo](https://coral.ai/projects/teachable-sorter/)

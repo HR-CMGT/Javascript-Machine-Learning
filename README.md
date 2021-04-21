@@ -208,6 +208,7 @@ Tools for training a model without programming
 - [COCO - Common Objects in Context](https://cocodataset.org/#home)
 - [Socrata Open Data search](https://dev.socrata.com/data/)
 - [Rotterdam Open Data](http://rotterdamopendata.nl/dataset)
+- [Traffic data "persons in urban traffic scenes" TU Delft](https://eurocity-dataset.tudelft.nl)
 
 ## Pre-trained models
 

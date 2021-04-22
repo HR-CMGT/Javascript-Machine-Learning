@@ -209,6 +209,7 @@ Tools for training a model without programming
 - [Socrata Open Data search](https://dev.socrata.com/data/)
 - [Rotterdam Open Data](http://rotterdamopendata.nl/dataset)
 - [Traffic data "persons in urban traffic scenes" TU Delft](https://eurocity-dataset.tudelft.nl)
+- [Dataregister van de Nederlandse Overheid](https://data.overheid.nl)
 
 ## Pre-trained models
 

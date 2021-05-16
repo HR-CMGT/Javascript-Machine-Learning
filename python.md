@@ -39,3 +39,7 @@ Python can run on a Raspberry Pi and on several Adafruit Microcontrollers. You c
 - [Google Tensorflow tutorials](https://www.tensorflow.org/tutorials/)
 - [Getting Started with TensorFlow](https://www.tensorflow.org/get_started/get_started)
 - [Get started with Tensorflow Lite for microcontrollers](https://www.tensorflow.org/lite/)
+
+### Streamlit
+
+- [Deploy python data online as a web app](https://streamlit.io)

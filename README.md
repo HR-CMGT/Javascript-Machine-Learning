@@ -120,6 +120,7 @@ Books and videos that help you learn the main concepts. Find a book or video tha
 - [Understand sentiment in ML5](https://ml5js.org/reference/api-Sentiment/) and [javascript](https://github.com/thisandagain/sentiment)
 - [What are word vectors?](https://gist.github.com/aparrish/2f562e3737544cf29aaf1af30362f469) and [📺  Understanding Word2Vec](https://youtu.be/MOo9iJ8RYWM)
 - [Using the new GPT-3 advanced language tool in Javascript](https://www.twilio.com/blog/getting-started-with-openai-s-gpt-3-in-node-js)
+- [GPT3 examples](https://gpt3demo.com)
 
 ## Games
 

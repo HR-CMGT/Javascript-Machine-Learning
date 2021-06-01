@@ -208,7 +208,7 @@ Tools for training a model without programming
 - [QuickDraw - Doodles dataset](https://github.com/googlecreativelab/quickdraw-dataset/)
 - [COCO - Common Objects in Context](https://cocodataset.org/#home)
 - [Socrata Open Data search](https://dev.socrata.com/data/)
-- [Rotterdam Open Data](http://rotterdamopendata.nl/dataset)
+- [Rotterdam Open Data](http://rotterdamopendata.nl/dataset) en [Rotterdam 3D data](https://www.3drotterdam.nl/#/)
 - [Traffic data "persons in urban traffic scenes" TU Delft](https://eurocity-dataset.tudelft.nl)
 - [Dataregister van de Nederlandse Overheid](https://data.overheid.nl)
 

@@ -267,6 +267,7 @@ Tools for training a model without programming
 - [List of Javascript Maschine Learning algorithms and presentations](https://bri.im/)
 - [Control a ThreeJS game with Teachable Machine](https://github.com/charliegerard/whoosh)
 - [Silence of the Fans - running TensorflowJS on Google Colab](https://dev.to/obenjiro/silence-of-the-fans-part-1-javascript-quickstart-5f3m) - and [code example](bit.ly/colabjs)
+- [Lingua Franca is a Design Language for Human-centered AI](https://linguafranca.polytopal.ai)
 
 
 ---

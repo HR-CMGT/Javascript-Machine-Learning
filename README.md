@@ -98,6 +98,7 @@ Books and videos that help you learn the main concepts. Find a book or video tha
 - [K-Nearest Neighbour](https://github.com/NathanEpstein/KNear) and an [explanation of writing your own KNN in Javascript](https://burakkanber.com/blog/machine-learning-in-js-k-nearest-neighbor-part-1/)
 - [K-Means](https://miguelmota.com/blog/k-means-clustering-in-javascript/)
 - [Decision Tree](https://github.com/lagodiuk/decision-tree-js)
+- [Getting started with TensorflowJS for beginners](https://curiousily.com/posts/getting-started-with-tensorflow-js/)
 - [📺  Perceptron in pure JS](https://www.youtube.com/watch?v=o98qlvrcqiU) or use this [code snippet](https://gist.github.com/primaryobjects/dfb8927f9f0ca21b6a24647168cead41)
 - [Movie Recommender System in Javascript](https://github.com/javascript-machine-learning/movielens-recommender-system-javascript) and a [quick and dirty tutorial on building your own recommender system](https://dev.to/jimatjibba/build-a-content-based-recommendation-engine-in-js-2lpi)
 - [Visualise data with TFVis](https://js.tensorflow.org/api_vis/1.4.3/), [VEGA](https://vega.github.io/vega/) or [PlotlyJS](https://plotly.com/javascript/)

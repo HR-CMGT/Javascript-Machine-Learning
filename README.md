@@ -80,6 +80,7 @@ Books and videos that help you learn the main concepts. Find a book or video tha
 
 ## Designing for AI
 
+- [Designing AI for People](https://pair.withgoogle.com/guidebook/) with Google's guidebook.
 - [AI meets design - idea generator](http://aimeets.design/prompt/) and [AI design toolkit](http://aimeets.design/toolkit/)
 - [ML+ Design - a reading list about designing for ML applications](https://machinelearning.design)
 - [Design in the era of the algorithm](https://bigmedium.com/speaking/design-in-the-era-of-the-algorithm.html)

@@ -110,6 +110,7 @@ Books and videos that help you learn the main concepts. Find a book or video tha
 
 - [Object Detection in ML5](https://learn.ml5js.org/#/reference/object-detector) - what is [YOLO?](https://www.youtube.com/watch?v=MPU2HistivI)
 - [Improve the ImageClassifier with your own images in ML5](https://learn.ml5js.org/#/reference/knn-classifier) and more about [Feature Extraction](https://ml5js.org/reference/api-FeatureExtractor/) with a [workshop](./extractfeatures/readme.md) and [youtube tutorial](https://www.youtube.com/watch?v=eeO-rWYFuG0)
+- [Recognise images of hand-written numbers in Javascript](https://github.com/cazala/mnist)
 - [Use a Convolutional Neural Network in ML5 to train with images from scratch](https://learn.ml5js.org/#/reference/neural-network?id=a-convolutional-neural-network-for-image-classification-tasks)
 - [Face-JS, a library to track facial expressions](https://justadudewhohacks.github.io/face-api.js/docs/index.html)
 - [TrackingJS, an image recognition library for Javascript](https://trackingjs.com)
@@ -118,12 +119,14 @@ Books and videos that help you learn the main concepts. Find a book or video tha
 ## Text and speech
 
 - [What is Natural Language Processing?](https://towardsdatascience.com/natural-language-processing-from-basics-to-using-rnn-and-lstm-ef6779e4ae66) and [Natural Language Processing in Javascript](http://naturalnode.github.io/natural/)
-- [Recognise hand-written numbers in Javascript](https://github.com/cazala/mnist)
+- [Developer friendly Natural Language Processing in NodeJS](https://winkjs.org)
 - [Listen to human speech in the browser](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API), and a [Simple demo of listening and speaking with javascript](https://github.com/mdn/web-speech-api)
-- [Understand sentiment in ML5](https://ml5js.org/reference/api-Sentiment/) and [javascript](https://github.com/thisandagain/sentiment)
+- [Understand sentiment in text with ML5](https://ml5js.org/reference/api-Sentiment/) and [javascript](https://github.com/thisandagain/sentiment)
 - [What are word vectors?](https://gist.github.com/aparrish/2f562e3737544cf29aaf1af30362f469) and [📺  Understanding Word2Vec](https://youtu.be/MOo9iJ8RYWM)
-- [Using the new GPT-3 advanced language tool in Javascript](https://www.twilio.com/blog/getting-started-with-openai-s-gpt-3-in-node-js)
-- [GPT3 examples](https://gpt3demo.com)
+- [MobileBERT - create a question and answer bot in javascript](https://www.npmjs.com/package/@tensorflow-models/qna)
+- [GPT3 examples](https://gpt3demo.com) and [NodeJS tutorial](https://www.twilio.com/blog/getting-started-with-openai-s-gpt-3-in-node-js)
+- [Create a chatbot with NLP.JS](https://github.com/axa-group/nlp.js)
+
 
 ## Games
 

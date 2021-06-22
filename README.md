@@ -1,6 +1,8 @@
 # Machine Learning Reading List
 
-This repository maintains a reading list of Machine Learning technologies, algorithms and API's. You'll find tons of tools, ideas and tutorials to get started experimenting with Machine Learning in Javascript.
+This repository maintains a reading list of Machine Learning technologies, algorithms and API's. You'll find tons of tools, ideas and tutorials to get started experimenting with Machine Learning. The focus is on Javascript.
+
+This list is maintained and updated continuously by Erik Katerborg.
 
 [CMGT students can find the accompanying PRG08 course materials here](https://github.com/HR-CMGT/PRG08-2020-2021)
 
@@ -32,11 +34,6 @@ This repository maintains a reading list of Machine Learning technologies, algor
 - [Demos and tutorials](#examples)
   - Tons of crazy code examples, including a self-driving Mario Kart.
 
-<br>
-
-### Disclaimer
-
-Some of the code examples and links may be outdated or expired, please make an issue or a pull request if you have any updates or suggestions!
 
 <br>
 <br>
@@ -280,13 +277,14 @@ Tools for training a model without programming
 - [Silence of the Fans - running TensorflowJS on Google Colab](https://dev.to/obenjiro/silence-of-the-fans-part-1-javascript-quickstart-5f3m) - and [code example](bit.ly/colabjs)
 - [Lingua Franca is a Design Language for Human-centered AI](https://linguafranca.polytopal.ai)
 
+<br>
 
----
+### Disclaimer
+
+Some of the code examples and links may be outdated or expired, please make an issue or a pull request if you have any updates or suggestions!
 
 <br>
 <br>
-
-
 
 ![SelfDrivingCar](https://imgs.xkcd.com/comics/self_driving_car_milestones.png)
 

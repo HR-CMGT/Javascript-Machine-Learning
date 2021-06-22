@@ -201,6 +201,7 @@ Tools for training a model without programming
 - [Edge microcontroller can run TensorFlow Lite](https://www.sparkfun.com/products/15170) from SparkFun
 - [Corel.AI Tensorflow Hardware](https://coral.ai/products/) en [📺 Marshmallow detector demo](https://coral.ai/projects/teachable-sorter/)
 - [Build a teachable robot with Raspberry Pi and Arduino](https://experiments.withgoogle.com/alto)
+- [📺 Simple demo to recognise speech with Raspberry](https://www.youtube.com/watch?v=7ercdl9YC1o) and [tutorial](https://learn.adafruit.com/how-to-train-new-tensorflow-lite-micro-speech-models?view=all)
 - [Read more in the Python reading list](./python.md)
 
 <br>

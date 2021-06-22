@@ -104,7 +104,8 @@ Books and videos that help you learn the main concepts. Find a book or video tha
 - [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com)
 - [🔥 Super clear Neural Networks Tutorial in TensorflowJS](https://codelabs.developers.google.com/codelabs/tfjs-training-regression/index.html)
 - [Getting started with TensorflowJS for beginners](https://curiousily.com/posts/getting-started-with-tensorflow-js/)
-- [📺  Perceptron in pure JS](https://www.youtube.com/watch?v=o98qlvrcqiU) or use this [code snippet](https://gist.github.com/primaryobjects/dfb8927f9f0ca21b6a24647168cead41)
+- [📺 Traversy Tutorial about TensorflowJS](https://youtu.be/tZt6gRlRcgk)
+- [📺 Single Cell (Perceptron) in pure JS](https://www.youtube.com/watch?v=o98qlvrcqiU) or use this [code snippet](https://gist.github.com/primaryobjects/dfb8927f9f0ca21b6a24647168cead41)
 - [Building a TensorflowJS UI with Parcel Bundler](https://medium.com/codingthesmartway-com-blog/tensorflow-js-crash-course-machine-learning-for-the-web-getting-started-50694a575238)
 
 ## Images 

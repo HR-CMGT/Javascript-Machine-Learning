@@ -2,7 +2,7 @@
 
 This repository maintains a reading list of Machine Learning technologies, algorithms and API's. You'll find tons of tools, ideas and tutorials to get started experimenting with Machine Learning. The focus is on Javascript.
 
-This list is maintained and updated continuously by Erik Katerborg.
+This list is maintained and updated continuously by [Erik Katerborg](https://kokodoko.github.io).
 
 [CMGT students can find the accompanying PRG08 course materials here](https://github.com/HR-CMGT/PRG08-2020-2021)
 

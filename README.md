@@ -57,26 +57,19 @@ Books and videos that help you learn the main concepts. Find a book or video tha
 
 ![brilliant](./images/brilliant.png)
 
-- [🔥 Brilliant.org - tutorial app with daily questions](https://brilliant.org/courses/artificial-neural-networks/)
 - [🔥 Elements of AI - introduction to basic concepts](https://course.elementsofai.com) and [part 2: building AI](https://buildingai.elementsofai.com)
-- [📺  Documentary - the Age of AI](https://www.youtube.com/playlist?list=PLjq6DwYksrzz_fsWIpPcf6V7p2RNAneKc)
+- [De Nederlandsse AI Cursus](https://www.ai-cursus.nl)
+- [Brilliant.org - tutorial app with daily questions](https://brilliant.org/courses/artificial-neural-networks/)
 - [📺  Crash Course - what is AI?](https://www.youtube.com/watch?v=a0_lo_GDcFw)
 - [Machine Learning for Everyone](https://vas3k.com/blog/machine_learning/)
-- [A tour of machine learning algorithms](https://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/)
-- [The Mostly Complete Chart of Neural Networks](https://towardsdatascience.com/the-mostly-complete-chart-of-neural-networks-explained-3fb6f2367464)
-- [An intuitive explanation of convolutional neural networks](https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/)
 - [Introduction to Deep Learning](https://media.ccc.de/v/35c3-9386-introduction_to_deep_learning)
-- [Algorithms for Machine Learning](https://towardsdatascience.com/a-tour-of-the-top-10-algorithms-for-machine-learning-newbies-dde4edffae11)
-- [Neural Networks Wiki page](https://en.wikipedia.org/wiki/Artificial_neural_network)
 - [Machine Learning for Humans](https://medium.com/machine-learning-for-humans/why-machine-learning-matters-6164faf1df12)
 - [A visual introduction to Machine Learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
 - [Deep learning book](http://www.deeplearningbook.org)
 - [📺  Deep Learning Simplified - Youtube series](https://www.youtube.com/playlist?list=PLjJh1vlSEYgvGod9wWiydumYl8hOXixNu)
 - [Machine Learning for Kids](https://machinelearningforkids.co.uk/)
 - [Deep Learning Gone Wrong - How ML expectations don't always match with results](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRPiprOaC3HsCf5Tuum8bRfzYUiKLRqJmbOoC-32JorNdfyTiRRsR7Ea5eWtvsWzuxo8bjOxCG84dAg/pubhtml)
-- [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com)
 - [Hogeschool Rotterdam Datalab: Rob van der Willigen's Blog about AI](https://robfvdw.medium.com)
-- [🤔 Ehm, but what is a Tensor?](https://hackernoon.com/learning-ai-if-you-suck-at-math-p4-tensors-illustrated-with-cats-27f0002c9b32)
 
 ## Designing for AI
 
@@ -92,19 +85,29 @@ Books and videos that help you learn the main concepts. Find a book or video tha
 
 ## Algorithms in Javascript
 
+- [A tour of machine learning algorithms](https://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/)
+- [Algorithms for Machine Learning](https://towardsdatascience.com/a-tour-of-the-top-10-algorithms-for-machine-learning-newbies-dde4edffae11)
 - [📺  The Coding Train](https://thecodingtrain.com)
 - [📺  Math concepts for Programmers](https://www.youtube.com/watch?v=2SpuBqvNjHI)
-- [🔥 Super clear Neural Networks Tutorial in TensorflowJS](https://codelabs.developers.google.com/codelabs/tfjs-training-regression/index.html)
-- [Building a TensorflowJS UI with Parcel Bundler](https://medium.com/codingthesmartway-com-blog/tensorflow-js-crash-course-machine-learning-for-the-web-getting-started-50694a575238)
 - [K-Nearest Neighbour](https://github.com/NathanEpstein/KNear) and an [explanation of writing your own KNN in Javascript](https://burakkanber.com/blog/machine-learning-in-js-k-nearest-neighbor-part-1/)
 - [K-Means](https://miguelmota.com/blog/k-means-clustering-in-javascript/)
 - [Decision Tree](https://github.com/lagodiuk/decision-tree-js)
 - [Regression Tree](https://winkjs.org/wink-regression-tree/)
-- [Getting started with TensorflowJS for beginners](https://curiousily.com/posts/getting-started-with-tensorflow-js/)
-- [📺  Perceptron in pure JS](https://www.youtube.com/watch?v=o98qlvrcqiU) or use this [code snippet](https://gist.github.com/primaryobjects/dfb8927f9f0ca21b6a24647168cead41)
 - [Movie Recommender System in Javascript](https://github.com/javascript-machine-learning/movielens-recommender-system-javascript) and a [quick and dirty tutorial on building your own recommender system](https://dev.to/jimatjibba/build-a-content-based-recommendation-engine-in-js-2lpi)
 - [Visualise data with TFVis](https://js.tensorflow.org/api_vis/1.4.3/), [VEGA](https://vega.github.io/vega/) or [PlotlyJS](https://plotly.com/javascript/)
 - [Manipulate large amounts of data with Danfo.js](https://danfo.jsdata.org)
+
+## Neural Networks in Javascript
+
+- [Neural Networks Wiki page](https://en.wikipedia.org/wiki/Artificial_neural_network)
+- [The Mostly Complete Chart of Neural Networks](https://towardsdatascience.com/the-mostly-complete-chart-of-neural-networks-explained-3fb6f2367464)
+- [An intuitive explanation of convolutional neural networks](https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/)
+- [🤔 Ehm, but what is a Tensor?](https://hackernoon.com/learning-ai-if-you-suck-at-math-p4-tensors-illustrated-with-cats-27f0002c9b32)
+- [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com)
+- [🔥 Super clear Neural Networks Tutorial in TensorflowJS](https://codelabs.developers.google.com/codelabs/tfjs-training-regression/index.html)
+- [Getting started with TensorflowJS for beginners](https://curiousily.com/posts/getting-started-with-tensorflow-js/)
+- [📺  Perceptron in pure JS](https://www.youtube.com/watch?v=o98qlvrcqiU) or use this [code snippet](https://gist.github.com/primaryobjects/dfb8927f9f0ca21b6a24647168cead41)
+- [Building a TensorflowJS UI with Parcel Bundler](https://medium.com/codingthesmartway-com-blog/tensorflow-js-crash-course-machine-learning-for-the-web-getting-started-50694a575238)
 
 ## Images 
 
@@ -209,7 +212,7 @@ Tools for training a model without programming
 - [Kaggle Datasets](https://www.kaggle.com/datasets/)
 - [MovieLens - data on 45.000 movies by 270.000 users](https://www.kaggle.com/rounakbanik/the-movies-dataset/data)
 - [Google Dataset Search](https://datasetsearch.research.google.com) 
-- [🐱 Cats per square kilometer](https://data.gov.uk/dataset/9d475e06-3885-4a90-b8c0-77fea13f92e6/cats-per-square-kilometre)
+- [🐱 440 Cat meows in different contexts](https://zenodo.org/record/4008297#.YNGgey8RppQ) and [Cats per square kilometer](https://data.gov.uk/dataset/9d475e06-3885-4a90-b8c0-77fea13f92e6/cats-per-square-kilometre)
 - [Speech Audio dataset](https://keithito.com/LJ-Speech-Dataset/)
 - [QuickDraw - Doodles dataset](https://github.com/googlecreativelab/quickdraw-dataset/)
 - [COCO - Common Objects in Context](https://cocodataset.org/#home)
@@ -245,6 +248,7 @@ Tools for training a model without programming
 
 - [Tensorflow Playground](https://playground.tensorflow.org) 😱
 - [Visualise how a Neural Network recognises numbers](https://www.cs.cmu.edu/~aharley/vis/conv/flat.html)
+- [📺  Documentary - the Age of AI](https://www.youtube.com/playlist?list=PLjq6DwYksrzz_fsWIpPcf6V7p2RNAneKc)
 - [📺 Build a security camera with TensorflowJS and React](https://www.youtube.com/watch?v=7QBYX65t7Mw)
 - [Tone Transfer example](https://twitter.com/HanoiHantrakul/status/1258803013948342272?s=20)
 - [NVidia AI playground](https://www.nvidia.com/en-us/research/ai-playground/)

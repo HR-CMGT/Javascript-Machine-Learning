@@ -67,6 +67,7 @@ Books and videos that help you learn the main concepts. Find a book or video tha
 - [Machine Learning for Kids](https://machinelearningforkids.co.uk/)
 - [Deep Learning Gone Wrong - How ML expectations don't always match with results](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRPiprOaC3HsCf5Tuum8bRfzYUiKLRqJmbOoC-32JorNdfyTiRRsR7Ea5eWtvsWzuxo8bjOxCG84dAg/pubhtml)
 - [Hogeschool Rotterdam Datalab: Rob van der Willigen's Blog about AI](https://robfvdw.medium.com)
+- [What is Explainable AI?](https://towardsdatascience.com/what-does-explainable-ai-really-mean-f8f2f908a9f5)
 
 ## Designing for AI
 
@@ -151,6 +152,7 @@ Books and videos that help you learn the main concepts. Find a book or video tha
 
 - [🔥 Apply Creative Machine Learning in this free course](https://www.futurelearn.com/courses/apply-creative-machine-learning)
 - [Magenta](https://magenta.tensorflow.org/get-started/#magenta-js) is a google library that uses tensorflow to generate [images](https://tensorflow.github.io/magenta-js/image/index.html), [music](https://tensorflow.github.io/magenta-js/music/index.html) and [sketches](https://tensorflow.github.io/magenta-js/sketch/). 
+- [Tone Transfer](https://sites.research.google/tonetransfer) and [example](https://twitter.com/HanoiHantrakul/status/1258803013948342272?s=20)
 - [A list of Creative AI Tools](https://creative-ai.org)
 - [Six different tools for music generation with ML](https://www.asimovinstitute.org/analyzing-deep-learning-tools-music/)
 - [Researching the use of ML in creative applications](http://blog.otoro.net)
@@ -247,7 +249,6 @@ Tools for training a model without programming
 - [Visualise how a Neural Network recognises numbers](https://www.cs.cmu.edu/~aharley/vis/conv/flat.html)
 - [📺  Documentary - the Age of AI](https://www.youtube.com/playlist?list=PLjq6DwYksrzz_fsWIpPcf6V7p2RNAneKc)
 - [📺 Build a security camera with TensorflowJS and React](https://www.youtube.com/watch?v=7QBYX65t7Mw)
-- [Tone Transfer example](https://twitter.com/HanoiHantrakul/status/1258803013948342272?s=20)
 - [NVidia AI playground](https://www.nvidia.com/en-us/research/ai-playground/)
 - [📺 Coding a perceptron in Javascript, by Mathias P Johansson](https://youtu.be/o98qlvrcqiU), and the [result](https://beta.observablehq.com/@mpj/neural-network-from-scratch-part-1)
 - [Creating a Recommender System in Javascript](https://github.com/javascript-machine-learning/movielens-recommender-system-javascript) and in [Python](https://towardsdatascience.com/how-to-build-a-simple-recommender-system-in-python-375093c3fb7d)

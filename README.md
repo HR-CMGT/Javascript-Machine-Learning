@@ -152,7 +152,7 @@ Books and videos that help you learn the main concepts. Find a book or video tha
 
 - [🔥 Apply Creative Machine Learning in this free course](https://www.futurelearn.com/courses/apply-creative-machine-learning)
 - [Magenta](https://magenta.tensorflow.org/get-started/#magenta-js) is a google library that uses tensorflow to generate [images](https://tensorflow.github.io/magenta-js/image/index.html), [music](https://tensorflow.github.io/magenta-js/music/index.html) and [sketches](https://tensorflow.github.io/magenta-js/sketch/). 
-- [Tone Transfer](https://sites.research.google/tonetransfer) and [example](https://twitter.com/HanoiHantrakul/status/1258803013948342272?s=20)
+- [Tone Transfer](https://sites.research.google/tonetransfer) and [📺 video demo](https://www.youtube.com/watch?v=bXBliLjImio)
 - [A list of Creative AI Tools](https://creative-ai.org)
 - [Six different tools for music generation with ML](https://www.asimovinstitute.org/analyzing-deep-learning-tools-music/)
 - [Researching the use of ML in creative applications](http://blog.otoro.net)

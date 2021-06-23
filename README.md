@@ -113,6 +113,7 @@ Books and videos that help you learn the main concepts. Find a book or video tha
 - [Object Detection in ML5](https://learn.ml5js.org/#/reference/object-detector) - what is [YOLO?](https://www.youtube.com/watch?v=MPU2HistivI)
 - [Improve the ImageClassifier with your own images in ML5](https://learn.ml5js.org/#/reference/knn-classifier) and more about [Feature Extraction](https://ml5js.org/reference/api-FeatureExtractor/) with a [workshop](./extractfeatures/readme.md) and [youtube tutorial](https://www.youtube.com/watch?v=eeO-rWYFuG0)
 - [Recognise images of hand-written numbers in Javascript](https://github.com/cazala/mnist)
+- [Recognise body parts with BodyPix in Javascript](https://blog.tensorflow.org/2019/11/updated-bodypix-2.html)
 - [Use a Convolutional Neural Network in ML5 to train with images from scratch](https://learn.ml5js.org/#/reference/neural-network?id=a-convolutional-neural-network-for-image-classification-tasks)
 - [Face-JS, a library to track facial expressions](https://justadudewhohacks.github.io/face-api.js/docs/index.html)
 - [TrackingJS, an image recognition library for Javascript](https://trackingjs.com)

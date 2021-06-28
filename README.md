@@ -223,6 +223,7 @@ Tools for training a model without programming
 - [Traffic data "persons in urban traffic scenes" TU Delft](https://eurocity-dataset.tudelft.nl)
 - [Dataregister van de Nederlandse Overheid](https://data.overheid.nl)
 - [Cars data with 20.000 images of 190 types of car](https://ai.stanford.edu/~jkrause/cars/car_dataset.html)
+- [International Football Results from 1872 to 2017](https://www.kaggle.com/martj42/international-football-results-from-1872-to-2017)
 
 ## Pre-trained models
 

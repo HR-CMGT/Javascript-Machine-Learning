@@ -239,7 +239,7 @@ Tools for training a model without programming
 - [AI Stackoverflow](https://ai.stackexchange.com)
 - [Kaggle - Machine Learning challenges](https://www.kaggle.com)
 - [Welcome.ai Instagram](https://www.instagram.com/welcome.ai/)
-- [AI x Design Community](https://www.aixdesign.co), [Instagram](https://www.instagram.com/aixdesign.community/) and [Resources Reading List](http://bit.ly/aixd-library))
+- [AI x Design Community](https://www.aixdesign.co), [Instagram](https://www.instagram.com/aixdesign.community/) and [Resources Reading List](http://bit.ly/aixd-library)
 - [Rotterdam AI Meetup](https://www.meetup.com/Explore-Artificial-Intelligence-Rotterdam/)
 
 <br>

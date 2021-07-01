@@ -172,13 +172,10 @@ Tools for training a model without programming
 
 ![lobe](./images/lobe.png)
 
-- [Lobe.AI](https://lobe.ai) is microsoft's tool for training and exporting a machine learning model without coding. Can export to TensorFlow.js for the web. 
-- [🔥 Lobe Raspberry Pi kit with camera from Adafruit!](https://www.adafruit.com/product/4963)
-
 ![teachable](./images/teachablemachine.png)
 
-- Google's [Teachable Machine](https://teachablemachine.withgoogle.com) can export a machine learning model for use with Javascript in TensorFlowJS or ML5.js.
-
+- [Lobe.AI](https://lobe.ai) is Microsoft's tool for training a Tensorflow model without coding. You can also use it on this [Raspberry Pi kit!](https://www.adafruit.com/product/4963)
+- Google's [Teachable Machine](https://teachablemachine.withgoogle.com) can export a model for use with Javascript in TensorFlowJS or ML5.js.
 - [Runway ML](https://runwayml.com) - use ML with an intuitive interface. [Demo: greenscreen any video](https://youtu.be/aeywFO2dOwA)
 - [PlayForm: No Code AI for Creative People](https://www.playform.io)
 - [Obviously.ai](https://www.obviously.ai) can train a model with CSV data right in the browser.

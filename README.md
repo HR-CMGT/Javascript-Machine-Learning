@@ -141,7 +141,7 @@ Books and videos that help you learn the main concepts. Find a book or video tha
 
 ## API's
 
-- [OpenAI Text Generation API](https://deepai.org/machine-learning-model/text-generator)
+- [OpenAI Text Generation API](https://deepai.org/machine-learning-model/text-generator), join the [OpenAI Beta](https://beta.openai.com)
 - Google API's for [Translate](http://cloud.google.com/translate/), [Vision](http://cloud.google.com/vision/), [Speech](http://cloud.google.com/speech/) and [Language Processing](http://cloud.google.com/natural-language/)
 - [Build AI Bots with DialogFlow](https://cloud.google.com/dialogflow)
 - [Google ML Kit for iOS and Android](https://developers.google.com/ml-kit)
@@ -170,10 +170,6 @@ Books and videos that help you learn the main concepts. Find a book or video tha
 
 Tools for training a model without programming
 
-![runway](./images/runwayml.png)
-
-- [Runway ML](https://runwayml.com) - use ML in your creative projects with an intuitive visual interface. See the demo: [greenscreen any video](https://youtu.be/aeywFO2dOwA)
-
 ![lobe](./images/lobe.png)
 
 - [Lobe.AI](https://lobe.ai) is microsoft's tool for training and exporting a machine learning model without coding. Can export to TensorFlow.js for the web. 
@@ -183,6 +179,8 @@ Tools for training a model without programming
 
 - Google's [Teachable Machine](https://teachablemachine.withgoogle.com) can export a machine learning model for use with Javascript in TensorFlowJS or ML5.js.
 
+- [Runway ML](https://runwayml.com) - use ML with an intuitive interface. [Demo: greenscreen any video](https://youtu.be/aeywFO2dOwA)
+- [PlayForm: No Code AI for Creative People](https://www.playform.io)
 - [Obviously.ai](https://www.obviously.ai) can train a model with CSV data right in the browser.
 
 <br>

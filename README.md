@@ -80,6 +80,7 @@ Books and videos that help you learn the main concepts. Find a book or video tha
 - [The UX of AI](https://design.google/library/ux-ai/)
 - [The human side of AI](https://pair.withgoogle.com)
 - [Machine Learning for designers](http://www.oreilly.com/design/free/machine-learning-for-designers.csp)
+- [Ethics Inc. a design for AI game](https://ethicsinc-ontwerpspel.nl/en/ethical-design-game-for-developing-ai/)
 
 ## Algorithms in Javascript
 

@@ -208,6 +208,7 @@ Tools for training a model without programming
 # <a name="datasets"></a>Datasets
 
 - [Kaggle Datasets](https://www.kaggle.com/datasets/)
+- [Open Images Dataset](https://storage.googleapis.com/openimages/web/index.html)
 - [MovieLens - data on 45.000 movies by 270.000 users](https://www.kaggle.com/rounakbanik/the-movies-dataset/data)
 - [Google Dataset Search](https://datasetsearch.research.google.com) 
 - [🐱 440 Cat meows in different contexts](https://zenodo.org/record/4008297#.YNGgey8RppQ) and [Cats per square kilometer](https://data.gov.uk/dataset/9d475e06-3885-4a90-b8c0-77fea13f92e6/cats-per-square-kilometre)

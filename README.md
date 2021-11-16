@@ -173,9 +173,10 @@ Tools for training a model without programming
 
 ![lobe](./images/lobe.png)
 
+- [Lobe.AI](https://lobe.ai) is Microsoft's tool for training a Tensorflow model without coding. You can also use it on this [Raspberry Pi kit!](https://www.adafruit.com/product/4963)
+
 ![teachable](./images/teachablemachine.png)
 
-- [Lobe.AI](https://lobe.ai) is Microsoft's tool for training a Tensorflow model without coding. You can also use it on this [Raspberry Pi kit!](https://www.adafruit.com/product/4963)
 - Google's [Teachable Machine](https://teachablemachine.withgoogle.com) can export a model for use with Javascript in TensorFlowJS or ML5.js.
 - [Runway ML](https://runwayml.com) - use ML with an intuitive interface. [Demo: greenscreen any video](https://youtu.be/aeywFO2dOwA)
 - [PlayForm: No Code AI for Creative People](https://www.playform.io)
@@ -189,6 +190,7 @@ Tools for training a model without programming
 
 ![adafruit](./images/hardware.png)
 
+- [Tensorflow Lite - Model Maker](https://www.tensorflow.org/lite/guide/model_maker) quickly creates a model for your custom data!
 - [Braincraft AI kit for Raspberry Pi](https://learn.adafruit.com/adafruit-braincraft-hat-easy-machine-learning-for-raspberry-pi)
 - [🔥 Mycroft is a private smart home assistant](https://mycroft.ai) - no need to send your voice data to google, apple or amazon!
 - [Wekinator](http://www.wekinator.org) is a GUI that can apply Machine Learning to Arduino sensor data - [check the tutorial.](http://www.wekinator.org/kadenze/)

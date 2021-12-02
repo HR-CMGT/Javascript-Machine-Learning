@@ -98,16 +98,17 @@ Books and videos that help you learn the main concepts. Find a book or video tha
 
 ## Neural Networks in Javascript
 
+- [Building your first Neural Network in Tensorflow JS](https://towardsdatascience.com/build-a-simple-neural-network-with-tensorflow-js-d434a30fcb8)
+- [🔥 Super clear Neural Networks Tutorial in TensorflowJS](https://codelabs.developers.google.com/codelabs/tfjs-training-regression/index.html)
 - [Neural Networks Wiki page](https://en.wikipedia.org/wiki/Artificial_neural_network)
 - [The Mostly Complete Chart of Neural Networks](https://towardsdatascience.com/the-mostly-complete-chart-of-neural-networks-explained-3fb6f2367464)
 - [An intuitive explanation of convolutional neural networks](https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/)
 - [🤔 Ehm, but what is a Tensor?](https://hackernoon.com/learning-ai-if-you-suck-at-math-p4-tensors-illustrated-with-cats-27f0002c9b32)
 - [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com)
-- [🔥 Super clear Neural Networks Tutorial in TensorflowJS](https://codelabs.developers.google.com/codelabs/tfjs-training-regression/index.html)
 - [Getting started with TensorflowJS for beginners](https://curiousily.com/posts/getting-started-with-tensorflow-js/)
 - [📺 Traversy Tutorial about TensorflowJS](https://youtu.be/tZt6gRlRcgk)
 - [📺 Single Cell (Perceptron) in pure JS](https://www.youtube.com/watch?v=o98qlvrcqiU) or use this [code snippet](https://gist.github.com/primaryobjects/dfb8927f9f0ca21b6a24647168cead41)
-- [Building a TensorflowJS UI with Parcel Bundler](https://medium.com/codingthesmartway-com-blog/tensorflow-js-crash-course-machine-learning-for-the-web-getting-started-50694a575238)
+- [Building a TensorflowJS User Interface with Parcel](https://medium.com/codingthesmartway-com-blog/tensorflow-js-crash-course-machine-learning-for-the-web-getting-started-50694a575238)
 
 ## Images 
 

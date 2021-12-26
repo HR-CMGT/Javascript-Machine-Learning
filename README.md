@@ -140,6 +140,7 @@ Books and videos that help you learn the main concepts. Find a book or video tha
 - [Computer Vision in Unity with Vuforia](https://library.vuforia.com/articles/Training/getting-started-with-vuforia-in-unity.html)
 - [TensorFlow plugin for Godot](https://github.com/godot-extended-libraries/godot-tensorflow-workspace)
 - [OpenAI GYM - a game environment to train AI with Python](http://gym.openai.com)
+- [Self-driving car in Unity](https://github.com/udacity/self-driving-car-sim) and [Udacity Course](https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd0013)
 
 ## API's
 

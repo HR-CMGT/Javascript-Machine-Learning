@@ -92,6 +92,7 @@ Books and videos that help you learn the main concepts. Find a book or video tha
 - [K-Means](https://miguelmota.com/blog/k-means-clustering-in-javascript/)
 - [Decision Tree](https://github.com/lagodiuk/decision-tree-js)
 - [Regression Tree](https://winkjs.org/wink-regression-tree/)
+- [Reinforcement Learning - learn how to play a game!](https://medium.com/@pierrerouhard/reinforcement-learning-in-the-browser-an-introduction-to-tensorflow-js-9a02b143c099) or use [Reinforce.js](https://cs.stanford.edu/people/karpathy/reinforcejs/)
 - [Movie Recommender System in Javascript](https://github.com/javascript-machine-learning/movielens-recommender-system-javascript) and a [quick and dirty tutorial on building your own recommender system](https://dev.to/jimatjibba/build-a-content-based-recommendation-engine-in-js-2lpi)
 - [Visualise data with TFVis](https://js.tensorflow.org/api_vis/1.4.3/), [VEGA](https://vega.github.io/vega/) or [PlotlyJS](https://plotly.com/javascript/)
 - [Manipulate large amounts of data with Danfo.js](https://danfo.jsdata.org)

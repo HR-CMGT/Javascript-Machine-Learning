@@ -29,7 +29,7 @@ This list is maintained and updated continuously by [Erik Katerborg](https://kok
   - Analyse data without programming
 - [Hardware](#hardware)
   - ML with Raspberry Pi, Arduino and Adafruit hardware
-- [Datasets](#datasets)
+- [Data](#datasets)
 - [Community](#community)
 - [Demos and tutorials](#examples)
   - Tons of crazy code examples, including a self-driving Mario Kart.

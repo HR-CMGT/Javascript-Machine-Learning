@@ -2,7 +2,7 @@
 
 If you used the [ML5 ImageClassifier](https://learn.ml5js.org/#/reference/image-classifier) you may have noticed it doesn't always recognise what you want it to recognise. 
 
-Using **Feature Extraction** we can re-train the model to recognise your own images.
+Using the [Feature Extractor](https://learn.ml5js.org/#/reference/feature-extractor) we can re-train the model to recognise your own images.
 
 <br>
 <br>

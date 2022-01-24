@@ -132,7 +132,7 @@ Instead of classifying an image into class A,B or C, you might want to get a val
 ## Links
 
 - [ML5.JS](https://ml5js.org/)
-- [ML5 Feature Extractor](https://learn.ml5js.org/docs/#/reference/feature-extractor)
+- [ML5 Feature Extractor documentation](https://learn.ml5js.org/docs/#/reference/feature-extractor)
+- [ML5 Plain Javascript example code](https://github.com/ml5js/ml5-library/tree/main/examples/javascript/FeatureExtractor/FeatureExtractor_Image_Classification)
 - [Coding Train Tutorial Feature Extractor](https://www.youtube.com/watch?v=eeO-rWYFuG0)
-- [MobileNet models](https://github.com/tensorflow/models/blob/master/research/slim/nets/mobilenet_v1.md)
 

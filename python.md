@@ -47,6 +47,7 @@ Python can run on a Raspberry Pi and on several Adafruit Microcontrollers. You c
 - [Machine Learning for physical computing by Yining Shi](https://github.com/yining1023/Machine-Learning-for-Physical-Computing)
 - [Google's Do-it-yourself Raspberry Pi AI Kits](https://aiyprojects.withgoogle.com/vision/)
 
-### Streamlit
+## Links
 
-- [Deploy python data online as a web app](https://streamlit.io)
+- [StreamLit deploys python data online as a web app](https://streamlit.io)
+- [Advance face position detection](https://github.com/1adrianb/face-alignment)

@@ -18,14 +18,12 @@ This term means we use a model that has learned **HOW** to look at images. It fi
 <br>
 <br>
 
-# ML5
+# ML5 Example code
 
-Example code
-
- 1 - Training with the webcam: use the webcam to capture images of what you want to learn. Then use the webcam to start classifying what it sees.
- 2 - Training with static images from a folder. Then classify a new static image.
- 3 - Saving and loading the model
- 4 - Regression instead of classification
+ - Training with the webcam: use the webcam to capture images of what you want to learn. Then use the webcam to start classifying what it sees.
+ - Training with static images from a folder. Then classify a new static image.
+ - Saving and loading the model
+ - Regression instead of classification
 
 <br>
 <br>

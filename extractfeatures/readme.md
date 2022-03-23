@@ -1,8 +1,6 @@
 # Face mask detection with Transfer Learning
 
-If you used the [ML5 ImageClassifier](https://learn.ml5js.org/#/reference/image-classifier) you may have noticed it doesn't always recognise what you want it to recognise. 
-
-Using the [Feature Extractor](https://learn.ml5js.org/#/reference/feature-extractor) we can re-train the model to recognise your own images.
+If you used the [ML5 ImageClassifier](https://learn.ml5js.org/#/reference/image-classifier) you may have noticed it doesn't always recognise what you want it to recognise. Using the [Feature Extractor](https://learn.ml5js.org/#/reference/feature-extractor) we can re-train the model to recognise your own images.
 
 <br>
 <br>
@@ -20,7 +18,20 @@ This term means we use a model that has learned **HOW** to look at images. It fi
 <br>
 <br>
 
-## HTML
+# ML5
+
+Example code
+
+ 1 - Training with the webcam: use the webcam to capture images of what you want to learn. Then use the webcam to start classifying what it sees.
+ 2 - Training with static images from a folder. Then classify a new static image.
+ 3 - Saving and loading the model
+ 4 - Regression instead of classification
+
+<br>
+<br>
+<br>
+
+## Training and classifying with webcam
 
 First include ML5, and include a video tag in your html
 
@@ -44,9 +55,9 @@ if (navigator.mediaDevices.getUserMedia) {
 <br>
 <br>
 
-## Add training data
+### Add training data
 
-Create the featureExtractor, and in the callback you can create the classifier. 
+Create the featureExtractor, then in the `onloaded` callback you can create the classifier. 
 
 ```javascript
 const featureExtractor = ml5.featureExtractor('MobileNet', modelLoaded)
@@ -80,7 +91,7 @@ The callback is just to check if the image was succesfully added to the model.
 <br>
 <br>
 
-## Training
+### Training
 
 After adding about 10-20 images for each label, you can call the training function. The loss value should be getting smaller while your network is learning.
 ```javascript
@@ -93,9 +104,9 @@ classifier.train((lossValue) => {
 <br>
 <br>
 
-## Classifying
+### Classifying
 
-When the lossvalue becomes `null`, you can start an interval that checks the webcam every second!
+When the lossvalue becomes `null`, you can start an interval that checks the webcam every second
 ```javascript
 label = document.getElementById("label")
 
@@ -112,10 +123,81 @@ setInterval(()=>{
 <br>
 <br>
 
+## Training with folder of static images
+
+First you can add an image to your HTML or create it by javascript using `new Image()`.
+
+```html
+<img src="" id="trainme" />
+<img src="someimage.jpg" id="classifyme" />
+```
+In this example we have a folder with numbered images: `data/train1.jpg, data/train2.jpg, data/train3.jpg`. We create a variable `index` to keep track of which image we're learning.
+
+Then we load numbered images from a folder one by one. After one image has been loaded (you can check that with an `eventListener`), we call the `addImage` function to add the image to the feature extractor.
+
+```javascript
+const featureExtractor = ml5.featureExtractor('MobileNet', modelLoaded)
+const classifier = featureExtractor.classification()
+
+let index = 1
+let img = document.getElementById('trainme')
+
+function modelLoaded(){
+    loadImage()
+}
+
+function loadImage(){
+    img.src = `data/train${index}.jpg`
+    img.addEventListener("load", addImage())
+}
+```
+
+The `addImage` function adds the image to the feature extractor. We have to wait until that also finishes, and then we can add the next image from the folder. We do that by incrementing the `index` by 1. If there are still images left, we call the `loadImage` function again.
+
+⚠️ When adding the image to the feature extractor, we supply the label. This is what we want to learn to recognise. In this case it's a pikachu.
+
+```javascript
+function addImage(){
+    classifier.addImage(img, 'pikachu', imageAdded);
+}
+function imageAdded(){
+    if(index < 20){
+       loadImage()
+    } else {
+        train()
+    }
+}
+```
+
+After all images from the folder have been added, we can call the `train` function and start classifying new images!
+
+```javascript
+function train(){
+    classifier.train((lossValue) => {
+        if(lossValue == null){
+            classify()
+        }
+     });
+}
+function classify(){
+    classifier.classify(document.getElementById('classifyme'), (err, result) => {
+        console.log(result); // Should output 'pikachu'
+    });
+}
+
+```
+
+<br>
+<br>
+<br>
+
 ## Saving and loading the trained model
 
-You don't want to `train()` a model every time a user starts an app. [Use the ML5 save and load options to load your own trained model](https://learn.ml5js.org/docs/#/reference/feature-extractor?id=save).
+You don't want to `train()` a model every time a user starts an app. [Use the ML5 save and load options to load your own trained model](https://learn.ml5js.org/docs/#/reference/feature-extractor?id=save). 
 
+<br>
+<br>
+<br>
 
 ## Regression
 

@@ -135,10 +135,10 @@ Books and videos that help you learn the main concepts. Find a book or video tha
 
 ## Games
 
-- [Getting started with ML in Unity](./unity.md)
+- [Getting started with ML Agents in Unity](./unity.md)
 - [Unity Learn: ML Agents Course](https://learn.unity.com/course/ml-agents-hummingbirds)
-- [Computer Vision in Unity with Vuforia](https://library.vuforia.com/articles/Training/getting-started-with-vuforia-in-unity.html)
-- [TensorFlow plugin for Godot](https://github.com/godot-extended-libraries/godot-tensorflow-workspace)
+- [AI learns how to play Tic-Tac-Toe with Genetic Algorithms](https://blog.paperspace.com/tic-tac-toe-genetic-algorithm-part-1/)
+- [Tensorflow Agent learns how to play a game](https://www.youtube.com/watch?v=52DTXidSVWc)
 - [OpenAI GYM - a game environment to train AI with Python](http://gym.openai.com)
 - [Self-driving car in Unity](https://github.com/udacity/self-driving-car-sim) and [Udacity Course: become a self-driving car engineer](https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd0013)
 

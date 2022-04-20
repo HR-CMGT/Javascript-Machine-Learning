@@ -173,6 +173,8 @@ Books and videos that help you learn the main concepts. Find a book or video tha
 
 Tools for training a model without programming
 
+- [Cognimates: An AI education platform for building games, programming robots & training AI models](http://cognimates.me/home/)
+
 ![lobe](./images/lobe.png)
 
 - [Lobe.AI](https://lobe.ai) is Microsoft's tool for training a Tensorflow model without coding. You can also use it on this [Raspberry Pi kit!](https://www.adafruit.com/product/4963)

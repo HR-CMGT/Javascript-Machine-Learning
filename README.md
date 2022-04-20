@@ -171,17 +171,13 @@ Books and videos that help you learn the main concepts. Find a book or video tha
 
 # <a name="nocode"></a>No Code Machine Learning
 
-Tools for training a model without programming
-
-- [Cognimates: An AI education platform for building games, programming robots & training AI models](http://cognimates.me/home/)
-
-![lobe](./images/lobe.png)
-
-- [Lobe.AI](https://lobe.ai) is Microsoft's tool for training a Tensorflow model without coding. You can also use it on this [Raspberry Pi kit!](https://www.adafruit.com/product/4963)
-
 ![teachable](./images/teachablemachine.png)
 
+Tools for training a model without programming
+
 - Google's [Teachable Machine](https://teachablemachine.withgoogle.com) can export a model for use with Javascript in TensorFlowJS or ML5.js.
+- [Cognimates: An AI education platform for building games, programming robots & training AI models](http://cognimates.me/home/)
+- [Lobe.AI](https://lobe.ai) is Microsoft's tool for training a Tensorflow model without coding. You can also use it on this [Raspberry Pi kit!](https://www.adafruit.com/product/4963)
 - [Runway ML](https://runwayml.com) - use ML with an intuitive interface. [Demo: greenscreen any video](https://youtu.be/aeywFO2dOwA)
 - [PlayForm: No Code AI for Creative People](https://www.playform.io)
 - [Obviously.ai](https://www.obviously.ai) can train a model with CSV data right in the browser.

@@ -111,7 +111,8 @@ Books and videos that help you learn the main concepts. Find a book or video tha
 
 ## Images 
 
-- [🔥 Media Pipe API for hands, pose, eyes, face recognition in Javascript and Python](https://google.github.io/mediapipe/)
+- [🔥 Google MediaPipe API for hands, pose, eyes, face detection in Javascript and Python](https://google.github.io/mediapipe/)
+- [3D body pose detection met BlazePose](https://medium.com/axinc-ai/blazepose-a-3d-pose-estimation-model-d8689d06b7c4)
 - [Object Detection in ML5](https://learn.ml5js.org/#/reference/object-detector) - what is [YOLO?](https://www.youtube.com/watch?v=MPU2HistivI)
 - [Improve the ImageClassifier with your own images in ML5](https://learn.ml5js.org/#/reference/knn-classifier) and more about [Feature Extraction](https://ml5js.org/reference/api-FeatureExtractor/) with a [workshop](./extractfeatures/readme.md) and [youtube tutorial](https://www.youtube.com/watch?v=eeO-rWYFuG0)
 - [Recognise images of hand-written numbers in Javascript](https://github.com/cazala/mnist)

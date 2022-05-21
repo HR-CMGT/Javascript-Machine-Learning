@@ -153,6 +153,7 @@ Books and videos that help you learn the main concepts. Find a book or video tha
 - [Apple Core ML framework](https://developer.apple.com/documentation/coreml) and [tutorials](https://developer.apple.com/machine-learning/)
 - [Microsoft Azure Machine Learning APIs](https://gallery.azure.ai/machineLearningAPIs)
 - [Amazon Deep Racer](https://aws.amazon.com/deepracer/), [Machine Learning API's](https://aws.amazon.com/machine-learning/) and [Free Course](https://aws.amazon.com/training/learning-paths/machine-learning/)
+- [NVidia GauGan 2 - Generate photos from drawings or written text](http://gaugan.org/gaugan2/) and [explanation](https://www.youtube.com/watch?v=Wbid5rvCGos)
 
 ## Creative Coding
 

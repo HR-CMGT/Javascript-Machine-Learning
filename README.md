@@ -193,7 +193,8 @@ Tools for training a model without programming
 
 ![adafruit](./images/hardware.png)
 
-- [Tensorflow Lite - Model Maker](https://www.tensorflow.org/lite/guide/model_maker) quickly creates a model for your custom data!
+- [🔥 Teachable Machine Tiny Model for IoT](https://teachablemachine.withgoogle.com/train/tiny_image)
+- [Tensorflow Lite - Model Maker](https://www.tensorflow.org/lite/guide/model_maker) quickly creates a model for your custom data
 - [Braincraft AI kit for Raspberry Pi](https://learn.adafruit.com/adafruit-braincraft-hat-easy-machine-learning-for-raspberry-pi)
 - [🔥 Mycroft is a private smart home assistant](https://mycroft.ai) - no need to send your voice data to google, apple or amazon!
 - [Wekinator](http://www.wekinator.org) is a GUI that can apply Machine Learning to Arduino sensor data - [check the tutorial.](http://www.wekinator.org/kadenze/)

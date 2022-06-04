@@ -182,6 +182,7 @@ Tools for training a model without programming
 - [Lobe.AI](https://lobe.ai) is Microsoft's tool for training a Tensorflow model without coding. You can also use it on this [Raspberry Pi kit!](https://www.adafruit.com/product/4963)
 - [Runway ML](https://runwayml.com) - use ML with an intuitive interface. [Demo: greenscreen any video](https://youtu.be/aeywFO2dOwA)
 - [PlayForm: No Code AI for Creative People](https://www.playform.io)
+- [Figment makes creative AI fun and accessible](https://figmentapp.com)
 - [Obviously.ai](https://www.obviously.ai) can train a model with CSV data right in the browser.
 
 <br>

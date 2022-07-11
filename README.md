@@ -122,7 +122,7 @@ Books and videos that help you learn the main concepts. Find a book or video tha
 - [TrackingJS, an image recognition library for Javascript](https://trackingjs.com)
 - [Hand Tracking JS](https://victordibia.github.io/handtrack.js/) en [HandPose API](https://github.com/tensorflow/tfjs-models/tree/master/handpose)
 
-## Text and speech
+## Text, sound and speech
 
 - [What is Natural Language Processing?](https://towardsdatascience.com/natural-language-processing-from-basics-to-using-rnn-and-lstm-ef6779e4ae66) and [Natural Language Processing in Javascript](http://naturalnode.github.io/natural/)
 - [Developer friendly Natural Language Processing in NodeJS](https://winkjs.org)
@@ -132,6 +132,7 @@ Books and videos that help you learn the main concepts. Find a book or video tha
 - [MobileBERT - create a question and answer bot in javascript](https://www.npmjs.com/package/@tensorflow-models/qna)
 - [GPT3 examples](https://gpt3demo.com) and [NodeJS tutorial](https://www.twilio.com/blog/getting-started-with-openai-s-gpt-3-in-node-js)
 - [Create a chatbot with NLP.JS](https://github.com/axa-group/nlp.js)
+- [Recognise sound using the browser, microphone, and TensorflowJS!](https://dev.to/devdevcharlie/acoustic-activity-recognition-in-javascript-2go4)
 
 
 ## Games

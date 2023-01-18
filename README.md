@@ -1,6 +1,6 @@
 # Javascript Machine Learning
 
-This repository maintains a reading list of Machine Learning technologies, algorithms and API's focuced on javascript
+This repository maintains a reading list of Machine Learning technologies, algorithms and API's focused on javascript
 
 <Br>
 
@@ -92,14 +92,14 @@ Check out the [quick introduction with javascript examples](./introduction.md) t
 
 ## Text, sound and speech
 
-- [What is Natural Language Processing?](https://towardsdatascience.com/natural-language-processing-from-basics-to-using-rnn-and-lstm-ef6779e4ae66) and [Natural Language Processing in Javascript](http://naturalnode.github.io/natural/)
+- [What is Natural Language Processing?](https://towardsdatascience.com/natural-language-processing-from-basics-to-using-rnn-and-lstm-ef6779e4ae66) and [Natural Language Processing in Javascript](http://naturalnode.github.io/natural/) and [Paperspace online GPU tutorial](https://blog.paperspace.com/training-an-lstm-and-using-the-model-in-ml5-js/)
 - [Magenta](https://magenta.tensorflow.org/get-started/#magenta-js) is a google library that uses tensorflow to generate images, music and sketches
 - [Developer friendly Natural Language Processing in NodeJS](https://winkjs.org)
 - [Listen to human speech in the browser](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API), and a [Simple demo of listening and speaking with javascript](https://github.com/mdn/web-speech-api)
 - [Understand text sentiment in text with ML5](https://ml5js.org/reference/api-Sentiment/) and [javascript](https://github.com/thisandagain/sentiment)
 - [What are word vectors?](https://gist.github.com/aparrish/2f562e3737544cf29aaf1af30362f469) and [📺  Understanding Word2Vec](https://youtu.be/MOo9iJ8RYWM)
 - [MobileBERT - create a question and answer bot in javascript](https://www.npmjs.com/package/@tensorflow-models/qna)
-- [GPT3 examples](https://gpt3demo.com) and [NodeJS tutorial](https://www.twilio.com/blog/getting-started-with-openai-s-gpt-3-in-node-js)
+- [GPT3 in NodeJS](https://www.twilio.com/blog/getting-started-with-openai-s-gpt-3-in-node-js)
 - [Create a chatbot with NLP.JS](https://github.com/axa-group/nlp.js)
 - [Recognise sound using the browser, microphone, and TensorflowJS!](https://dev.to/devdevcharlie/acoustic-activity-recognition-in-javascript-2go4)
 - [Code example web speech](./snippets/speech.md) and [webcam](./snippets/camera.md)
@@ -152,17 +152,23 @@ Check out the [quick introduction with javascript examples](./introduction.md) t
 
 <br>
 <br>
+<br>
 
-# <a name="nocode"></a>Tools and API's
+# <a name="nocode"></a>Tools and APIs
 
 A list of tools that don't require much (or any) coding.
 
 ![teachable](./images/teachablemachine.png)
 
+## Cloud GPU
+
+- [PaperSpace](https://blog.paperspace.com/)
+- [Google Colab](https://colab.research.google.com)
+
 ## Generative AI
 
 - [Dall-e 2](https://labs.openai.com), [Stable Diffusion](https://stablediffusionweb.com) and [MidJourney](https://discord.com/invite/midjourney) image generation
-- [ChatGPT](http://chat.openai.com/chat) for text generation
+- [ChatGPT](http://chat.openai.com/chat) and the [GPT3 API](https://gpt3demo.com) for text generation
 - [Github Copilot AI programmer](https://github.com/features/copilot/)
 - Generate art with [ArtBreeder](https://www.artbreeder.com) and [PlayForm](https://www.playform.io)
 - [Map of Generative AI tools](https://research-assets.cbinsights.com/2022/11/14115447/SC-genAI-map.png)

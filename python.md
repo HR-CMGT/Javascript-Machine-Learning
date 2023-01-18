@@ -45,9 +45,7 @@ You can set up Python locally, but it's far easier to run a Jupyter Notebook in 
 
 [🤯 Jupyter notebooks can also run inside Visual Studio Code](https://code.visualstudio.com/docs/python/data-science-tutorial)
 
-Python can run on a Raspberry Pi and on several Adafruit Microcontrollers. You can even use TensorFlow LITE on microcontrollers.
-
-![edge](./images/edge.jpg)
+<Br>
 
 ## Algorithms in Python
 
@@ -65,19 +63,6 @@ Python can run on a Raspberry Pi and on several Adafruit Microcontrollers. You c
 - [Algorithm notes](http://books.goalkicker.com/AlgorithmsBook/)
 - what is [YOLO?](https://www.youtube.com/watch?v=MPU2HistivI)
 
-<br>
-<br>
-<br>
-
-# Games
-
-- [Getting started with ML Agents in Unity](./unity.md)
-- [Unity Learn: ML Agents Course](https://learn.unity.com/course/ml-agents-hummingbirds)
-- [AI learns how to play Tic-Tac-Toe with Genetic Algorithms](https://blog.paperspace.com/tic-tac-toe-genetic-algorithm-part-1/)
-- [Tensorflow Agent learns how to play a game](https://www.youtube.com/watch?v=52DTXidSVWc)
-- [OpenAI GYM - a game environment to train AI with Python](http://gym.openai.com)
-- [Self-driving car in Unity](https://github.com/udacity/self-driving-car-sim) and [Udacity Course: become a self-driving car engineer](https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd0013)
-
 ## Online courses
 
 - [Linear Regression course on Codecademy](https://www.codecademy.com/learn/linear-regression-mssp) and [Youtube explanation](https://www.youtube.com/watch?v=2htO1YFkpds&t=311s)
@@ -94,3 +79,16 @@ Python can run on a Raspberry Pi and on several Adafruit Microcontrollers. You c
 - [Google Tensorflow tutorials](https://www.tensorflow.org/tutorials/)
 - [Getting Started with TensorFlow](https://www.tensorflow.org/get_started/get_started)
 - [Get started with Tensorflow Lite for microcontrollers](https://www.tensorflow.org/lite/)
+
+<br>
+<br>
+<br>
+
+# Games
+
+- [Getting started with ML Agents in Unity](./unity.md)
+- [Unity Learn: ML Agents Course](https://learn.unity.com/course/ml-agents-hummingbirds)
+- [AI learns how to play Tic-Tac-Toe with Genetic Algorithms](https://blog.paperspace.com/tic-tac-toe-genetic-algorithm-part-1/)
+- [Tensorflow Agent learns how to play a game](https://www.youtube.com/watch?v=52DTXidSVWc)
+- [OpenAI GYM - a game environment to train AI with Python](http://gym.openai.com)
+- [Self-driving car in Unity](https://github.com/udacity/self-driving-car-sim) and [Udacity Course: become a self-driving car engineer](https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd0013)

@@ -42,13 +42,12 @@ Check out the [quick introduction with javascript examples](./introduction.md) t
 
 ![dog](./images/nn.png)
 
-- [🔥 Elements of AI - introduction to basic concepts](https://course.elementsofai.com) and [part 2: building AI](https://buildingai.elementsofai.com)
-- [De Nederlandsse AI Cursus](https://www.ai-cursus.nl)
+- [🔥 Elements of AI part 1](https://course.elementsofai.com) and [part 2](https://buildingai.elementsofai.com)
+- [De Nederlandse AI Cursus](https://www.ai-cursus.nl)
 - [Brilliant.org - tutorial app with daily questions](https://brilliant.org/courses/artificial-neural-networks/)
 - [📺  Crash Course - what is AI?](https://www.youtube.com/watch?v=a0_lo_GDcFw)
 - [A visual introduction to Machine Learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
 - [Machine Learning for Kids](https://machinelearningforkids.co.uk/)
-- [Hogeschool Rotterdam Datalab: Rob van der Willigen's Blog about AI](https://robfvdw.medium.com)
 
 ## Designing for AI
 
@@ -56,7 +55,6 @@ Check out the [quick introduction with javascript examples](./introduction.md) t
 - [AIxDesign toolkit](https://www.aixdesign.co/toolkit)
 - [ML+ Design - a reading list about designing for ML applications](https://machinelearning.design)
 - [Ethics Inc, a game to help you design for AI](https://ethicsinc-ontwerpspel.nl/en/ethical-design-game-for-developing-ai/) en [Make me Think - a game about AI ethics](https://www.hogeschoolrotterdam.nl/go/ai-en-ethiek/tools/make-me-think/)
-- [what is Explainable AI?](https://towardsdatascience.com/what-does-explainable-ai-really-mean-f8f2f908a9f5)
 
 ## Algorithms in Javascript
 
@@ -71,24 +69,29 @@ Check out the [quick introduction with javascript examples](./introduction.md) t
 
 ## Neural Networks in Javascript
 
+You can use TensorFlowJS, ML5.js or Brain.js to build a neural network in javascript. Here are some tutorials and examples:
+
 - [Building your first Neural Network in Tensorflow JS](https://towardsdatascience.com/build-a-simple-neural-network-with-tensorflow-js-d434a30fcb8)
 - [🔥 Neural Networks Tutorial in TensorflowJS](https://codelabs.developers.google.com/codelabs/tfjs-training-regression/index.html)
 - [Getting started with TensorflowJS for beginners](https://curiousily.com/posts/getting-started-with-tensorflow-js/)
 - [📺 Traversy Tutorial about TensorflowJS](https://youtu.be/tZt6gRlRcgk) and [📺 BrainJS](https://www.youtube.com/watch?v=RVMHhtTqUxc)
 - [📺 Single Cell (Perceptron) in pure JS](https://www.youtube.com/watch?v=o98qlvrcqiU) or use this [code snippet](https://gist.github.com/primaryobjects/dfb8927f9f0ca21b6a24647168cead41)
 - [Neural Networks hidden layers in ML5](./snippets/layers.md)
+- [W3Schools TensorflowJS introduction](https://www.w3schools.com/ai/ai_tensorflow_intro.asp)
 - [Building a TensorflowJS User Interface with Parcel](https://medium.com/codingthesmartway-com-blog/tensorflow-js-crash-course-machine-learning-for-the-web-getting-started-50694a575238)
 
-## Images 
+## Image recognition
 
-- [Google MediaPipe API for hands, pose, eyes, face detection in Javascript and Python](https://google.github.io/mediapipe/)
-- [Object Detection in ML5](https://learn.ml5js.org/#/reference/object-detector) 
-- [Improve the ImageClassifier with your own images in ML5](https://learn.ml5js.org/#/reference/knn-classifier) and more about [Feature Extraction](https://ml5js.org/reference/api-FeatureExtractor/) with a [workshop](./extractfeatures/readme.md) and [youtube tutorial](https://www.youtube.com/watch?v=eeO-rWYFuG0)
+- [Image Classifier](https://learn.ml5js.org/#/reference/image-classifier) and [Object Detection](https://learn.ml5js.org/#/reference/object-detector) in ML5.js
+- [Use Feature Extraction](https://ml5js.org/reference/api-FeatureExtractor/) to improve the Image Classifier with your own images. [Workshop](./extractfeatures/readme.md) and [Coding Train tutorial](https://www.youtube.com/watch?v=eeO-rWYFuG0).
+- [Transfer Learning with TensorFlowJS](https://codelabs.developers.google.com/tensorflowjs-transfer-learning-teachable-machine#16)
+- [Use KNN to classify poses with ML5](https://learn.ml5js.org/#/reference/knn-classifier) 
 - [Recognise images of hand-written numbers in Javascript](https://github.com/cazala/mnist)
 - [Recognise body parts with BodyPix in Javascript](https://blog.tensorflow.org/2019/11/updated-bodypix-2.html)
 - [Use a Convolutional Neural Network in ML5 to train with images from scratch](https://learn.ml5js.org/#/reference/neural-network?id=a-convolutional-neural-network-for-image-classification-tasks)
 - [Face-JS, a library to track facial expressions](https://justadudewhohacks.github.io/face-api.js/docs/index.html)
-- [Hand Tracking JS](https://victordibia.github.io/handtrack.js/) 
+- [Hand Tracking JS](https://victordibia.github.io/handtrack.js/)
+- [Google MediaPipe API for hands, pose, eyes, face detection in Javascript](https://google.github.io/mediapipe/) 
 
 ## Text, sound and speech
 
@@ -208,6 +211,7 @@ Check out the [quick introduction with javascript examples](./introduction.md) t
 - [Control a ThreeJS game with Teachable Machine](https://github.com/charliegerard/whoosh)
 - [Silence of the Fans - running TensorflowJS on Google Colab](https://dev.to/obenjiro/silence-of-the-fans-part-1-javascript-quickstart-5f3m) - and [code example](bit.ly/colabjs)
 - [Using AutoEncoders with TensorflowJS tutorial](https://douglasduhaime.com/posts/visualizing-latent-spaces.html)
+- [Hogeschool Rotterdam Datalab: Rob van der Willigen's Blog about AI](https://robfvdw.medium.com)
 
 <br>
 <br>

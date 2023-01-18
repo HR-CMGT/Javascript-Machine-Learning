@@ -15,6 +15,7 @@
 - [🔥 Teachable Machine Tiny Model for IoT](https://teachablemachine.withgoogle.com/train/tiny_image)
 - [Tensorflow Lite - Model Maker](https://www.tensorflow.org/lite/guide/model_maker) quickly creates a model for your custom data
 - [Adafruit Raspberry kit for Microsoft Lobe](https://www.adafruit.com/product/4963)
+- [Jetson NANO](https://developer.nvidia.com/embedded/jetson-nano-developer-kit)
 - [Braincraft AI kit for Raspberry Pi](https://learn.adafruit.com/adafruit-braincraft-hat-easy-machine-learning-for-raspberry-pi)
 - [Arduino edge impulse for AI applications](https://docs.arduino.cc/tutorials/nano-33-ble-sense/edge-impulse)
 - [🔥 Mycroft is a private smart home assistant](https://mycroft.ai) - no need to send your voice data to google, apple or amazon!

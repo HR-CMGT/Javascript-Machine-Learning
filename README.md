@@ -156,8 +156,6 @@ Check out the [quick introduction with javascript examples](./introduction.md) t
 
 # <a name="nocode"></a>Tools and APIs
 
-A list of tools that don't require much (or any) coding.
-
 ![teachable](./images/teachablemachine.png)
 
 ## Cloud GPU
@@ -182,9 +180,8 @@ A list of tools that don't require much (or any) coding.
 - [Cognimates: An AI education platform for building games, programming robots & training AI models](http://cognimates.me/home/)
 - [Lobe.AI](https://lobe.ai) is Microsoft's tool for training a model without coding. 
 - [Runway ML](https://runwayml.com) - use ML for video editing. 
-- [Figment makes creative AI fun and accessible](https://figmentapp.com)
+- [Figment uses an intuitive UI to use AI tools without coding](https://figmentapp.com)
 - [Obviously.ai](https://www.obviously.ai) can train a model with CSV data right in the browser.
-- [Sketch2Code](https://sketch2code.azurewebsites.net) and [Teleport Vision](https://github.com/teleporthq/teleport-vision-api) generate HTML from hand-drawn UI sketches
 
 <br>
 <br>

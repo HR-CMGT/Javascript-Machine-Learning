@@ -69,17 +69,18 @@ Check out the [quick introduction with javascript examples](./introduction.md) t
 
 ## Neural Networks in Javascript
 
-You can use TensorFlowJS, ML5.js or Brain.js to build a neural network in javascript. Here are some tutorials and examples:
+To get started with Neural Networks you can use [ML5](https://learn.ml5js.org/#/reference/neural-network) or [BrainJS](https://brain.js.org/#/getting-started). To get more control you can use [TensorflowJS](https://www.tensorflow.org/js).
 
+- [Get started with ML5 neural networks](https://learn.ml5js.org/#/reference/neural-network)
+- [Add hidden layers to your ML5 network](./snippets/layers.md)
 - [Building your first Neural Network in Tensorflow JS](https://towardsdatascience.com/build-a-simple-neural-network-with-tensorflow-js-d434a30fcb8)
 - [🔥 Neural Networks Tutorial in TensorflowJS](https://codelabs.developers.google.com/codelabs/tfjs-training-regression/index.html)
 - [Getting started with TensorflowJS for beginners](https://curiousily.com/posts/getting-started-with-tensorflow-js/)
-- [📺 Traversy Tutorial about TensorflowJS](https://youtu.be/tZt6gRlRcgk) and [📺 BrainJS](https://www.youtube.com/watch?v=RVMHhtTqUxc)
-- [📺 Single Cell (Perceptron) in pure JS](https://www.youtube.com/watch?v=o98qlvrcqiU) or use this [code snippet](https://gist.github.com/primaryobjects/dfb8927f9f0ca21b6a24647168cead41)
-- [Neural Networks hidden layers in ML5](./snippets/layers.md)
+- [📺 Traversy Tutorial about TensorflowJS](https://youtu.be/tZt6gRlRcgk) 
 - [W3Schools TensorflowJS introduction](https://www.w3schools.com/ai/ai_tensorflow_intro.asp)
-- [Building a TensorflowJS User Interface with Parcel](https://medium.com/codingthesmartway-com-blog/tensorflow-js-crash-course-machine-learning-for-the-web-getting-started-50694a575238)
 - [CodePen list with TensorflowJS examples](https://codepen.io/topic/tensorflow/templates)
+
+
 
 
 ## Image recognition
@@ -199,7 +200,10 @@ You can use TensorFlowJS, ML5.js or Brain.js to build a neural network in javasc
 - [Tensorflow Playground](https://playground.tensorflow.org) 
 - [Visualise how a Neural Network recognises numbers](https://www.cs.cmu.edu/~aharley/vis/conv/flat.html)
 - [📺 Build a security camera with TensorflowJS and React](https://www.youtube.com/watch?v=7QBYX65t7Mw)
-- [📺 Coding a perceptron in Javascript, by Mathias P Johansson](https://youtu.be/o98qlvrcqiU), and the [result](https://beta.observablehq.com/@mpj/neural-network-from-scratch-part-1)
+- [Integrating TensorflowJS into your User Interface with Parcel](https://medium.com/codingthesmartway-com-blog/tensorflow-js-crash-course-machine-learning-for-the-web-getting-started-50694a575238)
+- [📺 Coding a single neuron (perceptron) in Javascript](https://youtu.be/o98qlvrcqiU) and the [result](https://beta.observablehq.com/@mpj/neural-network-from-scratch-part-1)
+- [Use BrainJS to get started with a simple neural network](https://brain.js.org/#/getting-started) or watch the [📺 video tutorial](https://www.youtube.com/watch?v=RVMHhtTqUxc)
+- [Perceptron (single neuron) code snippet](https://gist.github.com/primaryobjects/dfb8927f9f0ca21b6a24647168cead41)
 - [Creating a Recommender System in Javascript](https://github.com/javascript-machine-learning/movielens-recommender-system-javascript)
 - [😱 hacking a model to make a wrong prediction with Adversarial.js](https://kennysong.github.io/adversarial.js/)
 - [Predict your location in your home using the strength of your wifi signal](https://dev.to/devdevcharlie/predicting-indoor-location-using-machine-learning-and-wifi-information-m78)

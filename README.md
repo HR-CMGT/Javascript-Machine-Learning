@@ -79,6 +79,8 @@ You can use TensorFlowJS, ML5.js or Brain.js to build a neural network in javasc
 - [Neural Networks hidden layers in ML5](./snippets/layers.md)
 - [W3Schools TensorflowJS introduction](https://www.w3schools.com/ai/ai_tensorflow_intro.asp)
 - [Building a TensorflowJS User Interface with Parcel](https://medium.com/codingthesmartway-com-blog/tensorflow-js-crash-course-machine-learning-for-the-web-getting-started-50694a575238)
+- [CodePen list with TensorflowJS examples](https://codepen.io/topic/tensorflow/templates)
+
 
 ## Image recognition
 

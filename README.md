@@ -83,7 +83,7 @@ To get started with Neural Networks you can use [ML5](https://learn.ml5js.org/#/
 
 Use *Reinforcement Learning* to teach a neural network to play a game.
 
-- [Tutorial: build rock-paper-scissors with Reinforcement Learning](https://towardsdatascience.com/a-beginners-guide-to-reinforcement-learning-using-rock-paper-scissors-and-tensorflow-js-37d42b6197b5)
+- [Tutorial: build rock-paper-scissors with Reinforcement Learning](https://towardsdatascience.com/a-beginners-guide-to-reinforcement-learning-using-rock-paper-scissors-and-tensorflow-js-37d42b6197b5) and [github](https://github.com/sachag678/freeCodeCamp)
 - [Reinforcement Learning library in Javascript](https://epic-darwin-f8b517.netlify.app) and [github](https://github.com/ttumiel/gym.js/)
 
 

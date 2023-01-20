@@ -14,6 +14,7 @@ This repository maintains a reading list of Machine Learning technologies, algor
   - Neural Networks in Javascript
   - Image Recognition
   - Text, sound and speech
+  - Reinforcement Learning
 - [Data](#datasets)
 - [Community](#community)
 - [Tutorials](#examples)
@@ -80,6 +81,10 @@ To get started with Neural Networks you can use [ML5](https://learn.ml5js.org/#/
 - [W3Schools TensorflowJS introduction](https://www.w3schools.com/ai/ai_tensorflow_intro.asp)
 - [CodePen list with TensorflowJS examples](https://codepen.io/topic/tensorflow/templates)
 
+Use *Reinforcement Learning* to teach a neural network to play a game.
+
+- [Tutorial: build rock-paper-scissors with Reinforcement Learning](https://towardsdatascience.com/a-beginners-guide-to-reinforcement-learning-using-rock-paper-scissors-and-tensorflow-js-37d42b6197b5)
+- [Reinforcement Learning library in Javascript](https://epic-darwin-f8b517.netlify.app) and [github](https://github.com/ttumiel/gym.js/)
 
 
 

@@ -154,6 +154,7 @@ Use *Reinforcement Learning* to teach a neural network to play a game.
 - [Cars data with 20.000 images of 190 types of car](https://ai.stanford.edu/~jkrause/cars/car_dataset.html)
 - [Celebrity faces dataset on Kaggle](https://www.kaggle.com/jessicali9530/celeba-dataset) and [source](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
 - [International Football Results from 1872 to 2017](https://www.kaggle.com/martj42/international-football-results-from-1872-to-2017)
+- [Hugging Face Datasets and Models](https://huggingface.co/datasets)
 
 ## Pre-trained models
 

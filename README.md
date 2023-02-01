@@ -115,7 +115,6 @@ Use *Reinforcement Learning* to teach a neural network to play a game.
 - [Create a chatbot with NLP.JS](https://github.com/axa-group/nlp.js)
 - [Recognise sound using the browser, microphone, and TensorflowJS!](https://dev.to/devdevcharlie/acoustic-activity-recognition-in-javascript-2go4)
 - [Code example web speech](./snippets/speech.md) and [webcam](./snippets/camera.md)
-- [Training image recognition with your own images](https://github.com/HR-CMGT/Machine-Learning-Readinglist/tree/master/extractfeatures)
 
 <br>
 <br>

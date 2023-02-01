@@ -65,7 +65,6 @@ Check out the [quick introduction with javascript examples](./introduction.md) t
 - [K-Nearest Neighbour](https://github.com/NathanEpstein/KNear) and an [explanation of writing your own KNN in Javascript](https://burakkanber.com/blog/machine-learning-in-js-k-nearest-neighbor-part-1/)
 - [K-Means in javascript](https://miguelmota.com/blog/k-means-clustering-in-javascript/)
 - [Decision Tree, Random Forest](https://github.com/lagodiuk/decision-tree-js) and [Regression Tree](https://winkjs.org/wink-regression-tree/)
-- [Reinforcement Learning - learn how to play a game!](https://medium.com/@pierrerouhard/reinforcement-learning-in-the-browser-an-introduction-to-tensorflow-js-9a02b143c099)
 - [Movie Recommender System in Javascript](https://github.com/javascript-machine-learning/movielens-recommender-system-javascript) and a [quick and dirty tutorial on building your own recommender system](https://dev.to/jimatjibba/build-a-content-based-recommendation-engine-in-js-2lpi)
 - [A list of math algorithms in javascript](https://github.com/trekhleb/javascript-algorithms)
 
@@ -86,6 +85,7 @@ Use *Reinforcement Learning* to teach a neural network to play a game.
 
 - [Tutorial: build rock-paper-scissors with Reinforcement Learning](https://towardsdatascience.com/a-beginners-guide-to-reinforcement-learning-using-rock-paper-scissors-and-tensorflow-js-37d42b6197b5) and [github](https://github.com/sachag678/freeCodeCamp)
 - [Reinforcement Learning library in Javascript](https://epic-darwin-f8b517.netlify.app) and [github](https://github.com/ttumiel/gym.js/)
+- [Reinforcement Learning - learn how to play a game with tensorflowJS](https://medium.com/@pierrerouhard/reinforcement-learning-in-the-browser-an-introduction-to-tensorflow-js-9a02b143c099)
 
 
 

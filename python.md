@@ -48,12 +48,13 @@ You can set up Python locally, but it's far easier to run a Jupyter Notebook in 
 
 <Br>
 
-## Algorithms in Python
+## Python code examples
 
 - [Creating your first neural network in Python](https://www.analyticsindiamag.com/how-to-create-your-first-artificial-neural-network-in-python/)
 - [Machine learning for artists: guides and examples](http://ml4a.github.io/guides/)
 - [Building a perceptron from scratch](https://medium.com/@ismailghallou/build-your-perceptron-neural-net-from-scratch-e12b7be9d1ef) and [source code](https://github.com/smakosh/Perceptron-neural-net-from-scratch)
 - [Creating a perceptron in 9 lines of Python](https://medium.com/technology-invention-and-more/how-to-build-a-simple-neural-network-in-9-lines-of-python-code-cc8f23647ca1)
+- [Generating recipes with LSTM with cooking dataset](https://dev.to/trekhleb/generating-cooking-recipes-using-tensorflow-and-lstm-recurrent-neural-network-a-step-by-step-guide-973)
 - [Excellent video tutorial for the Perceptron](https://www.youtube.com/watch?v=kft1AJ9WVDk)
 - [Visualising data with Matplotlib](https://matplotlib.org/3.1.1/tutorials/index.html)
 - [Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)

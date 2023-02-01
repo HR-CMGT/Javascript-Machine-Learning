@@ -67,6 +67,7 @@ Check out the [quick introduction with javascript examples](./introduction.md) t
 - [Decision Tree, Random Forest](https://github.com/lagodiuk/decision-tree-js) and [Regression Tree](https://winkjs.org/wink-regression-tree/)
 - [Reinforcement Learning - learn how to play a game!](https://medium.com/@pierrerouhard/reinforcement-learning-in-the-browser-an-introduction-to-tensorflow-js-9a02b143c099)
 - [Movie Recommender System in Javascript](https://github.com/javascript-machine-learning/movielens-recommender-system-javascript) and a [quick and dirty tutorial on building your own recommender system](https://dev.to/jimatjibba/build-a-content-based-recommendation-engine-in-js-2lpi)
+- [A list of math algorithms in javascript](https://github.com/trekhleb/javascript-algorithms)
 
 ## Neural Networks in Javascript
 

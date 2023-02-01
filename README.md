@@ -206,6 +206,7 @@ Use *Reinforcement Learning* to teach a neural network to play a game.
 
 - [Tensorflow Playground](https://playground.tensorflow.org) 
 - [Visualise how a Neural Network recognises numbers](https://www.cs.cmu.edu/~aharley/vis/conv/flat.html)
+- [Create a single neuron in javascript to learn the basics of machine learning](https://github.com/trekhleb/nano-neuron)
 - [Code a self-parking car in Javascript](https://dev.to/trekhleb/self-parking-car-in-500-lines-of-code-58ea)
 - [📺 Build a security camera with TensorflowJS and React](https://www.youtube.com/watch?v=7QBYX65t7Mw)
 - [Integrating TensorflowJS into your User Interface with Parcel](https://medium.com/codingthesmartway-com-blog/tensorflow-js-crash-course-machine-learning-for-the-web-getting-started-50694a575238)

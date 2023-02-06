@@ -178,7 +178,7 @@ Use *Reinforcement Learning* to teach a neural network to play a game.
 ## Generative AI
 
 - [Dall-e 2](https://labs.openai.com), [Stable Diffusion](https://stablediffusionweb.com) and [MidJourney](https://discord.com/invite/midjourney) image generation
-- [ChatGPT](http://chat.openai.com/chat) and the [GPT3 API](https://gpt3demo.com) for text generation
+- [ChatGPT](http://chat.openai.com/chat) and the [GPT3 API](https://gpt3demo.com) for text generation. Voor meer info over ChatGPT kan je terecht op [deze pagina van het HR Datalab!](https://github.com/HR-ChatGPT/ChatGPT-UITGELEGD)
 - [Github Copilot AI programmer](https://github.com/features/copilot/)
 - Generate art with [ArtBreeder](https://www.artbreeder.com) and [PlayForm](https://www.playform.io)
 - [Map of Generative AI tools](https://research-assets.cbinsights.com/2022/11/14115447/SC-genAI-map.png)
@@ -233,6 +233,7 @@ Use *Reinforcement Learning* to teach a neural network to play a game.
 
 # <a name="community"></a>Community
 
+- [HR Datalab Prometheus](https://github.com/HR-DATA-FABRIC/PROMETHEUS)
 - [AI Stackoverflow](https://ai.stackexchange.com)
 - [Kaggle - Machine Learning challenges](https://www.kaggle.com)
 - [Welcome.ai Instagram](https://www.instagram.com/welcome.ai/)

@@ -177,6 +177,7 @@ Use *Reinforcement Learning* to teach a neural network to play a game.
 
 ## Generative AI
 
+- [Cogniwerk is a list of generative AI tools for creatives](https://cogniwerk.ai)
 - [Dall-e 2](https://labs.openai.com), [Stable Diffusion](https://stablediffusionweb.com) and [MidJourney](https://discord.com/invite/midjourney) image generation
 - [ChatGPT](http://chat.openai.com/chat) and the [GPT3 API](https://gpt3demo.com) for text generation. Voor meer info over ChatGPT kan je terecht op [deze pagina van het HR Datalab!](https://github.com/HR-ChatGPT/ChatGPT-UITGELEGD)
 - [Github Copilot AI programmer](https://github.com/features/copilot/)

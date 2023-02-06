@@ -56,6 +56,7 @@ Check out the [quick introduction with javascript examples](./introduction.md) t
 - [AIxDesign toolkit](https://www.aixdesign.co/toolkit)
 - [ML+ Design - a reading list about designing for ML applications](https://machinelearning.design)
 - [Ethics Inc, a game to help you design for AI](https://ethicsinc-ontwerpspel.nl/en/ethical-design-game-for-developing-ai/) en [Make me Think - a game about AI ethics](https://www.hogeschoolrotterdam.nl/go/ai-en-ethiek/tools/make-me-think/)
+- [Microsoft Designer](https://designer.microsoft.com)
 
 ## Algorithms in Javascript
 

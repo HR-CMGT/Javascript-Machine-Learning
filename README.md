@@ -77,10 +77,9 @@ To get started with Neural Networks you can use [ML5](https://learn.ml5js.org/#/
 - [Add hidden layers to your ML5 network](./snippets/layers.md)
 - [Building your first Neural Network in Tensorflow JS](https://towardsdatascience.com/build-a-simple-neural-network-with-tensorflow-js-d434a30fcb8)
 - [🔥 Neural Networks Tutorial in TensorflowJS](https://codelabs.developers.google.com/codelabs/tfjs-training-regression/index.html)
-- [Getting started with TensorflowJS for beginners](https://curiousily.com/posts/getting-started-with-tensorflow-js/)
-- [📺 Traversy Tutorial about TensorflowJS](https://youtu.be/tZt6gRlRcgk) 
-- [W3Schools TensorflowJS introduction](https://www.w3schools.com/ai/ai_tensorflow_intro.asp)
+- [TensorflowJS for beginners](https://curiousily.com/posts/getting-started-with-tensorflow-js/), with [Traversy](https://youtu.be/tZt6gRlRcgk) and [W3Schools](https://www.w3schools.com/ai/ai_tensorflow_intro.asp)
 - [CodePen list with TensorflowJS examples](https://codepen.io/topic/tensorflow/templates)
+- [🔥 Code your own neural network in just a few lines of Javascript with Radu](https://www.youtube.com/watch?v=Ve9TcAkpFgY)
 
 Use *Reinforcement Learning* to teach a neural network to play a game.
 
@@ -208,6 +207,7 @@ Use *Reinforcement Learning* to teach a neural network to play a game.
 - [Tensorflow Playground](https://playground.tensorflow.org) 
 - [Visualise how a Neural Network recognises numbers](https://www.cs.cmu.edu/~aharley/vis/conv/flat.html)
 - [Create a single neuron in javascript to learn the basics of machine learning](https://github.com/trekhleb/nano-neuron)
+- [📺 Code a neural network from scratch in Javascript with Radu](https://www.youtube.com/@Radu)
 - [Code a self-parking car in Javascript](https://dev.to/trekhleb/self-parking-car-in-500-lines-of-code-58ea)
 - [📺 Build a security camera with TensorflowJS and React](https://www.youtube.com/watch?v=7QBYX65t7Mw)
 - [Integrating TensorflowJS into your User Interface with Parcel](https://medium.com/codingthesmartway-com-blog/tensorflow-js-crash-course-machine-learning-for-the-web-getting-started-50694a575238)

@@ -64,7 +64,20 @@ You can set up Python locally, but it's far easier to run a Jupyter Notebook in 
 - [Recommender System](https://towardsdatascience.com/how-to-build-a-simple-recommender-system-in-python-375093c3fb7d)
 - [Algorithm notes](http://books.goalkicker.com/AlgorithmsBook/)
 - what is [YOLO?](https://www.youtube.com/watch?v=MPU2HistivI)
+  
+<br>
+<br>
+<br>
+  
+## Generative AI
+  
+- [Play with Stable Diffusion on your own Google Colab](https://colab.research.google.com/drive/154esJFzO2_rw309Js30EmrseQ0269kgj?usp=sharing)
 
+<br>
+<br>
+<br>
+  
+  
 ## Online courses
 
 - [Linear Regression course on Codecademy](https://www.codecademy.com/learn/linear-regression-mssp) and [Youtube explanation](https://www.youtube.com/watch?v=2htO1YFkpds&t=311s)

@@ -130,7 +130,8 @@ Use *Reinforcement Learning* to teach a neural network to play a game.
 ## Loading and evaluating data
 
 - [Load CSV data in javascript with Papa Parse](https://www.papaparse.com), and [code example to load and filter data](./snippets/csv.md)
-- Visualise data with [D3.js](https://d3js.org), [VEGA](https://vega.github.io/vega/), [ChartJS](https://www.chartjs.org) or [PlotlyJS](https://plotly.com/javascript/)
+- Visualise data with [ChartJS](https://www.chartjs.org), [ApexCharts](https://apexcharts.com/javascript-chart-demos/) or [PlotlyJS](https://plotly.com/javascript/). 
+- Create more advanced visualisatinos with [D3.js](https://d3js.org) or [VEGA](https://vega.github.io/vega/)
 - [Code example for drawing Scatterplot from a CSV file](./snippets/scatterplot.md)
 - [Code example for data normalisation](./snippets/normalise.md)
 - [Visualise data in Tensorflow with TFVis](https://js.tensorflow.org/api_vis/1.4.3/)

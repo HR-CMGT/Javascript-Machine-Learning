@@ -139,6 +139,7 @@ Use *Reinforcement Learning* to teach a neural network to play a game.
 ## Datasets
 
 - [Kaggle Datasets](https://www.kaggle.com/datasets/)
+- [Luchtmeetnet luchtvervuiling CSV data](https://data.rivm.nl/data/luchtmeetnet/Actueel-jaar/)
 - [Open Images Dataset](https://storage.googleapis.com/openimages/web/index.html)
 - [MovieLens - data on 45.000 movies by 270.000 users](https://www.kaggle.com/rounakbanik/the-movies-dataset/data)
 - [Google Dataset Search](https://datasetsearch.research.google.com) 

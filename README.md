@@ -67,6 +67,7 @@ Check out the [quick introduction with javascript examples](./introduction.md) t
 - [K-Means in javascript](https://miguelmota.com/blog/k-means-clustering-in-javascript/)
 - [Decision Tree, Random Forest](https://github.com/lagodiuk/decision-tree-js) and [Regression Tree](https://winkjs.org/wink-regression-tree/)
 - [Movie Recommender System in Javascript](https://github.com/javascript-machine-learning/movielens-recommender-system-javascript) and a [quick and dirty tutorial on building your own recommender system](https://dev.to/jimatjibba/build-a-content-based-recommendation-engine-in-js-2lpi)
+- [Time series: predict the next number in a range](https://dev.to/sagarmainkar/forecasting-in-browser-with-tensorflow-js-2a63)
 - [A list of math algorithms in javascript](https://github.com/trekhleb/javascript-algorithms)
 
 ## Neural Networks in Javascript
@@ -155,7 +156,8 @@ Use *Reinforcement Learning* to teach a neural network to play a game.
 - [Cars data with 20.000 images of 190 types of car](https://ai.stanford.edu/~jkrause/cars/car_dataset.html)
 - [Celebrity faces dataset on Kaggle](https://www.kaggle.com/jessicali9530/celeba-dataset) and [source](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
 - [International Football Results from 1872 to 2017](https://www.kaggle.com/martj42/international-football-results-from-1872-to-2017)
-- [Hugging Face Datasets and Models](https://huggingface.co/datasets)
+- [Hugging Face Datasets and Models for stable diffusion](https://huggingface.co/datasets)
+- [Daily stock prices](https://www.alphavantage.co/documentation/)
 
 ## Pre-trained models
 

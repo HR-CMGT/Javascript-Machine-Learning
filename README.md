@@ -141,25 +141,35 @@ Use *Reinforcement Learning* to teach a neural network to play a game.
 
 ## Datasets
 
-- [Kaggle Datasets](https://www.kaggle.com/datasets/)
-- [Luchtmeetnet luchtvervuiling CSV data](https://data.rivm.nl/data/luchtmeetnet/Actueel-jaar/)
-- [Open Images Dataset](https://storage.googleapis.com/openimages/web/index.html)
-- [MovieLens - data on 45.000 movies by 270.000 users](https://www.kaggle.com/rounakbanik/the-movies-dataset/data)
+
 - [Google Dataset Search](https://datasetsearch.research.google.com) 
-- [🐱 440 Cat meows in different contexts](https://zenodo.org/record/4008297#.YNGgey8RppQ) and [Cats per square kilometer](https://data.gov.uk/dataset/9d475e06-3885-4a90-b8c0-77fea13f92e6/cats-per-square-kilometre)
-- [Speech Audio dataset](https://keithito.com/LJ-Speech-Dataset/)
-- [QuickDraw - Doodles dataset](https://github.com/googlecreativelab/quickdraw-dataset/)
-- [COCO - Common Objects in Context](https://cocodataset.org/#home)
+- [UCI Machine Learning Repository](https://archive-beta.ics.uci.edu)
 - [Socrata Open Data search](https://dev.socrata.com/data/)
+- [Kaggle Datasets](https://www.kaggle.com/datasets/)
+  - [Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
+  - [Mobile Phone Prices](https://www.kaggle.com/datasets/pratikgarai/mobile-phone-specifications-and-prices)
+  - [UFO sightings](https://www.kaggle.com/NUFORC/ufo-sightings)
+  - [Football results](https://www.kaggle.com/martj42/international-football-results-from-1872-to-2017)
+  - [Speed Dating](https://www.kaggle.com/datasets/annavictoria/speed-dating-experiment) and [Marriage](https://www.kaggle.com/aagghh/divorcemarriage-dataset-with-birth-dates)
+  - [Spam detection](https://www.kaggle.com/datasets/veleon/ham-and-spam-dataset)
+- [Luchtmeetnet luchtvervuiling CSV data](https://data.rivm.nl/data/luchtmeetnet/Actueel-jaar/)
 - [Rotterdam Open Data](http://rotterdamopendata.nl/dataset) en [Rotterdam 3D data](https://www.3drotterdam.nl/#/)
 - [Netherlands Open OV Data](https://www.openov.nl)
 - [Traffic data "persons in urban traffic scenes" TU Delft](https://eurocity-dataset.tudelft.nl)
 - [Dataregister van de Nederlandse Overheid](https://data.overheid.nl)
-- [Cars data with 20.000 images of 190 types of car](https://ai.stanford.edu/~jkrause/cars/car_dataset.html)
-- [Celebrity faces dataset on Kaggle](https://www.kaggle.com/jessicali9530/celeba-dataset) and [source](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
-- [International Football Results from 1872 to 2017](https://www.kaggle.com/martj42/international-football-results-from-1872-to-2017)
-- [Hugging Face Datasets and Models for stable diffusion](https://huggingface.co/datasets)
 - [Daily stock prices](https://www.alphavantage.co/documentation/)
+- [MovieLens - data on 45.000 movies by 270.000 users](https://www.kaggle.com/rounakbanik/the-movies-dataset/data)
+  
+## Image and sound
+ 
+- [Cars data with 20.000 images of 190 types of car](https://ai.stanford.edu/~jkrause/cars/car_dataset.html)
+- [QuickDraw - Doodles dataset](https://github.com/googlecreativelab/quickdraw-dataset/)
+- [COCO - Common Objects in Context](https://cocodataset.org/#home)
+- [Open Images Dataset](https://storage.googleapis.com/openimages/web/index.html)
+- [Hugging Face Datasets and Models for stable diffusion](https://huggingface.co/datasets)
+- [Celebrity faces](https://www.kaggle.com/jessicali9530/celeba-dataset) and [source](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
+- [🐱 440 Cat meows in different contexts](https://zenodo.org/record/4008297#.YNGgey8RppQ) and [Cats per square kilometer](https://data.gov.uk/dataset/9d475e06-3885-4a90-b8c0-77fea13f92e6/cats-per-square-kilometre)
+- [Speech Audio dataset](https://keithito.com/LJ-Speech-Dataset/)
 
 ## Pre-trained models
 

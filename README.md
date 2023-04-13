@@ -66,6 +66,7 @@ Check out the [quick introduction with javascript examples](./introduction.md) t
 - [K-Nearest Neighbour](https://github.com/NathanEpstein/KNear) and an [explanation of writing your own KNN in Javascript](https://burakkanber.com/blog/machine-learning-in-js-k-nearest-neighbor-part-1/)
 - [K-Means in javascript](https://miguelmota.com/blog/k-means-clustering-in-javascript/)
 - [Decision Tree, Random Forest](https://github.com/lagodiuk/decision-tree-js) and [Regression Tree](https://winkjs.org/wink-regression-tree/)
+- [Use BrainJS to predict labels for text sentences](https://github.com/BrainJS/brain.js#brainjs)
 - [Movie Recommender System in Javascript](https://github.com/javascript-machine-learning/movielens-recommender-system-javascript) and a [quick and dirty tutorial on building your own recommender system](https://dev.to/jimatjibba/build-a-content-based-recommendation-engine-in-js-2lpi)
 - [NEATjs Neuro evolution algorithm](https://gabrieltavernini.github.io/NeatJS/)
 - [Time series: predict the next number in a range](https://dev.to/sagarmainkar/forecasting-in-browser-with-tensorflow-js-2a63) and [example](https://codesandbox.io/s/timeseries-ai-material-xx98t)

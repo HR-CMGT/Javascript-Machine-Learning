@@ -96,7 +96,7 @@ This repository maintains a reading list of Machine Learning technologies, algor
 - [Recognise handwriting in Javascript](https://github.com/cazala/mnist)
 - [Face-JS, a library to track facial expressions](https://justadudewhohacks.github.io/face-api.js/docs/index.html)
 - [Hand Tracking JS](https://victordibia.github.io/handtrack.js/)
-- [Image recognition with your own images](https://github.com/HR-CMGT/Machine-Learning-Readinglist/tree/master/extractfeatures) and [Feature Extraction documentation](https://ml5js.org/reference/api-FeatureExtractor/)
+- [Image recognition with your own images](./snippets/extractfeatures) and [Feature Extraction documentation](https://ml5js.org/reference/api-FeatureExtractor/)
 
 <br>
 

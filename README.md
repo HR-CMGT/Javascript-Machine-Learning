@@ -2,6 +2,19 @@
 
 This repository maintains a reading list of Machine Learning technologies, algorithms and API's focused on javascript. 
 
+### Why Javascript?
+
+- Can run on any web client, the end user doesn't have to install anything.
+- Easy integration with device sensors such as camera, microphone, gyroscope, light sensor, etc.
+- End user does not have to send privacy-sensitive data to a server.
+- Easy integration with user interface and interactive elements.
+- Easy install process for developer, less sensitive to computer setup issues, python setup issues, version conflicts.
+- Convert your AI code to a web server with one line of code.
+- Can still use models trained in Python.
+- Training uses the same underlying C / GPU capabilities of your computer.
+
+> *Python is used in the science community, so there are much more python libraries for math and computer science subjects available. Most AI tutorials will use python.*
+
 <Br>
 
 # Contents
@@ -66,9 +79,8 @@ This repository maintains a reading list of Machine Learning technologies, algor
 
 - [LangChain LLM library](https://js.langchain.com/docs/get_started/introduction)
 - [OpenAI ChatGPT API](https://platform.openai.com/docs/introduction)
-- [LLama API](https://www.llama-api.com)
-- Use [OLLama](https://ollama.ai) to run language models locally.
-- [Mistral API](https://docs.mistral.ai)
+- [LLama API](https://www.llama-api.com), [Mistral API](https://docs.mistral.ai), [Claude API](https://support.anthropic.com/en/collections/5370014-claude-api)
+- Use [OLLama](https://ollama.ai) to run language models locally, talk to the LLM with the built-in webserver.
 - [Geitje](https://goingdutch.ai/en/posts/introducing-geitje/) is a Dutch large language model.
 - [Basics of language processing](https://towardsdatascience.com/natural-language-processing-from-basics-to-using-rnn-and-lstm-ef6779e4ae66), [Natural Language Processing in Javascript](http://naturalnode.github.io/natural/), [Paperspace tutorial](https://blog.paperspace.com/training-an-lstm-and-using-the-model-in-ml5-js/)
 - [What are word vectors?](https://gist.github.com/aparrish/2f562e3737544cf29aaf1af30362f469) and [📺  Understanding Word2Vec](https://youtu.be/MOo9iJ8RYWM)
@@ -127,7 +139,6 @@ This repository maintains a reading list of Machine Learning technologies, algor
 - [Speech Audio dataset](https://keithito.com/LJ-Speech-Dataset/)
 - [QuickDraw - Doodles dataset](https://github.com/googlecreativelab/quickdraw-dataset/)
 - [COCO - Common Objects in Context](https://cocodataset.org/#home)
-- [Socrata Open Data search](https://dev.socrata.com/data/)
 - [Rotterdam Open Data](http://rotterdamopendata.nl/dataset) en [Rotterdam 3D data](https://www.3drotterdam.nl/#/)
 - [Netherlands Open OV Data](https://www.openov.nl)
 - [Traffic data "persons in urban traffic scenes" TU Delft](https://eurocity-dataset.tudelft.nl)
@@ -170,6 +181,7 @@ A collection of interesting links, tools and tutorials
 - [Quick AI Introduction with javascript code examples](./introduction.md)
 - [Generate images with the Dall-e API](https://openai.com/blog/dall-e-api-now-available-in-public-beta)
 - [Tensorflow Playground](https://playground.tensorflow.org) 
+- [React Native AI code snippets](./snippets/reactnative/)
 - [Visualise how a Neural Network recognises numbers](https://www.cs.cmu.edu/~aharley/vis/conv/flat.html)
 - [📺 Build a security camera with TensorflowJS and React](https://www.youtube.com/watch?v=7QBYX65t7Mw)
 - [Integrating TensorflowJS into your User Interface with Parcel](https://medium.com/codingthesmartway-com-blog/tensorflow-js-crash-course-machine-learning-for-the-web-getting-started-50694a575238)
@@ -182,7 +194,7 @@ A collection of interesting links, tools and tutorials
 - [Using a Javascript Perceptron to classify dangerous snakes](https://github.com/elyx0/rosenblattperceptronjs)
 - [Classify an image on Codepen in 5 lines of Javascript](https://codepen.io/eerk/pen/JmKQLw)
 - [Neural Drum Machine](https://codepen.io/teropa/pen/JLjXGK) and [Voice-based beatbox](https://codepen.io/naotokui/pen/NBzJMW) created with [MagentaJS](https://magenta.tensorflow.org)
-- [Demo for creating a self-learning Flappy Bird in Javascript](https://github.com/ssusnic/Machine-Learning-Flappy-Bird)
+- [Evolving Genetic Algorithm with Flappy Bird](https://github.com/ssusnic/Machine-Learning-Flappy-Bird)
 - [Google AI experiments](https://experiments.withgoogle.com/ai)
 - [Watch a perceptron learn](https://kokodoko.github.io/perceptron/)
 - [Synaptic JS Neural Networks](http://caza.la/synaptic/) and [Tutorial](https://medium.freecodecamp.org/how-to-create-a-neural-network-in-javascript-in-only-30-lines-of-code-343dafc50d49)

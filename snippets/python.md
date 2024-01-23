@@ -10,7 +10,7 @@
 
 # <a name="hardware"></a>Hardware
 
-![adafruit](./images/hardware.png)
+![adafruit](../images/hardware.png)
 
 - [🔥 Teachable Machine Tiny Model for IoT](https://teachablemachine.withgoogle.com/train/tiny_image)
 - [Tensorflow Lite - Model Maker](https://www.tensorflow.org/lite/guide/model_maker) quickly creates a model for your custom data
@@ -38,7 +38,7 @@
 
 # Python
 
-![python](./images/python.png)
+![python](../images/python.png)
 
 [Python](https://www.python.org) is used by data scientists and in many Machine Learning courses online. Many algorithms and libraries are available in Python that may not always be available in Javascript. The big disadvantage of Python is that the code runs only in your own environment. You can still use Python to train a model, which you can then load in a Javascript frontend. Also, you can run a Python app "live" on a raspberry Pi.
 

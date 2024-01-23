@@ -178,7 +178,7 @@ A collection of interesting links, tools and tutorials
 
 <a href="https://playground.tensorflow.org" target="_blank">![playground](./images/playground.png)</a>
 
-- [Quick AI Introduction with javascript code examples](./introduction.md)
+- [Quick AI Introduction with javascript code examples](./snippets/introduction.md)
 - [Generate images with the Dall-e API](https://openai.com/blog/dall-e-api-now-available-in-public-beta)
 - [Tensorflow Playground](https://playground.tensorflow.org) 
 - [React Native AI code snippets](./snippets/reactnative/)
@@ -208,7 +208,7 @@ A collection of interesting links, tools and tutorials
 - [Teachable Machine](https://teachablemachine.withgoogle.com) and [Lobe.AI](https://lobe.ai) can export a model and all necessary code for your website.
 - [Cognimates: An AI education platform for building games, programming robots & training AI models](http://cognimates.me/home/)
 - [Obviously.ai](https://www.obviously.ai) can train a model with CSV data right in the browser.
-- Check the [Hardware, Python and Games](./python.md) reading list.
+- Check the [Hardware, Python and Games](./snippets/python.md) reading list.
 
 ### Disclaimer
 

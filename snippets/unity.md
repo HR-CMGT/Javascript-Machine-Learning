@@ -1,10 +1,12 @@
 # Machine Learning in Unity
 
+> *Last updated in 2022*
+
 - Unity Examples
 - Training with Python
 - Documentation
 
-![unity](./images/unitydemo.png)
+![unity](../images/unitydemo.png)
 
 ## Open the examples
 
@@ -18,7 +20,7 @@ Click the **Agent** game component in 3DBall. The agent will will learn from rob
 
 🧠 Note that the project window contains a folder called **TFModels**. These are our robot brains! 
 
-![unity](./images/unity_nn.png)
+![unity](../images/unity_nn.png)
 
  1. We have 8 Neural Network Inputs - cube position, ball position, ball speed
  2. We have 2 Neural Network Outputs - cube x rotation, cube z rotation
@@ -103,7 +105,7 @@ You can start the **mlagents** tool using a config.yaml file. This file contains
 ```
 The terminal should look like this. In Unity, open the 3D Ball scene and press **PLAY** to start training your model! 
 
-![terminal](./images/unityterminal.png)
+![terminal](../images/unityterminal.png)
 
 When the model finished training, you have a new `mymodel.nn` file, that you can use inside Unity in the same way as in the examples above.
 

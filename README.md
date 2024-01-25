@@ -77,12 +77,13 @@ This repository maintains a reading list of Machine Learning technologies, algor
 
 ## <a name="languagemodels"></a>Language models and API's for Javascript
 
-- [LangChain LLM library](https://js.langchain.com/docs/get_started/introduction)
-- [OpenAI ChatGPT API](https://platform.openai.com/docs/introduction)
-- [LLama API](https://www.llama-api.com), [Mistral API](https://docs.mistral.ai), [Claude API](https://support.anthropic.com/en/collections/5370014-claude-api)
+- [LangChain LLM library](https://js.langchain.com/docs/get_started/introduction) gives you a unified workflow for working with all kinds of different language models, providers, datastores, etc.
+- [OpenAI API](https://platform.openai.com/docs/introduction)
+- [Azure OpenAI library](https://github.com/Azure/azure-sdk-for-js/tree/main/sdk/openai/openai) and [docs](https://learn.microsoft.com/en-gb/javascript/api/%40azure/openai/), you can use this if you have a Microsoft Azure key instead of a OpenAI key.
+- [LLama API](https://www.llama-api.com), [Mistral API](https://docs.mistral.ai), [Claude API](https://support.anthropic.com/en/collections/5370014-claude-api). These models have API's so you don't have to install anything.
 - Use [OLLama](https://ollama.ai) to run language models locally, talk to the LLM with the built-in webserver.
-- [Geitje](https://goingdutch.ai/en/posts/introducing-geitje/) is a Dutch large language model.
-- [Basics of language processing](https://towardsdatascience.com/natural-language-processing-from-basics-to-using-rnn-and-lstm-ef6779e4ae66), [Natural Language Processing in Javascript](http://naturalnode.github.io/natural/), [Paperspace tutorial](https://blog.paperspace.com/training-an-lstm-and-using-the-model-in-ml5-js/)
+- [🐐 Geitje](https://goingdutch.ai/en/posts/introducing-geitje/) is a Dutch large language model.
+- [Read more about language processing](https://towardsdatascience.com/natural-language-processing-from-basics-to-using-rnn-and-lstm-ef6779e4ae66), [Natural Language Processing in Javascript](http://naturalnode.github.io/natural/), [Create your own mini-LLM in Paperspace](https://blog.paperspace.com/training-an-lstm-and-using-the-model-in-ml5-js/)
 - [What are word vectors?](https://gist.github.com/aparrish/2f562e3737544cf29aaf1af30362f469) and [📺  Understanding Word2Vec](https://youtu.be/MOo9iJ8RYWM)
 
 <br>
@@ -163,12 +164,28 @@ This repository maintains a reading list of Machine Learning technologies, algor
 
 ## <a name="cloud"></a>Cloud GPU
 
+Cloud GPU enables you to train models with large amounts of data on professional infrastructure.
+
 - [Huggingface Spaces](https://huggingface.co/spaces)
 - [Google Vertex AI](https://cloud.google.com/vertex-ai)
 - [Google Colab](https://colab.research.google.com)
 - [PaperSpace](https://blog.paperspace.com/)
 - [Lambda Labs](https://lambdalabs.com/service/gpu-cloud)
 
+<br>
+
+## <a name="hosting"></a>Hosting
+
+To host a `node.js` project, the best option is to create a [serverless](https://www.learnwithjason.dev/blog/serverless-functions/overview/) app. There are several providers that offer free *node* or *serverless* hosting options:
+
+- vercel.com
+- netlify.com
+- deno.com
+- amazon serverless
+- huggingface spaces
+- codesandbox.com
+- github codespaces
+- stackblitz.com
 
 <br>
 

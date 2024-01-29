@@ -125,8 +125,7 @@ This repository maintains a reading list of Machine Learning technologies, algor
 ## <a name="datasets"></a>Datasets
 
 - [Google Dataset Search](https://datasetsearch.research.google.com) 
-- [UCI Machine Learning Repository](https://archive-beta.ics.uci.edu)
-- [Socrata Open Data search](https://dev.socrata.com/data/)
+- [HuggingFace Datasets](https://huggingface.co/datasets?sort=trending)
 - [Kaggle Datasets](https://www.kaggle.com/datasets/)
   - [Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
   - [Mobile Phone Prices](https://www.kaggle.com/datasets/pratikgarai/mobile-phone-specifications-and-prices)
@@ -134,6 +133,8 @@ This repository maintains a reading list of Machine Learning technologies, algor
   - [Football results](https://www.kaggle.com/martj42/international-football-results-from-1872-to-2017)
   - [Speed Dating](https://www.kaggle.com/datasets/annavictoria/speed-dating-experiment) and [Marriage](https://www.kaggle.com/aagghh/divorcemarriage-dataset-with-birth-dates)
   - [Spam detection](https://www.kaggle.com/datasets/veleon/ham-and-spam-dataset)
+- [Socrata Open Data search](https://dev.socrata.com/data/)
+- [UCI Machine Learning Repository](https://archive-beta.ics.uci.edu)
 - [Open Images Dataset](https://storage.googleapis.com/openimages/web/index.html)
 - [MovieLens - data on 45.000 movies by 270.000 users](https://www.kaggle.com/rounakbanik/the-movies-dataset/data)
 - [🐱 440 Cat meows in different contexts](https://zenodo.org/record/4008297#.YNGgey8RppQ) and [Cats per square kilometer](https://data.gov.uk/dataset/9d475e06-3885-4a90-b8c0-77fea13f92e6/cats-per-square-kilometre)
